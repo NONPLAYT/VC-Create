@@ -1,0 +1,67 @@
+{
+  "type": "apotheosis:gem",
+  "min_purity": "cracked",
+  "unique": false,
+  "weights": {
+    "weight": 5,
+    "quality": 2
+  },
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "magic_weapons",
+        "types": [
+          "irons_apothic:staff"
+        ]
+      },
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "operation": "ADD_MULTIPLIED_BASE",
+      "values": {
+        "cracked": 0.005,
+        "chipped": 0.01,
+        "flawed": 0.02,
+        "normal": 0.03,
+        "flawless": 0.04,
+        "perfect": 0.05
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "melee_weapon",
+        "types": [
+          "apotheosis:melee_weapon"
+        ]
+      },
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "operation": "ADD_MULTIPLIED_BASE",
+      "values": {
+        "cracked": 0.01,
+        "chipped": 0.02,
+        "flawed": 0.03,
+        "normal": 0.05,
+        "flawless": 0.07,
+        "perfect": 0.1
+      }
+    },
+    {
+      "type": "apotheosis:enchantment",
+      "gem_class": {
+        "key": "armor",
+        "types": [
+          "apotheosis:boots",
+          "apotheosis:chestplate",
+          "apotheosis:helmet",
+          "apotheosis:leggings"
+        ]
+      },
+      "enchantment": "apothic_enchanting:life_mending",
+      "values": {
+        "normal": 1,
+        "flawless": 1,
+        "perfect": 2
+      }
+    }
+  ]
+}

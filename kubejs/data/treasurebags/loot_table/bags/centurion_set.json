@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:centurion_armor_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "armoroftheages:centurion_armor_chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "armoroftheages:centurion_armor_legs",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "armoroftheages:centurion_armor_feet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:bags/centurion_set"
+}

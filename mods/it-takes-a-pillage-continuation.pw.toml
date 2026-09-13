@@ -1,0 +1,13 @@
+name = "It Takes a Pillage Continuation"
+filename = "takesapillage-neoforge-1.0.10+mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "207fa33a8c1a7c9ebecfd8817850d818794722c0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7417040
+project-id = 1111063

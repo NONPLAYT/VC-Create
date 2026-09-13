@@ -1,0 +1,30 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:advanced",
+  "category": "videcraft:contract_advanced",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:token_advanced"
+    },
+    "count": 1
+  },
+  "result": {
+    "count": 1,
+    "item": "irons_spellbooks:scroll",
+    "components": {
+      "irons_spellbooks:spell_container": {
+        "maxSpells": 1,
+        "mustEquip": false,
+        "data": [
+          {
+            "index": 0,
+            "id": "irons_spellbooks:summon_swords",
+            "locked": true,
+            "level": 1
+          }
+        ],
+        "spellWheel": false
+      }
+    }
+  }
+}

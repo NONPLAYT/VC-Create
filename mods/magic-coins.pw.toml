@@ -1,0 +1,13 @@
+name = "Magic Coins"
+filename = "magic_coins-1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8fbd41ab6a2f08cde9c84087fab7a93d1927a2b0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7937725
+project-id = 597281

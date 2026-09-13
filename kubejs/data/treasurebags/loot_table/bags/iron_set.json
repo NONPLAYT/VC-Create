@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:iron_plate_armor_head"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "armoroftheages:iron_plate_armor_chest"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "armoroftheages:iron_plate_armor_legs"
+        }
+      ]
+    },
+        {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "armoroftheages:iron_plate_armor_feet"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:bags/iron_set"
+}

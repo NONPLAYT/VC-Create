@@ -1,0 +1,11 @@
+{
+  "bag_color": "#b900af",
+  "bag_overlay_color": "#ffca61",
+  "bag_string_color": "#b900af",
+  "display_name": "§5Normal Core Gem Pouch",
+  "drops_from_groups": [],
+  "group": "default",
+  "loot_table": "treasurebags:bags/normal_core_gem",
+  "rarity": "common",
+  "visible": true
+}

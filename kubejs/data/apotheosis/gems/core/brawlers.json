@@ -1,0 +1,29 @@
+{
+    "type": "apotheosis:gem",
+    "weights": {
+        "quality": 0.1,
+        "weight": 100
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "minecraft:generic.attack_speed",
+            "gem_class": {
+                "key": "light_weapon",
+                "types": [
+                    "apotheosis:melee_weapon",
+                    "apotheosis:trident"
+                ]
+            },
+            "operation": "add_multiplied_base",
+            "values": {
+                "cracked": 0.005,
+                "chipped": 0.01,
+                "flawed": 0.015,
+                "normal": 0.02,
+                "flawless": 0.03,
+                "perfect": 0.05
+            }
+        }
+    ]
+}

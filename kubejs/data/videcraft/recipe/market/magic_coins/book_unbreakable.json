@@ -1,0 +1,23 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:coins",
+  "category": "videcraft:magic_coins",
+  "payment": {
+    "ingredient": {
+      "item": "magic_coins:gold_coin"
+    },
+    "count": 10
+  },
+  "result": {
+    "count": 1,
+    "item": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "mastery3:unbreakable": 1
+        }
+      },
+      "minecraft:custom_name": "{\"text\":\"Настоящая нерушимость! (Предмет не чинит)\"}"
+    }
+  }
+}

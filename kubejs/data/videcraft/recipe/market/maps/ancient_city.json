@@ -1,0 +1,26 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:maps",
+  "category": "videcraft:maps",
+  "payment": {
+    "ingredient": {
+      "item": "magic_coins:gold_coin"
+    },
+    "count": 1
+  },
+  "result": {
+    "count": 1,
+    "item": "irons_spellbooks:furled_map",
+    "components": {
+      "irons_spellbooks:furled_map_data": {
+        "destination": "minecraft:ancient_city",
+        "descriptionOverride": {
+          "translate": "Древний город"
+        },
+        "dimension": "minecraft:overworld"
+      },
+      "minecraft:lore":["{\"text\":\"[Minecraft — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"],
+      "minecraft:custom_name": "[{\"text\": \"Карта: Древний город\"}]"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:medium",
+  "category": "videcraft:contract_medium",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:token_medium"
+    },
+    "count": 2
+  },
+  "result": {
+    "count": 1,
+    "item": "apotheosis:gem_case"
+  }
+}

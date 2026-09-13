@@ -1,0 +1,15 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:basic",
+  "category": "videcraft:contract_basic",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:token_basic"
+    },
+    "count": 1
+  },
+  "result": {
+    "count": 1,
+    "item": "cataclysm:monstrous_eye"
+  }
+}

@@ -1,0 +1,6 @@
+#Inventory sorter blacklists
+[blacklists]
+	#Container blacklist
+	containerBlacklist = []
+	#Slot type blacklist
+	slotBlacklist = ['top.theillusivec4.curios.common.inventory.CurioSlot', "net.p3pp3rf1y.sophisticatedcore.upgrades.FilterLogicContainer$FilterLogicSlot", "net.p3pp3rf1y.sophisticatedcore.common.gui.SlotSuppliedHandler", "net.p3pp3rf1y.sophisticatedcore.common.gui.FilterSlotItemHandler", "com.simibubi.create.content.logistics.redstoneRequester.RedstoneRequesterMenu$SorterProofSlot", "net.p3pp3rf1y.sophisticatedcore.common.gui.StorageInventorySlot", "net.p3pp3rf1y.sophisticatedcore.common.gui.StorageContainerMenuBase$StorageUpgradeSlot"]

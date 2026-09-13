@@ -1,0 +1,18 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:coins",
+  "category": "videcraft:magic_coins",
+  "payment": {
+    "ingredient": {
+      "item": "magic_coins:silver_coin"
+    },
+    "count": 15
+  },
+  "result": {
+    "count": 1,
+    "item": "treasurebags:treasure_bag",
+    "components": {
+      "treasurebags:bag_type": "treasurebags:iron_set"
+    }
+  }
+}

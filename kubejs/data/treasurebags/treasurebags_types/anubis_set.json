@@ -1,0 +1,11 @@
+{
+  "bag_color": "#85741f",
+  "bag_overlay_color": "#132767",
+  "bag_string_color": "#f4f2d2",
+  "display_name": "§6Full Unbreakable Anubis Set",
+  "drops_from_groups": [],
+  "group": "default",
+  "loot_table": "treasurebags:bags/anubis_set",
+  "rarity": "common",
+  "visible": true
+}

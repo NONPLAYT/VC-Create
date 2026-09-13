@@ -1,0 +1,2 @@
+#Enable fix for carboard armor hotswap issue. This is a workaround for a bug in Create. If Create fixes it, disable this.
+hotswapFix = true

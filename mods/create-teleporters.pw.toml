@@ -1,0 +1,13 @@
+name = "Create : Teleporters"
+filename = "createteleporters-remastered-2.0.2b-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "76fe16fb464351859113102477bf91f100984257"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8010045
+project-id = 829272

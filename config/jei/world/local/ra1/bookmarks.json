@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"garnished:galvanic_haunting"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"garnished:grim_stew"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"garnished:gloomy_gathering"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

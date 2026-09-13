@@ -1,0 +1,55 @@
+#.
+#Control world generation to your liking (mostly)
+[worldgen]
+	#.
+	#.
+	#Prevents all worldgen added by Create: Garnished from taking effect.
+	disableWorldGen = false
+
+	#.
+	#
+	[worldgen.Overworld]
+		#.
+		#Prevents nut trees from being generated in-world.
+		disableNutTrees = false
+		#.
+		#Prevents dulse and vermilion kelp from being generated in-world.
+		disableKelpVariants = false
+		#.
+		#Prevents voltaic sea grass from being generated in-world.
+		disableVoltaicSeaGrass = false
+		#.
+		#Prevents ritualistic stone clusters from being generated in-world.
+		disableRitualisticStoneClusters = false
+
+	#.
+	#
+	[worldgen."The Nether"]
+		#.
+		#Prevents sepia fungus from being generated in-world.
+		disableSepiaFungusPlant = false
+		#.
+		#Prevents grown sepia fungus from being generated in-world.
+		disableSepiaFungusTree = false
+		#.
+		#Prevents soul roots from being generated in-world.
+		disableSoulRoots = false
+		#.
+		#Prevents incandescent lilies from being generated in-world.
+		disableIncandescentLily = false
+		#.
+		#Prevents pansophical daisies from being generated in-world.
+		disablePansophicalDaisy = false
+		#.
+		#Prevents sorrowful lichen from being generated in-world.
+		disableSorrowfulLichen = false
+
+	#.
+	#
+	[worldgen."The End"]
+		#.
+		#Prevents aureate shrubs from being generated in-world.
+		disableAureateShrub = false
+		#.
+		#Prevents other end-related vegetation from being generated in-world.
+		disableMiscEndVegetation = false

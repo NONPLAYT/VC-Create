@@ -1,0 +1,155 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ealshanexs_familiarsr"
+	group: "3808ABBD2D934E7D"
+	icon: {
+		id: "alshanex_familiars:familiar_tome"
+	}
+	id: "2CF7FF0BE3628E3D"
+	order_index: 4
+	progression_mode: "flexible"
+	quest_links: [
+		{
+			id: "6B720684EFA27E9E"
+			linked_quest: "7B09AFE245BA7808"
+			shape: "rsquare"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "056B4D024B245B6F"
+			linked_quest: "692D79D601534A2E"
+			shape: "rsquare"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "6C743B91B8EB0656"
+			linked_quest: "54480115AF9A1DAD"
+			shape: "rsquare"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "3AFCED97697F3CC8"
+			linked_quest: "58EE67ECB33D6AE9"
+			shape: "rsquare"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "1E1DC1326926B208"
+			linked_quest: "5D0DCD2B1AB653BB"
+			shape: "rsquare"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "2259B1449368C829"
+			linked_quest: "2A844214CE94E140"
+			shape: "rsquare"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "0FBDDB2D4EEE3615"
+			linked_quest: "20BFB23E1ADDC3DF"
+			shape: "rsquare"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "21AD3694468BF5F2"
+			linked_quest: "5AA39CCAEED433CA"
+			shape: "rsquare"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "69F92FDC16158210"
+			linked_quest: "47F3B09688DFA1DC"
+			shape: "rsquare"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "5BFD5B242B3156CB"
+			linked_quest: "2651428AF7D72328"
+			shape: "rsquare"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "68AEAA75FB3B96F8"
+			linked_quest: "3DD814B346F1B543"
+			shape: "rsquare"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "1B76D9BBDCD5FB9F"
+			linked_quest: "54D89CD1278E6F68"
+			shape: "rsquare"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "7CAD26138F0C598D"
+			linked_quest: "0C3833270EE30C3B"
+			shape: "rsquare"
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	quests: [{
+		dependencies: [
+			"20BFB23E1ADDC3DF"
+			"2A844214CE94E140"
+			"2651428AF7D72328"
+			"692D79D601534A2E"
+			"58EE67ECB33D6AE9"
+			"47F3B09688DFA1DC"
+			"5AA39CCAEED433CA"
+			"7B09AFE245BA7808"
+			"3DD814B346F1B543"
+			"54480115AF9A1DAD"
+			"5D0DCD2B1AB653BB"
+			"54D89CD1278E6F68"
+			"0C3833270EE30C3B"
+		]
+		dependency_requirement: "all_started"
+		hide_dependency_lines: true
+		icon: {
+			id: "eternal_starlight:loot_bag"
+		}
+		id: "36695D68ED0854A6"
+		rewards: [
+			{
+				id: "57A0487BE68FA293"
+				item: {
+					count: 1
+					id: "kubejs:heart_container"
+				}
+				type: "item"
+			}
+			{
+				count: 2
+				id: "40EA5978CCDFDD7C"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}
+		]
+		shape: "hexagon"
+		size: 2.5d
+		tasks: [{
+			id: "71A9354EB2EA19C7"
+			type: "checkmark"
+		}]
+		x: 1.15d
+		y: -2.5d
+	}]
+}

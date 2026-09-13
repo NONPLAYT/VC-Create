@@ -1,0 +1,2600 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "plushies"
+	group: "3808ABBD2D934E7D"
+	icon: {
+		id: "plushies:slime_plushie"
+	}
+	id: "6EF23835B92B89EC"
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F073D82D32C89D9"
+			rewards: [
+				{
+					id: "6E094E206BDBAE43"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "13116910F1D83EE4"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "64AC98EC071291AC"
+				item: { count: 1, id: "plushies:panda_plushie" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "687AB591E59C6252"
+			rewards: [
+				{
+					id: "1C39F06C6BE67613"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "52724C48FF695C94"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "37A2EEE379C30424"
+				item: { count: 1, id: "plushies:parrot_plushie" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "6037D0DDE3CD067C"
+			rewards: [
+				{
+					id: "2BB0EA32D5AF4E67"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "3356E7AF2FAE72AE"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7DC3E03F0DBC269C"
+				item: { count: 1, id: "plushies:camel_plushie" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			id: "23F610978B69A23E"
+			rewards: [
+				{
+					id: "672FFCC953DBF82B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "7E7752BF780352E1"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5583C78C04A658DA"
+				item: { count: 1, id: "plushies:llama_plushie" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "4F106E85A9BE817E"
+			rewards: [
+				{
+					id: "626F7712086753F5"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "7EEF93E46106370D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3B5D1742B15CF6FD"
+				item: { count: 1, id: "plushies:cow_plushie" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "6D728EF229F122AC"
+			rewards: [
+				{
+					id: "7CCCABE088858E76"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "1C3E3C0D8919990B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "01728BC9CC7A28DB"
+				item: { count: 1, id: "plushies:mooshroom_plushie" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "789CA97D617A6B4B"
+			rewards: [
+				{
+					id: "5F2B34F3CEA15A45"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "5C5139173EB9C6EB"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "62582F95E72C9441"
+				item: { count: 1, id: "plushies:sheep_plushie" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "255683B0E6A73F72"
+			rewards: [
+				{
+					id: "147D61767F47D60F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "456AF92FEE97563D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2BBBF1CC1DE7B93D"
+				item: { count: 1, id: "plushies:pig_plushie" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "49C692162397D21C"
+			rewards: [
+				{
+					id: "404BDDCD3439DDB2"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "0C433B64473C6BA5"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "32D6FC36E8A5CEB6"
+				item: { count: 1, id: "plushies:horse_plushie" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "0CAC5B1B4C8CC27A"
+			rewards: [
+				{
+					id: "799C75E0C0D0F131"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "3D0D8F93F367BC56"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "18063E7932CC1E56"
+				item: { count: 1, id: "plushies:mule_plushie" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "363C5E1E7EB7D885"
+			rewards: [
+				{
+					id: "27B0265F810F4920"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "5AB67ED62AB0332E"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3D3282EBB22ACCC1"
+				item: { count: 1, id: "plushies:donkey_plushie" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "743142168D1941B9"
+			rewards: [
+				{
+					id: "65DAD4C3DB83197A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "55F2B1DDEDBEC79B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "00970597A8B47E68"
+				item: { count: 1, id: "plushies:bee_plushie" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "5C476CADE63057EE"
+			rewards: [
+				{
+					id: "10A24DFB73E96485"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "580CE847210EA78B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "323FFFFA4029B4B4"
+				item: { count: 1, id: "plushies:cat_plushie" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "3E7B75B4BD450C7F"
+			rewards: [
+				{
+					id: "1D4AD98E0F356173"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "4C02917AE7E00734"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0DB2C6DB28182DC7"
+				item: { count: 1, id: "plushies:chicken_plushie" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			id: "7FB35FE32FAED264"
+			rewards: [
+				{
+					id: "5E2D922772280592"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "27D445DE566AFEA8"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6608924180C49233"
+				item: { count: 1, id: "plushies:wolf_plushie" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "03D659A18071A21C"
+			rewards: [
+				{
+					id: "733D894489F004D6"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "3E6C7896F19A7104"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "486FA03A2952F23B"
+				item: { count: 1, id: "plushies:allay_plushie" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			id: "443DDFF0952727E0"
+			rewards: [
+				{
+					id: "12E3301AA6F53AE5"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "7F227BE97DA742E4"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0811C087B839CB48"
+				item: { count: 1, id: "plushies:red_fox_plushie" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "3AE9DB6C8EDE3B67"
+			rewards: [
+				{
+					id: "092C963013FF18DA"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "708AA02DC7A5AB1F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "1E481FF2B7DE1695"
+				item: { count: 1, id: "plushies:white_fox_plushie" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "75DE369C15E50CC4"
+			rewards: [
+				{
+					id: "5C8751AB9140F823"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "632D17CE11967694"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6EC08D6B06742C34"
+				item: { count: 1, id: "plushies:snow_golem_plushie" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "62BCF7203A1BD0AC"
+			rewards: [
+				{
+					id: "3B8E48570F90D006"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "6C0B6511A87B3253"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "11BFF7F2514D99A2"
+				item: { count: 1, id: "plushies:polar_bear_plushie" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "0D1A3FC6A6FE42DF"
+			rewards: [
+				{
+					id: "749C98677C8DF1B3"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "2AE111D761AF4691"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0B2B00ACCC539A0B"
+				item: { count: 1, id: "plushies:goat_plushie" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "71EAFE6C0357E198"
+			rewards: [
+				{
+					id: "16673E4E261F07DD"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "43964AE1EF4C2297"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5E68F12537777591"
+				item: { count: 1, id: "plushies:sniffer_plushie" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "0A3211882CE4F511"
+			rewards: [
+				{
+					id: "76529A763B025DC2"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "1968B3C5E669BB85"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "34C4B1169C366B95"
+				item: { count: 1, id: "plushies:bat_plushie" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "5B8D0BFC1FBA27C3"
+			rewards: [
+				{
+					id: "13B672DFD8751D82"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "17FB203CC6181809"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "39884ED9122F0F40"
+				item: { count: 1, id: "plushies:ocelot_plushie" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "06C2636F2E6EE69E"
+			rewards: [
+				{
+					id: "37E014AF9443B28E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "6CB272461728E85A"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2CCDEE418EC564A0"
+				item: { count: 1, id: "plushies:armadillo_plushie" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			id: "1385961072D7AA02"
+			rewards: [
+				{
+					id: "4A552B53659A5C20"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "718EC9424B8BFD0A"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "36ED121817AA980B"
+				item: { count: 1, id: "plushies:brown_rabbit_plushie" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			id: "3B2E75AE9D3A202F"
+			rewards: [
+				{
+					id: "20115ADF56487FCB"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "126A2A37F391B6E8"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "284DF40E0750F9EC"
+				item: { count: 1, id: "plushies:white_rabbit_plushie" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			id: "39C72D7BCDA8FCF6"
+			rewards: [
+				{
+					id: "31E927F4DA4B574B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "4B7764F341D7D2A7"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "30B19F48C821E0FB"
+				item: { count: 1, id: "plushies:black_rabbit_plushie" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "29F1CDD06400867E"
+			rewards: [
+				{
+					id: "682DABD98DC234B2"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "255E328950DE9F07"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "487D50E0B10D0452"
+				item: { count: 1, id: "plushies:white_splotched_rabbit_plushie" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "1B88287202AE44F0"
+			rewards: [
+				{
+					id: "666155AFFDEB9D7A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "57061B47B028A55E"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6A5349DF4E053B12"
+				item: { count: 1, id: "plushies:yellow_rabbit_plushie" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "10A0B284D6F195DC"
+			rewards: [
+				{
+					id: "0F78C8C0CEDE6EB7"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "4498648625E6859F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6CD4915AA14B100E"
+				item: { count: 1, id: "plushies:salt_rabbit_plushie" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "133E45FBA29C3EDA"
+			rewards: [
+				{
+					id: "3DB78574AE95E4AF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "40B2422C0FBF1F48"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "44AC2BD95AD3DFF8"
+				item: { count: 1, id: "plushies:toast_rabbit_plushie" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "13CE773DE409AFFB"
+			rewards: [
+				{
+					id: "3B390D09AB2C5B26"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "747CF69F39255433"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "09C0766D155FFDA9"
+				item: { count: 1, id: "plushies:killer_bunny_plushie" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "10604E8AFE387F31"
+			rewards: [
+				{
+					id: "28CF664484F4B7E3"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "4EB734C4BB79CEFB"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "19C897AE9F2001DE"
+				item: { count: 1, id: "plushies:iron_golem_plushie" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			id: "30C61ACC472245BD"
+			rewards: [
+				{
+					id: "551DF39EEE5EA7B5"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "19A5B5E214F8F33E"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "14699844D46FC60F"
+				item: { count: 1, id: "plushies:wandering_trader_plushie" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "53D05C72B2BD5087"
+			rewards: [
+				{
+					id: "72CBF77E09BF47B1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "079CECB9D49CA1AD"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "732DF09C62328F64"
+				item: { count: 1, id: "plushies:villager_plushie" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "7E64AF99C74AA976"
+			rewards: [
+				{
+					id: "61DA1E0E638D65F4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "5E00D0E21179B4E5"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "633A6C6A40476FBA"
+				item: { count: 1, id: "plushies:zombie_villager_plushie" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "48E94B938D951DFE"
+			rewards: [
+				{
+					id: "655FF842C08B011D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "32C32782454B61C5"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "64E7F3BD17A2FAE0"
+				item: { count: 1, id: "plushies:pillager_plushie" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "3943663D7BE38CFA"
+			rewards: [
+				{
+					id: "24367A0BB2991F31"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "709A1FEDC0CDDD50"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "24947C56FD846345"
+				item: { count: 1, id: "plushies:illusioner_plushie" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "31EF2E13439FC5DA"
+			rewards: [
+				{
+					id: "6A865EB9DDC5B649"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "7F13E6353ADF4DC3"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "358DCD02B53CDA8C"
+				item: { count: 1, id: "plushies:vindicator_plushie" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "33FF9A84CD6A3AA1"
+			rewards: [
+				{
+					id: "32259855A6813C43"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "7ADA2F8825E182F8"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "11970242E501B07A"
+				item: { count: 1, id: "plushies:evoker_plushie" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "7FEB2C65A212BFDE"
+			rewards: [
+				{
+					id: "6DD76BE1E673153F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "49EF610C0EE4869D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2E30C87DA62C98C9"
+				item: { count: 1, id: "plushies:ravager_plushie" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			id: "5E882F3E364830B3"
+			rewards: [
+				{
+					id: "6F86B1AD8AF29C27"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "031DB84F8C5F8F7B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "324B5AA6984D51BB"
+				item: { count: 1, id: "plushies:ravager_plushie" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "7E2A264C0707E3F0"
+			rewards: [
+				{
+					id: "7EE9D01D3D745486"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "676381D8D8C56470"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2244E00C843598AD"
+				item: { count: 1, id: "plushies:vex_plushie" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			id: "4570497FF612BD67"
+			rewards: [
+				{
+					id: "3AEA0142EF5B0D26"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "09711A635DD4A248"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "42FC05A399827D86"
+				item: { count: 1, id: "plushies:breeze_plushie" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			id: "176ABF0B5E9B0484"
+			rewards: [
+				{
+					id: "2745BBB2BFD4A7D3"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "067ABCE34456BF24"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2CF36F883D5EA695"
+				item: { count: 1, id: "plushies:creeper_plushie" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "6C6F206A0D05251E"
+			rewards: [
+				{
+					id: "4F46C1C590B5030E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "3CF706576B2F785B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7DE6FF5357A73CE3"
+				item: { count: 1, id: "plushies:skeleton_plushie" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "5AF66ECFD9797125"
+			rewards: [
+				{
+					id: "50227BEBFCA029B1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "2FCAC48F05D3EC75"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "1F064C1D6963A924"
+				item: { count: 1, id: "plushies:stray_plushie" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			id: "179CCFB3E0631F09"
+			rewards: [
+				{
+					id: "0B873ABA1D08E9E8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "74DCB03ADC84863A"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7BAD800A4243A1BC"
+				item: { count: 1, id: "plushies:zombie_horse_plushie" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "56D644D4A45AFB0F"
+			rewards: [
+				{
+					id: "0C64572AA84B5448"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "0B85229F07AAC4EF"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6A1783A7F09570C2"
+				item: { count: 1, id: "plushies:bogged_plushie" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "3758AC65AF3F03B9"
+			rewards: [
+				{
+					id: "62C67B204CF3DB5E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "31C557506BCD57B4"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4790756FA51C3BCB"
+				item: { count: 1, id: "plushies:skeleton_horse_plushie" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			id: "496500707DE57AE8"
+			rewards: [
+				{
+					id: "5CF2226F625B152F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "3AC036AFE46BD9EB"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "1AFD2D0ACF32DD56"
+				item: { count: 1, id: "plushies:spider_plushie" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "1602CB164FB08644"
+			rewards: [
+				{
+					id: "706B6D17606757C1"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "6A567F9CDF4E9622"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "28EE0C4883728F0C"
+				item: { count: 1, id: "plushies:cave_spider_plushie" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			id: "7ADE3A2A258AB0A0"
+			rewards: [
+				{
+					id: "4A464D8A5A597EF7"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "0966DDA319C532AC"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7D65A6E512443E48"
+				item: { count: 1, id: "plushies:warden_plushie" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "101E508AD742962B"
+			rewards: [
+				{
+					id: "26E2A1794936DD3B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "7276ADA71B55A72B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "25591467AFBA9770"
+				item: { count: 1, id: "plushies:wither_plushie" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "5840AEBC70EA58A4"
+			rewards: [
+				{
+					id: "22AF884BCD46FD87"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "55F741987CA2E0F5"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "24A746F1546A29E7"
+				item: { count: 1, id: "plushies:phantom_plushie" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "42DCBF9A4F335165"
+			rewards: [
+				{
+					id: "529128D9C8BFBB63"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "6B54094B62072717"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3B635DF3CB4995E9"
+				item: { count: 1, id: "plushies:silverfish_plushie" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			id: "18B3EA5F4A347B50"
+			rewards: [
+				{
+					id: "5A41F182C8239F6D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "641CA0C5CAAD9E06"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "72C0F4F93E05F51B"
+				item: { count: 1, id: "plushies:slime_plushie" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			id: "3E50FCA3D4A01FEC"
+			rewards: [
+				{
+					id: "6ADE128486DDEE38"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "687F1B70310D1122"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "376BFB32DEBF0D89"
+				item: { count: 1, id: "plushies:zombie_plushie" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			id: "6ED9BF3A47B3EA19"
+			rewards: [
+				{
+					id: "35DFC65BC4DF7E97"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "28D3D99AE2E59E1F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "20CF9625923AF6BE"
+				item: { count: 1, id: "plushies:husk_plushie" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			id: "1281352146850922"
+			rewards: [
+				{
+					id: "316ACF0700136361"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "1AEC5EF9BB04995F"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7846AC0EC50F91A6"
+				item: { count: 1, id: "plushies:drowned_plushie" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			id: "6C4EAA56BA03F97E"
+			rewards: [
+				{
+					id: "0D8B747829D7168D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "3BDDDD8462D7DB36"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "48E0E19451B83712"
+				item: { count: 1, id: "plushies:axolotl_plushie" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			id: "7B66B8EDFE32FE92"
+			rewards: [
+				{
+					id: "26616192E32B4BE3"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "6108348FF8791779"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3219566C4F47A5F4"
+				item: { count: 1, id: "plushies:dolphin_plushie" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			id: "1D0787A2411A57C2"
+			rewards: [
+				{
+					id: "0383CE5116D643E3"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "030900536A384BFB"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "754CDF44C4C46EFF"
+				item: { count: 1, id: "plushies:squid_plushie" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			id: "6007F378017E8E54"
+			rewards: [
+				{
+					id: "55FA1B6AC2168E7A"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "6B97D86305C8F2BB"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7FEBDE8FBBAC1633"
+				item: { count: 1, id: "plushies:glow_squid_plushie" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			id: "6947F272C6191C1B"
+			rewards: [
+				{
+					id: "7456D314F81CC9CF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "25E7550166763FD2"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "459C342C91AAC7F6"
+				item: { count: 1, id: "plushies:guardian_plushie" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			id: "63FE1BF115739DE5"
+			rewards: [
+				{
+					id: "2517311E4AA3E1BF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "1F6CE2A25396446E"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "41FEEE8AFEFC83E7"
+				item: { count: 1, id: "plushies:elder_guardian_plushie" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			id: "2C4E267666D28C46"
+			rewards: [
+				{
+					id: "2BFD6FDBD8EA2626"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "68DA2B308F7D4DEC"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "20843F25DB0AD10E"
+				item: { count: 1, id: "plushies:turtle_plushie" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			disable_toast: true
+			id: "4A718867C44BA133"
+			rewards: [
+				{
+					id: "05180E570043D597"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "08EF786F7F87877B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "14144CAF2A4AFEAB"
+				item: { count: 1, id: "plushies:frog_plushie" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			id: "29044DED7881323C"
+			rewards: [
+				{
+					id: "02C1DCE685C832F2"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "317AA4A9F96EB721"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "57774ACAE5EB47C9"
+				item: { count: 1, id: "plushies:warm_frog_plushie" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			id: "4B25AD22D8B98B43"
+			rewards: [
+				{
+					id: "13A49B54FE5DFB4F"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "0CD0F9A9E39E0576"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "075F9918DE77A8B6"
+				item: { count: 1, id: "plushies:cold_frog_plushie" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			id: "2C483A3EA72A9FDB"
+			rewards: [
+				{
+					id: "52F0D0CC524D012E"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "7A129856D2C36C82"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0950451D4C9D416E"
+				item: { count: 1, id: "plushies:tadpole_plushie" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			id: "7A1A9AEE22C8EE2A"
+			rewards: [
+				{
+					id: "49ECAAF6B4EC80D5"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "353DDCF9D65D242C"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "153C9022CFFDD949"
+				item: { count: 1, id: "plushies:salmon_plushie" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			id: "45FCDC3AA39C9398"
+			rewards: [
+				{
+					id: "74E998E9C02E4732"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "467CCB38EE15FCE0"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "77D92F43A753150A"
+				item: { count: 1, id: "plushies:cod_plushie" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			id: "284D9DBB448E3DC4"
+			rewards: [
+				{
+					id: "354F55CCEE052A01"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "392ABF2E0083BEFD"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "250D60224CA5EB08"
+				item: { count: 1, id: "plushies:pufferfish_plushie" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			id: "6E55D129D4DCF21B"
+			rewards: [
+				{
+					id: "0AAED25A9C2A642B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "3CCAD70E2545822E"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0217302D76AF7391"
+				item: { count: 1, id: "plushies:small_tropical_fish_plushie" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			id: "03BD0E8B8B6E3926"
+			rewards: [
+				{
+					id: "46FF08A426DBCC33"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "4E8E1EEEAA1D27B4"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "43F46E1EE43A248D"
+				item: { count: 1, id: "plushies:large_tropical_fish_plushie" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			id: "50AC86942DA52B1C"
+			rewards: [
+				{
+					id: "0D8F427E43F04995"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "6D9B19C98420736B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "188909C355AA7347"
+				item: { count: 1, id: "plushies:wither_skeleton_plushie" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			id: "1744374A66C531BE"
+			rewards: [
+				{
+					id: "67F8456490FB2E66"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "29550E457DFC1720"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7F16AF1AEEF5E780"
+				item: { count: 1, id: "plushies:piglin_plushie" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			id: "10E3B918E8216C9C"
+			rewards: [
+				{
+					id: "46D72B74DBB01CA4"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "7A344DE9EE7634A5"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "21F70390D9DB92C9"
+				item: { count: 1, id: "plushies:piglin_brute_plushie" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			id: "14C6A902A1901B52"
+			rewards: [
+				{
+					id: "203193697A83480D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "26FCC395033C85F5"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4061ABC2AD146FB4"
+				item: { count: 1, id: "plushies:zombiefied_piglin_plushie" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			id: "6BE371F0A1CA734F"
+			rewards: [
+				{
+					id: "209CF40500786EAE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "68A7FC67151B75CB"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6D48656F7518F545"
+				item: { count: 1, id: "plushies:blaze_plushie" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			id: "01638396C288FD88"
+			rewards: [
+				{
+					id: "579F6C55D9A528EE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "2666B7A5D6C34A91"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "17877189C25A5D9C"
+				item: { count: 1, id: "plushies:ghast_plushie" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			id: "0B834567C9AD6551"
+			rewards: [
+				{
+					id: "5894820CE33194EF"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "3DEE95F9C7A9B59D"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "471D8C0ABCAA82F9"
+				item: { count: 1, id: "plushies:hoglin_plushie" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			id: "0D162252CF3FD31C"
+			rewards: [
+				{
+					id: "1CEE5B6814133580"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "288B5C9034020613"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "17AAA4A2B67946AA"
+				item: { count: 1, id: "plushies:zoglin_plushie" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			id: "4D1FCA9E28E7FB93"
+			rewards: [
+				{
+					id: "63C55A246F9CFA64"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "7D6E4D7F83EDE478"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "528DBE4B5B8AF79D"
+				item: { count: 1, id: "plushies:strider_plushie" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			id: "3A863BC51C9C9102"
+			rewards: [
+				{
+					id: "75501CB1E984C52D"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "10227B4F1279A5CA"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "20E65F1A782890F8"
+				item: { count: 1, id: "plushies:magma_cube_plushie" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			id: "751B2B2345D91541"
+			rewards: [
+				{
+					id: "7736EF7D1748EB84"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "707728CC8533B94E"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "6EB598E6DA6A6634"
+				item: { count: 1, id: "plushies:enderman_plushie" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			id: "3DE3CB40B140EBCF"
+			rewards: [
+				{
+					id: "71CAD92CC4530DEE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "02717A7D73269ABE"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3503B20976454465"
+				item: { count: 1, id: "plushies:endermite_plushie" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			id: "61694E385A53FFF4"
+			rewards: [
+				{
+					id: "460F2F6E58B414D6"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "7D62030E7FB33E97"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "310A6EF3B4E1CDF7"
+				item: { count: 1, id: "plushies:shulker_plushie" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			id: "3D777021149C139E"
+			rewards: [
+				{
+					id: "7CA6671673AA27D8"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 2
+					id: "15559DE1D7128082"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "12E48265AB38FE2E"
+				item: { count: 1, id: "plushies:dragon_plushie" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"7F073D82D32C89D9"
+				"5C476CADE63057EE"
+				"687AB591E59C6252"
+				"4F106E85A9BE817E"
+				"23F610978B69A23E"
+				"743142168D1941B9"
+				"6037D0DDE3CD067C"
+				"6D728EF229F122AC"
+				"06C2636F2E6EE69E"
+				"1385961072D7AA02"
+				"0CAC5B1B4C8CC27A"
+				"13CE773DE409AFFB"
+				"7E64AF99C74AA976"
+				"7FEB2C65A212BFDE"
+				"133E45FBA29C3EDA"
+				"5B8D0BFC1FBA27C3"
+				"71EAFE6C0357E198"
+				"10A0B284D6F195DC"
+				"443DDFF0952727E0"
+				"5E882F3E364830B3"
+				"0A3211882CE4F511"
+				"789CA97D617A6B4B"
+				"363C5E1E7EB7D885"
+				"7E2A264C0707E3F0"
+				"48E94B938D951DFE"
+				"3B2E75AE9D3A202F"
+				"30C61ACC472245BD"
+				"53D05C72B2BD5087"
+				"7FB35FE32FAED264"
+				"03D659A18071A21C"
+				"49C692162397D21C"
+				"29F1CDD06400867E"
+				"39C72D7BCDA8FCF6"
+				"10604E8AFE387F31"
+				"75DE369C15E50CC4"
+				"1B88287202AE44F0"
+				"3943663D7BE38CFA"
+				"62BCF7203A1BD0AC"
+				"33FF9A84CD6A3AA1"
+				"255683B0E6A73F72"
+				"3E7B75B4BD450C7F"
+				"31EF2E13439FC5DA"
+				"4570497FF612BD67"
+				"3AE9DB6C8EDE3B67"
+				"0D1A3FC6A6FE42DF"
+				"50AC86942DA52B1C"
+				"45FCDC3AA39C9398"
+				"179CCFB3E0631F09"
+				"14C6A902A1901B52"
+				"10E3B918E8216C9C"
+				"1281352146850922"
+				"2C483A3EA72A9FDB"
+				"18B3EA5F4A347B50"
+				"6ED9BF3A47B3EA19"
+				"42DCBF9A4F335165"
+				"29044DED7881323C"
+				"3D777021149C139E"
+				"6007F378017E8E54"
+				"7A1A9AEE22C8EE2A"
+				"6BE371F0A1CA734F"
+				"56D644D4A45AFB0F"
+				"496500707DE57AE8"
+				"0B834567C9AD6551"
+				"63FE1BF115739DE5"
+				"3A863BC51C9C9102"
+				"6C6F206A0D05251E"
+				"7ADE3A2A258AB0A0"
+				"751B2B2345D91541"
+				"1602CB164FB08644"
+				"5AF66ECFD9797125"
+				"6C4EAA56BA03F97E"
+				"0D162252CF3FD31C"
+				"7B66B8EDFE32FE92"
+				"3DE3CB40B140EBCF"
+				"2C4E267666D28C46"
+				"4A718867C44BA133"
+				"5840AEBC70EA58A4"
+				"4D1FCA9E28E7FB93"
+				"1744374A66C531BE"
+				"01638396C288FD88"
+				"61694E385A53FFF4"
+				"6947F272C6191C1B"
+				"3758AC65AF3F03B9"
+				"6E55D129D4DCF21B"
+				"284D9DBB448E3DC4"
+				"101E508AD742962B"
+				"4B25AD22D8B98B43"
+				"1D0787A2411A57C2"
+				"176ABF0B5E9B0484"
+				"03BD0E8B8B6E3926"
+				"3E50FCA3D4A01FEC"
+			]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			icon: {
+				id: "eternal_starlight:loot_bag"
+			}
+			id: "2A9E9448684CE833"
+			rewards: [
+				{
+					id: "0C60ACC6B887D77F"
+					item: {
+						count: 1
+						id: "kubejs:heart_container"
+					}
+					type: "item"
+				}
+				{
+					id: "5BA33B2417504A53"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.9d
+			tasks: [{
+				id: "7C8024AAF857D502"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -2.9d
+		}
+	]
+}

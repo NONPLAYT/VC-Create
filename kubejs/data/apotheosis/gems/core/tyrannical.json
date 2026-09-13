@@ -1,0 +1,84 @@
+{
+    "type": "apotheosis:gem",
+    "unique": true,
+    "weights": {
+        "quality": 0.1,
+        "weight": 100
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "minecraft:generic.attack_knockback",
+            "gem_class": {
+                "key": "light_weapon",
+                "types": [
+                    "apotheosis:melee_weapon",
+                    "apotheosis:trident"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.1,
+                "chipped": 0.2,
+                "flawed": 0.3,
+                "normal": 0.4,
+                "flawless": 0.5,
+                "perfect": 0.7
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "minecraft:generic.armor_toughness",
+            "gem_class": {
+                "key": "core_armor",
+                "types": [
+                    "apotheosis:chestplate",
+                    "apotheosis:leggings"
+                ]
+            },
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.1,
+                "chipped": 0.2,
+                "flawed": 0.3,
+                "normal": 0.5,
+                "flawless": 0.8,
+                "perfect": 1.2
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "minecraft:generic.armor_toughness",
+            "gem_class": "apotheosis:shield",
+            "operation": "add_multiplied_base",
+            "values": {
+                "cracked": 0.01,
+                "chipped": 0.02,
+                "flawed": 0.03,
+                "normal": 0.045,
+                "flawless": 0.06,
+                "perfect": 0.085
+            }
+        },
+        {
+            "type": "apotheosis:mob_effect",
+            "gem_class": "apotheosis:bow",
+            "mob_effect": "apothic_attributes:bleeding",
+            "stack_on_reapply": true,
+            "stacking_limit": 4,
+            "target": "arrow_target",
+            "values": {
+                "flawless": {
+                    "duration": 40,
+                    "amplifier": 0,
+                    "cooldown": 40
+                },
+                "perfect": {
+                    "duration": 120,
+                    "amplifier": 1,
+                    "cooldown": 40
+                }
+            }
+        }
+    ]
+}

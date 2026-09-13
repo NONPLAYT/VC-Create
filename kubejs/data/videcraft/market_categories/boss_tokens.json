@@ -1,0 +1,9 @@
+{
+   "tooltip": {
+       "text": "Жетон босса"
+   },
+  "icon": {
+    "id": "kubejs:boss_token"
+  },
+  "sortIndex": 6
+}

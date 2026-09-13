@@ -1,0 +1,13 @@
+name = "Better chunk loading"
+filename = "betterchunkloading-1.21-5.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "848d47200e760cfa566e476257ff863de30d7f8f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6210181
+project-id = 899487

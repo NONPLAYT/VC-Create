@@ -1,0 +1,13 @@
+name = "Game Discs"
+filename = "gamediscs-0.3.2-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ef9c51f1eec68ea01b168344317fa4abef6e192a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6470328
+project-id = 1099059

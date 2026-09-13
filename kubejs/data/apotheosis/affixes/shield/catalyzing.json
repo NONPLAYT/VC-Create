@@ -1,0 +1,23 @@
+{
+    "type": "apotheosis:catalyzing",
+    "definition": {
+        "affix_type": "ability",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "values": {
+        "apotheosis:epic": {
+            "min": 100.0,
+            "max": 200.0,
+            "step": 20.0
+        },
+        "apotheosis:mythic": {
+            "min": 150.0,
+            "max": 300.0,
+            "step": 20.0
+        }
+    }
+}

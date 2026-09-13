@@ -1,0 +1,18 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:basic",
+  "category": "videcraft:contract_basic",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:token_basic"
+    },
+    "count": 4
+  },
+  "result": {
+    "count": 1,
+    "item": "treasurebags:treasure_bag",
+    "components": {
+      "treasurebags:bag_type": "treasurebags:domaru_set"
+    }
+  }
+}

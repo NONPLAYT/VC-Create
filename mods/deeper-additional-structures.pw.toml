@@ -1,0 +1,13 @@
+name = "Deeper Additional Structures"
+filename = "deeper_additional_structures.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1ec9700fe60c6885f0d0a87bd1f18ca624ca072b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6178754
+project-id = 1197591

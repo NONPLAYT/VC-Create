@@ -1,0 +1,18 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:medium",
+  "category": "videcraft:contract_medium",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:token_medium"
+    },
+    "count": 4
+  },
+  "result": {
+    "count": 1,
+    "item": "treasurebags:treasure_bag",
+    "components": {
+      "treasurebags:bag_type": "treasurebags:centurion_set"
+    }
+  }
+}

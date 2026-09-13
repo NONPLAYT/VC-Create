@@ -1,0 +1,11 @@
+{
+  "bag_color": "#ed7d14",
+  "bag_overlay_color": "#95e2da",
+  "bag_string_color": "#ed7d14",
+  "display_name": "§6Flawless Arcane Gem Pouch",
+  "drops_from_groups": [],
+  "group": "default",
+  "loot_table": "treasurebags:bags/flawless_arcane_gem",
+  "rarity": "common",
+  "visible": true
+}

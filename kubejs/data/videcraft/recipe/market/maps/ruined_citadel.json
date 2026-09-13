@@ -1,0 +1,26 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:maps",
+  "category": "videcraft:maps",
+  "payment": {
+    "ingredient": {
+      "item": "magic_coins:gold_coin"
+    },
+    "count": 2
+  },
+  "result": {
+    "count": 1,
+    "item": "irons_spellbooks:furled_map",
+    "components": {
+      "irons_spellbooks:furled_map_data": {
+        "destination": "cataclysm:ruined_citadel",
+        "descriptionOverride": {
+          "translate": "Разрушенная цитадель"
+        },
+        "dimension": "minecraft:the_end"
+      },
+      "minecraft:lore":["{\"text\":\"[L_Ender Cataclysm — Энд]\",\"italic\":false,\"color\":\"gray\"}"],      
+      "minecraft:custom_name": "[{\"text\": \"Карта: Разрушенная цитадель\"}]"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "tooltip": "Жетон инженера",
+  "icon": {
+    "id": "kubejs:token_advanced"
+  },
+  "sortIndex": 5
+}

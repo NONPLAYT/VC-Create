@@ -1,0 +1,13 @@
+name = "Simple Loot Viewer"
+filename = "simplelootviewer-neoforge-1.21.1-21.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5046daf13e9620ed5a01378638d2ec1879580eba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7114924
+project-id = 1237334

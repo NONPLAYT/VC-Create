@@ -1,0 +1,422 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "garnish"
+	group: "781F17A4DC3D0E66"
+	icon: {
+		id: "garnished:cinder_peanut_effect"
+	}
+	id: "58D00C1309225860"
+	images: [{
+		color: 14522965
+		height: 1.0d
+		image: "chalk:block/mark/arrow"
+		rotation: 90.0d
+		width: 1.0d
+		x: -6.5d
+		y: -1.5d
+	}]
+	order_index: 5
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0FD0F0F442972293"
+			rewards: [{
+				id: "137836FF70284042"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "20C11EFA35C615FF"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(garnished:cracked_nuts))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7B838BCF530692EB"]
+			id: "7E2CA676B730A7C4"
+			rewards: [{
+				count: 2
+				id: "3CB068ADC933D9C3"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "70F8FBECBCA27DF7"
+				item: { count: 1, id: "garnished:peanut_oil_bucket" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FD0F0F442972293"]
+			id: "05E44A1BD522BC74"
+			rewards: [{
+				id: "5DE8854A3BBDE647"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "28810822DA9E4243"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0FD0F0F442972293"]
+			id: "7F4C5837BB28BDFC"
+			rewards: [{
+				count: 15
+				id: "3DD72C67F23C51A0"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "261A91CDEB3C640C"
+					item: { count: 1, id: "garnished:mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "09624F3069A9E016"
+					item: { count: 1, id: "garnished:red_mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "13F9143708936BD4"
+					item: { count: 1, id: "garnished:orange_mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "494D194AD6080B83"
+					item: { count: 1, id: "garnished:yellow_mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "3A662B0E97920CC4"
+					item: { count: 1, id: "garnished:green_mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "3EAA027B9EDCBB4A"
+					item: { count: 1, id: "garnished:lime_mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "47D571B942AE855C"
+					item: { count: 1, id: "garnished:blue_mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "05052CFCB0853E3F"
+					item: { count: 1, id: "garnished:light_blue_mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "023948B31E523F9E"
+					item: { count: 1, id: "garnished:cyan_mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "532C7896F5A5796F"
+					item: { count: 1, id: "garnished:purple_mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "456FE57849699026"
+					item: { count: 1, id: "garnished:magenta_mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "3163981174DD1EC1"
+					item: { count: 1, id: "garnished:pink_mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "5FD6BA496810FC9F"
+					item: { count: 1, id: "garnished:black_mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "0D3958CF6C9AD7A6"
+					item: { count: 1, id: "garnished:gray_mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "22B9E9CFE1D40A87"
+					item: { count: 1, id: "garnished:light_gray_mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "4E55611DB67CA5CB"
+					item: { count: 1, id: "garnished:white_mastic_resin_bucket" }
+					type: "item"
+				}
+				{
+					id: "4127BEBF46BF0928"
+					item: { count: 1, id: "garnished:brown_mastic_resin_bucket" }
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0FD0F0F442972293"]
+			id: "7B838BCF530692EB"
+			rewards: [{
+				count: 2
+				id: "6A7F1211A37390C8"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "66CF7ECDC27DB57F"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(garnished:garnished_nuts))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0FD0F0F442972293"]
+			id: "04A995BBF67D6395"
+			rewards: [{
+				id: "46234EC3662FF745"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "259CB7CFF217A4FA"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:tools/hatchets))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04A995BBF67D6395"]
+			id: "3CA4542BF17DB864"
+			rewards: [{
+				id: "59EBA3BC5858D7F5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "22DA093420DAD768"
+				item: { count: 1, id: "garnished:enflamed_mandible" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["04A995BBF67D6395"]
+			id: "5841D16B410B3D41"
+			rewards: [{
+				id: "46AE1B22A1E1907D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3528E59C2F5269E1"
+				item: { count: 1, id: "garnished:ghast_tendril" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["04A995BBF67D6395"]
+			id: "636178B57E7A9E86"
+			rewards: [{
+				id: "3C97721C8FD137D7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C482D1FCFB9D311"
+				item: { count: 1, id: "garnished:molten_remnant" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["04A995BBF67D6395"]
+			id: "08B2F767BB0AB1AA"
+			rewards: [{
+				id: "4278FC264DACA6D9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "193BD5E477A925DF"
+				item: { count: 1, id: "garnished:tusk" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["04A995BBF67D6395"]
+			id: "162F3E589083CA60"
+			rewards: [{
+				id: "1911F507AFD50C38"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5337647736F9581C"
+				item: { count: 1, id: "garnished:irate_tusk" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["04A995BBF67D6395"]
+			id: "5D6FDF6682B47167"
+			rewards: [{
+				id: "5958F88898504728"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "75BB891C1A8B3EC6"
+				item: { count: 1, id: "garnished:dimmed_scale" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["04A995BBF67D6395"]
+			id: "098A7DE12CAFAE30"
+			rewards: [{
+				id: "4607115C912B985C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5AF442E3AD3EFA8B"
+				item: { count: 1, id: "garnished:preliminary_nucleus" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["04A995BBF67D6395"]
+			id: "6C6589020C2F2E70"
+			rewards: [{
+				id: "4035674A3CB6E692"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "77107FFC4BCD2FB4"
+				item: { count: 1, id: "garnished:vex_wing" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["04A995BBF67D6395"]
+			id: "4BA1C262BA0B26C7"
+			rewards: [{
+				id: "0C02EFFC1A60F655"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1F7DF1DBC8FD9583"
+				item: { count: 1, id: "garnished:meat_scraps" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["04A995BBF67D6395"]
+			id: "5EE5A4AA72E10A32"
+			rewards: [{
+				id: "5028009381349BF2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4AA8E2A928A447E7"
+				item: { count: 1, id: "garnished:raw_polar_bear_meat" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["04A995BBF67D6395"]
+			id: "008E19FAAC054402"
+			rewards: [{
+				id: "58DBC1B63FC9BA77"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1AB4A0ACE442957D"
+				item: { count: 1, id: "garnished:polar_bear_hide" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["04A995BBF67D6395"]
+			id: "2D6F91D478384B53"
+			rewards: [{
+				id: "46699CA1703875B5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5E0177CA5B043E01"
+				item: { count: 1, id: "garnished:numbing_parchment" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["04A995BBF67D6395"]
+			id: "2831D3B922697A8C"
+			rewards: [{
+				id: "51DECAD9E0BD95BA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5B9DB6CAFE4E1FF9"
+				item: { count: 1, id: "garnished:raw_tenebrous_meat" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "eternal_starlight:spiral_kelp_forest",
+    "eternal_starlight:starlight_permafrost_forest",
+    "eternal_starlight:the_abyss",
+    "eternal_starlight:starlight_dense_forest",
+    "eternal_starlight:dark_swamp",
+    "eternal_starlight:shimmer_river",
+    "eternal_starlight:ether_river",
+    "eternal_starlight:scarlet_forest",
+    "eternal_starlight:starlight_forest"
+  ],
+  "features": "hazennstuff:zenalite_ore_placed",
+  "step": "underground_ores"
+}

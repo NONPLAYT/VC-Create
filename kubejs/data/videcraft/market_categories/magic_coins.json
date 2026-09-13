@@ -1,0 +1,7 @@
+{
+  "tooltip": "Магические монеты",
+  "icon": {
+    "id": "magic_coins:crystal_coin"
+  },
+  "sortIndex": 1
+}

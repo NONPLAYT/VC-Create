@@ -1,0 +1,29 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:maps",
+  "category": "videcraft:maps",
+  "payment": {
+    "ingredient": {
+      "item": "magic_coins:gold_coin"
+    },
+    "count": 3
+  },
+  "result": {
+    "count": 1,
+    "item": "irons_spellbooks:furled_map_ancient",
+    "components":{
+      "irons_spellbooks:furled_map_data":{
+         "destination":"irons_spellbooks:citadel",
+         "descriptionOverride":{
+            "translate":"Цитадель"
+         },
+         "dimension":"minecraft:the_nether"
+      },
+      "minecraft:lore":[
+         "{\"text\":\"[Iron's Spellbooks — Незер]\",\"italic\":false,\"color\":\"gray\"}"
+      ],
+      "minecraft:custom_name": "[{\"text\": \"Карта: Цитадель\"}]"
+    }
+  }
+}
+

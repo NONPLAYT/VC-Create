@@ -1,0 +1,13 @@
+name = "Map Tooltip"
+filename = "maptooltip-neoforge-1.21-4.0.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "2cd3d0fc87e8c476f74e62a81940f1ce6cde79f8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5813228
+project-id = 384852

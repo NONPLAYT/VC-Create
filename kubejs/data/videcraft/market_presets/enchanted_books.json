@@ -1,0 +1,9 @@
+{
+    "enabled": true,
+    "payment": {
+        "ingredient": {
+            "item": "minecraft:diamond"
+        },
+        "count": 4
+    }
+}

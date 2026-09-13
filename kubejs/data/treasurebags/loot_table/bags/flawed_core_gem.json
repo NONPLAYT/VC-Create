@@ -1,0 +1,224 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/ballast",
+                "apotheosis:purity": "flawed"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/brawlers",
+                "apotheosis:purity": "flawed"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/breach",
+                "apotheosis:purity": "flawed"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/combatant",
+                "apotheosis:purity": "flawed"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/guardian",
+                "apotheosis:purity": "flawed"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/samurai",
+                "apotheosis:purity": "flawed"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/slipstream",
+                "apotheosis:purity": "flawed"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/splendor",
+                "apotheosis:purity": "flawed"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/lightning",
+                "apotheosis:purity": "flawed"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:core/tyrannical",
+                "apotheosis:purity": "flawed"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:the_nether/blood_lord",
+                "apotheosis:purity": "flawed"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:the_nether/molten_breach",
+                "apotheosis:purity": "flawed"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:overworld/verdant_ruin",
+                "apotheosis:purity": "flawed"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:overworld/royalty",
+                "apotheosis:purity": "flawed"
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "apotheosis:overworld/earth",
+                "apotheosis:purity": "flawed"
+              }
+            }
+          ],
+          "weight": 3
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:bags/flawed_core_gem"
+}

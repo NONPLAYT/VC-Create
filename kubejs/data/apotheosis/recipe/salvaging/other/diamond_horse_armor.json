@@ -1,0 +1,16 @@
+{
+    "type": "apotheosis:salvaging",
+    "input": {
+        "item": "minecraft:diamond_horse_armor"
+    },
+    "outputs": [
+        {
+            "max_count": 8,
+            "min_count": 3,
+            "stack": {
+                "count": 1,
+                "id": "minecraft:diamond"
+            }
+        }
+    ]
+}

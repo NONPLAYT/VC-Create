@@ -1,0 +1,13 @@
+{
+  "display_name": {
+    "text": ""
+  },
+  "loot_table": "minecraft:empty",
+  "bag_color": "#000000",
+  "bag_overlay_color": "#000000",
+  "bag_string_color": "#000000",
+  "drops_from_groups": [],
+  "rarity": "common",
+  "group": "disabled",
+  "visible": false
+}

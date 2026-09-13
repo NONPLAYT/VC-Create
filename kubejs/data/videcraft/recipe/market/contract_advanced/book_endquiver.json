@@ -1,0 +1,22 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:advanced",
+  "category": "videcraft:contract_advanced",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:token_advanced"
+    },
+    "count": 2
+  },
+  "result": {
+    "count": 1,
+    "item": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {
+          "apothic_enchanting:endless_quiver": 1
+        }
+      }
+    }
+  }
+}

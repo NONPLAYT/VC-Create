@@ -1,0 +1,13 @@
+name = "JinxedLib"
+filename = "jinxedlib-neoforge-1.21.1-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4fcb38e30b7654cf94bdf7b4e1511ed860c31aae"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6727693
+project-id = 1203401

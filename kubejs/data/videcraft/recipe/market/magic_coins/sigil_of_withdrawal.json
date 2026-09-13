@@ -1,0 +1,15 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:coins",
+  "category": "videcraft:magic_coins",
+  "payment": {
+    "ingredient": {
+      "item": "magic_coins:silver_coin"
+    },
+    "count": 40
+  },
+  "result": {
+    "count": 1,
+    "item": "apotheosis:sigil_of_withdrawal"
+  }
+}

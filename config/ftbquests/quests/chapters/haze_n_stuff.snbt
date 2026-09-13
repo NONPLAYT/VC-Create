@@ -1,0 +1,319 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "haze_n_stuff"
+	group: "10BAE746B6F04D66"
+	icon: {
+		id: "hazennstuff:deus_essence"
+	}
+	id: "1114C1AB6A2F68FA"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6E35F09F79150749"
+			rewards: [{
+				count: 5
+				id: "3EE7C8CF80CD048A"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "54B598195E78E4DF"
+				item: { count: 1, id: "hazennstuff:ruptured" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 11.25d
+		}
+		{
+			dependencies: ["6E35F09F79150749"]
+			id: "2071609BDA6EBBF1"
+			rewards: [{
+				count: 5
+				id: "2CC011042CCC6F57"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "02DB216FAF34036C"
+				item: { count: 1, id: "hazennstuff:refined" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 11.25d
+		}
+		{
+			dependencies: ["2071609BDA6EBBF1"]
+			id: "7EA3E7CC96ABD18C"
+			rewards: [{
+				count: 5
+				id: "086B53BE81001EAD"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "002B09FEE38B05D8"
+				item: { count: 1, id: "hazennstuff:reinforced" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.25d
+		}
+		{
+			dependencies: ["7EA3E7CC96ABD18C"]
+			id: "72170FCA2F6A922C"
+			rewards: [{
+				count: 5
+				id: "08B19BBC6C129D9A"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "4B93D3EDBA34DE4D"
+				item: { count: 1, id: "hazennstuff:radiance" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.25d
+		}
+		{
+			id: "339084330D0071A3"
+			rewards: [{
+				count: 5
+				id: "76B7321C51B971F7"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "725A93940F109DE5"
+				item: { count: 1, id: "hazennstuff:shattered" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 12.75d
+		}
+		{
+			dependencies: ["339084330D0071A3"]
+			id: "4783354CA88E9A89"
+			rewards: [{
+				count: 5
+				id: "2706748ABF0BE25E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "054B1E0C00D42ECD"
+				item: { count: 1, id: "hazennstuff:sacred" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 12.75d
+		}
+		{
+			dependencies: ["4783354CA88E9A89"]
+			id: "2A83D21A745DC4AB"
+			rewards: [{
+				count: 5
+				id: "69DBFA513AAAF034"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "5F29CFE1B1C4A550"
+				item: { count: 1, id: "hazennstuff:strengthened" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.75d
+		}
+		{
+			dependencies: ["2A83D21A745DC4AB"]
+			id: "28A70C1536CAC7CF"
+			rewards: [{
+				count: 5
+				id: "14F46368867552A7"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "4C4F225E40633E14"
+				item: { count: 1, id: "hazennstuff:singularity" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.75d
+		}
+		{
+			id: "1B9972187712A266"
+			rewards: [{
+				count: 5
+				id: "5FF4688200D22025"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "6402A897AD668220"
+				item: { count: 1, id: "hazennstuff:abstract" }
+				type: "item"
+			}]
+			x: -2.25d
+			y: 14.25d
+		}
+		{
+			dependencies: ["1B9972187712A266"]
+			id: "6CD6C7648CF464E3"
+			rewards: [{
+				count: 5
+				id: "2969A226EC9DCCD2"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "14019FE5E4929472"
+				item: { count: 1, id: "hazennstuff:advanced" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 14.25d
+		}
+		{
+			dependencies: ["6CD6C7648CF464E3"]
+			id: "62FD013A69AFE9C3"
+			rewards: [{
+				count: 5
+				id: "69A672B9A0AB6026"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "77886080E1CC8B1A"
+				item: { count: 1, id: "hazennstuff:abomination" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.25d
+		}
+		{
+			dependencies: ["62FD013A69AFE9C3"]
+			id: "53CB12BBF6E3E89A"
+			rewards: [{
+				count: 5
+				id: "75882EDE7AC3D9A2"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "5367113E0FAC950D"
+				item: { count: 1, id: "hazennstuff:absolute" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 14.25d
+		}
+		{
+			id: "063FB387DE692AC3"
+			shape: "hexagon"
+			tasks: [{
+				id: "6869E5EEB6244FA0"
+				item: { count: 1, id: "hazennstuff:zenalite_end_stone_ore" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 15.5d
+		}
+		{
+			id: "12BDFF66B6AFC436"
+			shape: "hexagon"
+			tasks: [{
+				id: "1083D13C296563F4"
+				item: { count: 1, id: "hazennstuff:dreadstone_ore" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 15.5d
+		}
+		{
+			id: "63023AD450F38D7A"
+			shape: "hexagon"
+			tasks: [{
+				id: "7F79F426BEB1691D"
+				item: { count: 1, id: "hazennstuff:chlorophyte_ore" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 15.5d
+		}
+		{
+			id: "1F5A59BD5FA2EA2A"
+			shape: "hexagon"
+			tasks: [{
+				id: "7CDC81B57942B2C9"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 15.5d
+		}
+	]
+}

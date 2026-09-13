@@ -1,0 +1,157 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "electricity"
+	group: "781F17A4DC3D0E66"
+	icon: {
+		id: "createaddition:large_connector"
+	}
+	id: "178BB414E2F55B72"
+	images: [{
+		color: 14522965
+		height: 1.0d
+		image: "chalk:block/mark/arrow"
+		rotation: 90.0d
+		width: 1.0d
+		x: -5.0d
+		y: -1.5d
+	}]
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["513AB7EE426B5AD1"]
+			id: "4B44C2F3B7D3404B"
+			rewards: [{
+				count: 2
+				id: "00B4743791E44779"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "251DEE6CDDA873DA"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B44C2F3B7D3404B"]
+			id: "091D25B58FD2D1A3"
+			rewards: [
+				{
+					count: 2
+					id: "554E0D7D66A9EB92"
+					item: {
+						count: 1
+						id: "createaddition:large_connector"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "45DF2ED69B406ED4"
+					item: {
+						count: 1
+						id: "createaddition:connector"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30C53E6C3A09A610"
+				item: { count: 1, id: "createaddition:connector" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["091D25B58FD2D1A3"]
+			id: "2192D2F22A2C17FD"
+			rewards: [{
+				count: 4
+				id: "7CA53E63ED47FA5C"
+				item: {
+					count: 1
+					id: "createaddition:festive_spool"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BBD77CA87861ECF"
+				item: { count: 1, id: "createaddition:copper_spool" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2192D2F22A2C17FD"]
+			id: "2E4DA361722CB9D0"
+			rewards: [{
+				count: 2
+				id: "4F6915E8CC7787F6"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38D225B82EB599B4"
+				item: { count: 1, id: "createaddition:tesla_coil" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B44C2F3B7D3404B"]
+			id: "30B4AA1B5916FC72"
+			rewards: [{
+				id: "054ECB09360ABCC5"
+				item: {
+					count: 1
+					id: "createaddition:modular_accumulator"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "432DEFB4C5C4FE4C"
+				item: { count: 1, id: "createaddition:modular_accumulator" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			id: "513AB7EE426B5AD1"
+			rewards: [{
+				count: 2
+				id: "1AFFE88386D5BCAE"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "7A67159B1241D448"
+				item: { count: 1, id: "createaddition:rolling_mill" }
+				type: "item"
+			}]
+			x: -3.9000000000000004d
+			y: -1.5d
+		}
+	]
+}

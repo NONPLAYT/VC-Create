@@ -1,0 +1,13 @@
+name = "World Play Time"
+filename = "worldplaytime-1.2.2-1.21-NEOFORGE.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1ee93dce6193ebeab41944e97d1f07e5d729bd96"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5430837
+project-id = 968891

@@ -1,0 +1,206 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vents"
+	group: "781F17A4DC3D0E66"
+	icon: {
+		id: "molten_vents:active_molten_veridium"
+	}
+	id: "1B9B51E90A5A29A0"
+	images: [{
+		color: 14522965
+		height: 1.0d
+		image: "chalk:block/mark/arrow"
+		rotation: 90.0d
+		width: 1.0d
+		x: -6.0d
+		y: 1.5d
+	}]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["17F0FADB3DFB3001"]
+			id: "6F83900602D42B9A"
+			shape: "rsquare"
+			tasks: [{
+				id: "57AB553DEDDD0484"
+				item: { count: 1, id: "create:asurine" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["736512E2075451A1"]
+			id: "17F0FADB3DFB3001"
+			shape: "rsquare"
+			tasks: [{
+				id: "7B6B81C21170D996"
+				item: { count: 1, id: "garnished:blue_zultanite" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5502A204AF05E2DA"]
+			id: "545D568E01B3BE3E"
+			shape: "rsquare"
+			tasks: [{
+				id: "45200C16148FA1EE"
+				item: { count: 1, id: "create:veridium" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["105811762A49F84F"]
+			id: "30FF1405E26D8703"
+			shape: "rsquare"
+			tasks: [{
+				id: "2CD94B5414ED3728"
+				item: { count: 1, id: "create:crimsite" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["736512E2075451A1"]
+			id: "488055D85AD88A2C"
+			shape: "rsquare"
+			tasks: [{
+				id: "59B5FA4176FDC49D"
+				item: { count: 1, id: "garnished:yellow_zultanite" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["488055D85AD88A2C"]
+			id: "16C73D254B843465"
+			shape: "rsquare"
+			tasks: [{
+				id: "630A26B34A0E0775"
+				item: { count: 1, id: "create:ochrum" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["736512E2075451A1"]
+			id: "105811762A49F84F"
+			shape: "rsquare"
+			tasks: [{
+				id: "225CE7091042938E"
+				item: { count: 1, id: "garnished:red_zultanite" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["736512E2075451A1"]
+			id: "5502A204AF05E2DA"
+			shape: "rsquare"
+			tasks: [{
+				id: "3673A88A8CD74D88"
+				item: { count: 1, id: "garnished:green_zultanite" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7EF948B39FBEA377"]
+			id: "736512E2075451A1"
+			rewards: [{
+				id: "671AE8D5BA20FE87"
+				item: {
+					count: 1
+					id: "minecraft:writable_book"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "797924159D5342B4"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F83900602D42B9A"]
+			id: "4594693B70583513"
+			tasks: [{
+				id: "4F98D134A9600453"
+				item: { count: 1, id: "create:crushed_raw_zinc" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["545D568E01B3BE3E"]
+			id: "753E2FBD24CA4228"
+			tasks: [{
+				id: "097A7ADE727F3D66"
+				item: { count: 1, id: "create:crushed_raw_copper" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30FF1405E26D8703"]
+			id: "30C6F83B7034FC37"
+			tasks: [{
+				id: "765D811E4B22A7BC"
+				item: { count: 1, id: "create:crushed_raw_iron" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["16C73D254B843465"]
+			id: "5A7A7D6CE78977CC"
+			tasks: [{
+				id: "1E03D0524D02C39A"
+				item: { count: 1, id: "create:crushed_raw_gold" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["736512E2075451A1"]
+			id: "7BA36E3934CF3AF9"
+			tasks: [{
+				id: "77A97EE6E69B0CB2"
+				item: { count: 1, id: "create_mechanical_extruder:mechanical_extruder" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7BA36E3934CF3AF9"]
+			id: "365A57D1F99B0F42"
+			tasks: [{
+				id: "7117F993F7116F17"
+				item: { count: 1, id: "create_mechanical_extruder:mechanical_brass_extruder" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+	]
+}

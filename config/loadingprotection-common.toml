@@ -1,0 +1,7 @@
+["Loading Protection Configuration"]
+	#Duration of protection in seconds after joining a world/server (default: 60)
+	# Default: 60
+	# Range: 1 ~ 300
+	protectionDuration = 120
+	#Show messages to players when protection is active (default: true)
+	showMessages = false

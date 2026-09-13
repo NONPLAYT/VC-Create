@@ -1,0 +1,7 @@
+{
+  "tooltip": "Жетон ученика",
+  "icon": {
+    "id": "kubejs:token_basic"
+  },
+  "sortIndex": 3
+}

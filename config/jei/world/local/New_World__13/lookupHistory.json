@@ -1,0 +1,22 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"magic_coins:crystal_coin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:aqua_bobber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:vanilla_bobber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:worm"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:heavy_hook"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:split_hook"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:stone_hook"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:mossy_hook"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:gold_hook"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:shiny_hook"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:hook"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:lush_bait"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:cherry_bait"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:seeking_worm"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:almighty_worm"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:clear_bobber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:starcatcher_guide"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:starcatcher_rod"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"starcatcher:starcatcher_twine"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

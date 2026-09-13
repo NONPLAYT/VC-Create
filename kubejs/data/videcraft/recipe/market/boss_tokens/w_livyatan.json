@@ -1,0 +1,15 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:boss_tokens",
+  "category": "videcraft:boss_tokens",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:boss_token"
+    },
+    "count": 6
+  },
+  "result": {
+    "count": 1,
+    "item": "simplyswords:livyatan"
+  }
+}

@@ -1,0 +1,13 @@
+name = "Treasure Bags"
+filename = "treasure-bags-1.21.1-neoforge-1.10.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6d80e0cbfe136c61559f605dbb5c96c75dd146ec"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7621939
+project-id = 318299

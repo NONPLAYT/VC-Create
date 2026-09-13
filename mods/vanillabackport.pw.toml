@@ -1,0 +1,13 @@
+name = "Vanilla Backport"
+filename = "VanillaBackport-neoforge-1.21.1-1.1.7.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a6593c53e94f9f08fcdbc9d4494a247f423d0efb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8111799
+project-id = 417430

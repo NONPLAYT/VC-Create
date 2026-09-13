@@ -1,0 +1,40 @@
+{
+  "type": "alshanex_familiars:ritual_recipe",
+  "central_item": {
+    "item": "hazennstuff:advanced"
+  },
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "hazennstuff:melee_upgrade_orb"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "hazennstuff:zenalite_ingot"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "hazennstuff:dreadsteel_ingot"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "hazennstuff:pyrium_nugget"
+      },
+      "count": 1,
+      "consume": true
+    }
+  ],
+  "result": {
+    "id": "hazennstuff:abomination"
+  },
+  "particle_type": "minecraft:crit"
+}

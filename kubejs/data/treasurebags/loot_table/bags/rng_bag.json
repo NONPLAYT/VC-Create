@@ -1,0 +1,353 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:sigil_of_supremacy",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hazennstuff:blade_of_the_legate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hazennstuff:the_tribunes_medallion",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hazennstuff:the_prefects_ring",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "refinedstorage_quartz_arsenal:creative_wireless_crafting_grid",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "refinedstorage:creative_wireless_autocrafting_monitor",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "refinedstorage:creative_wireless_grid",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create_sa:creative_filling_tank",
+          "weight": 5
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:worm",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 64
+            }
+          ],
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:almighty_worm",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ],
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "irons_spellbooks:legendary_ink",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ],
+          "weight": 19
+        },
+        {
+          "type": "minecraft:item",
+          "name": "starcatcher:seeking_worm",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ],
+          "weight": 14
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "apothic_attributes:strong_absorption"
+                }
+              }
+            }
+          ],
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "apothic_attributes:strong_haste"
+                }
+              }
+            }
+          ],
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "apothic_attributes:strong_knowledge"
+                }
+              }
+            }
+          ],
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "apothic_attributes:extra_long_flying"
+                }
+              }
+            }
+          ],
+          "weight": 20
+        },
+
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 30
+            }
+          ],
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hazennstuff:true_nights_edge",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hazennstuff:shadow_scale",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }
+          ],
+          "weight": 16
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:novelty_drinking_hat",
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "phantasm:behemoth_meat",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "phantasm:oblifruit",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "alshanex_familiars:pet_soul",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ],
+          "weight": 25
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hazennstuff:deus_essence",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ],
+          "weight": 19
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:everlasting_upgrade",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:stack_upgrade_omega_tier",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedstorage:stack_upgrade_omega_tier",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ],
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ],
+          "weight": 18
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:raijin_armor_feet",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:raijin_armor_legs",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:raijin_armor_chest",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:raijin_armor_head",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:o_yoroi_armor_feet",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:o_yoroi_armor_legs",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:o_yoroi_armor_chest",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:o_yoroi_armor_head",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:exalted_aurum_armor_feet",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:exalted_aurum_armor_legs",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:exalted_aurum_armor_chest",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:exalted_aurum_armor_head",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:pharaoh_armor_feet",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:pharaoh_armor_legs",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:pharaoh_armor_chest",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:pharaoh_armor_head",
+          "weight": 14
+        },
+        {
+          "type": "minecraft:item",
+          "name": "hazennstuff:zenalite_end_stone_ore",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ],
+          "weight": 18
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:bags/rng_bag"
+}

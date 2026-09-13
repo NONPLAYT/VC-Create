@@ -1,0 +1,13 @@
+name = "Construction Sticks"
+filename = "ConstructionSticks-1.21.1-1.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c73da674b08848c835ff45eadf47fdc8584fef82"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7687867
+project-id = 1156098

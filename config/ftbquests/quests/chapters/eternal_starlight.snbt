@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eternal_starlight"
+	group: "61769445B9D5700E"
+	icon: {
+		id: "eternal_starlight:starlight_flower"
+	}
+	id: "50471206A7BA908F"
+	images: [{
+		color: 14522965
+		height: 1.0d
+		image: "chalk:block/mark/arrow"
+		rotation: 90.0d
+		width: 1.0d
+		x: -2.5d
+		y: 0.0d
+	}]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2475C6740BBD5273"
+			rewards: [{
+				id: "3FF491E6EDA8CF3C"
+				item: {
+					count: 1
+					id: "eternal_starlight:book"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				advancement: "eternal_starlight:obtain_orb_of_prophecy"
+				criterion: ""
+				id: "0E45F7023B28D796"
+				type: "advancement"
+			}]
+			x: -1.3d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DA8BD4034753FBD"]
+			id: "325C7701BB3E3F73"
+			rewards: [{
+				count: 5
+				id: "3E1AF1CD72111522"
+				item: {
+					count: 1
+					id: "eternal_starlight:golem_steel_ingot"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				advancement: "eternal_starlight:kill_golem"
+				criterion: ""
+				id: "7EDEBC507E23185E"
+				type: "advancement"
+			}]
+			x: 3.2500000000000004d
+			y: 1.3d
+		}
+		{
+			dependencies: ["2475C6740BBD5273"]
+			id: "7DA8BD4034753FBD"
+			rewards: [
+				{
+					count: 3
+					id: "57C0AF3B061CF7D7"
+					item: {
+						count: 1
+						id: "eternal_starlight:starlight_silver_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7577866E79E78DF7"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "6681392B0C14B5FD"
+				item: { count: 1, id: "eternal_starlight:seeking_eye" }
+				type: "item"
+			}]
+			x: 1.3d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DA8BD4034753FBD"]
+			id: "7D080D777F9AADCA"
+			rewards: [{
+				id: "1EB87314B3DB8ACD"
+				item: {
+					count: 1
+					id: "eternal_starlight:gravity_pickaxe"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				advancement: "eternal_starlight:kill_lunar_monstrosity"
+				criterion: ""
+				id: "05B1A37A81B54F62"
+				type: "advancement"
+			}]
+			x: 3.2500000000000004d
+			y: -1.3d
+		}
+	]
+}

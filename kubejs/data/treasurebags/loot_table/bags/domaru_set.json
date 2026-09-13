@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:japanese_light_armor_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:lore": [
+                  "{\"text\":\"Worn by humble warriors of old..\",\"color\":\"yellow\",\"italic\":true}"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "armoroftheages:japanese_light_armor_chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "{\"text\":\"Worn by humble warriors of old..\",\"color\":\"yellow\",\"italic\":true}"
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "armoroftheages:japanese_light_armor_legs",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "{\"text\":\"Worn by humble warriors of old..\",\"color\":\"yellow\",\"italic\":true}"
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "armoroftheages:japanese_light_armor_feet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "{\"text\":\"Worn by humble warriors of old..\",\"color\":\"yellow\",\"italic\":true}"
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:bags/domaru_set"
+}

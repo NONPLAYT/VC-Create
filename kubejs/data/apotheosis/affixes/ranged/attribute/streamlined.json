@@ -1,0 +1,39 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "apothic_attributes:arrow_velocity",
+    "categories": [
+        "apotheosis:bow",
+        "apotheosis:trident"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_multiplied_total",
+    "values": {
+        "apotheosis:common": {
+            "min": 0.01,
+            "max": 0.03
+        },
+        "apotheosis:uncommon": {
+            "min": 0.02,
+            "max": 0.05
+        },
+        "apotheosis:rare": {
+            "min": 0.03,
+            "max": 0.075
+        },
+        "apotheosis:epic": {
+            "min": 0.05,
+            "max": 0.1
+        },
+        "apotheosis:mythic": {
+            "min": 0.10,
+            "max": 0.15
+        }
+    }
+}

@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"hazennstuff:scroll_sheath","components":{"azurelib:az_id":[842930319,277760639,-1215924207,-466954686]}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:scroll","components":{"irons_spellbooks:spell_container":{"mustEquip":false,"data":[{"id":"hazennstuff:fiery_dagger","index":0,"level":4,"locked":true}],"maxSpells":1,"spellWheel":false}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:scroll","components":{"irons_spellbooks:spell_container":{"mustEquip":false,"data":[{"id":"hazennstuff:fiery_dagger","index":0,"level":3,"locked":true}],"maxSpells":1,"spellWheel":false}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:scroll","components":{"irons_spellbooks:spell_container":{"mustEquip":false,"data":[{"id":"hazennstuff:fiery_dagger","index":0,"level":2,"locked":true}],"maxSpells":1,"spellWheel":false}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:scroll","components":{"irons_spellbooks:spell_container":{"mustEquip":false,"data":[{"id":"hazennstuff:fiery_dagger","index":0,"level":1,"locked":true}],"maxSpells":1,"spellWheel":false}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

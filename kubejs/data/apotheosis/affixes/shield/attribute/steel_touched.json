@@ -1,0 +1,30 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "minecraft:generic.armor_toughness",
+    "categories": [
+        "apotheosis:shield"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_multiplied_base",
+    "values": {
+        "apotheosis:rare": {
+            "min": 0.025,
+            "max": 0.050
+        },
+        "apotheosis:epic": {
+            "min": 0.50,
+            "max": 0.075
+        },
+        "apotheosis:mythic": {
+            "min": 0.075,
+            "max": 0.1
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:basic",
+  "category": "videcraft:contract_basic",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:token_basic"
+    },
+    "count": 1
+  },
+  "result": {
+    "count": 1,
+    "item": "irons_spellbooks:scroll",
+    "components": {
+      "irons_spellbooks:spell_container": {
+        "maxSpells": 1,
+        "mustEquip": false,
+        "data": [
+          {
+            "index": 0,
+            "id": "irons_spellbooks:healing_circle",
+            "locked": true,
+            "level": 1
+          }
+        ],
+        "spellWheel": false
+      }
+    }
+  }
+}

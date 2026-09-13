@@ -1,0 +1,20 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"hazennstuff:raw_zenalite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:starkissed_zenalite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:zenalite_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:alchemist_supreme_chestplate","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":1,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:supreme_witch_leggings","components":{"azurelib:az_id":[-714443930,353454966,-1592330853,-2060134364]}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:alchemist_supreme_helmet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:supreme_witch_boots","components":{"azurelib:az_id":[-705133913,1467304220,-1557473253,735634278]}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:charged_scourge_leggings"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:hazel_chestplate","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":1,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:soul_flame_boots","components":{"azurelib:az_id":[-1763340610,177490981,-1675209758,915786655]}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:soul_flame_leggings","components":{"azurelib:az_id":[-2079933358,107497169,-1887555243,-2117707807]}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:soul_flame_chestplate","components":{"azurelib:az_id":[-546972933,905332759,-1448281457,-2144820266],"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":1,"spellWheel":true},"minecraft:damage":768}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:soul_flame_chestplate","components":{"azurelib:az_id":[-546972933,905332759,-1448281457,-2144820266],"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":1,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:calamitas_chestplate","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":1,"spellWheel":true},"irons_spellbooks:affinity_data":{"bonuses":{"hazennstuff:brimstone_hellblast":1}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stripped_acacia_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:birch_trapdoor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:spruce_stairs"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

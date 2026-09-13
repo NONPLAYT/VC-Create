@@ -1,0 +1,13 @@
+name = "More Overlays Updated"
+filename = "moreoverlays-1.24.2-mc1.21.1-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Thy5Pqut/versions/Kq8xaqKi/moreoverlays-1.24.2-mc1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "6e590a05107b2c49579fa619de93029b3c858079c4baedd52ebbe0f8b18edf82c70c2ea841040610178b764848690e8806d11a532bfa12c28d9a9452b8254cea"
+
+[update]
+[update.modrinth]
+mod-id = "Thy5Pqut"
+version = "Kq8xaqKi"

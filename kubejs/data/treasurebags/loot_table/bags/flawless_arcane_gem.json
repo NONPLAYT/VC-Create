@@ -1,0 +1,182 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": {
+        "min": 5,
+        "max": 10
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/bloody_pearl",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:external/mycotoxin_crystal",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:external/umbral_obsidian",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/celsius_tear",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/charged_lodestone",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/dragonfire_spessartite",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/effervescent_brimstone",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/luminous_opal",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/mossy_agate",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/void_umbalite",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:core/whispering_tentaculite",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "apotheosis:gem",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "apotheosis:gem": "irons_apothic:external/resonant_quartz",
+                "apotheosis:purity": "flawless"
+              }
+            }
+          ],
+          "weight": 5
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:bags/flawless_arcane_gem"
+}

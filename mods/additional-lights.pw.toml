@@ -1,0 +1,13 @@
+name = "Additional Lights"
+filename = "additional_lights-neoforge-1.21-2.1.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8dc485146437e8ac40dd29e10747601fd4e372ca"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6841545
+project-id = 384991

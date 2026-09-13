@@ -1,0 +1,13 @@
+name = "Better Archeology"
+filename = "betterarcheology-neoforge-1.21.1-1.3.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7bc67495d5d5ae9410189d94a5235c0ddc9a12f6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7756575
+project-id = 835687

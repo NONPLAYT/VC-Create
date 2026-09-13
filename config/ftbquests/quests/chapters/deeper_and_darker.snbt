@@ -1,0 +1,277 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_and_darker"
+	group: "61769445B9D5700E"
+	icon: {
+		id: "deeperdarker:heart_of_the_deep"
+	}
+	id: "4B6E4A0215F45FC0"
+	images: [
+		{
+			alpha: 200
+			color: 16672790
+			height: 1.2d
+			image: "chalk:block/mark/arrow"
+			rotation: 0.0d
+			width: 0.0d
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			hide_until_deps_complete: true
+			icon: {
+				id: "plushies:warden_plushie"
+			}
+			id: "731C3214BB61FDAE"
+			rewards: [{
+				id: "2A317D4671EEEB7D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: {
+					id: "plushies:warden_plushie"
+				}
+				id: "37E411F497C9CD71"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["731C3214BB61FDAE"]
+			id: "44937B2D2EB38094"
+			rewards: [
+				{
+					id: "2B6B4A1DB2165CC7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "1C04B20686A09EF1"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "42CA7AAF304767E7"
+				item: { count: 1, id: "deeperdarker:warden_helmet" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["44937B2D2EB38094"]
+			id: "704CCA2CEAB23B4D"
+			rewards: [
+				{
+					id: "336DFFDBA2B4F736"
+					item: {
+						count: 1
+						id: "deeperdarker:ancient_vase"
+					}
+					type: "item"
+				}
+				{
+					id: "3216595DC7232227"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: {
+					id: "minecraft:reinforced_deepslate"
+				}
+				id: "474D2D76F2256297"
+				type: "dimension"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			id: "6E7D3242496F4501"
+			rewards: [
+				{
+					id: "64D2CD3086F0814E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3558083F3DB593F3"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				icon: {
+					id: "deeperdarker:soul_dust"
+				}
+				id: "5B9501581479A2EC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			id: "192EE909C57F390A"
+			rewards: [
+				{
+					id: "32D7431007C483AE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "67628D92168F671B"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: {
+					id: "deeperdarker:soul_crystal"
+				}
+				id: "1D807C8DC05EF208"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			id: "3CBDB45D65737212"
+			rewards: [
+				{
+					id: "65BC1997E31DF6FD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "41EA74A11A0F0C55"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				icon: {
+					id: "deeperdarker:sculk_bone"
+				}
+				id: "3D7BD985875AFF57"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			icon: {
+				id: "minecraft:netherite_chestplate"
+			}
+			id: "0FF69526C1DC1593"
+			rewards: [
+				{
+					id: "67FB94C359F4DC55"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "362EE03F71456A74"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:netherite_chestplate"
+				}
+				id: "1D6626E5E7609F88"
+				observe_type: 5
+				timer: 0L
+				to_observe: "deeperdarker:sculk_snapper"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			id: "2807106C369DF042"
+			rewards: [
+				{
+					id: "442957F1DE63455B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0EC8BEE5438D7CC2"
+					item: {
+						count: 1
+						id: "magic_coins:silver_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "deeperdarker:main/obtain_sculk_transmitter"
+				criterion: ""
+				id: "3CEA97C6362C740A"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "bag_color": "#FF32CD32",
+  "bag_overlay_color": "#FF87CEEB",
+  "bag_string_color": "#FFFFD700",
+  "display_name": "§bFirst Adventurer's Bag",
+  "drops_from_groups": [],
+  "group": "default",
+  "loot_table": "treasurebags:bags/spawn",
+  "rarity": "common",
+  "visible": true
+}

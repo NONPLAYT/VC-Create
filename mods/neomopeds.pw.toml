@@ -1,0 +1,13 @@
+name = "NeoMopeds"
+filename = "moped-1.1.0-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "551525fa7176891d7fc4d5938d2e3de5be7d9fac"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6703326
+project-id = 1291041

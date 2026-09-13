@@ -1,0 +1,11 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"irons_spellbooks:blood_staff"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_mechanical_extruder:mechanical_brass_extruder"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"refinedstorage:fallback_security_card"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cataclysm:belt_of_beginner"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hazennstuff:soulcalling_scepter","components":{"azurelib:az_id":[1314233101,-137477025,-1259517303,1447022417]}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:pyrium_staff"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_mechanical_extruder:mechanical_extruder"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:end_stone"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

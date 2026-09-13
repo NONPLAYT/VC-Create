@@ -1,0 +1,13 @@
+name = "Better Third Person"
+filename = "BetterThirdPerson-neoforge-1.9.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "e91af996b413bb498e276bf410d0deff52a34a74"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5833474
+project-id = 435044

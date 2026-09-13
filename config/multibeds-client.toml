@@ -1,0 +1,10 @@
+#Select A GUI Style
+[gui_style]
+	#Allowed Values: DEFAULT, VANILLA
+	bed_kit = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	blanket_loom = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	embroidery = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	mc_painter = "DEFAULT"

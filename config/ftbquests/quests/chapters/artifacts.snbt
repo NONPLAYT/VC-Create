@@ -1,0 +1,1108 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "artifacts"
+	group: "3808ABBD2D934E7D"
+	icon: {
+		id: "artifacts:mimic_spawn_egg"
+	}
+	id: "464FB437D5DF7824"
+	images: [
+		{
+			alpha: 160
+			color: 2559560
+			height: 1.0d
+			hover: ["Head"]
+			image: "curios:slot/empty_head_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			alpha: 160
+			color: 2559560
+			height: 1.0d
+			hover: ["Necklace"]
+			image: "curios:slot/empty_necklace_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			alpha: 160
+			color: 2559560
+			height: 1.0d
+			hover: ["Belt"]
+			image: "curios:slot/empty_belt_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			alpha: 160
+			color: 2559560
+			height: 1.0d
+			hover: ["Hands"]
+			image: "curios:slot/empty_hands_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			alpha: 160
+			color: 2559560
+			height: 1.0d
+			hover: ["Feet"]
+			image: "minecraft:item/empty_armor_slot_boots"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			alpha: 160
+			color: 2559560
+			height: 1.0d
+			image: "curios:slot/empty_curio_slot"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.0d
+			y: 3.5d
+		}
+	]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "36FB336313E5E377"
+			rewards: [{
+				count: 5
+				id: "0870B73C8347D502"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5AC95B1F43548911"
+				item: { count: 1, id: "artifacts:umbrella" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			id: "78DFD8815E2AE291"
+			rewards: [{
+				count: 5
+				id: "2C5DAE543FD3729C"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3E2B6425881CF371"
+				item: { count: 1, id: "artifacts:everlasting_beef" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			hide_dependency_lines: false
+			hide_until_deps_complete: false
+			id: "1ADACCB1A8BB9E7E"
+			rewards: [{
+				count: 5
+				id: "2A84762657501F77"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1E0F0BDFC63184EA"
+				item: { count: 1, id: "artifacts:eternal_steak" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "14CB47511F2D0E01"
+			rewards: [{
+				count: 5
+				id: "289E533CD47A8CCC"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7EB9142E4FE6ADDA"
+				item: { count: 1, id: "artifacts:plastic_drinking_hat" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			id: "0E0532BA6E3FFEF9"
+			rewards: [{
+				count: 5
+				id: "57FFCD9D3CA7D895"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2317C696DA5FD8A3"
+				item: { count: 1, id: "artifacts:novelty_drinking_hat" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			id: "78E34F3F9A19F275"
+			rewards: [{
+				count: 5
+				id: "15118F300C425E61"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7BE008CE94B2C56D"
+				item: { count: 1, id: "artifacts:snorkel" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "419A16655447AA92"
+			rewards: [{
+				count: 5
+				id: "609DA665BB8F1C37"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1912A0752E6FADBF"
+				item: { count: 1, id: "artifacts:night_vision_goggles" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			id: "016C498DFB704536"
+			rewards: [{
+				count: 5
+				id: "3618A27B9ACE2BB7"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "12F439628FB7CDCB"
+				item: { count: 1, id: "artifacts:villager_hat" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "7F1AB8E8DA7BFD77"
+			rewards: [{
+				count: 5
+				id: "200147AFFCBBE19E"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0C442789304872B6"
+				item: { count: 1, id: "artifacts:superstitious_hat" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "5A2F0B2712D9C667"
+			rewards: [{
+				count: 5
+				id: "581E490BA739B714"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "782DD0DFCE4325EB"
+				item: { count: 1, id: "artifacts:lucky_scarf" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "3F0D2D8C1CFD1F2A"
+			rewards: [{
+				count: 5
+				id: "134D3474F91FF63D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5DE8E457A9DCEF7C"
+				item: { count: 1, id: "artifacts:scarf_of_invisibility" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "39AD4C222874D63F"
+			rewards: [{
+				count: 5
+				id: "5AD9FF956DEE084B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "502B6242B9078D87"
+				item: { count: 1, id: "artifacts:cross_necklace" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "2B619746DAF80A5E"
+			rewards: [{
+				count: 5
+				id: "2427B4F90A0C5BE7"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "11116ADB3F4FC685"
+				item: { count: 1, id: "artifacts:panic_necklace" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "66A8B9C4C4AC291A"
+			rewards: [{
+				count: 5
+				id: "21127988EBDB78D6"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "70A77066CB447D08"
+				item: { count: 1, id: "artifacts:shock_pendant" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "042259C7B1BF773A"
+			rewards: [{
+				count: 5
+				id: "22518C53C6F3AF63"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5BCCB7CCA6B46C3B"
+				item: { count: 1, id: "artifacts:flame_pendant" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "4D38017F83D30E13"
+			rewards: [{
+				count: 5
+				id: "4A55AE2E04403DD0"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "74EEC207D510DBA4"
+				item: { count: 1, id: "artifacts:thorn_pendant" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "6E98473128936047"
+			rewards: [{
+				count: 5
+				id: "7301FDA2C416C821"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7DA4EB63F0107E6C"
+				item: { count: 1, id: "artifacts:charm_of_sinking" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			id: "3121D591D3807584"
+			rewards: [{
+				count: 5
+				id: "3E46BFA43FADC23D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7E7E73C398B3F243"
+				item: { count: 1, id: "artifacts:cloud_in_a_bottle" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "60B9F9AD8F49371D"
+			rewards: [{
+				count: 5
+				id: "7C5D6937A71CAA7F"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3D559D5149F4FDA0"
+				item: { count: 1, id: "artifacts:obsidian_skull" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "05A39ED901BC6569"
+			rewards: [{
+				count: 5
+				id: "143EF5C0D2FC744D"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "29DE9C6CED103B59"
+				item: { count: 1, id: "artifacts:antidote_vessel" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "10CDACBCA03AEDF7"
+			rewards: [{
+				count: 5
+				id: "0F412D69EED22EED"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1FEAD956C8A38974"
+				item: { count: 1, id: "artifacts:universal_attractor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "29491A4A65DEDCDC"
+			rewards: [{
+				count: 5
+				id: "60C8088BDFA286D9"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "324F62127E57BC1A"
+				item: { count: 1, id: "artifacts:crystal_heart" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "4CCAD1EBB977DF2E"
+			rewards: [{
+				count: 5
+				id: "64A56347BC790F5B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0AB4D6FE3AB4D9F5"
+				item: { count: 1, id: "artifacts:helium_flamingo" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "0424F3DCA7620F49"
+			rewards: [{
+				count: 5
+				id: "0482D6B854407734"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "16E3E1B1926B22B2"
+				item: { count: 1, id: "artifacts:digging_claws" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			id: "7940D8A4ECBD6541"
+			rewards: [{
+				count: 5
+				id: "3625ECE7503FA2F4"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3CD6D96568CD66E5"
+				item: { count: 1, id: "artifacts:feral_claws" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			id: "72564111D0768098"
+			rewards: [{
+				count: 5
+				id: "5945E4DA46C95267"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "140CF92060A56D91"
+				item: { count: 1, id: "artifacts:power_glove" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			id: "13449219998C54E1"
+			rewards: [{
+				count: 5
+				id: "1487E11DA7B3BCF5"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4D955A0AF058959D"
+				item: { count: 1, id: "artifacts:fire_gauntlet" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "136F140D9A3ED036"
+			rewards: [{
+				count: 5
+				id: "5C846C3B04E2455A"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "59C81AFB80F49937"
+				item: { count: 1, id: "artifacts:pocket_piston" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "51A4E097156A6DC1"
+			rewards: [{
+				count: 5
+				id: "1B815652C1524A20"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "18C5FE1CDE31AF99"
+				item: { count: 1, id: "artifacts:vampiric_glove" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "4FDAFBD64AA710A1"
+			rewards: [{
+				count: 5
+				id: "2090DD610CD70670"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7301B6DA08D2D14F"
+				item: { count: 1, id: "artifacts:golden_hook" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "5ABC7CE1A9B9FB7C"
+			rewards: [{
+				count: 5
+				id: "641FF2FE452E6DB4"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "36E5A04FB77769B8"
+				item: { count: 1, id: "artifacts:aqua_dashers" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			id: "2ED49410115A9FDC"
+			rewards: [{
+				count: 5
+				id: "6CEC41D7A47C9949"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4518BD43BAE189E6"
+				item: { count: 1, id: "artifacts:bunny_hoppers" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "632F1D52317286A8"
+			rewards: [{
+				count: 5
+				id: "465ECFEE19B1B041"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7A00BCA9914E1A38"
+				item: { count: 1, id: "artifacts:kitty_slippers" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "7362AE3D474FF6E1"
+			rewards: [{
+				count: 5
+				id: "4B32D6D816070466"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "03DC25753703FF8B"
+				item: { count: 1, id: "artifacts:running_shoes" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "17C488042DB187A3"
+			rewards: [{
+				count: 5
+				id: "17B409BDCD00C180"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2EA3AE6B42E8DAC4"
+				item: { count: 1, id: "artifacts:steadfast_spikes" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "2F8EAC597AB7E760"
+			rewards: [{
+				count: 5
+				id: "6FF2F308AE3F0822"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4BAB959E80D724B1"
+				item: { count: 1, id: "artifacts:flippers" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "250E32D632A506B2"
+			rewards: [{
+				count: 5
+				id: "37FC153162E213A2"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "04BE5FA924E1D9A9"
+				item: { count: 1, id: "artifacts:whoopee_cushion" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"60B9F9AD8F49371D"
+				"2F8EAC597AB7E760"
+				"2B619746DAF80A5E"
+				"29491A4A65DEDCDC"
+				"2ED49410115A9FDC"
+				"39AD4C222874D63F"
+				"4D38017F83D30E13"
+				"4FDAFBD64AA710A1"
+				"36FB336313E5E377"
+				"250E32D632A506B2"
+				"17C488042DB187A3"
+				"0424F3DCA7620F49"
+				"3F0D2D8C1CFD1F2A"
+				"51A4E097156A6DC1"
+				"7940D8A4ECBD6541"
+				"5ABC7CE1A9B9FB7C"
+				"66A8B9C4C4AC291A"
+				"042259C7B1BF773A"
+				"78DFD8815E2AE291"
+				"016C498DFB704536"
+				"632F1D52317286A8"
+				"72564111D0768098"
+				"419A16655447AA92"
+				"136F140D9A3ED036"
+				"1ADACCB1A8BB9E7E"
+				"05A39ED901BC6569"
+				"78E34F3F9A19F275"
+				"13449219998C54E1"
+				"7362AE3D474FF6E1"
+				"3121D591D3807584"
+				"14CB47511F2D0E01"
+				"5A2F0B2712D9C667"
+				"4CCAD1EBB977DF2E"
+				"0E0532BA6E3FFEF9"
+				"10CDACBCA03AEDF7"
+				"6E98473128936047"
+				"7F1AB8E8DA7BFD77"
+				"37D3986933A263DB"
+				"681E258AB577FF73"
+				"4F734FC470276106"
+				"65663D9E051280F2"
+				"409E9857A7494319"
+				"37D5E493E9DB64D4"
+				"5590204A473913AC"
+				"5E0BD4E4E6C9E146"
+				"607047A3D380D423"
+				"629831A093BC1F03"
+			]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			icon: {
+				id: "eternal_starlight:loot_bag"
+			}
+			id: "703CC46FAC00A5D9"
+			rewards: [
+				{
+					id: "7F32D3E50A6E4C37"
+					item: {
+						count: 1
+						id: "kubejs:heart_container"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "34BB3953AD5FB159"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				id: "0F4E9AFE4EE5333A"
+				type: "checkmark"
+			}]
+			x: 1.25d
+			y: -6.25d
+		}
+		{
+			id: "409E9857A7494319"
+			rewards: [{
+				count: 5
+				id: "668F075EBEFC4BA9"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4D62BAD6B4C83E2F"
+				item: { count: 1, id: "artifacts:snowshoes" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "37D5E493E9DB64D4"
+			rewards: [{
+				count: 5
+				id: "03170F4410C3B75B"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "21D7D7A5EA397DA5"
+				item: { count: 1, id: "artifacts:rooted_boots" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "5590204A473913AC"
+			rewards: [{
+				count: 5
+				id: "41C2FC2B4ACDAB9A"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "509B0BEC6B28E229"
+				item: { count: 1, id: "artifacts:pickaxe_heater" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			id: "4F734FC470276106"
+			rewards: [{
+				count: 5
+				id: "20C5EE5CF24E3EB3"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "503ED9E5B1EC5719"
+				item: { count: 1, id: "artifacts:onion_ring" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			id: "37D3986933A263DB"
+			rewards: [{
+				count: 5
+				id: "6029E1A6E293781C"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "491B091BBB272AF5"
+				item: { count: 1, id: "artifacts:chorus_totem" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "681E258AB577FF73"
+			rewards: [{
+				count: 5
+				id: "4A2D2E4F48079924"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "10D69FEA1C976555"
+				item: { count: 1, id: "artifacts:anglers_hat" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "65663D9E051280F2"
+			rewards: [{
+				count: 5
+				id: "6E27C5466039A991"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4B8834EE76FD1549"
+				item: { count: 1, id: "artifacts:cowboy_hat" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			id: "629831A093BC1F03"
+			rewards: [{
+				count: 5
+				id: "2199F830B884D2DD"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "412E152EAEE7D0BB"
+				item: { count: 1, id: "artifacts:withered_bracelet" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			id: "607047A3D380D423"
+			rewards: [{
+				count: 5
+				id: "5E11A39C4AF16A46"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "085C8B384657B953"
+				item: { count: 1, id: "artifacts:charm_of_shrinking" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			id: "5E0BD4E4E6C9E146"
+			rewards: [{
+				count: 5
+				id: "0A76A2CCC45F9BEB"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0EE241245E04B38D"
+				item: { count: 1, id: "artifacts:strider_shoes" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+	]
+}

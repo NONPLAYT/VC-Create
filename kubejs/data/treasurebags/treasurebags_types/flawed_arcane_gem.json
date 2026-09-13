@@ -1,0 +1,11 @@
+{
+  "bag_color": "#5560ff",
+  "bag_overlay_color": "#95e2da",
+  "bag_string_color": "#5560ff",
+  "display_name": "§9Flawed Arcane Gem Pouch",
+  "drops_from_groups": [],
+  "group": "default",
+  "loot_table": "treasurebags:bags/flawed_arcane_gem",
+  "rarity": "common",
+  "visible": true
+}

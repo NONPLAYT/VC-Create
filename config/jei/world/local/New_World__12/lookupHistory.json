@@ -1,0 +1,14 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"galosphere:weapon_rack"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"galosphere:palladium_lattice"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:enchanted_book","components":{"minecraft:stored_enchantments":{"levels":{"galosphere:sifting":5}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:enchanted_book","components":{"minecraft:stored_enchantments":{"levels":{"galosphere:sifting":1}}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"galosphere:allurite_lamp"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"galosphere:mining_pouch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"galosphere:broken_echo_bell"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"galosphere:palladium_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"galosphere:lichen_shelf"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"galosphere:golden_lichen_cordyceps"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"galosphere:soul_chandelier"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

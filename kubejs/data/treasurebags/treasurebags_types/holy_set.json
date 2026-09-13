@@ -1,0 +1,11 @@
+{
+  "bag_color": "#ddd21c",
+  "bag_overlay_color": "#654611",
+  "bag_string_color": "#ddd21c",
+  "display_name": "§6Full Unbreakable Holy Set",
+  "drops_from_groups": [],
+  "group": "default",
+  "loot_table": "treasurebags:bags/holy_set",
+  "rarity": "common",
+  "visible": true
+}

@@ -1,0 +1,20 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "blockIngredients": {
+    "first": {
+      "blocks": "minecraft:water"
+    },
+    "second": {
+      "blocks": "minecraft:water"
+    }
+  },
+  "requirements": [
+    {
+      "type": "mechanicals:min_y",
+      "value": 150
+    }
+  ],
+  "result": {
+    "id": "minecraft:snow_block"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:advanced",
+  "category": "videcraft:contract_advanced",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:token_advanced"
+    },
+    "count": 1
+  },
+  "result": {
+    "count": 1,
+    "item": "hazennstuff:galvanized_sheath"
+  }
+} 

@@ -1,0 +1,204 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "game_discs"
+	group: "3808ABBD2D934E7D"
+	icon: {
+		id: "gamediscs:gaming_console"
+	}
+	id: "66515D165B519FE2"
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1E3C1257A1048B85"
+			rewards: [{
+				count: 60
+				id: "2FE7AFDBEA086F92"
+				item: {
+					count: 1
+					id: "create:experience_nugget"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "21DEBB43B6B43459"
+				item: { count: 1, id: "gamediscs:game_disc_rabbit" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "1456C26C92A56C10"
+			rewards: [{
+				count: 60
+				id: "3DD1AD7C7283BC8A"
+				item: {
+					count: 1
+					id: "create:experience_nugget"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "73D063ACB9016F8D"
+				item: { count: 1, id: "gamediscs:game_disc_slime" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "23D7FCA6FD1D3EA5"
+			rewards: [{
+				count: 60
+				id: "122E7DCAEC39C79B"
+				item: {
+					count: 1
+					id: "create:experience_nugget"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "363B4C64653153EE"
+				item: { count: 1, id: "gamediscs:game_disc_blocktris" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "gamediscs:game_disc_tnt_sweeper"
+			}
+			id: "1E6F5EB0D07001C1"
+			rewards: [{
+				count: 60
+				id: "62EEC48C7657EB32"
+				item: {
+					count: 1
+					id: "create:experience_nugget"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "603D62232F4D0CC8"
+				item: { count: 1, id: "gamediscs:game_disc_tnt_sweeper" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "4E8C513048CB4D01"
+			rewards: [{
+				count: 60
+				id: "6D4006240CC938FA"
+				item: {
+					count: 1
+					id: "create:experience_nugget"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "43E8A9B972126C1F"
+				item: { count: 1, id: "gamediscs:game_disc_froggie" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "gamediscs:game_disc_flappy_bird"
+			}
+			id: "144A3346C18A992F"
+			rewards: [{
+				count: 60
+				id: "458BE7FB7C5C34C7"
+				item: {
+					count: 1
+					id: "create:experience_nugget"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7DE41AFF4DC00BBF"
+				item: { count: 1, id: "gamediscs:game_disc_flappy_bird" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4E8C513048CB4D01"
+				"23D7FCA6FD1D3EA5"
+				"144A3346C18A992F"
+				"1E3C1257A1048B85"
+				"1E6F5EB0D07001C1"
+				"1456C26C92A56C10"
+				"34AB7EB1F6BF5457"
+			]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			icon: {
+				id: "eternal_starlight:loot_bag"
+			}
+			id: "490B9CE61B5F7D4A"
+			rewards: [
+				{
+					id: "1469AE97868CFAAF"
+					item: {
+						count: 1
+						id: "kubejs:heart_container"
+					}
+					type: "item"
+				}
+				{
+					id: "3A9D321AF57FAFE3"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			tasks: [{
+				id: "6D0A8F05CE6EBEB2"
+				type: "checkmark"
+			}]
+			x: 2.7d
+			y: -2.5d
+		}
+		{
+			id: "34AB7EB1F6BF5457"
+			rewards: [{
+				count: 60
+				id: "2C47DCB7FD9D7A9C"
+				item: {
+					count: 1
+					id: "create:experience_nugget"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "1C3FE3968F6712AE"
+				item: { count: 1, id: "gamediscs:game_disc_pong" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+	]
+}

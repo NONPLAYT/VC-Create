@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:quetzalcoatl_armor_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:lore": [
+                  "{\"text\":\"Crowned by feathers of wind and wisdom.\",\"color\":\"green\",\"italic\":true}"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "armoroftheages:quetzalcoatl_armor_chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "{\"text\":\"Crowned by feathers of wind and wisdom.\",\"color\":\"green\",\"italic\":true}"
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "armoroftheages:quetzalcoatl_armor_legs",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "{\"text\":\"Crowned by feathers of wind and wisdom.\",\"color\":\"green\",\"italic\":true}"
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "armoroftheages:quetzalcoatl_armor_feet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:lore": [
+                  "{\"text\":\"Crowned by feathers of wind and wisdom.\",\"color\":\"green\",\"italic\":true}"
+                ],
+                "minecraft:unbreakable": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:bags/quetzalcoatl_set"
+}

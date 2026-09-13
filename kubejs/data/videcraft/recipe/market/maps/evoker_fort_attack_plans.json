@@ -1,0 +1,26 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:maps",
+  "category": "videcraft:maps",
+  "payment": {
+    "ingredient": {
+      "item": "magic_coins:silver_coin"
+    },
+    "count": 25
+  },
+  "result": {
+    "count": 1,
+    "item": "irons_spellbooks:furled_map",
+    "components": {
+      "irons_spellbooks:furled_map_data": {
+        "destination": "irons_spellbooks:evoker_fort",
+        "descriptionOverride": {
+          "translate": "Планы штурма форта заклинателей"
+        },
+        "dimension": "minecraft:overworld"
+      },
+      "minecraft:lore":["{\"text\":\"[Iron's Spellbooks — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"],
+      "minecraft:custom_name": "[{\"text\": \"Карта: Планы штурма форта заклинателей\"}]"
+    }
+  }
+}

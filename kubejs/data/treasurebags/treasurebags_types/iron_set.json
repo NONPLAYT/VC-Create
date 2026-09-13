@@ -1,0 +1,11 @@
+{
+  "bag_color": "#b73b3b",
+  "bag_overlay_color": "#2c2c2c",
+  "bag_string_color": "#74737b",
+  "display_name": "§8Full Iron Plate Set",
+  "drops_from_groups": [],
+  "group": "default",
+  "loot_table": "treasurebags:bags/iron_set",
+  "rarity": "common",
+  "visible": true
+}

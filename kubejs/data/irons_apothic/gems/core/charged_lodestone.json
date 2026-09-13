@@ -1,0 +1,93 @@
+{
+  "type": "apotheosis:gem",
+  "min_purity": "cracked",
+  "unique": false,
+  "weights": {
+    "weight": 5,
+    "quality": 2
+  },
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "magic_weapons",
+        "types": [
+          "irons_apothic:staff"
+        ]
+      },
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "operation": "ADD_MULTIPLIED_BASE",
+      "values": {
+        "cracked": 0.005,
+        "chipped": 0.01,
+        "flawed": 0.02,
+        "normal": 0.03,
+        "flawless": 0.04,
+        "perfect": 0.05
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "melee_weapon",
+        "types": [
+          "apotheosis:melee_weapon"
+        ]
+      },
+      "attribute": "irons_spellbooks:evocation_magic_resist",
+      "operation": "ADD_MULTIPLIED_BASE",
+      "values": {
+        "cracked": 0.01,
+        "chipped": 0.02,
+        "flawed": 0.03,
+        "normal": 0.05,
+        "flawless": 0.07,
+        "perfect": 0.1
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "boots",
+        "types": [
+          "apotheosis:boots"
+        ]
+      },
+      "mob_effect": "irons_spellbooks:charged",
+      "target": "hurt_self",
+      "operation": "ADD_VALUE",
+      "values": {
+        "cracked": {
+          "duration": 20,
+          "amplifier": 0,
+          "cooldown": 420
+        },
+        "chipped": {
+          "duration": 40,
+          "amplifier": 0,
+          "cooldown": 420
+        },
+        "flawed": {
+          "duration": 60,
+          "amplifier": 0,
+          "cooldown": 420
+        },
+        "normal": {
+          "duration": 80,
+          "amplifier": 1,
+          "cooldown": 420
+        },
+        "flawless": {
+          "duration": 100,
+          "amplifier": 1,
+          "cooldown": 420
+        },
+        "perfect": {
+          "duration": 120,
+          "amplifier": 1,
+          "cooldown": 420
+        }
+      }
+    }
+  ]
+} 

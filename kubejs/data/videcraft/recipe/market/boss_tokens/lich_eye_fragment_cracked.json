@@ -1,0 +1,15 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:boss_tokens",
+  "category": "videcraft:boss_tokens",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:boss_token"
+    },
+    "count": 1
+  },
+  "result": {
+    "count": 1,
+    "item": "kubejs:lich_eye_fragment_cracked"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "apotheosis:progression/haven",
+  "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "background": "apotheosis:textures/advancements/bg/apoth.png",
+    "title": { "text": "Beyond the End" },
+    "description": { "text": "You’ve freed the End... but there’s more to do." },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:end_crystal"
+    }
+  }
+}

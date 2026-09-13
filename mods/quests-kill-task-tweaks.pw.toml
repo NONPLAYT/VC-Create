@@ -1,0 +1,13 @@
+name = "Quests Kill Task Tweaks"
+filename = "Quest-Kill-Task-neoforge-0.3.1+1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a8d9ccce4f1c893fa61d4984ccf09620924d074e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6692790
+project-id = 1161828

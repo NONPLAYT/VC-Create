@@ -1,0 +1,18 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:boss_tokens",
+  "category": "videcraft:boss_tokens",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:boss_token"
+    },
+    "count": 10
+  },
+  "result": {
+    "count": 1,
+    "item": "treasurebags:treasure_bag",
+    "components": {
+      "treasurebags:bag_type": "treasurebags:holy_set"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"irons_spellbooks:chronicle"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:large_water_wheel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:twilight_gale","components":{"irons_spellbooks:spell_container":{"mustEquip":false,"data":[{"id":"irons_spellbooks:volt_strike","index":0,"level":5,"locked":true}],"maxSpells":1,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"irons_spellbooks:infernal_sorcerer_chestplate","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":1,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"crystal_chronicles:pyromancer_chestplate","components":{"irons_spellbooks:spell_container":{"mustEquip":true,"data":[],"maxSpells":1,"spellWheel":true}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:jungle_door"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

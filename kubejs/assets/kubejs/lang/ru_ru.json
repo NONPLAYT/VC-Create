@@ -1,0 +1,18 @@
+{
+    "item.kubejs.chromatic_compound": "Хроматический компаунд",
+    "item.kubejs.incomplete_barbecue_stick": "Незавершённое блюдо: Барбекю на палочке",
+    "item.kubejs.incomplete_cod_roll": "Незавершённое блюдо: Ролл с треской",
+    "item.kubejs.incomplete_kelp_roll": "Незавершённое блюдо: Ролл с ламинарией",
+    "item.kubejs.incomplete_melon_popsicle": "Незавершённое блюдо: Арбузное эскимо",
+    "item.kubejs.incomplete_mutton_wrap": "Незавершённое блюдо: Рулет с бараниной",
+    "item.kubejs.incomplete_salmon_roll": "Незавершённое блюдо: Ролл с лососем",
+    "item.kubejs.incomplete_stuffed_potato": "Незавершённое блюдо: Фаршированный картофель",
+    "item.kubejs.incomplete_bacon_and_eggs": "Незавершённое блюдо: Яичница с беконом",
+    "item.kubejs.incomplete_grilled_salmon": "Незавершённое блюдо: Лосось на гриле",
+    "item.kubejs.incomplete_rice_roll_medley_block": "Незавершённое блюдо: Ассорти из роллов",
+    "item.kubejs.incomplete_roast_chicken_block": "Незавершённое блюдо: Обжаренная курица",
+    "item.kubejs.incomplete_roasted_mutton_chops": "Незавершённое блюдо: Обжаренная рубленая баранина",
+    "item.kubejs.incomplete_shepherds_pie_block": "Незавершённое блюдо: Пастуший пирог",
+    "item.kubejs.incomplete_steak_and_potatoes": "Незавершённое блюдо: Стейк с картофелем",
+    "block.kubejs.incomplete_blackstone": "Незавершённый чернит"
+}

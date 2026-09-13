@@ -1,0 +1,9 @@
+{
+    "enabled": true,
+    "payment": {
+        "ingredient": {
+            "item": "kubejs:boss_token"
+        },
+        "count": 4
+    }
+}

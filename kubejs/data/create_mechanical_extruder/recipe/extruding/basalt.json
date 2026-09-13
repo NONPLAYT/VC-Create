@@ -1,0 +1,23 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "blockIngredients": {
+    "first": {
+      "blocks": "minecraft:blue_ice"
+    },
+    "second": {
+      "blocks": "minecraft:lava"
+    }
+  },
+  "catalyst": {
+    "blocks": "minecraft:soul_soil"
+  },
+  "requirements": [
+    {
+      "type": "mechanicals:biome_tag",
+      "value": "minecraft:is_nether"
+    }
+  ],
+  "result": {
+    "id": "minecraft:basalt"
+  }
+}

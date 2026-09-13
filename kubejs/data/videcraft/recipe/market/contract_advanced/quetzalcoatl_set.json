@@ -1,0 +1,18 @@
+{
+  "type": "farmingforblockheads:market",
+  "preset": "videcraft:advanced",
+  "category": "videcraft:contract_advanced",
+  "payment": {
+    "ingredient": {
+      "item": "kubejs:token_advanced"
+    },
+    "count": 6
+  },
+  "result": {
+    "count": 1,
+    "item": "treasurebags:treasure_bag",
+    "components": {
+      "treasurebags:bag_type": "treasurebags:quetzalcoatl_set"
+    }
+  }
+}

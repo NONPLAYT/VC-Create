@@ -1,0 +1,40 @@
+{
+  "type": "alshanex_familiars:ritual_recipe",
+  "central_item": {
+    "item": "hazennstuff:shattered"
+  },
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "hazennstuff:health_upgrade_orb"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "hazennstuff:rose_gold_ingot"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "irons_spellbooks:divine_pearl"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "hazennstuff:health_upgrade_orb"
+      },
+      "count": 1,
+      "consume": true
+    }
+  ],
+  "result": {
+    "id": "hazennstuff:sacred"
+  },
+  "particle_type": "minecraft:crit"
+}

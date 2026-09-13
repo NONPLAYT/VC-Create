@@ -1,0 +1,13 @@
+name = "Cat Burger"
+filename = "catburger_neoforge1.21.1-1.0.6_fix.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e3be7f7585d5c7b59139b60d578295b17dac128e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7724549
+project-id = 1235575

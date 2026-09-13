@@ -1,0 +1,38 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "minecraft:generic.armor",
+    "categories": [
+        "apotheosis:shield"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_multiplied_base",
+    "values": {
+        "apotheosis:common": {
+            "min": 0.01,
+            "max": 0.015
+        },
+        "apotheosis:uncommon": {
+            "min": 0.01,
+            "max": 0.015
+        },
+        "apotheosis:rare": {
+            "min": 0.015,
+            "max": 0.02
+        },
+        "apotheosis:epic": {
+            "min": 0.015,
+            "max": 0.025
+        },
+        "apotheosis:mythic": {
+            "min": 0.02,
+            "max": 0.03
+        }
+    }
+}

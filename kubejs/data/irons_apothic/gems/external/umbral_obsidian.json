@@ -1,0 +1,96 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "hazennstuff"
+    }
+  ],
+  "type": "apotheosis:gem",
+  "min_purity": "cracked",
+  "unique": false,
+  "weights": {
+    "weight": 100,
+    "quality": 0.1
+  },
+  "bonuses": [
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "magic_gear",
+        "types": [
+          "irons_apothic:staff",
+          "irons_apothic:spellbook"
+        ]
+      },
+      "attribute": "hazennstuff:shadow_spell_power",
+      "operation": "ADD_MULTIPLIED_BASE",
+      "values": {
+        "cracked": 0.005,
+        "chipped": 0.01,
+        "flawed": 0.02,
+        "normal": 0.03,
+        "flawless": 0.04,
+        "perfect": 0.05
+      }
+    },
+    {
+      "type": "apotheosis:attribute",
+      "gem_class": {
+        "key": "melee_weapon",
+        "types": [
+          "apotheosis:melee_weapon"
+        ]
+      },
+      "attribute": "hazennstuff:shadow_magic_resist",
+      "operation": "ADD_MULTIPLIED_BASE",
+      "values": {
+        "cracked": 0.01,
+        "chipped": 0.02,
+        "flawed": 0.03,
+        "normal": 0.05,
+        "flawless": 0.07,
+        "perfect": 0.1
+      }
+    },
+    {
+      "type": "apotheosis:mob_effect",
+      "gem_class": {
+        "key": "leggings",
+        "types": [
+          "apotheosis:leggings"
+        ]
+      },
+      "mob_effect": "minecraft:darkness",
+      "target": "hurt_attacker",
+      "operation": "ADD_VALUE",
+      "values": {
+        "chipped": {
+          "duration": 40,
+          "amplifier": 0,
+          "cooldown": 1200
+        },
+        "flawed": {
+          "duration": 60,
+          "amplifier": 0,
+          "cooldown": 1100
+        },
+        "normal": {
+          "duration": 80,
+          "amplifier": 0,
+          "cooldown": 900
+        },
+        "flawless": {
+          "duration": 100,
+          "amplifier": 0,
+          "cooldown": 750
+        },
+        "perfect": {
+          "duration": 120,
+          "amplifier": 0,
+          "cooldown": 500
+        }
+      }
+    }
+  ]
+}
+

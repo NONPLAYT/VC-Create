@@ -1,0 +1,13 @@
+name = "DnT Ancient City Overhaul"
+filename = "DnT-ancient-city-overhaul-v2 [NeoForge].jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "85142817ffd180c2867db39d313b2d1f80635bc9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5619465
+project-id = 920418

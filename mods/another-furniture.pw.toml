@@ -1,0 +1,13 @@
+name = "Another Furniture"
+filename = "another_furniture-neoforge-4.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9036bc4754f74287f94fbf0102ea0d47d394877d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7355747
+project-id = 610492

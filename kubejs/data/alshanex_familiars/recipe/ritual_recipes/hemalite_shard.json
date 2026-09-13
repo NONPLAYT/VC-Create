@@ -1,0 +1,40 @@
+{
+  "type": "alshanex_familiars:ritual_recipe",
+  "central_item": {
+    "item": "irons_spellbooks:divine_soulshard"
+  },
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "irons_spellbooks:blood_vial"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "irons_spellbooks:mithril_ingot"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "irons_spellbooks:legendary_ink"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "irons_spellbooks:shriving_stone"
+      },
+      "count": 1,
+      "consume": true
+    }
+  ],
+  "result": {
+    "id": "crystal_chronicles:hemalite_shard"
+  },
+  "particle_type": "minecraft:crit"
+}
