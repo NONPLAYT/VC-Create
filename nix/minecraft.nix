@@ -5,6 +5,7 @@ let
   name = "videcraft-create";
   dataDir = "/srv/minecraft";
   port = 25565;
+  voicePort = 24454;
 
   heap = "8G";
   memoryMax = "12G";
@@ -107,6 +108,8 @@ in
       };
     };
   };
+
+  networking.firewall.allowedUDPPorts = [ voicePort ];
 
   systemd.services."minecraft-server-${name}" = {
     serviceConfig = {

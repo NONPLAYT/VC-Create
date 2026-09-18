@@ -1398,7 +1398,7 @@ hash = "7f84b4d37e39956dd57ed232b08453ea3c2c4578bdf1430d42b4e77a15024b75"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "ba2aeeb276374c1257fb0945c5d29a24fe91fe4728eb3bdd807a501e324c6025"
+hash = "76f4e9396656ccecccec9a17d6193a2ac0f7c9bc6deff6e00419533d88c62413"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -10534,6 +10534,11 @@ metafile = true
 [[files]]
 file = "mods/simple-loot-viewer.pw.toml"
 hash = "e4a449b185ab3847583c5c5ab6cbb0a45b1d8c5e8f0a1239a4e1000c2de2a2b1"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "4bbb4ff006bf5f27179a47683b2710c92cb3314a1520e95bcd1808a6ea94ec4a"
 metafile = true
 
 [[files]]
