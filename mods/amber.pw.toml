@@ -1,0 +1,13 @@
+name = "Amber"
+filename = "amber-neoforge-1.21.1-3.0.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vjGZJDu5/versions/r2iUUln6/amber-neoforge-1.21.1-3.0.0%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "82bc71206918a503d4212d1ce00dd606f6a2802969d2f9bb707814953f15ff8274064b97325b6857cd5e7ff53c7c071c42c5688891b50f1b3e2271c7dc074db3"
+
+[update]
+[update.modrinth]
+mod-id = "vjGZJDu5"
+version = "r2iUUln6"

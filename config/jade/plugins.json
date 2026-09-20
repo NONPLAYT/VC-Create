@@ -89,6 +89,9 @@
   "apotheosis": {
     "adventure": true
   },
+  "chesttracker": {
+    "memory_preview": true
+  },
   "balm": {
     "jade": true
   },

@@ -1,0 +1,29 @@
+{
+  "elements": [
+    {
+      "image": "bg.png",
+      "position": {
+        "position_anchor": "TOP_LEFT",
+        "position_unit": "PIXELS",
+        "x": 0,
+        "y": 0,
+        "size_unit": "PERCENTAGE",
+        "keep_aspect_ratio": false,
+        "width": 100,
+        "height": 100
+      }
+    }
+  ],
+  "progress_bar": {
+    "position": {
+      "position_anchor": "TOP_CENTER",
+      "position_unit": "PERCENTAGE",
+      "x": 50,
+      "y": 65
+    }
+  },
+  "performance_bar": false,
+  "fox": true,
+  "log_messages": false,
+  "forge_version": false
+}

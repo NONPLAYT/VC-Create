@@ -1,0 +1,13 @@
+name = "GroovyModLoader (GML)"
+filename = "gml-6.0.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/zg2tT2Vu/versions/IDRMIIb4/gml-6.0.2.jar"
+hash-format = "sha512"
+hash = "dba6da1b6b7248ca14be3bd40d886f6a92623aadda11eac43a1b7d4248beb5343da108e851c141eefa175c1705e5d83f2ced5067512f9e8c8ba2f00b9b966332"
+
+[update]
+[update.modrinth]
+mod-id = "zg2tT2Vu"
+version = "IDRMIIb4"

@@ -1,0 +1,13 @@
+name = "Smooth Scrolling Reforged"
+filename = "smoothscrolling-1.21.1-NeoForge-1.0.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "c57b50860de3cc5fbf7aa835dc8fe44bfef7b030"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7106845
+project-id = 1364975

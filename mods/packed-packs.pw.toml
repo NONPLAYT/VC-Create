@@ -1,0 +1,13 @@
+name = "Packed Packs"
+filename = "packed_packs-neoforge-2.2.4+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/8Pq6Exn2/versions/A8EXUM9I/packed_packs-neoforge-2.2.4%2B1.21.1.jar"
+hash-format = "sha512"
+hash = "58c44777d746bd5d29e02771c2da0ea18931461a97bb6105f6cc0f28947f5e122227893fb63a72eb4bacba770f9e424cf094662dbd785dfd83a917bf62984452"
+
+[update]
+[update.modrinth]
+mod-id = "8Pq6Exn2"
+version = "A8EXUM9I"

@@ -1,0 +1,13 @@
+name = "Chest Tracker (NeoForge port)"
+filename = "chesttracker-2.6.8+1.21.1-neoforge.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/tKgBLOU4/versions/CGOVSYGP/chesttracker-2.6.8%2B1.21.1-neoforge.jar"
+hash-format = "sha512"
+hash = "ba8cfc642d53de063725cbd84d2dd27804772b7467dbef982c1a859ee76dca6f2000915abb4f5bf061342d45ce34d41142258e3d8c1552c0a242adbcbdbbddf7"
+
+[update]
+[update.modrinth]
+mod-id = "tKgBLOU4"
+version = "CGOVSYGP"
