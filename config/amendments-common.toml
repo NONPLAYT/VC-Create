@@ -1,6 +1,6 @@
 [lectern]
 	#Improved lectern screen allowing to edit font of a book while on it
-	improved_screen = true
+	improved_screen = false
 
 [hanging_signs]
 	#Allows placing items on hanging signs

@@ -11,7 +11,7 @@
 	colorize_first_row = false
 	#Render the toughness bar on the left side above the hotbar (where health and armor is rendered).
 	#Default Value: false
-	left_side = false
+	left_side = true
 	#Add layers to this bar. When disabled any modifications to the bar from this mod will be turned off.
 	#Default Value: true
 	allow_layers = true
@@ -58,7 +58,7 @@
 	colorize_first_row = false
 	#Add layers to this bar. When disabled any modifications to the bar from this mod will be turned off.
 	#Default Value: true
-	allow_layers = true
+	allow_layers = false
 	#Shift the bar up or down by specified number of icon rows. Allows for better mod compatibility.
 	#Default Value: 0
 	# Default: 0

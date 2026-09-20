@@ -5,7 +5,7 @@
 	#Can be disabled if you want to use different screen for lectern (such as from Amendments (but Scholar now has lectern editing, so...)). Default: true
 	lectern_two_page_book_screens = true
 	#Holding sneak while opening a book screen will show vanilla screen. Default: false
-	sneaking_opens_vanilla_book_screen = false
+	sneaking_opens_vanilla_book_screen = true
 
 [misc]
 	#Hovering over a slot in a Chiseled Bookshelf will show tooltip of a book that's stored in that slot. Default: true

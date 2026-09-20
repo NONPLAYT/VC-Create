@@ -43,8 +43,8 @@
       pack = {
         owner = "NONPLAYT";
         repo = "VC-Create";
-        ref = "refs/tags/v1.2.1";
-        hash = "sha256-pTQ/zB2j4JOm+1bQ+sVxe6UPoxg2OSZvM/Njs1f+VNo=";
+        ref = "refs/tags/v1.2.2";
+        hash = "sha256-jWVVJNPJwr487Gqpz7R+GXeyF1T6IOkudNLqCZ7fKZ0=";
       };
 
       packUrl = "https://raw.githubusercontent.com/${pack.owner}/${pack.repo}/${pack.ref}/pack.toml";

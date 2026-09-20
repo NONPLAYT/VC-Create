@@ -142,7 +142,7 @@ hash = "6836d294650261591b7ccaa04cebf83e50ca0ed27ccebfc3caf52796a038ebe5"
 
 [[files]]
 file = "config/amendments-common.toml"
-hash = "af1175d154621be2b55166ab64c75b83c4021585131fbd988c34e0ad6eee6ff5"
+hash = "e5c30013b27b364aa70493f20cb399988e064a318fbc336b887b0fad824707f6"
 
 [[files]]
 file = "config/apotheosis/apotheosis.cfg"
@@ -2762,7 +2762,7 @@ hash = "d5f0ed8390618c769d9cb40a77df04779b7bbe636343b753c1ed6f92d325ae2b"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
-hash = "f32cb54a99b0f143fe0db5b5664a8df7bff668c8d4291267f2ce8873da7f4439"
+hash = "a0347037a21cbaf4162e576509e6b8d8102e5f19cf1df6c46914d3a3b73a900f"
 
 [[files]]
 file = "config/packed_packs/config.json"
@@ -2918,7 +2918,7 @@ hash = "f3959e957253ab5631cdd55fae4acad3dd6ce39aef76791b00335ba3716e14db"
 
 [[files]]
 file = "config/scholar-common.toml"
-hash = "62e10948b3244c03963ea88598770268cd3d89e6d4e23706885b3542633e820b"
+hash = "13cde79911a357c5a1d58ced0dda99e0a15cf17830deebd15fc311aaff7c2d6d"
 
 [[files]]
 file = "config/scribble.client.json"
@@ -2962,7 +2962,7 @@ hash = "eda4a943ffab955d2f0cdf3f9f0dc3a6a27ff2140a51bf7a6a01f6d8ea8f297f"
 
 [[files]]
 file = "config/simple-custom-early-loading/bg.png"
-hash = "29246859ca70d15913ca808821dc0eb716be3f59ce354819eaf94d6fbf090eb8"
+hash = "656b2b91f06276011f4b3a0cf2b4957f322462f5986ac074023c5efa64fe227f"
 
 [[files]]
 file = "config/simplelootviewer.json"
