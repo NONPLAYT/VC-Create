@@ -1,0 +1,13 @@
+name = "EasyLogin"
+filename = "easylogin-neoforge-1.21.1-1.0.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/VYmP7iH5/versions/tpr8fHX7/easylogin-neoforge-1.21.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "c6532ece3b27bdf16f490c8122adc65d03c79dede7a26b41804cca568ba40e0778b1f554edd37def2d3acdc5ec2f20ff26a7df646b42390989dd41bd4d9a0877"
+
+[update]
+[update.modrinth]
+mod-id = "VYmP7iH5"
+version = "tpr8fHX7"

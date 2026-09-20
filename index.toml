@@ -9861,6 +9861,11 @@ hash = "ae6fd52d8bdcbeca5bbe6db840f22f92c1928fe0fda22017b19612b9b00a245a"
 metafile = true
 
 [[files]]
+file = "mods/easylogin.pw.toml"
+hash = "121eaee9846985e5d806a70127fea51310eb9bce8f24622062bd7170ad1cc7e2"
+metafile = true
+
+[[files]]
 file = "mods/eating-animations.pw.toml"
 hash = "b1b94eb18c6d2951e2e89df2351ac6e0e9380b12c0e2d5306aa39fa31fdd7dfd"
 metafile = true
@@ -10368,11 +10373,6 @@ metafile = true
 [[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "2e9a8daaa0e0cc9cdfb67422e0f928f2db6a1f2984b8636eb2b5091c5fb23e29"
-metafile = true
-
-[[files]]
-file = "mods/neologin.pw.toml"
-hash = "8f92d8859bdab751a8bdc611383eac5a2cccf22e42c7ec10b2eca4f4f953594a"
 metafile = true
 
 [[files]]
