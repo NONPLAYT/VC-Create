@@ -1433,6 +1433,10 @@ file = "config/defaultoptions/options.txt"
 hash = "b6ce904f4c5be4f0657a700905d553adbd1ae9c7defef71f7db9952f5832c819"
 
 [[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "c156f010f6bdf5161cdcd418776a4619022c2404215d2fd0945d38fbbc789042"
+
+[[files]]
 file = "config/deployer-client.toml"
 hash = "4f9167ff88457c6470232d3528be3d3b5192279c483ff47df9da60d303528dc5"
 
@@ -2902,7 +2906,7 @@ hash = "793c05c7f9975032f536f7b9702a4f892b8beb31e641af1f12ee9c96aed4d013"
 
 [[files]]
 file = "config/rrls.toml"
-hash = "f097471ad7fd4d3adccdc4d6f935b0cdcac68c0cbdec6ea3d752d307ec66d867"
+hash = "88d9f88c8e370f113122770512c67e704a16c4ceed4f70755495c9ce5072cc92"
 
 [[files]]
 file = "config/sable-client.toml"
@@ -2962,7 +2966,7 @@ hash = "eda4a943ffab955d2f0cdf3f9f0dc3a6a27ff2140a51bf7a6a01f6d8ea8f297f"
 
 [[files]]
 file = "config/simple-custom-early-loading/bg.png"
-hash = "656b2b91f06276011f4b3a0cf2b4957f322462f5986ac074023c5efa64fe227f"
+hash = "77ccc8652a90da79e91c3dca4f58e72e4de370f2b21b192097de92f1c4e66956"
 
 [[files]]
 file = "config/simplelootviewer.json"
@@ -9226,6 +9230,10 @@ hash = "b3b67f83faf9dcc4985b7a13fa8affb71062461d271f80cc0958652df9f3126b"
 metafile = true
 
 [[files]]
+file = "mods/SimpleCustomEarlyLoading-2.2-vccreate1.jar"
+hash = "4425f40f54d1d0815b3d957414eb81e9c1c382bce4fa4d1f5c79d18a1638c18b"
+
+[[files]]
 file = "mods/accelerated-decay.pw.toml"
 hash = "0c31f109b6c4dca94a153fbdd827bbd5f96149fd5c7863ba0ba41fcab801afe0"
 metafile = true
@@ -10651,11 +10659,6 @@ hash = "c69dcffbc7e5fd5a78a8292d696d589be53e9a6c3edbb8317d9fc441b54589f9"
 metafile = true
 
 [[files]]
-file = "mods/simple-custom-early-loading.pw.toml"
-hash = "5f0e2365aaf6f330ce0ae9f4b78f45946b25a9678332d90d1d8bda3421b957ba"
-metafile = true
-
-[[files]]
 file = "mods/simple-loot-viewer.pw.toml"
 hash = "e4a449b185ab3847583c5c5ab6cbb0a45b1d8c5e8f0a1239a4e1000c2de2a2b1"
 metafile = true
@@ -10977,7 +10980,3 @@ metafile = true
 file = "resourcepacks/whimscape-tricky-trials-panorama.pw.toml"
 hash = "b2ae69d99f9fc021c8278938ac9ced789f4a53ae50e014a32b34c7cf04f75971"
 metafile = true
-
-[[files]]
-file = "servers.dat"
-hash = "c156f010f6bdf5161cdcd418776a4619022c2404215d2fd0945d38fbbc789042"
