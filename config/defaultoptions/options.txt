@@ -2,7 +2,7 @@ version:3955
 ao:true
 biomeBlendRadius:2
 enableVsync:true
-entityDistanceScaling:1.0
+entityDistanceScaling:2.0
 entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false

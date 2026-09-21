@@ -614,7 +614,7 @@ hash = "0e0d34e8cab1b32659c959a4c6cb11200f9a30b8f11795aab8ffe13702ebf038"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "b6ce904f4c5be4f0657a700905d553adbd1ae9c7defef71f7db9952f5832c819"
+hash = "3195ba352b11bf449b856733852c17a09aa2bc8c844f15ea5ab593876d6ade6f"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -1850,7 +1850,7 @@ hash = "0abc8a8f2ce730e440521d4d3d2cb45ec475e9d5a0e01e17e74cfbd63a0bd26b"
 
 [[files]]
 file = "config/sable-common.toml"
-hash = "eb7884d0f2cc559b63600f96a9b429511b2db9590d41533380cadb7c41cf2f31"
+hash = "e2129273b73f27bea9b0245f11ef2627acf03d1ecca8fd860c4e519f787f16a2"
 
 [[files]]
 file = "config/scholar-client.toml"
