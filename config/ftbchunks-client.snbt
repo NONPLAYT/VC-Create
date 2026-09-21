@@ -128,7 +128,7 @@
 		
 		# Enable minimap
 		# Default: false
-		enabled: false
+		enabled: true
 		
 		# Show entities on minimap
 		# Default: true
@@ -298,7 +298,6 @@
 			"ftbchunks:debug"
 			"ftbchunks:zone"
 			"ftbchunks:biome"
-			"ftbchunks:player_pos"
 		]
 		
 		# Info displayed under minimap
@@ -404,11 +403,11 @@
 		
 		# Enables creation of death waypoints
 		# Default: true
-		death_waypoints: false
+		death_waypoints: true
 		
 		# Show waypoints in world
 		# Default: true
-		in_world_waypoints: false
+		in_world_waypoints: true
 		
 		# Minimum distance before waypoint dots start to fade
 		# Default: 1.0

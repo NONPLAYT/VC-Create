@@ -442,7 +442,7 @@ hash = "32ac2d8c795e394e2698afbcef20035174619cef9eb582d6ebc86dfac65fc208"
 
 [[files]]
 file = "config/cosmeticarmorreworked-client.toml"
-hash = "4f9577e9c8002872f5f3382f9892a38cbeefb6e2772b2ca248beab44859068fc"
+hash = "026f44f461a65e33acc05faefc36326f79831e07a442edc932cdf89f22ce750b"
 
 [[files]]
 file = "config/cosmeticarmorreworked-common.toml"
@@ -594,7 +594,7 @@ hash = "b406070e0bc87961c211c5bb62b2754ed3bdba70cdf6975ecf64aff351b8d68e"
 
 [[files]]
 file = "config/curios-client.toml"
-hash = "8af475d222d452c40b548db89c8956f3e4d1e2aaf729464e3065f029936b3e0d"
+hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
 
 [[files]]
 file = "config/curios-common.toml"
@@ -610,7 +610,7 @@ hash = "7f84b4d37e39956dd57ed232b08453ea3c2c4578bdf1430d42b4e77a15024b75"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "0e0d34e8cab1b32659c959a4c6cb11200f9a30b8f11795aab8ffe13702ebf038"
+hash = "2a1a52c34965dbfa17ef901f94dd5b61edae6463eae3730cf25ee63e8311774e"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -734,7 +734,7 @@ hash = "56367d64e53853bba8881e9e09ec9425cc15e482ea49f9b2bf658b43e18f63cf"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "f465472f058a823c9d992a65c7f4f81ce2dcce52ab7d9ad9f8807421894a4fd8"
+hash = "c5acb88514f95ae0fa8133029f247a648668f98e5312f981a2c900db5fd546be"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -850,11 +850,11 @@ hash = "81b231af80f398ce21ffb8738ad29f79d1bbb93b1ccd742dd9e06bd9aef298ed"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "e0eba9d5c86a67dbb0c91f54cb0c2aa52fdccd9ddc96d7c725ec5b71fcbca9e7"
+hash = "40aac68dc9181495bde485a12787ae4c97027f7baea7b0fde3db66240529afd5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "b7d9a215fee6aeff23dcc2d57d51872c1f3c22dab4701be480dd8497ca1a73d0"
+hash = "19d0f1d49af538c645ceca6c904c35443fc2d02b216109ac3b581b5d9cc7a611"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1529,6 +1529,10 @@ file = "config/jei-server.toml"
 hash = "702acd04d99445bce659d04fcc488e1a98c8a803983c31ae262b0f3a47fdc8d3"
 
 [[files]]
+file = "config/jei/jei-client.ini"
+hash = "f66eddf0cdb2beb5f3485831dca5c94ac5d327ebcea624303418d23199a22ef3"
+
+[[files]]
 file = "config/jeresources-common.toml"
 hash = "b8e340097e9b479a5d66593f01c1c84a8a8fdc1ed960eccb11676ee7612537e2"
 
@@ -2179,18 +2183,6 @@ hash = "121b93764159be6fb7dab523b29a844e2bb78400ce8c48f52135a097e9b0006e"
 [[files]]
 file = "config/zeta-common.toml"
 hash = "d985bfc68899c91aa642736400472f6ab876dedaaef4b8c31f38b52d48de633d"
-
-[[files]]
-file = "defaultconfigs/xaero/minimap/profiles/default.cfg"
-hash = "51be7d59540f0e931dc443cebd7293df6e3a1df0d83f2638fbd13226607629e3"
-
-[[files]]
-file = "defaultconfigs/xaero/minimap/profiles/info_display_config/default.cfg.txt"
-hash = "184e654fa1fc8ad09943c97c4e65ab78acb5b3cfca22417a831513d1b6d9bbc6"
-
-[[files]]
-file = "defaultconfigs/xaero/world-map/profiles/default.cfg"
-hash = "e9c378b1d58d67562da5991c4af16d27bad2fe45041784463072729bb7d98864"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -9745,16 +9737,6 @@ metafile = true
 [[files]]
 file = "mods/world-play-time.pw.toml"
 hash = "8384209fea49f42c860403e9faa6ad4df5b23957780880519fc59ca3232f324f"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-minimap.pw.toml"
-hash = "64670072fa3b4db4a721769dd3d66a2865daac01c9a2480b9561675b1e9e9737"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-world-map.pw.toml"
-hash = "f8cc300d53ae8bf71d77124e6c46a5e85fe31654b39c5d73a1652a4d9c404af4"
 metafile = true
 
 [[files]]

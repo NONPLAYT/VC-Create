@@ -43,7 +43,7 @@
       pack = {
         owner = "NONPLAYT";
         repo = "VC-Create";
-        ref = "refs/tags/v1.2.3";
+        ref = "refs/tags/v1.3.0";
         hash = "sha256-MljXVMtSB3vMkQQK8KAp95m7DxKO6Q2izDrP0hyJd70=";
       };
 
