@@ -4,3 +4,15 @@ nix/
 .github/
 README.md
 *.mrpack
+
+config/**/cache/
+config/*_cache.json
+config/jei/world/
+config/jei/*sort-order.ini
+config/spark/tmp*/
+config/spark/activity.json
+config/resourceful-config-web.json
+config/jamlib/known_suspicious_jars.txt
+config/konkrete/locals/
+config/packed_packs/preferences.properties
+config/paxi/*_load_order.json

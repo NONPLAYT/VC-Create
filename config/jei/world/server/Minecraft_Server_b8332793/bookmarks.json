@@ -1,7 +1,0 @@
-[
-  {"version":2},
-  {"ingredient":{"id":"minecraft:acacia_button"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:stripped_cherry_log"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:cherry_pressure_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:cherry_button"},"type":"item_stack","bookmarkType":"INGREDIENT"}
-]
