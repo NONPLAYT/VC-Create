@@ -734,7 +734,7 @@ hash = "56367d64e53853bba8881e9e09ec9425cc15e482ea49f9b2bf658b43e18f63cf"
 
 [[files]]
 file = "config/ftbchunks-client.snbt"
-hash = "c5acb88514f95ae0fa8133029f247a648668f98e5312f981a2c900db5fd546be"
+hash = "0370dbff7077b2315c8a97e76d74d0b006350cc712565543da7498eab3a85d4f"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
@@ -1846,7 +1846,7 @@ hash = "671ee75b5333f98d3a9b92fcfcc79c7df7a6b4c0e5cda025a7b449ab79562b2b"
 
 [[files]]
 file = "config/rrls.toml"
-hash = "88d9f88c8e370f113122770512c67e704a16c4ceed4f70755495c9ce5072cc92"
+hash = "f097471ad7fd4d3adccdc4d6f935b0cdcac68c0cbdec6ea3d752d307ec66d867"
 
 [[files]]
 file = "config/sable-client.toml"
@@ -1898,15 +1898,23 @@ hash = "13dce528a81f59c5ceb80c2ddf49fd0012b19ea69b75ecfeb797b9399a834789"
 
 [[files]]
 file = "config/simple-custom-early-loading.json"
-hash = "eda4a943ffab955d2f0cdf3f9f0dc3a6a27ff2140a51bf7a6a01f6d8ea8f297f"
+hash = "dbb8f6aaa5b5fdb7f625ef799bac876114d1b5b4179d9a2f1ec98b72606edac3"
 
 [[files]]
 file = "config/simple-custom-early-loading/bg.png"
-hash = "77ccc8652a90da79e91c3dca4f58e72e4de370f2b21b192097de92f1c4e66956"
+hash = "0f2fed9e830d9f9cdf94b78420db0c73db9be8b4e96b76fc0abb17cf5af982a3"
 
 [[files]]
 file = "config/simplelootviewer.json"
 hash = "e9bed032aac2e355f2146bc3a0c17a7e1bb5f1d378caded91d9cd0667f813aae"
+
+[[files]]
+file = "config/simplesplashscreen.json5"
+hash = "3474c241635b08d1ec5f233b61b31f9047bd40bd77b40a64ab6bc555f4dd3473"
+
+[[files]]
+file = "config/simplesplashscreen/background.png"
+hash = "0f2fed9e830d9f9cdf94b78420db0c73db9be8b4e96b76fc0abb17cf5af982a3"
 
 [[files]]
 file = "config/simplyswords/gem_powers.toml"
@@ -9532,6 +9540,11 @@ metafile = true
 [[files]]
 file = "mods/simple-loot-viewer.pw.toml"
 hash = "e4a449b185ab3847583c5c5ab6cbb0a45b1d8c5e8f0a1239a4e1000c2de2a2b1"
+metafile = true
+
+[[files]]
+file = "mods/simple-splash-screen.pw.toml"
+hash = "699b70f5bc6a49ecfc3b80002e17310460c4466e3ee1f8dd783fbaf48c948e6e"
 metafile = true
 
 [[files]]

@@ -1,5 +1,5 @@
 #Allowed Values: ALL, LOADING, RELOADING, NONE
-hideOverlays = "ALL"
+hideOverlays = "RELOADING"
 #text.autoconfig.rrls.option.rgbProgress.@Tooltip
 rgbProgress = false
 #text.autoconfig.rrls.option.blockOverlay.@Tooltip

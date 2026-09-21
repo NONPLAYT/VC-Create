@@ -124,180 +124,182 @@
 		
 		# Adds NWSE compass inside minimap
 		# Default: true
-		compass: true
+		compass: false
 		
 		# Enable minimap
-		# Default: false
+		# Default: true
 		enabled: true
 		
 		# Show entities on minimap
 		# Default: true
-		entities: true
+		entities: false
 		
 		# Show entity heads on minimap
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"eternal_starlight:tangled_hatred": true
-			"minecraft:rabbit": true
-			"minecraft:tropical_fish": false
-			"golemoverhaul:slime_golem": true
-			"variantsandventures:murk": true
-			"friendsandfoes:rascal": true
-			"minecraft:creeper": true
-			"eternal_starlight:twilight_gaze": true
-			"eternal_starlight:tower_squid": true
-			"moped:copper_moped": true
-			"minecraft:parrot": true
-			"alshanex_familiars:archmage_pet": true
-			"minecraft:spider": true
-			"cataclysm:scylla": true
-			"variantsandventures:thicket": true
-			"eternal_starlight:shimmer_lacewing": true
-			"waddles:adelie_penguin": true
-			"minecraft:bogged": true
-			"minecraft:husk": true
-			"bosses_of_mass_destruction:gauntlet": true
-			"minecraft:armadillo": true
-			"minecraft:iron_golem": true
-			"minecraft:ocelot": true
-			"minecraft:guardian": true
-			"eternal_starlight:yeti": true
-			"golemoverhaul:hay_golem": true
-			"minecraft:fox": true
-			"minecraft:piglin_brute": true
-			"creeperoverhaul:swamp_creeper": true
-			"eternal_starlight:thirst_walker": true
-			"minecraft:endermite": true
-			"minecraft:zoglin": true
-			"alshanex_familiars:druid_pet": true
-			"minecraft:wolf": true
-			"minecraft:ravager": true
-			"minecraft:enderman": true
-			"minecraft:ghast": true
-			"minecraft:panda": true
-			"create_bic_bit:herring": true
-			"golemoverhaul:terracotta_golem": true
-			"eternal_starlight:shadow_snail": true
-			"creeperoverhaul:dripstone_creeper": true
-			"minecraft:blaze": true
-			"creeperoverhaul:bamboo_creeper": true
-			"minecraft:slime": true
-			"creeperoverhaul:ocean_creeper": true
-			"minecraft:cod": false
-			"creeperoverhaul:jungle_creeper": true
-			"minecraft:bat": true
-			"minecraft:piglin": true
-			"minecraft:zombie_villager": true
-			"eternal_starlight:aurora_deer": true
-			"creeperoverhaul:cave_creeper": true
-			"minecraft:sheep": true
-			"minecraft:dolphin": true
-			"minecraft:wither_skeleton": true
-			"irons_spellbooks:summoned_skeleton": true
-			"eternal_starlight:lonestar_skeleton": true
-			"eternal_starlight:gleech": true
-			"minecraft:zombie_horse": true
-			"eternal_starlight:luminaris": true
-			"minecraft:goat": true
-			"minecraft:axolotl": true
-			"minecraft:chicken": true
-			"minecraft:magma_cube": true
-			"cataclysm:deepling_brute": true
-			"takesapillage:archer": true
-			"variantsandventures:gelid": true
-			"minecraft:hoglin": true
-			"cataclysm:deepling": true
-			"golemoverhaul:barrel_golem": true
-			"eternal_starlight:lunar_monstrosity": true
-			"friendsandfoes:crab": true
-			"creeperoverhaul:spruce_creeper": true
-			"minecraft:drowned": true
-			"minecraft:cave_spider": true
-			"minecraft:elder_guardian": true
-			"minecraft:evoker": true
-			"minecraft:pufferfish": false
-			"alshanex_familiars:soul_entity": true
 			"creeperoverhaul:desert_creeper": true
-			"cataclysm:koboleton": true
-			"minecraft:stray": true
-			"minecraft:allay": true
-			"eternal_starlight:luminofish": true
-			"minecraft:zombie": true
-			"eternal_starlight:crystallized_moth": true
-			"friendsandfoes:wildfire": true
-			"eternal_starlight:freeze": true
-			"minecraft:turtle": true
-			"minecraft:horse": true
-			"alshanex_familiars:mage_pet": true
-			"minecraft:villager": true
-			"friendsandfoes:glare": true
-			"creeperoverhaul:snowy_creeper": true
-			"alshanex_familiars:scorcher_pet": true
-			"artifacts:mimic": true
-			"friendsandfoes:illusioner": true
-			"variantsandventures:verdant": true
-			"cataclysm:ancient_ancient_remnant": true
+			"golemoverhaul:barrel_golem": true
+			"create_bic_bit:herring": true
+			"minecraft:iron_golem": true
+			"minecraft:wither_skeleton": true
+			"alshanex_familiars:hunter_pet": true
+			"moped:copper_moped": true
 			"bosses_of_mass_destruction:obsidilith": true
-			"eternal_starlight:nightfall_spider": true
-			"moped:tiny_copper_moped": true
-			"minecraft:salmon": false
-			"cataclysm:clawdian": true
-			"eternal_starlight:tangled": true
-			"minecraft:zombified_piglin": true
-			"minecraft:camel": true
-			"irons_spellbooks:cursed_armor_stand": true
+			"minecraft:sheep": true
+			"eternal_starlight:lunar_monstrosity": true
+			"creeperoverhaul:swamp_creeper": true
+			"phantasm:crystie": true
 			"irons_spellbooks:archevoker": true
 			"minecraft:vindicator": true
-			"friendsandfoes:moobloom": true
-			"minecraft:frog": true
-			"golemoverhaul:honey_golem": true
-			"eternal_starlight:the_gatekeeper": true
-			"friendsandfoes:mauler": true
-			"eternal_starlight:ratlin": true
-			"minecraft:pig": true
-			"cataclysm:netherite_monstrosity": true
-			"minecraft:cow": true
-			"minecraft:shulker": true
-			"irons_spellbooks:necromancer": true
-			"minecraft:cat": true
-			"minecraft:polar_bear": true
-			"minecraft:witch": true
-			"minecraft:pillager": true
-			"irons_spellbooks:summoned_zombie": true
-			"minecraft:squid": true
-			"minecraft:skeleton": true
-			"minecraft:glow_squid": true
-			"alshanex_familiars:hunter_pet": true
-			"minecraft:skeleton_horse": true
-			"cataclysm:netherite_ministrosity": true
-			"minecraft:donkey": true
-			"cataclysm:lionfish": true
-			"irons_spellbooks:apothecarist": true
-			"golemoverhaul:coal_golem": true
-			"friendsandfoes:iceologer": true
-			"takesapillage:skirmisher": true
-			"phantasm:crystie": true
 			"minecraft:bee": true
-			"minecraft:phantom": true
+			"minecraft:cod": false
+			"eternal_starlight:crystallized_moth": true
+			"minecraft:shulker": true
+			"minecraft:ravager": true
+			"variantsandventures:verdant": true
+			"creeperoverhaul:dripstone_creeper": true
+			"minecraft:camel": true
+			"irons_spellbooks:necromancer": true
+			"eternal_starlight:nightfall_spider": true
+			"creeperoverhaul:spruce_creeper": true
+			"eternal_starlight:freeze": true
+			"minecraft:parrot": true
+			"friendsandfoes:illusioner": true
+			"minecraft:magma_cube": true
+			"minecraft:cow": true
+			"minecraft:tropical_fish": false
+			"variantsandventures:thicket": true
+			"minecraft:elder_guardian": true
+			"cataclysm:scylla": true
+			"minecraft:bat": true
+			"cataclysm:netherite_ministrosity": true
+			"creeperoverhaul:jungle_creeper": true
+			"irons_spellbooks:summoned_zombie": true
+			"minecraft:axolotl": true
+			"variantsandventures:gelid": true
+			"minecraft:drowned": true
+			"quark:forgotten": true
+			"quark:stoneling": true
+			"quark:toretoise": true
+			"minecraft:pillager": true
+			"eternal_starlight:ratlin": true
+			"alshanex_familiars:soul_entity": true
+			"minecraft:zombie_horse": true
+			"minecraft:guardian": true
+			"irons_spellbooks:apothecarist": true
+			"eternal_starlight:tower_squid": true
+			"minecraft:piglin_brute": true
+			"minecraft:stray": true
+			"eternal_starlight:shadow_snail": true
+			"creeperoverhaul:bamboo_creeper": true
+			"minecraft:frog": true
+			"eternal_starlight:gleech": true
+			"minecraft:evoker": true
+			"friendsandfoes:crab": true
+			"friendsandfoes:mauler": true
+			"irons_spellbooks:summoned_skeleton": true
+			"cataclysm:ancient_ancient_remnant": true
+			"golemoverhaul:coal_golem": true
+			"golemoverhaul:terracotta_golem": true
+			"minecraft:zombie_villager": true
+			"cataclysm:netherite_monstrosity": true
+			"bosses_of_mass_destruction:gauntlet": true
+			"golemoverhaul:honey_golem": true
+			"eternal_starlight:aurora_deer": true
+			"minecraft:blaze": true
+			"moped:tiny_copper_moped": true
 			"minecraft:strider": true
+			"alshanex_familiars:archmage_pet": true
+			"minecraft:husk": true
+			"minecraft:goat": true
+			"minecraft:skeleton": true
+			"cataclysm:lionfish": true
+			"minecraft:donkey": true
+			"eternal_starlight:the_gatekeeper": true
+			"minecraft:panda": true
+			"minecraft:piglin": true
+			"cataclysm:koboleton": true
+			"eternal_starlight:luminaris": true
+			"minecraft:spider": true
+			"golemoverhaul:slime_golem": true
+			"minecraft:enderman": true
+			"variantsandventures:murk": true
+			"minecraft:fox": true
+			"minecraft:chicken": true
+			"eternal_starlight:twilight_gaze": true
+			"minecraft:hoglin": true
+			"friendsandfoes:rascal": true
+			"friendsandfoes:glare": true
+			"minecraft:witch": true
+			"minecraft:cave_spider": true
+			"irons_spellbooks:cursed_armor_stand": true
+			"minecraft:skeleton_horse": true
+			"golemoverhaul:hay_golem": true
+			"eternal_starlight:thirst_walker": true
+			"minecraft:allay": true
+			"friendsandfoes:iceologer": true
+			"minecraft:zombie": true
+			"cataclysm:deepling": true
+			"creeperoverhaul:cave_creeper": true
+			"minecraft:squid": true
+			"minecraft:phantom": true
+			"waddles:adelie_penguin": true
+			"minecraft:rabbit": true
+			"minecraft:horse": true
+			"friendsandfoes:wildfire": true
+			"eternal_starlight:tangled": true
+			"minecraft:endermite": true
+			"takesapillage:skirmisher": true
+			"alshanex_familiars:druid_pet": true
+			"minecraft:armadillo": true
+			"alshanex_familiars:mage_pet": true
+			"minecraft:ocelot": true
+			"minecraft:glow_squid": true
 			"eternal_starlight:ent": true
+			"minecraft:dolphin": true
+			"friendsandfoes:moobloom": true
+			"minecraft:bogged": true
+			"minecraft:villager": true
+			"minecraft:cat": true
+			"cataclysm:clawdian": true
+			"minecraft:ghast": true
+			"minecraft:pufferfish": false
+			"takesapillage:archer": true
+			"eternal_starlight:lonestar_skeleton": true
+			"minecraft:pig": true
+			"minecraft:polar_bear": true
+			"minecraft:creeper": true
+			"eternal_starlight:shimmer_lacewing": true
+			"creeperoverhaul:snowy_creeper": true
+			"minecraft:salmon": false
+			"eternal_starlight:yeti": true
+			"cataclysm:deepling_brute": true
+			"minecraft:turtle": true
+			"creeperoverhaul:ocean_creeper": true
+			"alshanex_familiars:scorcher_pet": true
+			"artifacts:mimic": true
+			"minecraft:zombified_piglin": true
+			"eternal_starlight:luminofish": true
+			"eternal_starlight:tangled_hatred": true
+			"minecraft:slime": true
+			"minecraft:zoglin": true
+			"minecraft:wolf": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
 		# Default: 0.5
 		# Range: 0.1 ~ 5.0
-		font_scale: 0.5d
+		font_scale: 0.75d
 		
 		# Info hidden under minimap
 		# Default: ["ftbchunks:fps", "ftbchunks:game_time", "ftbchunks:real_time", "ftbchunks:debug"]
 		info_hidden: [
-			"ftbchunks:fps"
 			"ftbchunks:game_time"
 			"ftbchunks:real_time"
-			"ftbchunks:debug"
-			"ftbchunks:zone"
 			"ftbchunks:biome"
+			"ftbchunks:debug"
+			"ftbchunks:fps"
 		]
 		
 		# Info displayed under minimap
@@ -338,7 +340,7 @@
 		# Enables minimap to show up in corner
 		# Default: "top_right"
 		# Valid values: "bottom_left", "left", "top_left", "top_right", "right", "bottom_right"
-		position: "top_right"
+		position: "top_left"
 		
 		# Applied a conditional check to the offset. When set to anything other that None, the offset will apply only to the selected minimap position.
 		# When set to none and the maps offset is greater than 0, the offset will apply to all directions
@@ -367,7 +369,7 @@
 		# Scale of minimap
 		# Default: 1.0
 		# Range: 0.25 ~ 4.0
-		scale: 1.0d
+		scale: 1.75d
 		
 		# Always show player on minimap, even when rotation not locked
 		# Default: true
@@ -375,7 +377,7 @@
 		
 		# Draw a square minimap instead of a circular one
 		# Default: false
-		square: false
+		square: true
 		
 		# Show text above minimap
 		# Default: false
