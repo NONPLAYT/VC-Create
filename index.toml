@@ -2766,7 +2766,7 @@ hash = "d5f0ed8390618c769d9cb40a77df04779b7bbe636343b753c1ed6f92d325ae2b"
 
 [[files]]
 file = "config/overflowingbars-client.toml"
-hash = "a0347037a21cbaf4162e576509e6b8d8102e5f19cf1df6c46914d3a3b73a900f"
+hash = "65ae79a4a93bd311eec97a335992fb59dd2d2bc7804fd3a0140591c51d86d512"
 
 [[files]]
 file = "config/packed_packs/config.json"
@@ -9261,11 +9261,6 @@ metafile = true
 [[files]]
 file = "mods/ai-improvements.pw.toml"
 hash = "bb44d1ac3aedc014cf14482b585ad4a0338bb0f7e2896d85609c764c79397022"
-metafile = true
-
-[[files]]
-file = "mods/alltheleaks.pw.toml"
-hash = "7e03652d2003566873ab5103454f7c537471d6c2fea1c2f614507b33ef4434f7"
 metafile = true
 
 [[files]]
