@@ -40,14 +40,7 @@
         }
       );
 
-      pack = {
-        owner = "NONPLAYT";
-        repo = "VC-Create";
-        ref = "refs/tags/v1.3.0";
-        hash = "sha256-MljXVMtSB3vMkQQK8KAp95m7DxKO6Q2izDrP0hyJd70=";
-      };
-
-      packUrl = "https://raw.githubusercontent.com/${pack.owner}/${pack.repo}/${pack.ref}/pack.toml";
+      packHash = "sha256-ikrgW7ASm09/s303rHDJ1qk/zOh75ciqa3NFV0tgWM0=";
 
       packMeta = lib.importTOML ./pack.toml;
 
@@ -64,8 +57,8 @@
           modpack = pkgs.fetchPackwizModpack {
             pname = "videcraft-create";
             version = packMeta.version;
-            url = packUrl;
-            packHash = pack.hash;
+            src = self;
+            inherit packHash;
             side = "server";
           };
 
