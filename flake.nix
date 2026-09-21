@@ -40,7 +40,7 @@
         }
       );
 
-      packHash = "sha256-ikrgW7ASm09/s303rHDJ1qk/zOh75ciqa3NFV0tgWM0=";
+      packHash = "sha256-Eo7Jk+8QprGajPUXN05c/7MfeAiKJUrBrMW4XHv7hfY=";
 
       packMeta = lib.importTOML ./pack.toml;
 

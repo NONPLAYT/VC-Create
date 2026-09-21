@@ -2,4 +2,7 @@ ServerEvents.loaded(e => {
   e.server.gameRules.set("doPatrolSpawning", false)
   e.server.gameRules.set("playersSleepingPercentage", 50)
   e.server.gameRules.set("doTraderSpawning", false)
+  e.server.gameRules.set("logAdminCommands", true)
+  e.server.gameRules.set("sendCommandFeedback", true)
+  e.server.gameRules.set("spawnRadius", 4)
 })

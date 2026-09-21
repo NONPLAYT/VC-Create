@@ -594,7 +594,7 @@ hash = "b406070e0bc87961c211c5bb62b2754ed3bdba70cdf6975ecf64aff351b8d68e"
 
 [[files]]
 file = "config/curios-client.toml"
-hash = "dcc28aa80e16236eb44c69c589d41a2ca663782a9c2d874c14cf55959499a50c"
+hash = "8af475d222d452c40b548db89c8956f3e4d1e2aaf729464e3065f029936b3e0d"
 
 [[files]]
 file = "config/curios-common.toml"
@@ -738,7 +738,7 @@ hash = "0370dbff7077b2315c8a97e76d74d0b006350cc712565543da7498eab3a85d4f"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
-hash = "fe50609ae9959fa9ef81e0ae0ef3aa45f571cf66904578b3da2f599e4bd64971"
+hash = "9a72922fdf9dcc310d2382fc95f8620421ec5a8a493f7ab428b05a1fe629444b"
 
 [[files]]
 file = "config/ftblibrary-client.snbt"
@@ -8066,7 +8066,7 @@ hash = "4c4fef8d8ed15fd5f14d5d54b45a794f7d44627d338db5f70e5b1ed522eb42f4"
 
 [[files]]
 file = "kubejs/server_scripts/global_game_rules.js"
-hash = "0b3f8ffd20dd807b17a4897260424e79d954dd7a5a5a2d239363ab55e8735bc6"
+hash = "73bf837e647a8bed7f2708a0bd49abc4b6d19e4f73e9a24e53e4b8481c4d8b69"
 
 [[files]]
 file = "kubejs/server_scripts/jsconfig.json"
