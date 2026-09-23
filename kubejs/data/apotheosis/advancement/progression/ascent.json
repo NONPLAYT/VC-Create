@@ -1,5 +1,17 @@
 {
-  "conditions": [
-      { "type": "neoforge:false" }
-  ]
+  "parent": "apotheosis:progression/root",
+  "criteria": {
+    "manual_trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "background": "apotheosis:textures/advancements/bg/apoth.png",
+    "title": { "text": "Недоступно на VideCraft" },
+    "description": { "text": "Этот уровень мира отключён на сервере." },
+    "icon": { "count": 1, "id": "minecraft:barrier" },
+    "hidden": true,
+    "show_toast": false,
+    "announce_to_chat": false
+  }
 }

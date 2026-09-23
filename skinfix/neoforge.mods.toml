@@ -1,0 +1,12 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "videcraft_skinfix"
+version = "1.0.0"
+displayName = "VideCraft SkinFix"
+description = "Restores the Mojang API hosts that offline launchers replace, so signed player skins render again"
+
+[[mixins]]
+config = "videcraft_skinfix.mixins.json"

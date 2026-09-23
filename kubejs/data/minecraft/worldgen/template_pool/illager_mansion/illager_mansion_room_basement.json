@@ -5,13 +5,13 @@
     {
       "weight": 20,
       "element": {
-        "location": "minecraft/empty",
-        "processors": illager_manor_generic_degradation,
+        "location": "minecraft:empty",
+        "processors": "illager_manor_generic_degradation",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement1",
@@ -20,7 +20,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement2",
@@ -29,7 +29,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 5,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement3",
@@ -38,7 +38,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement4",
@@ -47,7 +47,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement5",
@@ -56,7 +56,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement6",
@@ -65,7 +65,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement7",
@@ -74,7 +74,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement8",
@@ -83,7 +83,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement9",
@@ -92,7 +92,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement10",
@@ -101,7 +101,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement11",
@@ -110,7 +110,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement12",
@@ -119,7 +119,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement13",
@@ -128,7 +128,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement14",
@@ -137,7 +137,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement15",
@@ -146,7 +146,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement16",
@@ -155,7 +155,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement17",
@@ -164,7 +164,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement18",
@@ -173,7 +173,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement19",
@@ -182,7 +182,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement20",
@@ -191,7 +191,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement21",
@@ -200,7 +200,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement22",
@@ -209,7 +209,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement23",
@@ -218,7 +218,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement24",
@@ -227,7 +227,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement25",
@@ -236,7 +236,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement26",
@@ -245,7 +245,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement27",
@@ -254,7 +254,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement28",
@@ -263,7 +263,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement29",
@@ -272,7 +272,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_small_room_basement30",
@@ -281,7 +281,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 5,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement1",
@@ -290,7 +290,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 5,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement2",
@@ -299,7 +299,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 5,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement3",
@@ -308,7 +308,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 5,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement4",
@@ -317,7 +317,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 5,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement5",
@@ -326,7 +326,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 5,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement6",
@@ -335,7 +335,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 5,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement7",
@@ -344,7 +344,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 5,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement8",
@@ -353,7 +353,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 5,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement9",
@@ -362,7 +362,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 5,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement10",
@@ -371,7 +371,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 5,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement11",
@@ -380,7 +380,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 5,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement12",
@@ -389,7 +389,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement13",
@@ -398,7 +398,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement14",
@@ -407,7 +407,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement15",
@@ -416,7 +416,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement16",
@@ -425,7 +425,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement17",
@@ -434,7 +434,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement18",
@@ -443,7 +443,7 @@
         "element_type": "minecraft:single_pool_element"
       }
     },
-	{
+    {
       "weight": 1,
       "element": {
         "location": "minecraft:illager_mansion/mansion_middle_room_basement19",

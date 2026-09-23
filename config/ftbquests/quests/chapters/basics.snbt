@@ -1591,13 +1591,7 @@
 				{
 					count: 5
 					id: "63CFA1C1309C051C"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ubesdelight:cookie_ginger"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
+					item: { count: 1, id: "farmersdelight:honey_cookie" }
 					type: "item"
 				}
 			]

@@ -16,3 +16,5 @@ config/jamlib/known_suspicious_jars.txt
 config/konkrete/locals/
 config/packed_packs/preferences.properties
 config/paxi/*_load_order.json
+server/
+skinfix/

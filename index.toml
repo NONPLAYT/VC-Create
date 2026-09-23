@@ -742,7 +742,7 @@ hash = "0370dbff7077b2315c8a97e76d74d0b006350cc712565543da7498eab3a85d4f"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
-hash = "9a72922fdf9dcc310d2382fc95f8620421ec5a8a493f7ab428b05a1fe629444b"
+hash = "52bda5f452745c771ea2ccd94016675170c0a393e7a9ab557568793299ebd11d"
 
 [[files]]
 file = "config/ftblibrary-client.snbt"
@@ -770,7 +770,7 @@ hash = "0e1fbc64059e1de5bbd5ca6d856cff9d4833efdc31cd03cecc2bcde5ef714931"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/basics.snbt"
-hash = "0986fc897e679ae52204409cac6ca1912b0b0e486cf71c87f2a6d951e65e6e1f"
+hash = "38b12f8db728e13ce11173554d1e98b7860451fd4b3732b607ac52fb7c261e5b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_basic.snbt"
@@ -2862,11 +2862,11 @@ hash = "dadb83735b0b7047d96b918a88906fb11e1510eac4a5a072f79d8cbea730db03"
 
 [[files]]
 file = "kubejs/data/apotheosis/advancement/progression/ascent.json"
-hash = "1b37f6d03309357ccda6d629c18851a97066f09533e68db84533665238f782a7"
+hash = "149eb48db0258ed9f03b6e44700c2c19626bc8270c51830eff10a4913b3b3c8a"
 
 [[files]]
 file = "kubejs/data/apotheosis/advancement/progression/frontier.json"
-hash = "1b37f6d03309357ccda6d629c18851a97066f09533e68db84533665238f782a7"
+hash = "149eb48db0258ed9f03b6e44700c2c19626bc8270c51830eff10a4913b3b3c8a"
 
 [[files]]
 file = "kubejs/data/apotheosis/advancement/progression/haven.json"
@@ -2882,7 +2882,7 @@ hash = "aaeea7ae024d60ecb566b263e7fdcec48f41fc1d20b97ab86db0988808b781f9"
 
 [[files]]
 file = "kubejs/data/apotheosis/advancement/progression/summit.json"
-hash = "1b37f6d03309357ccda6d629c18851a97066f09533e68db84533665238f782a7"
+hash = "149eb48db0258ed9f03b6e44700c2c19626bc8270c51830eff10a4913b3b3c8a"
 
 [[files]]
 file = "kubejs/data/apotheosis/affix_loot_entries/bow.json"
@@ -3090,7 +3090,7 @@ hash = "fd70ca91972a5d2abcfd67f209a0b380c88a834c00afeb7b5c1a5b175a24dde4"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/armor/attribute/blessed.json"
-hash = "a37c58462d0790c75d760f7819dec807639b65c164388e4a3ccff60645f04514"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/armor/attribute/elastic.json"
@@ -3178,7 +3178,7 @@ hash = "fdc94c7fbad1f8ea553f9defb49d03c0602daa3c7aee07a9a98752b13670345f"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/armor/mob_effect/nimble.json"
-hash = "2ac2963c6b24b9b2b039355334c561792d1c886935929a2a14f48dac2b292873"
+hash = "4a1550108e9fbfe29640adb9234fb3103b2870b6b7fb32bdbf0bf0e17803c69e"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/armor/mob_effect/revitalizing.json"
@@ -3217,16 +3217,8 @@ file = "kubejs/data/apotheosis/affixes/breaker/attribute/submerged.json"
 hash = "07a3f9baa1c9a1d0292552cc7f9a86a2c451c78cde10456b1e3eb26d0608e504"
 
 [[files]]
-file = "kubejs/data/apotheosis/affixes/breaker/effect/omnetic.json"
-hash = "82feb7653e21d04dc778c9ba390dc47c24c772e6a06853c9eb4547aa098b1bbe"
-
-[[files]]
 file = "kubejs/data/apotheosis/affixes/breaker/effect/radial.json"
 hash = "ac2d5858269f3b69c8ad0810ae44909eb2b9a237bf2ba3da6d0bf358cb4afb3b"
-
-[[files]]
-file = "kubejs/data/apotheosis/affixes/breaker/enchantment/prosperous.json"
-hash = "eac65d2f0300592e6760bcdfbdf7fac0b58b7dccde5d6a3cb1bbd2ecea3ab26a"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/breaker/mob_effect/spelunkers.json"
@@ -3250,7 +3242,7 @@ hash = "c263cff0942724c36140464db36bbb6ce1a971a1f6d67453f7f74c866c64952b"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/attribute/forceful.json"
-hash = "d3d6e7ebc968fcd692b133ec0af0545123d91f98c91930451ae0223396c6f7ea"
+hash = "f6c15973a404d1dab574fdc3a8b6559a06f222c2bd9720e66c60e8ac0bcf6ac9"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/attribute/giant_slaying.json"
@@ -3258,7 +3250,7 @@ hash = "e4afc7b0e1c4e7f690464738d785b9b71dfe7408b998dc226b38e18796fc4477"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/attribute/glacial.json"
-hash = "a37c58462d0790c75d760f7819dec807639b65c164388e4a3ccff60645f04514"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/attribute/graceful.json"
@@ -3266,27 +3258,19 @@ hash = "90840a876b8f21e9ed622052aebd0d3e09a7c29de105eb7549c80caf5670141e"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/attribute/infernal.json"
-hash = "a37c58462d0790c75d760f7819dec807639b65c164388e4a3ccff60645f04514"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/attribute/intricate.json"
 hash = "d464b0493b8cd0c84225d38370a68c0f4840f39bdd8ac54a883d422253f654a4"
 
 [[files]]
-file = "kubejs/data/apotheosis/affixes/melee/attribute/lacerating.json"
-hash = "df847212a51673128cef1b99b40cd7b6ce3e46fc7cdfc7bae1cea5b0c526dfe9"
-
-[[files]]
 file = "kubejs/data/apotheosis/affixes/melee/attribute/lengthy.json"
-hash = "d31331fe0064917850830ec1596f757a94102cee49f4846f6b63df0e2e3ba8b4"
-
-[[files]]
-file = "kubejs/data/apotheosis/affixes/melee/attribute/murderous.json"
-hash = "d83d3d2a846e7c66d378446a1286673fc62dc6c4f4d6444b99848eb949d163de"
+hash = "40b1488fa7cc1d47bd86d8ec825f555080bbc97b7353a650b9326a1b05e3a35a"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/attribute/piercing.json"
-hash = "4e8f588ebbdad649fc487b4ef7e05b8972ac479f1aad46427ae23fac0b824bc2"
+hash = "c980f6fe9d943a90f76c34f92020303bef9f905267bc8d15655692010d3c4c2a"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/attribute/vampiric.json"
@@ -3294,19 +3278,15 @@ hash = "d5f57afb1cea9fad3a5c172e77dad6c4a3540351fa0b9501e569f8252cf08ac2"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/attribute/violent.json"
-hash = "cc3f9a93365075f087997d2349a0c58bb78bcb3ceff56bb464f43062353c557e"
+hash = "050aa9e9fac351bb1eea683db467285bf03a3b6babad1a755062204cde76676c"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/cleaving.json"
 hash = "c57856b1a9399f85ce51fe529acabd4f593d047a3c8809944c4579171d5bf099"
 
 [[files]]
-file = "kubejs/data/apotheosis/affixes/melee/executing.json"
-hash = "71e816d7b48edf865b5a802652e67f18f57b855127ab8ae06a62015c001eebf4"
-
-[[files]]
 file = "kubejs/data/apotheosis/affixes/melee/festive.json"
-hash = "a37c58462d0790c75d760f7819dec807639b65c164388e4a3ccff60645f04514"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/mob_effect/bloodletting.json"
@@ -3314,11 +3294,11 @@ hash = "6386d20e14965e8d31a59f6ac8dfe9668a2cf63d5880376b59556d4f5b6e4b82"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/mob_effect/caustic.json"
-hash = "295ee2eab6bef6e9850dbe8ae974c09565cf79d55183eb1ad58a68daf957ca7b"
+hash = "f70f40e483f1c1094a89632ec0e73e107e2ec481c33ce7cc40c2ee1505d5c48b"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/mob_effect/elusive.json"
-hash = "e5889877aa62cf4b98d24e69d1b878197536cbe1f1d79ea227d717cd0e3e9c9e"
+hash = "d8017fe0c0e1ca1f1a745ef4ac6c49e8d579e5f51f5b5d0c0f64318fea903d68"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/mob_effect/omniscient.json"
@@ -3353,10 +3333,6 @@ file = "kubejs/data/apotheosis/affixes/ranged/attribute/windswept.json"
 hash = "ef6dc7efbe2b697580e923e89b9e7a92c4d9838696672ff82f2fed0170ca6d4b"
 
 [[files]]
-file = "kubejs/data/apotheosis/affixes/ranged/enchantment/prosperous.json"
-hash = "0a0a7d1d59f76297b81778733a318f5cf788128f7028af96a601bc04fb8bd50a"
-
-[[files]]
 file = "kubejs/data/apotheosis/affixes/ranged/magical.json"
 hash = "a1b108941127abbc0b9509177127534f5eb6fbc1324cae41bd60f0ed6400e366"
 
@@ -3382,11 +3358,11 @@ hash = "7c9ce1eedfe198c41a37bee600831a0895143589786cd641843736f78b7ce45c"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/ranged/mob_effect/grievous.json"
-hash = "617a145bff7eea5d4a05c4d61328d83935f73d897cccb8820e0bbfdd5492edb5"
+hash = "f4d39cd02e592e8fd60017b64071e0b9e6aecaf130667fa7005b3aadaf4614a3"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/ranged/mob_effect/ivy_laced.json"
-hash = "a4b27841a3954d3f31042460a5eb426c603ed62974f143046cf2c1a434135189"
+hash = "b64cfc217e67b3ee37da4f0f9b6558d63ea0c77075df3f670f7787e290f4ea6d"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/ranged/mob_effect/shulkers.json"
@@ -3418,7 +3394,7 @@ hash = "816375eb75b0e098dc87804fc116b1697c74a57dd28ac0dc1f23e47e959d424d"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/shield/catalyzing.json"
-hash = "c2299fee1d67ea25c8382e26455ad8a17fa8f50b07a57b50d37fc6089e03fa9f"
+hash = "7b94086f3df9d71779a6fc4f20a003c1fd36afbf4e13bb3af0bc03ebdd3eee62"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/shield/mob_effect/devilish.json"
@@ -3438,7 +3414,7 @@ hash = "ac23ad95fd5a0404a7ed630bf5296ab105a56a6a460ed0caba5915e4d2064ff8"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/shield/mob_effect/withering.json"
-hash = "a37c58462d0790c75d760f7819dec807639b65c164388e4a3ccff60645f04514"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/shield/psychic.json"
@@ -3454,7 +3430,7 @@ hash = "c84ec02b2d94ccc6343b1e6f1ea9b5f7465a3a5ad93ec00f713415c4aad8c7d4"
 
 [[files]]
 file = "kubejs/data/apotheosis/apothic_augments/random_affix_items.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/apothic_elites/overworld/craig.json"
@@ -3806,7 +3782,7 @@ hash = "c57154a718d0eaba2bad1522263a16387650536ef94be659f9e8e6aec7ef18e6"
 
 [[files]]
 file = "kubejs/data/apotheosis/gems/core/lunar.json"
-hash = "a37c58462d0790c75d760f7819dec807639b65c164388e4a3ccff60645f04514"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/gems/core/samurai.json"
@@ -3818,7 +3794,7 @@ hash = "12312fa72d00e697c341ee814ba8e568b38a9ad52483a944d9c2b84ddb4aee34"
 
 [[files]]
 file = "kubejs/data/apotheosis/gems/core/solar.json"
-hash = "a37c58462d0790c75d760f7819dec807639b65c164388e4a3ccff60645f04514"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/gems/core/splendor.json"
@@ -3827,10 +3803,6 @@ hash = "4b4906820284ad259a5e1c550ef56f2b76f5f5216b1ff0405a02ec62590429f1"
 [[files]]
 file = "kubejs/data/apotheosis/gems/core/tyrannical.json"
 hash = "5c1baed60993c9bcc7c8e113d89c870922eeacf5e97e1d76c39657cdaab728d6"
-
-[[files]]
-file = "kubejs/data/apotheosis/gems/core/warlord.json"
-hash = "edd1239be661babb0761303bdada5d1e1a9857b931ab3248a86878c3e7e26e67"
 
 [[files]]
 file = "kubejs/data/apotheosis/gems/overworld/earth.json"
@@ -3845,10 +3817,6 @@ file = "kubejs/data/apotheosis/gems/overworld/verdant_ruin.json"
 hash = "4608b965ab957ecbaac50ef4fa196d9edb4728705b2b3e8f38171448ff09b0e7"
 
 [[files]]
-file = "kubejs/data/apotheosis/gems/the_end/endersurge.json"
-hash = "4c09c5c0670d2c0d8c62aa2724bd01d9eaccbb601590128bc1609a7887f7f251"
-
-[[files]]
 file = "kubejs/data/apotheosis/gems/the_end/mageslayer.json"
 hash = "3cc940f1a29ba8a5314124de7b89f199aade2ee26ed28dee4d89c5eff1209b04"
 
@@ -3858,7 +3826,7 @@ hash = "059d7c763cf43756be9374f557cafc2bf28631d06d2c589d3ad8efa2ab9c7c34"
 
 [[files]]
 file = "kubejs/data/apotheosis/gems/the_nether/inferno.json"
-hash = "a37c58462d0790c75d760f7819dec807639b65c164388e4a3ccff60645f04514"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/gems/the_nether/molten_breach.json"
@@ -3866,27 +3834,27 @@ hash = "1333cf42eb0f8cffbd19de298c8786ad725f511f7bd6468160abf2560d8bc170"
 
 [[files]]
 file = "kubejs/data/apotheosis/loot_modifiers/affix_conversion.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/loot_modifiers/affix_hook.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/loot_modifiers/affix_loot_injection.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/loot_modifiers/gem_entity_drops.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/loot_modifiers/gem_entity_drops_from_real_players.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/loot_modifiers/gem_loot_injection.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/loot_table/blocks/augmenting_table.json"
@@ -3910,19 +3878,19 @@ hash = "4db51eca41588e84df3c1d237b21b6c8cfea5542e3707109958a6e9f4b71a801"
 
 [[files]]
 file = "kubejs/data/apotheosis/loot_table/chests/chest_valuable.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/loot_table/chests/spawner_brutal.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/loot_table/chests/spawner_swarm.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/loot_table/chests/tome_tower.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/loot_table/entity/boss_drops.json"
@@ -3934,7 +3902,7 @@ hash = "f447b5c69c3a3614eb8e07c5166ba21d0ae96e61cc423867399ebcff216c60af"
 
 [[files]]
 file = "kubejs/data/apotheosis/loot_table/entity/treasure_goblin.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/apotheosis/neoforge/biome_modifier/boss_dungeon.json"
@@ -4666,7 +4634,7 @@ hash = "bf8e5ec9bb64845fd87a4b080003692738355acea7bc09f63f81b9e3becdc18b"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/advanced_netherrack.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/advanced_obsidian.json"
@@ -4674,11 +4642,11 @@ hash = "560c66af0a304bf3c9bcca930fb5e2283482924d8cf5713b67c217470335a77c"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/andesite.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/asurine.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/basalt.json"
@@ -4690,15 +4658,15 @@ hash = "2bdde2dae7ea4c633cdab1e4fa94e56e9d7464aee72fa3ae18f2754d91c2a572"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/crimsite.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/deepslate.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/diorite.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/end_stone.json"
@@ -4706,7 +4674,7 @@ hash = "28657cdb25d89137f870da5380149d9982c3baca68ae878f14aab1ec20d7f79b"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/granite.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/limestone.json"
@@ -4714,7 +4682,7 @@ hash = "6ea5bc5e6dcd6b9c60090ac350495dc69702ec0996abf89fa63612b5c33aee4e"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/netherack.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/obsidian.json"
@@ -4722,11 +4690,11 @@ hash = "d880d9286118818f6439b03b43e92c1263191f9457e1b1cbdc35e206266252b4"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/ochrum.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/sandstone.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/scoria.json"
@@ -4738,7 +4706,7 @@ hash = "4d87752f6145f40b76b95d70db61de4390ab42315bb764c33c2815d3c6f91a1c"
 
 [[files]]
 file = "kubejs/data/create_mechanical_extruder/recipe/extruding/veridium.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/curios/tags/item/charm.json"
@@ -4909,10 +4877,6 @@ file = "kubejs/data/irons_apothic/affixes/armor/spell/flamedash.json"
 hash = "9eb9b037eea4e0ad8d54a00465a3f908e1246c194d9bd8ac2fada45fe71b9795"
 
 [[files]]
-file = "kubejs/data/irons_apothic/affixes/armor/spell/oakskinned.json"
-hash = "289fbad5cb45099703131b83827fa2f50f927a4c180024aafa8c894af449d5cb"
-
-[[files]]
 file = "kubejs/data/irons_apothic/affixes/armor/spell/shielding.json"
 hash = "98d33675eaeb2e924ac5d8cb4af794f4561957618f0dfe74b77d6c0a0ae8680b"
 
@@ -4941,16 +4905,8 @@ file = "kubejs/data/irons_apothic/affixes/elemental/school_blood/mana_cost.json"
 hash = "7fb1fcc87795155dc535967881886f902b7513d09b116aa4e0979326459db43e"
 
 [[files]]
-file = "kubejs/data/irons_apothic/affixes/elemental/school_blood/necromancers.json"
-hash = "4ce127874216b9fe5d6a5f554b5bf65d56b96b720a97350f53ab770fae8507a1"
-
-[[files]]
 file = "kubejs/data/irons_apothic/affixes/elemental/school_eldritch/attribute.json"
 hash = "1a545a64962b7a3bec1264bc2dbb4f5d4464ff04cbc691b5efc01ad251d88fe2"
-
-[[files]]
-file = "kubejs/data/irons_apothic/affixes/elemental/school_eldritch/hasturian.json"
-hash = "a167e74d0cd90b4c8ab7765ff305d71bb4d1c19be97fcedcbde145a69f6238a6"
 
 [[files]]
 file = "kubejs/data/irons_apothic/affixes/elemental/school_eldritch/mana_cost.json"
@@ -4965,20 +4921,12 @@ file = "kubejs/data/irons_apothic/affixes/elemental/school_ender/mana_cost.json"
 hash = "4926d92e08824976f9560eb37f3b123795613d71a85dd3ea2d3e6679a4254fe1"
 
 [[files]]
-file = "kubejs/data/irons_apothic/affixes/elemental/school_ender/void_seers.json"
-hash = "a68544dfd25c56fd38c3edbe1b5ff92d65890596e7fbcc99303221975b1b8ced"
-
-[[files]]
 file = "kubejs/data/irons_apothic/affixes/elemental/school_evocation/attribute.json"
 hash = "7a3355170458ac7061481a3da73c7bf06e7d1f6db4e9c3a1c769fabb151673bf"
 
 [[files]]
 file = "kubejs/data/irons_apothic/affixes/elemental/school_evocation/mana_cost.json"
 hash = "f461513a97f3f3df1054ed0fe0d67326c6d982c40af2a494f03337eb2054fc1d"
-
-[[files]]
-file = "kubejs/data/irons_apothic/affixes/elemental/school_evocation/storm_wizard.json"
-hash = "f1999c07a718befd22b594a453f6d5255de0b0a20125a47db55a81a5c46fa35c"
 
 [[files]]
 file = "kubejs/data/irons_apothic/affixes/elemental/school_fire/attribute.json"
@@ -4989,16 +4937,8 @@ file = "kubejs/data/irons_apothic/affixes/elemental/school_fire/mana_cost.json"
 hash = "01f9a7a873baa7b84f9bb068250b25ad32565c44313bb8cae299b8c765e44271"
 
 [[files]]
-file = "kubejs/data/irons_apothic/affixes/elemental/school_fire/pyromancers.json"
-hash = "b0a844a61ba9555589980a5dce61e680ebf3a34f239c05aef1606d8d88b316f8"
-
-[[files]]
 file = "kubejs/data/irons_apothic/affixes/elemental/school_holy/attribute.json"
 hash = "16173a09e18b29ff5b558c63a5dd483c5b6529c681bf59e67cdb1450619fc39c"
-
-[[files]]
-file = "kubejs/data/irons_apothic/affixes/elemental/school_holy/clerics.json"
-hash = "c18f664caf0164a42aeb85945de543e31feb8a4219221592c331677da0e5d20b"
 
 [[files]]
 file = "kubejs/data/irons_apothic/affixes/elemental/school_holy/mana_cost.json"
@@ -5009,20 +4949,12 @@ file = "kubejs/data/irons_apothic/affixes/elemental/school_ice/attribute.json"
 hash = "b2fe420b6c10e11e356e6ab54fff6cdb80a398e7cf98185819129970fd59b94e"
 
 [[files]]
-file = "kubejs/data/irons_apothic/affixes/elemental/school_ice/cryomancers.json"
-hash = "d76dd99fc01629e202919803c007b190fd2d4f84cc9b475656e46aec4594faec"
-
-[[files]]
 file = "kubejs/data/irons_apothic/affixes/elemental/school_ice/mana_cost.json"
 hash = "82471ee681337fe760498f6e41316db9fad2d507bfb78659697ecbb99b3bfd2b"
 
 [[files]]
 file = "kubejs/data/irons_apothic/affixes/elemental/school_lightning/attribute.json"
 hash = "5a7abfb1d0d9966aac11d4172deee0cf7de6f4b6630d94de96abbe8cd1686586"
-
-[[files]]
-file = "kubejs/data/irons_apothic/affixes/elemental/school_lightning/electromancers.json"
-hash = "9b9906326ae29c2a53d0a250151c75e68f4087db19a270cd27190b873f2104e1"
 
 [[files]]
 file = "kubejs/data/irons_apothic/affixes/elemental/school_lightning/mana_cost.json"
@@ -5037,20 +4969,12 @@ file = "kubejs/data/irons_apothic/affixes/elemental/school_nature/mana_cost.json
 hash = "76788066b5448080d01761c3659904634f523cbff6bb18e746b6b64744d32446"
 
 [[files]]
-file = "kubejs/data/irons_apothic/affixes/elemental/school_nature/terraformer.json"
-hash = "3e6bc6bdcaa8a83ff4467a3b2f3b4d1937fd077c384b36c733f58875633a228f"
-
-[[files]]
 file = "kubejs/data/irons_apothic/affixes/elemental/school_none/attribute.json"
 hash = "03c2ca7bf66fd5a1a2e12c58cce8fc25293f8a1a99e8bdb4f5c6b7374aeec8ac"
 
 [[files]]
 file = "kubejs/data/irons_apothic/affixes/elemental/school_none/mana_cost.json"
 hash = "797bf6bf12f9472c3f2d19ec014777bcda93b416555284d67b5184dfae720600"
-
-[[files]]
-file = "kubejs/data/irons_apothic/affixes/elemental/school_radiance/attribute.json"
-hash = "a823ea289218cf755584fd025102370cb9289206f745e23c41fc551008040d30"
 
 [[files]]
 file = "kubejs/data/irons_apothic/affixes/elemental/school_radiance/mana_cost.json"
@@ -5061,10 +4985,6 @@ file = "kubejs/data/irons_apothic/affixes/elemental/school_radiance/mycelial.jso
 hash = "8e2e26c41f2d60017270e3b8a28c417a88f51731a7886adaebd91b23c8d25e2c"
 
 [[files]]
-file = "kubejs/data/irons_apothic/affixes/elemental/school_shadow/attribute.json"
-hash = "556255d0ef3f55a801c8dc7d08ea697888bc3e469b5c6fb584721a610dabc738"
-
-[[files]]
 file = "kubejs/data/irons_apothic/affixes/elemental/school_shadow/mana_cost.json"
 hash = "28190ac092d0f45fd3174455fb213f728d078e5494f6af53862cbb7a40da9d6f"
 
@@ -5073,20 +4993,12 @@ file = "kubejs/data/irons_apothic/affixes/elemental/school_shadow/warlocks.json"
 hash = "7d88ad32a625cb78bd59a204e296776b7f1b10bf49456e6c6fe45069fe791953"
 
 [[files]]
-file = "kubejs/data/irons_apothic/affixes/elemental/school_sound/attribute.json"
-hash = "560b880fa1ef9877a0d5b268db6ba12c6d373265970b8dde682285ed96808f6a"
-
-[[files]]
-file = "kubejs/data/irons_apothic/affixes/elemental/school_sound/bardic.json"
-hash = "bb41e236004f5ae1e41be845e8d3bf97fbcdcb522e31eeb4a0c4d1c16b547317"
-
-[[files]]
 file = "kubejs/data/irons_apothic/affixes/elemental/school_sound/mana_cost.json"
 hash = "fc8fa86d336f713a819dc504b081f94bc9e2f1c5b175e3d95ebc0670818b3e62"
 
 [[files]]
 file = "kubejs/data/irons_apothic/affixes/festive.json"
-hash = "a37c58462d0790c75d760f7819dec807639b65c164388e4a3ccff60645f04514"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/irons_apothic/affixes/magic_weapons/attribute/brutish.json"
@@ -5157,10 +5069,6 @@ file = "kubejs/data/irons_apothic/affixes/magic_weapons/spell/echoing.json"
 hash = "99d8f569a0ea07920934b8bbf07786dfb78b1d6c6656f9d64fc98f841157bdd8"
 
 [[files]]
-file = "kubejs/data/irons_apothic/affixes/magic_weapons/spell/harmonic.json"
-hash = "19db1b24517a6260eb0abd1e564dbbfc3e065c25c54014bb5eec805483fe8c13"
-
-[[files]]
 file = "kubejs/data/irons_apothic/affixes/magic_weapons/spell/oakskinned.json"
 hash = "ecb7856a7f7d1198404a56eee9aea6b688176418bbffc21da42f4aa99c3d5b34"
 
@@ -5175,10 +5083,6 @@ hash = "52f676b4336355f248d0f582aaeb29a11025b68303d7781a4f58393aea43bcb2"
 [[files]]
 file = "kubejs/data/irons_apothic/affixes/melee/spell/blood_slash.json"
 hash = "1efd18f569d68dbe5e2b5ff031bcadd6810e7544c82b767ec87a6a6b6d1acf27"
-
-[[files]]
-file = "kubejs/data/irons_apothic/affixes/melee/spell/brimstone_hellblast.json"
-hash = "84296563b983b98cbe37aa3d219d7fc8eeb214c4a95dfee7b6a48190e53e7a84"
 
 [[files]]
 file = "kubejs/data/irons_apothic/affixes/melee/spell/divine_smite.json"
@@ -5199,10 +5103,6 @@ hash = "88443de620718f8102c9d25d4a486098158befcb7acc702b7ba81ccf17082ac1"
 [[files]]
 file = "kubejs/data/irons_apothic/affixes/melee/spell/stomp.json"
 hash = "eced2b6ab546d7582426a76c0892fb9bf36dab73843a4775e43f5486c57b1266"
-
-[[files]]
-file = "kubejs/data/irons_apothic/affixes/ranged/spell/crystal_volley.json"
-hash = "e4ac3b8ccc93d39fc708108cfabc67e43bfd7cb79d6f39bde3434c468c484992"
 
 [[files]]
 file = "kubejs/data/irons_apothic/affixes/ranged/spell/fire_arrow.json"
@@ -5242,7 +5142,7 @@ hash = "833f691840b3a2c6392514c198e6d2a097b1307365f3f1dcc574274a309440eb"
 
 [[files]]
 file = "kubejs/data/irons_apothic/extra_gem_bonuses/core/guardian.json"
-hash = "2a35d2e6a2e69dfaba4449392d92b960c369117502a4f36a7f51538d38c035d7"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/irons_apothic/extra_gem_bonuses/core/lightning.json"
@@ -5250,7 +5150,7 @@ hash = "cffda11762e8488351978ee86adf2e5448ab26514465cada91dcdb9cb327df0b"
 
 [[files]]
 file = "kubejs/data/irons_apothic/extra_gem_bonuses/core/lunar.json"
-hash = "2a35d2e6a2e69dfaba4449392d92b960c369117502a4f36a7f51538d38c035d7"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/irons_apothic/extra_gem_bonuses/core/samurai.json"
@@ -5262,7 +5162,7 @@ hash = "b491d77a937f716ca2a9fc7a34edcee906b60a8869ee790942d7697d6862165e"
 
 [[files]]
 file = "kubejs/data/irons_apothic/extra_gem_bonuses/core/solar.json"
-hash = "2a35d2e6a2e69dfaba4449392d92b960c369117502a4f36a7f51538d38c035d7"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/irons_apothic/extra_gem_bonuses/core/splendor.json"
@@ -5274,7 +5174,7 @@ hash = "b05d8e1e59da33e43cb10bef1506af94d74fc69905a7a2315235a26ea8e923b2"
 
 [[files]]
 file = "kubejs/data/irons_apothic/extra_gem_bonuses/core/warlord.json"
-hash = "2a35d2e6a2e69dfaba4449392d92b960c369117502a4f36a7f51538d38c035d7"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/irons_apothic/extra_gem_bonuses/overworld/earth.json"
@@ -5282,7 +5182,7 @@ hash = "c66e41e8dcd48798966898fe2b52935fbe997e9537b339d2d478de9e689a2850"
 
 [[files]]
 file = "kubejs/data/irons_apothic/extra_gem_bonuses/overworld/verdant_ruin.json"
-hash = "2a35d2e6a2e69dfaba4449392d92b960c369117502a4f36a7f51538d38c035d7"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/irons_apothic/extra_gem_bonuses/the_nether/blood_lord.json"
@@ -5290,7 +5190,7 @@ hash = "918c84dbb5d5362c3db5e36dc40138e5b8f0c262c7ad615d342514cb5359b24d"
 
 [[files]]
 file = "kubejs/data/irons_apothic/extra_gem_bonuses/the_nether/inferno.json"
-hash = "2a35d2e6a2e69dfaba4449392d92b960c369117502a4f36a7f51538d38c035d7"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/irons_apothic/gems/core/bloody_pearl.json"
@@ -5314,7 +5214,7 @@ hash = "b4c83e239d706330397910b9f36226faeafe690239944d73b5dd1698f6bb05fb"
 
 [[files]]
 file = "kubejs/data/irons_apothic/gems/core/golems_onyx.json"
-hash = "1b37f6d03309357ccda6d629c18851a97066f09533e68db84533665238f782a7"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/irons_apothic/gems/core/luminous_opal.json"
@@ -5331,18 +5231,6 @@ hash = "f0da7326cc348e50410a2e0d3b19337ef93472aafd32e8a45f7f69447285db6a"
 [[files]]
 file = "kubejs/data/irons_apothic/gems/core/whispering_tentaculite.json"
 hash = "dc47c4396a466a94eecab954bae7a1f1e5466ff471471eefb0bea379ff573b7d"
-
-[[files]]
-file = "kubejs/data/irons_apothic/gems/external/mycotoxin_crystal.json"
-hash = "aa535f7b8f82ffae882dbe49812925c2f2f412ed83acfea8276dffee8082ea7c"
-
-[[files]]
-file = "kubejs/data/irons_apothic/gems/external/resonant_quartz.json"
-hash = "a3082608a223c9c24c17a6421bccfc0539ffd4d477d7320eaaccf19582efc80d"
-
-[[files]]
-file = "kubejs/data/irons_apothic/gems/external/umbral_obsidian.json"
-hash = "f17e6c865e0f8a5bc1d9b3d8690bb528141a61db9b8578de5408d90081d1e69f"
 
 [[files]]
 file = "kubejs/data/irons_apothic/rarity_override/irons_apothic/spellbook.json"
@@ -6630,7 +6518,7 @@ hash = "a8120a3019903a1608c38f6c4fae1e0be74a985d191a90ebc4695d082e09246b"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/template_pool/illager_mansion/illager_mansion_room_basement.json"
-hash = "0778dac34a11a4fbe1309590ba1448c959fb47042effb8b3ce4ab35444567929"
+hash = "967b0462248641c2a3859b6c395b1920732ebccf6de54870f29d1fa953289375"
 
 [[files]]
 file = "kubejs/data/minecraft/worldgen/template_pool/illager_mansion/illager_mob.json"
@@ -6678,7 +6566,7 @@ hash = "ab8c9f25e2693dfaccdeb09d36a438d7bd0d8f00b5b2c691d7a41cad82f85aef"
 
 [[files]]
 file = "kubejs/data/nova_structures/advancement/end/find_end_lighthouse.json"
-hash = "1b37f6d03309357ccda6d629c18851a97066f09533e68db84533665238f782a7"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/nova_structures/function/allayconvert.mcfunction"
@@ -7206,19 +7094,19 @@ hash = "d55b7d54eff9e552a4be487d4f694fc30c5a245f90496e13e6f410afa246c702"
 
 [[files]]
 file = "kubejs/data/treasurebags/loot_table/entity_group/boss.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/treasurebags/loot_table/entity_group/hostile.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/treasurebags/loot_table/entity_group/peaceful.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/treasurebags/loot_table/entity_group/player.json"
-hash = "fb07aecfc14e9206916c8567f5eea43e5c96160ce5ec69e44c70fc774dc320ff"
+hash = "21b11674b18c3fb0d8292095cf7c12bca82ef4054ec3f1cd8d1e0222d1655629"
 
 [[files]]
 file = "kubejs/data/treasurebags/loot_table/starting_inventory.json"
@@ -8093,6 +7981,10 @@ file = "kubejs/server_scripts/rightclicks.js"
 hash = "5bf0d9b2a14ef612c2daf22f142901fb434d5073150cc04e78b076c1da8b01cc"
 
 [[files]]
+file = "kubejs/server_scripts/skin.js"
+hash = "06b2d34506dcc59939a281a33f47ed92a13660ecbe2a4bfad53fee5934eca930"
+
+[[files]]
 file = "kubejs/server_scripts/tags.js"
 hash = "3b248aec4dd8e24054000bcf0e83b8467928959dc07784470d6ea39b41a3c2e8"
 
@@ -8819,11 +8711,6 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "efc2c4fe9e2cc169aff61a6b7a41ea9bc7a22a90aadf0776b22de647ddf3cef6"
-metafile = true
-
-[[files]]
-file = "mods/farmers-structures.pw.toml"
-hash = "0858ad32988a26d755ae88ad4670471e4e51ebbbd88584adfa60b3c02bc76f61"
 metafile = true
 
 [[files]]
@@ -9720,6 +9607,10 @@ metafile = true
 file = "mods/variants-and-ventures.pw.toml"
 hash = "b94b15835f39bab4b72e35f5fbaa61b43c1727eebaf96ae31667bdb5e64ae58b"
 metafile = true
+
+[[files]]
+file = "mods/videcraft-skinfix-1.0.0.jar"
+hash = "9b913c693c0689c111a2e8deb3e9059ac93a80795ec774e4dde8e260e534b714"
 
 [[files]]
 file = "mods/villager-names.pw.toml"
