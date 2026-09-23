@@ -26,6 +26,7 @@
         <RegexFilter regex="Mismatch in destroy block pos: .*" onMatch="DENY" onMismatch="NEUTRAL"/>
         <RegexFilter regex="Failed to fetch skin 'mojang:.*" onMatch="DENY" onMismatch="NEUTRAL"/>
         <RegexFilter regex="(Server handling Packets\.CNS_AttackRequest|Selected slot server|Off-hand stack|Main-hand stack).*" onMatch="DENY" onMismatch="NEUTRAL"/>
+        <RegexFilter regex="(?s).*Failed to parse recipe '.*'! Falling back to vanilla: .*" onMatch="DENY" onMismatch="NEUTRAL"/>
         <ThresholdFilter level="WARN" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
         <MarkerFilter marker="NETWORK_PACKETS" onMatch="${sys:forge.logging.marker.networking:-DENY}" onMismatch="NEUTRAL"/>
         <MarkerFilter marker="CLASSLOADING" onMatch="${sys:forge.logging.marker.classloading:-DENY}" onMismatch="NEUTRAL"/>

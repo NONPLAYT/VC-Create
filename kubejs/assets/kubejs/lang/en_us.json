@@ -1,3 +1,7 @@
 {
-    "farmingForBlockheads.market.collectionTaskItems": "Erfassungsaufgabenelemente"
+    "farmingForBlockheads.market.collectionTaskItems": "Erfassungsaufgabenelemente",
+    "advancements.apotheosis.progression.frontier.criteria.unavailable": "Unavailable on VideCraft",
+    "advancements.apotheosis.progression.ascent.criteria.unavailable": "Unavailable on VideCraft",
+    "advancements.apotheosis.progression.summit.criteria.unavailable": "Unavailable on VideCraft",
+    "advancements.apotheosis.progression.pinnacle.criteria.manual_trigger": "Defeat the Ender Dragon"
 }

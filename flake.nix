@@ -13,7 +13,7 @@
     let
       inherit (nixpkgs) lib;
       pack = lib.importTOML ./pack.toml;
-      packHash = "sha256-BkwYKOmKFJSZcpzaMb/0u8iLxBcynmR+5BxafVMH/iI=";
+      packHash = "sha256-2Xjw7psg2gMwGK+egxDR3Lz+rCmy7JlrybC0PthWD7I=";
       escape = lib.replaceStrings [ "." ] [ "_" ];
       neoforgeAttr = "neoforge-${escape pack.versions.minecraft}-${escape pack.versions.neoforge}";
 
@@ -31,6 +31,21 @@
         version = "1.0.0";
       };
 
+      neoforgeFor = pkgs:
+        let upstream = pkgs.neoforgeServers.${neoforgeAttr}; in
+        pkgs.runCommand "${upstream.name}-videcraft" { nativeBuildInputs = [ pkgs.zip ]; } ''
+          cp -rs ${upstream} $out
+          chmod -R u+w $out
+          loader=$(echo $out/libraries/net/neoforged/fancymodloader/loader/*/loader-*.jar)
+          cp --remove-destination "$(readlink "$loader")" "$loader"
+          chmod u+w "$loader"
+          cp ${./server/log4j2.xml} log4j2.xml
+          zip -q "$loader" log4j2.xml
+          args=$out/libraries/net/neoforged/neoforge/${pack.versions.neoforge}/unix_args.txt
+          sed "s|${upstream}|$out|g" "$(readlink "$args")" > args.txt
+          cp --remove-destination args.txt "$args"
+        '';
+
       pkgsFor = system: import nixpkgs {
         inherit system;
         overlays = [ nix-minecraft.overlay ];
@@ -43,6 +58,7 @@
         {
           modpack = modpackFor pkgs;
           skinfix = skinfixFor pkgs;
+          neoforge = neoforgeFor pkgs;
           default = modpackFor pkgs;
         };
 
@@ -50,7 +66,7 @@
         let
           cfg = config.services.videcraft;
           modpack = modpackFor pkgs;
-          neoforge = pkgs.neoforgeServers.${neoforgeAttr};
+          neoforge = neoforgeFor pkgs;
           launchArgs = "${neoforge}/libraries/net/neoforged/neoforge/${pack.versions.neoforge}/unix_args.txt";
           jdk = pkgs.jdk21_headless;
 
@@ -75,6 +91,8 @@
             "-XX:MaxTenuringThreshold=1"
             "-Dlog4j.configurationFile=${./server/log4j2.xml}"
           ];
+
+          userHome = name: "-Duser.home=/var/lib/${name}";
 
           proxyCompatibleForge = pkgs.fetchurl {
             url = "https://cdn.modrinth.com/data/vDyrHl8l/versions/qiZ49HIW/proxy-compatible-forge-1.3.1.jar";
@@ -202,7 +220,7 @@
                 Group = "minecraft";
                 StateDirectory = name;
                 WorkingDirectory = "/var/lib/${name}";
-                ExecStart = "${jdk}/bin/java -Xms${heap} -Xmx${heap} ${jvmFlags} @${launchArgs} nogui";
+                ExecStart = "${jdk}/bin/java -Xms${heap} -Xmx${heap} ${jvmFlags} ${userHome name} @${launchArgs} nogui";
                 ExecStop = "${stopScript name} $MAINPID";
                 Restart = "on-failure";
                 RestartSec = "10s";

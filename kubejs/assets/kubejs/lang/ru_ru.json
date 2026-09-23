@@ -14,5 +14,9 @@
     "item.kubejs.incomplete_roasted_mutton_chops": "Незавершённое блюдо: Обжаренная рубленая баранина",
     "item.kubejs.incomplete_shepherds_pie_block": "Незавершённое блюдо: Пастуший пирог",
     "item.kubejs.incomplete_steak_and_potatoes": "Незавершённое блюдо: Стейк с картофелем",
-    "block.kubejs.incomplete_blackstone": "Незавершённый чернит"
+    "block.kubejs.incomplete_blackstone": "Незавершённый чернит",
+    "advancements.apotheosis.progression.frontier.criteria.unavailable": "Недоступно на VideCraft",
+    "advancements.apotheosis.progression.ascent.criteria.unavailable": "Недоступно на VideCraft",
+    "advancements.apotheosis.progression.summit.criteria.unavailable": "Недоступно на VideCraft",
+    "advancements.apotheosis.progression.pinnacle.criteria.manual_trigger": "Победите Дракона Края"
 }

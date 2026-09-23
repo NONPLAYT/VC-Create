@@ -1,16 +1,22 @@
 {
-  "parent": "apotheosis:progression/root",
+  "parent": "apotheosis:progression/haven",
   "criteria": {
-    "manual_trigger": {
+    "unavailable": {
       "trigger": "minecraft:impossible"
     }
   },
   "display": {
     "background": "apotheosis:textures/advancements/bg/apoth.png",
-    "title": { "text": "Недоступно на VideCraft" },
-    "description": { "text": "Этот уровень мира отключён на сервере." },
-    "icon": { "count": 1, "id": "minecraft:barrier" },
-    "hidden": true,
+    "title": {
+      "translate": "advancements.apotheosis.progression.ascent.title"
+    },
+    "description": {
+      "text": "Недоступно на VideCraft: этот уровень мира отключён на сервере."
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:barrier"
+    },
     "show_toast": false,
     "announce_to_chat": false
   }
