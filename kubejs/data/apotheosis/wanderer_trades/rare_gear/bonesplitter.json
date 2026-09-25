@@ -13,7 +13,6 @@
             "minecraft:custom_name": "{\"color\":\"#9AB091\",\"italic\":false,\"translate\":\"name.apotheosis.bonesplitter\"}",
             "minecraft:enchantments": {
                 "levels": {
-                    "apothic_spawners:capturing": 2,
                     "minecraft:looting": 4,
                     "minecraft:mending": 1,
                     "minecraft:sharpness": 6,

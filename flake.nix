@@ -13,7 +13,7 @@
     let
       inherit (nixpkgs) lib;
       pack = lib.importTOML ./pack.toml;
-      packHash = "sha256-2Xjw7psg2gMwGK+egxDR3Lz+rCmy7JlrybC0PthWD7I=";
+      packHash = "sha256-h8fGSeoiWWmDQ8wOwIBX6GeXzMCvCHq72vA6aZkvmp4=";
       escape = lib.replaceStrings [ "." ] [ "_" ];
       neoforgeAttr = "neoforge-${escape pack.versions.minecraft}-${escape pack.versions.neoforge}";
 
@@ -25,10 +25,11 @@
         side = "server";
       };
 
-      skinfixFor = pkgs: import ./skinfix {
+      compatFor = pkgs: import ./compat {
         inherit pkgs;
         neoforge = pkgs.neoforgeServers.${neoforgeAttr};
-        version = "1.0.0";
+        modpack = modpackFor pkgs;
+        version = "1.1.0";
       };
 
       neoforgeFor = pkgs:
@@ -57,7 +58,7 @@
         let pkgs = pkgsFor "x86_64-linux"; in
         {
           modpack = modpackFor pkgs;
-          skinfix = skinfixFor pkgs;
+          compat = compatFor pkgs;
           neoforge = neoforgeFor pkgs;
           default = modpackFor pkgs;
         };
@@ -133,7 +134,7 @@
             allow-flight=true
             enforce-secure-profile=false
             sync-chunk-writes=false
-            max-tick-time=-1
+            max-tick-time=120000
             region-file-compression=lz4
           '';
 
@@ -159,7 +160,7 @@
             pvp=false
             enforce-secure-profile=false
             sync-chunk-writes=false
-            max-tick-time=-1
+            max-tick-time=120000
           '';
 
           voicechat = port: bind: pkgs.writeText "voicechat-server.properties" ''

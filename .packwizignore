@@ -17,4 +17,4 @@ config/konkrete/locals/
 config/packed_packs/preferences.properties
 config/paxi/*_load_order.json
 server/
-skinfix/
+compat/

@@ -134,7 +134,7 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "options": "#nova_structures:illagers_bane",
+              "options": "#minecraft:on_random_loot",
               "function": "minecraft:enchant_randomly"
             }
           ],

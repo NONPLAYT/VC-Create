@@ -1,0 +1,14 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "org.videcraft.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "plugin": "org.videcraft.VideCraftPlugin",
+  "mixins": [
+    "SoulElytraBoostPayloadMixin",
+    "DeeperDarkerPluginMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

@@ -1721,10 +1721,6 @@ file = "config/neoforge-server.toml"
 hash = "b1e3b38d612295f8d9dfa0fbdb538a992b7a1a3b7a766c491b4e9fdf3823396f"
 
 [[files]]
-file = "config/nerb/compat/emi.yaml"
-hash = "cc73592e208680c42f5c4e761e55cf394f241ae9e2f1b5e05049805493bf5d0c"
-
-[[files]]
 file = "config/nerb/general.yaml"
 hash = "ec614cafa950e8fb5c77d497a8bb0b0fa44b8f88c0a0b7767515fdb94f116340"
 
@@ -1858,7 +1854,7 @@ hash = "0abc8a8f2ce730e440521d4d3d2cb45ec475e9d5a0e01e17e74cfbd63a0bd26b"
 
 [[files]]
 file = "config/sable-common.toml"
-hash = "e2129273b73f27bea9b0245f11ef2627acf03d1ecca8fd860c4e519f787f16a2"
+hash = "ef542d34f4edd7d56bdaaa61788e709aae9f1d4f8a695aa2f222b7c04b4a425b"
 
 [[files]]
 file = "config/scholar-client.toml"
@@ -3202,7 +3198,7 @@ hash = "1012f5c50d34b5239d208a28dd88bf5363b3e7758d96372aaa8f9242179aa28b"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/breaker/attribute/destructive.json"
-hash = "3c3101c2ca89398d55a4161f742998fc637bdcdf232b456b69fbc91b2c638329"
+hash = "1de8e3222a1ad2199fa0174b75b651390f2e289145a801aa53e4df7add99cfa2"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/breaker/attribute/experienced.json"
@@ -3246,7 +3242,7 @@ hash = "f6c15973a404d1dab574fdc3a8b6559a06f222c2bd9720e66c60e8ac0bcf6ac9"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/attribute/giant_slaying.json"
-hash = "e4afc7b0e1c4e7f690464738d785b9b71dfe7408b998dc226b38e18796fc4477"
+hash = "94cd081b6d0d8e89680e5508f99b49074760d61a8b54de3ce1118127114267f7"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/attribute/glacial.json"
@@ -3274,7 +3270,7 @@ hash = "c980f6fe9d943a90f76c34f92020303bef9f905267bc8d15655692010d3c4c2a"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/attribute/vampiric.json"
-hash = "d5f57afb1cea9fad3a5c172e77dad6c4a3540351fa0b9501e569f8252cf08ac2"
+hash = "4ff64c467c9147e12182b4395c487ecd3729d63de934146814846b66045274c6"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/melee/attribute/violent.json"
@@ -3326,7 +3322,7 @@ hash = "7137bfe28ab737fc6cc9306bfa9d8525d621740179079fa28125c24b2df5c735"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/ranged/attribute/streamlined.json"
-hash = "0e5111181bda1453b68ece7596ccbd56615700a6ed5bba6f5baaa1afed4a9634"
+hash = "0a581b47a317b33a508775414c86bd9fdca0857120ef997108446b3af747f0da"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/ranged/attribute/windswept.json"
@@ -3382,7 +3378,7 @@ hash = "39ca01d76e93e2b2f55f94003cf580dbef287b6509d58a5d43a6843c487b6386"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/shield/attribute/ironforged.json"
-hash = "77aa82e697bb1e6f15b1ad496515359ca5a0ffd57065fe56a9259908091d3828"
+hash = "14d8c9928f1699522284865990ecff5dc86335aec267d01cf0b26b3f47c0338b"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/shield/attribute/stalwart.json"
@@ -3390,7 +3386,7 @@ hash = "7b28b18bb956fccb6b066505bf51a353490c83d9e52095627007d7c1c5209e29"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/shield/attribute/steel_touched.json"
-hash = "816375eb75b0e098dc87804fc116b1697c74a57dd28ac0dc1f23e47e959d424d"
+hash = "2f36b4e346f54428aab1e2989dfad5381e2324279950afc02cd1061423ae8cc7"
 
 [[files]]
 file = "kubejs/data/apotheosis/affixes/shield/catalyzing.json"
@@ -4486,11 +4482,11 @@ hash = "b03ee70b0ff929be7eeeac1091d7f35d4282ddb6e3f6bf30744d164c17a1bce7"
 
 [[files]]
 file = "kubejs/data/apotheosis/wanderer_trades/rare_gear/bonesplitter.json"
-hash = "e34642dea83d39f9d6a705dbb66bd28e332874c1d69f8f78e7fec730f8709996"
+hash = "45f4ac6f23e374bef0d12fb21920b84d7a7c1ebd95e277a6e12ab9b3eaf26d12"
 
 [[files]]
 file = "kubejs/data/apotheosis/wanderer_trades/rare_gear/captive_dreams.json"
-hash = "2e6b515703ff2960c110dcebb12bc8c882f7e48aab87adcf3928c4dac2c519c0"
+hash = "27d302b7292551e68e0e27f1c952ba9ff13243be758d7bdab68d26b870ccf8aa"
 
 [[files]]
 file = "kubejs/data/apotheosis/wanderer_trades/rare_gear/eternal_vigilance.json"
@@ -5069,6 +5065,10 @@ file = "kubejs/data/irons_apothic/affixes/magic_weapons/spell/echoing.json"
 hash = "99d8f569a0ea07920934b8bbf07786dfb78b1d6c6656f9d64fc98f841157bdd8"
 
 [[files]]
+file = "kubejs/data/irons_apothic/affixes/magic_weapons/spell/harmonic.json"
+hash = "d47211528bc5f9a0b8992520b7046cadfe1db7300ac885ca8bfc664ec6d94945"
+
+[[files]]
 file = "kubejs/data/irons_apothic/affixes/magic_weapons/spell/oakskinned.json"
 hash = "ecb7856a7f7d1198404a56eee9aea6b688176418bbffc21da42f4aa99c3d5b34"
 
@@ -5262,7 +5262,7 @@ hash = "ff252287d4039980e8d5523c372a3301802d3bfd3df27f5cabd10bd1e4545144"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_table/chests/illager_mansion/library_chest.json"
-hash = "229ff35f27fa59793e2770ecfe4556e543d7a0959a8badac7dac52a253241019"
+hash = "a836a082466f4a399206237b5e343e791268965fec545d2a9b2e3d8c8812faf0"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_table/chests/illager_mansion/map_chest.json"
@@ -5278,7 +5278,7 @@ hash = "804372fffd1bea41b057123031d016910601d7f77ef4d9282410f413dea1aefc"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_table/chests/illager_mansion/secret_room.json"
-hash = "73883ebb72b63fb0d4b085767f4d8a6c80c459aaa2e19cc3c1e817987b9cb265"
+hash = "6fcf9ce5db801f9e3a87445e33843b77d9a10201b926f246c7dbde076f2a1245"
 
 [[files]]
 file = "kubejs/data/minecraft/loot_table/chests/illager_mansion/smithing_room.json"
@@ -6393,8 +6393,8 @@ file = "kubejs/data/minecraft/structure/illager_mansion/witch_void2.nbt"
 hash = "5a187cfbd1268542bb1ae9bc6d4ec1c2443c6d5ee7165560d6c3d068a8dcdb10"
 
 [[files]]
-file = "kubejs/data/minecraft/tags/enchantment/treasure.json"
-hash = "8c70c0108cb75099f300a800a0ac7537010e2f71c741131ab263073ad1cbf49a"
+file = "kubejs/data/minecraft/tags/enchantment/non_treasure.json"
+hash = "7e76c5bf4ad102a7a3805d7863e8981ad14875e7d9f98dd7f7cef6284d45b84e"
 
 [[files]]
 file = "kubejs/data/minecraft/tags/worldgen/structure/ancient_city.json"
@@ -6610,7 +6610,7 @@ hash = "d26d381ed92f54c55cb0ca54ac0398ef94408c307a2ec09fd88be1ed38fcd277"
 
 [[files]]
 file = "kubejs/data/nova_structures/loot_table/chests/illager_hideout_library.json"
-hash = "77d6aa5b222dd9a0c492575dadd88a33f75b83e81bfbbbe9cb6add138da501af"
+hash = "fbc82e42bc350ae4231f56f00743dc7bb0e35d6c6d5d40d625b1beda71336b5d"
 
 [[files]]
 file = "kubejs/data/nova_structures/loot_table/chests/illager_hideout_meat.json"
@@ -6654,7 +6654,7 @@ hash = "ca22da7708e2ae4281c8e392658e1317e5eeafbf86bcbf3908b4106df95768a6"
 
 [[files]]
 file = "kubejs/data/nova_structures/loot_table/chests/pillager_outpost_treasure.json"
-hash = "a2fe22a26df7e91b05550886ef416d21bc0f1365bd3b565c64ff2fbff564d803"
+hash = "11af710d6a788baf6821b7453fc4eae3f7a0ec420edbfd16c7fd5006f641dc9c"
 
 [[files]]
 file = "kubejs/data/nova_structures/loot_table/pots/pot_illager_manor.json"
@@ -6731,10 +6731,6 @@ hash = "4b89696b3d24dc2de390bbec404e0631a20ebda7e0b49a47ba1a16def57d7264"
 [[files]]
 file = "kubejs/data/nova_structures/tags/block/support_goes_through.json"
 hash = "2fa460fe1aae0ce290d1801155ccdba646c30f22746867bbb0f7a50b5a92a4b2"
-
-[[files]]
-file = "kubejs/data/nova_structures/tags/enchantment/illagers_bane.json"
-hash = "8d1cfe2f6afe338b87ce421ad5e5e739eb1f192364e277e6ab940006a8da3112"
 
 [[files]]
 file = "kubejs/data/nova_structures/tags/entity_type/illager.json"
@@ -8050,7 +8046,7 @@ metafile = true
 
 [[files]]
 file = "mods/alshanexs-familiars.pw.toml"
-hash = "1e0e7dbe9d0a9136a44d69c50571354fb91d2f3b08beddd7d12bd0c988e23d57"
+hash = "c5b5a0ff6b4bacfa3792a1991c224a9b0c357ac8d37f84c889f51700bbfba042"
 metafile = true
 
 [[files]]
@@ -8610,7 +8606,7 @@ metafile = true
 
 [[files]]
 file = "mods/deeperdarker.pw.toml"
-hash = "f7c1ced1b6c40a24ddb8c630c5ac906e4cecbd1039cea8cfe6992d899350514f"
+hash = "ebb3df18070c94169933965dc6ef11ea68adb2b362623417e6b129f0af9a1bbe"
 metafile = true
 
 [[files]]
@@ -9609,8 +9605,8 @@ hash = "b94b15835f39bab4b72e35f5fbaa61b43c1727eebaf96ae31667bdb5e64ae58b"
 metafile = true
 
 [[files]]
-file = "mods/videcraft-skinfix-1.0.0.jar"
-hash = "9b913c693c0689c111a2e8deb3e9059ac93a80795ec774e4dde8e260e534b714"
+file = "mods/videcraft-1.1.0.jar"
+hash = "911726e0fd9a0ab25b31db67fecc75057a4ce9f09ece68bc4914ee82adb27075"
 
 [[files]]
 file = "mods/villager-names.pw.toml"

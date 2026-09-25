@@ -1,4 +1,4 @@
-package org.videcraft.skinfix;
+package org.videcraft;
 
 import java.util.List;
 import java.util.Map;
@@ -7,7 +7,7 @@ import org.objectweb.asm.tree.ClassNode;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;
 import org.spongepowered.asm.mixin.extensibility.IMixinInfo;
 
-public final class SkinFixPlugin implements IMixinConfigPlugin {
+public final class VideCraftPlugin implements IMixinConfigPlugin {
     private static final Map<String, String> HOSTS = Map.of(
         "minecraft.api.auth.host", "https://authserver.mojang.com",
         "minecraft.api.account.host", "https://api.mojang.com",
@@ -20,7 +20,7 @@ public final class SkinFixPlugin implements IMixinConfigPlugin {
             var current = System.getProperty(host.getKey());
             if (current != null && current.contains("nope.invalid")) {
                 System.setProperty(host.getKey(), host.getValue());
-                System.out.println("[videcraft_skinfix] " + host.getKey() + " restored to " + host.getValue());
+                System.out.println("[videcraft] " + host.getKey() + " restored to " + host.getValue());
             }
         }
     }

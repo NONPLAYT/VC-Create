@@ -17,15 +17,18 @@
     "values": {
         "apotheosis:common": {
             "min": 0.015,
-            "max": 0.03
+            "max": 0.03,
+            "step": 0.005
         },
         "apotheosis:uncommon": {
             "min": 0.015,
-            "max": 0.05
+            "max": 0.05,
+            "step": 0.005
         },
         "apotheosis:rare": {
             "min": 0.025,
-            "max": 0.07
+            "max": 0.07,
+            "step": 0.005
         },
         "apotheosis:epic": {
             "min": 0.07,

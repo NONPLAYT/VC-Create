@@ -19,7 +19,8 @@
     "values": {
         "apotheosis:common": {
             "min": 0.0075,
-            "max": 0.01
+            "max": 0.01,
+            "step": 0.0025
         },
         "apotheosis:uncommon": {
             "min": 0.01,
