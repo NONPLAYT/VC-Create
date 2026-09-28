@@ -96,12 +96,13 @@ const removeRecipesById = [
   'minecraft:cake',
   'handcrafted:terracotta_thin_pot',
 
-  'refinedstorage_quartz_arsenal:wireless_crafting_grid',
-
   'hazennstuff:crafting/curios/galvanized_sheath',
   'hazennstuff:crafting/curios/scroll_sheath',
 
   'createaddition:charging/electrify_gold_ingot',
+  'createaddition:compacting/seed_oil',
+  'createaddition:mixing/bioethanol',
+  'createaddition:liquid_burning/biofuel',
   'catburger:cat_burger',
   'cataclysm:belt_of_beginner',
   'apotheosis:gem_case',

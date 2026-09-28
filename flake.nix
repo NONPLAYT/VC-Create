@@ -13,7 +13,7 @@
     let
       inherit (nixpkgs) lib;
       pack = lib.importTOML ./pack.toml;
-      packHash = "sha256-h8fGSeoiWWmDQ8wOwIBX6GeXzMCvCHq72vA6aZkvmp4=";
+      packHash = "sha256-u3zQ1T/WirJkVUd4nF+t0HmgnSbCFEGmOxcJI6fBVDk=";
       escape = lib.replaceStrings [ "." ] [ "_" ];
       neoforgeAttr = "neoforge-${escape pack.versions.minecraft}-${escape pack.versions.neoforge}";
 

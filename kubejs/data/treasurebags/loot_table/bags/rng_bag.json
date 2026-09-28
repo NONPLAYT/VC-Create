@@ -29,21 +29,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "refinedstorage_quartz_arsenal:creative_wireless_crafting_grid",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "refinedstorage:creative_wireless_autocrafting_monitor",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "refinedstorage:creative_wireless_grid",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
           "name": "create_sa:creative_filling_tank",
           "weight": 5
         },

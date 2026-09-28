@@ -12,24 +12,24 @@
 			height: 0.7d
 			image: "kubejs:textures/new_age/electricity.png"
 			rotation: 0.0d
-			width: 4.44d
-			x: -3.5d
+			width: 5.93d
+			x: -2.76d
 			y: -1.0d
 		}
 		{
 			height: 0.7d
 			image: "kubejs:textures/new_age/heat.png"
 			rotation: 0.0d
-			width: 5.84d
-			x: -3.0d
+			width: 7.15d
+			x: -2.34d
 			y: 2.5d
 		}
 		{
 			height: 0.7d
 			image: "kubejs:textures/new_age/nuclear.png"
 			rotation: 0.0d
-			width: 3.15d
-			x: -4.0d
+			width: 6.6d
+			x: -2.28d
 			y: 6.0d
 		}
 		{

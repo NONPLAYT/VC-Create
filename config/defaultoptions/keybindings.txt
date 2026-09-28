@@ -40,12 +40,6 @@ key_key.shetiphiancore.tool.next:key.keyboard.unknown:
 key_key.shetiphiancore.tool.previous:key.keyboard.unknown:
 key_supplementaries.keybind.quiver:key.keyboard.0:
 key_key.eternal_starlight.switch_crest:key.keyboard.h:
-key_key.refinedstorage.focus_search_bar:key.keyboard.tab:
-key_key.refinedstorage.clear_crafting_grid_matrix_to_network:key.keyboard.x:CONTROL
-key_key.refinedstorage.clear_crafting_grid_matrix_to_inventory:key.keyboard.unknown:
-key_key.refinedstorage.open_wireless_grid:key.keyboard.unknown:
-key_key.refinedstorage.open_portable_grid:key.keyboard.unknown:
-key_key.refinedstorage.open_wireless_autocrafting_monitor:key.keyboard.unknown:
 key_key.corpse.death_history:key.keyboard.j:
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown:
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown:
@@ -176,7 +170,6 @@ key_key.craftingtweaks.decompress_all:key.keyboard.unknown:
 key_key.craftingtweaks.refill_last:key.keyboard.tab:CONTROL
 key_key.craftingtweaks.refill_last_stack:key.keyboard.tab:SHIFT
 key_key.craftingtweaks.transfer_stack:key.keyboard.unknown:
-key_key.refinedstorage_quartz_arsenal.open_wireless_crafting_grid:key.keyboard.unknown:
 key_key.sophisticatedcore.sort:key.mouse.middle:
 key_key.sophisticatedcore.transfer_to_storage:key.keyboard.left.bracket:
 key_key.sophisticatedcore.transfer_to_inventory:key.keyboard.right.bracket:

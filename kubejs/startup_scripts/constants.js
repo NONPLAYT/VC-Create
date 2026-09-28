@@ -133,7 +133,9 @@ global.REMOVE_ITEMS = [
   "hazennstuff:ionic_splitter_t2",
   "hazennstuff:ionic_splitter_t3",
   "hazennstuff:steel_ingot",
-  "hazennstuff:steel_nugget"
+  "hazennstuff:steel_nugget",
+  "createaddition:seed_oil_bucket",
+  "createaddition:bioethanol_bucket"
  
 
 

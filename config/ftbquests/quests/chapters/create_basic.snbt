@@ -3182,36 +3182,6 @@
 		}
 		{
 			dependencies: ["440CB7D81AEBB293"]
-			id: "6C26AE94094E281C"
-			rewards: [
-				{
-					count: 5
-					id: "4A434210CED15CB6"
-					item: {
-						count: 1
-						id: "create:experience_nugget"
-					}
-					type: "item"
-				}
-				{
-					id: "1184952D5CEC62D8"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1A442F1F0F77A2D0"
-				item: { count: 1, id: "delivery_director:package_rewriter" }
-				type: "item"
-			}]
-			x: -9.0d
-			y: -13.5d
-		}
-		{
-			dependencies: ["440CB7D81AEBB293"]
 			id: "035F757245661554"
 			rewards: [
 				{

@@ -7,15 +7,26 @@
 		id: "createaddition:large_connector"
 	}
 	id: "178BB414E2F55B72"
-	images: [{
-		color: 14522965
-		height: 1.0d
-		image: "chalk:block/mark/arrow"
-		rotation: 90.0d
-		width: 1.0d
-		x: -5.0d
-		y: -1.5d
-	}]
+	images: [
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			color: 14522965
+			height: 1.0d
+			image: "chalk:block/mark/arrow"
+			rotation: 90.0d
+			width: 1.0d
+			x: -5.0d
+			y: 1.5d
+		}
+	]
 	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -152,6 +163,146 @@
 			}]
 			x: -3.9000000000000004d
 			y: -1.5d
+		}
+		{
+			id: "6F446C12BD3C34A2"
+			rewards: [{
+				count: 2
+				id: "7689082AAA65C8E3"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "4A662DECBC588E90"
+				item: { count: 1, id: "createdieselgenerators:oil_scanner" }
+				type: "item"
+			}]
+			x: -3.9000000000000004d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F446C12BD3C34A2"]
+			id: "6FA4D1AA25A3064E"
+			rewards: [{
+				count: 5
+				id: "23C4D755E18A744F"
+				item: {
+					count: 1
+					id: "create:experience_nugget"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "130D3535133EC017"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_hole" }
+					type: "item"
+				}
+				{
+					id: "7B7A453C5DB15C11"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_bearing" }
+					type: "item"
+				}
+				{
+					id: "11765AC2D144988F"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_crank" }
+					type: "item"
+				}
+				{
+					id: "0257CEE881F4A968"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_head" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6FA4D1AA25A3064E"]
+			id: "2165E773248C4826"
+			rewards: [{
+				count: 2
+				id: "71FEDE5A759C9875"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "525BA6CFD90269DC"
+				item: { count: 1, id: "createdieselgenerators:crude_oil_bucket" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2165E773248C4826"]
+			id: "17389D5192FF6D41"
+			rewards: [{
+				count: 5
+				id: "21E324B6AC2FD19A"
+				item: {
+					count: 1
+					id: "create:experience_nugget"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72AB73428020ED93"
+				item: { count: 1, id: "createdieselgenerators:distillation_controller" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["17389D5192FF6D41"]
+			id: "6155EACD04F41305"
+			rewards: [{
+				count: 2
+				id: "47FB235B17EB4D75"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "79D846709F3D593D"
+				item: { count: 1, id: "createdieselgenerators:diesel_bucket" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6155EACD04F41305"]
+			id: "7C4AF1C82F943E9E"
+			rewards: [{
+				count: 4
+				id: "410C87712FFE240E"
+				item: {
+					count: 1
+					id: "createdieselgenerators:engine_piston"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.3d
+			tasks: [{
+				id: "200ECE8B6F1A52F4"
+				item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
 		}
 	]
 }

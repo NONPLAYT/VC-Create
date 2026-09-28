@@ -25,7 +25,7 @@ ServerEvents.recipes((event) => {
     event.recipes.createMixing('minecraft:crimson_nylium', ['minecraft:netherrack', 'minecraft:crimson_fungus'])
     event.recipes.createMixing('9x minecraft:gunpowder', ['minecraft:wither_rose', 'biomeswevegone:blue_glowcane_powder', 'biomeswevegone:red_glowcane_powder', 'biomeswevegone:green_glowcane_powder', 'biomeswevegone:yellow_glowcane_powder']).superheated()
     event.recipes.createMixing('minecraft:lapis_lazuli', ['minecraft:glowstone_dust', 'minecraft:blue_dye', 'minecraft:amethyst_shard', Fluid.of('create_enchantment_industry:experience', 100)]).superheated()
-    event.recipes.createMixing('minecraft:ender_pearl', [Fluid.of('createaddition:bioethanol', 250), 'createaddition:biomass_pellet', 'createaddition:biomass_pellet', 'createaddition:biomass_pellet', 'minecraft:prismarine_shard', 'minecraft:prismarine_shard', 'minecraft:prismarine_shard', 'minecraft:prismarine_crystals']).superheated()
+    event.recipes.createMixing('minecraft:ender_pearl', [Fluid.of('createdieselgenerators:ethanol', 250), 'createaddition:biomass_pellet', 'createaddition:biomass_pellet', 'createaddition:biomass_pellet', 'minecraft:prismarine_shard', 'minecraft:prismarine_shard', 'minecraft:prismarine_shard', 'minecraft:prismarine_crystals']).superheated()
     //event.recipes.create.mixing('3x createmechanisms:bronze', ['minecraft:copper_ingot', 'minecraft:copper_ingot', 'minecraft:copper_ingot', 'minecraft:iron_ingot']).heated()
     event.recipes.createMixing('kubejs:chromatic_compound', [
       Ingredient.of('#c:dusts/glowstone'),

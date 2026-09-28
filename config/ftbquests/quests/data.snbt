@@ -13,7 +13,11 @@
 	grid_scale: 0.5d
 	hide_excluded_quests: false
 	icon: {
-		id: "kubejs:cursed_eye_fragment_core"
+		components: {
+			"ftbquests:icon": "kubejs:textures/gui/videcraft_logo.png"
+		}
+		count: 1
+		id: "ftbquests:custom_icon"
 	}
 	lock_message: ""
 	loot_crate_no_drop: {
