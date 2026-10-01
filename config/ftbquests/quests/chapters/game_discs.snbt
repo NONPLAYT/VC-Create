@@ -163,10 +163,20 @@
 					type: "item"
 				}
 				{
+					count: 3
 					id: "3A9D321AF57FAFE3"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "28A9F31487151DFC"
+					item: {
+						count: 1
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}

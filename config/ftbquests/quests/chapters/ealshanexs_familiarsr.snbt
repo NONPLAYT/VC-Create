@@ -134,11 +134,28 @@
 				type: "item"
 			}
 			{
-				count: 2
 				id: "40EA5978CCDFDD7C"
 				item: {
 					count: 1
-					id: "magic_coins:gold_coin"
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}
+			{
+				count: 2
+				id: "3CB672073D6F8B46"
+				item: {
+					count: 1
+					id: "numismatics:sprocket"
+				}
+				type: "item"
+			}
+			{
+				count: 4
+				id: "4E96DB12025BE94E"
+				item: {
+					count: 1
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}

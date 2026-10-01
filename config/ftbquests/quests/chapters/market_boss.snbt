@@ -1,0 +1,1414 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "market_boss"
+	group: "5A4B5A1603A445F4"
+	icon: {
+		id: "kubejs:boss_token"
+	}
+	id: "60C8F8FA50B85D09"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "kubejs:lich_eye_fragment_cracked"
+			}
+			id: "51EE6EA97C1220A7"
+			rewards: [
+				{
+					id: "42B83BE6AD3DDCF6"
+					item: {
+						count: 1
+						id: "kubejs:lich_eye_fragment_cracked"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "6742FA41EDC9EA66"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:sword_on_a_stick"
+			}
+			id: "4E72848400BCBE8E"
+			rewards: [
+				{
+					id: "79233B1EB477208E"
+					item: {
+						count: 1
+						id: "simplyswords:sword_on_a_stick"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "460FC966A046A181"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "kubejs:cryptic_eye_fragment_cracked"
+			}
+			id: "2A7D9F44CC91AC85"
+			rewards: [
+				{
+					id: "2975E79CF07A2606"
+					item: {
+						count: 1
+						id: "kubejs:cryptic_eye_fragment_cracked"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "74CA9734606ED04D"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:brimstone_claymore"
+			}
+			id: "3CE9340537DDFC67"
+			rewards: [
+				{
+					id: "364D638AF6EF16FC"
+					item: {
+						count: 1
+						id: "simplyswords:brimstone_claymore"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "124035642EC185ED"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:chompolotl"
+			}
+			id: "03982B39E28F2901"
+			rewards: [
+				{
+					id: "058EDB6CC41FCB49"
+					item: {
+						count: 1
+						id: "simplyswords:chompolotl"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "01EB2AA50F7FB98C"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:frostfall"
+			}
+			id: "3EA519B84DDCEA8F"
+			rewards: [
+				{
+					id: "54F356E1FC4BAF91"
+					item: {
+						count: 1
+						id: "simplyswords:frostfall"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "233977568472EF74"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:molten_edge"
+			}
+			id: "3EBEC3D81561F490"
+			rewards: [
+				{
+					id: "67F14F75017EC49C"
+					item: {
+						count: 1
+						id: "simplyswords:molten_edge"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "11691E9E47D8B0B1"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:soulstealer"
+			}
+			id: "07475D2DB9A8E12B"
+			rewards: [
+				{
+					id: "70B1FDA302B52FD5"
+					item: {
+						count: 1
+						id: "simplyswords:soulstealer"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "6B33DED15DFFBF48"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:watcher_claymore"
+			}
+			id: "0AF6FCC0142FC906"
+			rewards: [
+				{
+					id: "3A0A2DDE5539AA37"
+					item: {
+						count: 1
+						id: "simplyswords:watcher_claymore"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "5436826A47E93240"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:wraithfang"
+			}
+			id: "6E09B9C42310C530"
+			rewards: [
+				{
+					id: "6212497772746DF8"
+					item: {
+						count: 1
+						id: "simplyswords:wraithfang"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "3CC0F3C3FA6FFB85"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:emberlash"
+			}
+			id: "62160EBC8A337152"
+			rewards: [
+				{
+					id: "10035808E0EAB8BC"
+					item: {
+						count: 1
+						id: "simplyswords:emberlash"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "3E686B5165C9C8B7"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:mjolnir"
+			}
+			id: "2F317826658E2D68"
+			rewards: [
+				{
+					id: "671FFBB98E99D635"
+					item: {
+						count: 1
+						id: "simplyswords:mjolnir"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "00ED604E1A034DA0"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:shadowsting"
+			}
+			id: "5EEA01154EA0C9E9"
+			rewards: [
+				{
+					id: "0D82A5D6C9749177"
+					item: {
+						count: 1
+						id: "simplyswords:shadowsting"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "21102BD1DD77E86B"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:stormbringer"
+			}
+			id: "717B579F97F0859F"
+			rewards: [
+				{
+					id: "3D5B5492D7E05AE8"
+					item: {
+						count: 1
+						id: "simplyswords:stormbringer"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "123AE13E330F1CFC"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:toxic_longsword"
+			}
+			id: "336DB4060CEA9FCD"
+			rewards: [
+				{
+					id: "1C8A33CC1E4ACD68"
+					item: {
+						count: 1
+						id: "simplyswords:toxic_longsword"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "48C2ABD33D19F301"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:emberblade"
+			}
+			id: "392C4437F3544306"
+			rewards: [
+				{
+					id: "2564FB3E7809D0AC"
+					item: {
+						count: 1
+						id: "simplyswords:emberblade"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "3C5EC780BF584055"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:ribboncleaver"
+			}
+			id: "3FBD5E66F45BD7AF"
+			rewards: [
+				{
+					id: "124011A3B1CC6BF6"
+					item: {
+						count: 1
+						id: "simplyswords:ribboncleaver"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "51FCF536CA3A8762"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:slumbering_lichblade"
+			}
+			id: "65D6D1A6BA5BFB2B"
+			rewards: [
+				{
+					id: "617B43A20141AE07"
+					item: {
+						count: 1
+						id: "simplyswords:slumbering_lichblade"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "29182A397A073877"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:soulrender"
+			}
+			id: "6D0CCB65988BBF7F"
+			rewards: [
+				{
+					id: "7169765BCEB3AB98"
+					item: {
+						count: 1
+						id: "simplyswords:soulrender"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "6CACEE63025E2CBB"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:arcanethyst"
+			}
+			id: "58DA7D7DB985AD78"
+			rewards: [
+				{
+					id: "2AA8F474560A20E4"
+					item: {
+						count: 1
+						id: "simplyswords:arcanethyst"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "7D51A8655EC33E01"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:bramblethorn"
+			}
+			id: "5DB1E3490F3748B5"
+			rewards: [
+				{
+					id: "2F7198E51AAFCE73"
+					item: {
+						count: 1
+						id: "simplyswords:bramblethorn"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "389441ADB9CB168F"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:caelestis"
+			}
+			id: "617847B220353698"
+			rewards: [
+				{
+					id: "75EEEA2BE77F92AA"
+					item: {
+						count: 1
+						id: "simplyswords:caelestis"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "39B65516E52545AE"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:enigma"
+			}
+			id: "5A6A6DD75844727F"
+			rewards: [
+				{
+					id: "79A38852BF5F5E9D"
+					item: {
+						count: 1
+						id: "simplyswords:enigma"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "7150A0AA6BA62B3D"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:flamewind"
+			}
+			id: "76E6EB3337AA658A"
+			rewards: [
+				{
+					id: "33C6BFE8596C9EA8"
+					item: {
+						count: 1
+						id: "simplyswords:flamewind"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "4CFDA6A37DD736A2"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:hearthflame"
+			}
+			id: "21F6EDB9F6AEBCC7"
+			rewards: [
+				{
+					id: "0F1E36B45EFD3B25"
+					item: {
+						count: 1
+						id: "simplyswords:hearthflame"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "2CC0831974181312"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:hiveheart"
+			}
+			id: "7674990F6238A529"
+			rewards: [
+				{
+					id: "5694C52F16FD1128"
+					item: {
+						count: 1
+						id: "simplyswords:hiveheart"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "2B346CA0C8CD0044"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:icewhisper"
+			}
+			id: "4E2EC47632073465"
+			rewards: [
+				{
+					id: "198A1ADBDBB73741"
+					item: {
+						count: 1
+						id: "simplyswords:icewhisper"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "6DD35F046C296F82"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:livyatan"
+			}
+			id: "5AE14AB74B3B3884"
+			rewards: [
+				{
+					id: "4C9202E3770334CA"
+					item: {
+						count: 1
+						id: "simplyswords:livyatan"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "62E3435DBED09985"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:soulkeeper"
+			}
+			id: "46AB59CA993AEE7F"
+			rewards: [
+				{
+					id: "61AEBA1327BFF263"
+					item: {
+						count: 1
+						id: "simplyswords:soulkeeper"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "5A56E49926D86FB5"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:soulpyre"
+			}
+			id: "75CBF861C4D18B1C"
+			rewards: [
+				{
+					id: "0A27BBF75A1CCE2A"
+					item: {
+						count: 1
+						id: "simplyswords:soulpyre"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "5A630E7C7E241682"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:storms_edge"
+			}
+			id: "7B85FF4A500C74A3"
+			rewards: [
+				{
+					id: "2F2B62F59C0164F4"
+					item: {
+						count: 1
+						id: "simplyswords:storms_edge"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "3BCC3E7D44CC0C48"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:thunderbrand"
+			}
+			id: "24C6719623C41558"
+			rewards: [
+				{
+					id: "4C7D42627966B405"
+					item: {
+						count: 1
+						id: "simplyswords:thunderbrand"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "12FDCC52D4D35565"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:twisted_blade"
+			}
+			id: "609491CDCA8C4DE9"
+			rewards: [
+				{
+					id: "79926E21FBAA757A"
+					item: {
+						count: 1
+						id: "simplyswords:twisted_blade"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "234860634F5DFD6D"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:watching_warglaive"
+			}
+			id: "3AC83C9A1A6BFCAD"
+			rewards: [
+				{
+					id: "3751EEA0A105FA72"
+					item: {
+						count: 1
+						id: "simplyswords:watching_warglaive"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "478C1567C6E98D4A"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:waxweaver"
+			}
+			id: "088479F62DB3CE3E"
+			rewards: [
+				{
+					id: "5A99BE695DF4A85F"
+					item: {
+						count: 1
+						id: "simplyswords:waxweaver"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "43FE074B66C5D5E1"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:whisperwind"
+			}
+			id: "7398AD3CABF91089"
+			rewards: [
+				{
+					id: "6F98F0BB979E4A43"
+					item: {
+						count: 1
+						id: "simplyswords:whisperwind"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "70598E98E5D48A61"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:dormant_relic"
+			}
+			id: "217BF8A1C85B64DE"
+			rewards: [
+				{
+					id: "646B0D5EE37A3661"
+					item: {
+						count: 1
+						id: "simplyswords:dormant_relic"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 7L
+					id: "6533C3C1F925407A"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:stars_edge"
+			}
+			id: "39F8E26B54F33A60"
+			rewards: [
+				{
+					id: "5829B9C6F903CE27"
+					item: {
+						count: 1
+						id: "simplyswords:stars_edge"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 7L
+					id: "416D76EC7CDD68CF"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:tempest"
+			}
+			id: "5ECB7AD2801706B6"
+			rewards: [
+				{
+					id: "52B9A74F6CAF6BC2"
+					item: {
+						count: 1
+						id: "simplyswords:tempest"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 7L
+					id: "596314DFFB704503"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "simplyswords:wickpiercer"
+			}
+			id: "54C89BB286FE9B00"
+			rewards: [
+				{
+					id: "299CD75C7A7D4BFD"
+					item: {
+						count: 1
+						id: "simplyswords:wickpiercer"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 7L
+					id: "6AF86CB71E79325E"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "treasurebags:treasure_bag"
+				components: {
+					"treasurebags:bag_type": "treasurebags:holy_set"
+				}
+			}
+			id: "7EF3C7C09D4E7BFE"
+			rewards: [
+				{
+					id: "664AEABC88CDF806"
+					item: {
+						count: 1
+						id: "treasurebags:treasure_bag"
+						components: {
+							"treasurebags:bag_type": "treasurebags:holy_set"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "77DB276C7F35619A"
+					item: {
+						count: 1
+						id: "kubejs:boss_token"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+	]
+}

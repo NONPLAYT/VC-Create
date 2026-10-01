@@ -94,6 +94,9 @@ global.REMOVE_ITEMS = [
   'gamediscs:control_pad', 
   'irons_spellbooks:wayward_compass',
   'magic_coins:prosperity_amulet',
+  'magic_coins:silver_coin',
+  'magic_coins:gold_coin',
+  'magic_coins:crystal_coin',
 
   'alshanex_familiars:illusionist_shard',
 

@@ -3,17 +3,17 @@
 	#Tips: 80 for align for right side
 	# Default: 0
 	# Range: > -2147483648
-	xCollectCoins = 0
+	xCollectCoins = -10000
 	#Y position for coin button
 	# Default: 0
 	# Range: > -2147483648
-	yCollectCoins = 0
+	yCollectCoins = -10000
 	#Enable convert buttons on collect coins button
-	enableConvertButtons = true
+	enableConvertButtons = false
 
 [SILVER_BUTTON]
 	#Enable silver button
-	enableSilverButton = true
+	enableSilverButton = false
 	#X position of silver button
 	# Default: 0
 	# Range: -750 ~ 750
@@ -25,7 +25,7 @@
 
 [GOLD_BUTTON]
 	#Enable gold button
-	enableGoldButton = true
+	enableGoldButton = false
 	#X position of gold button
 	# Default: 0
 	# Range: -750 ~ 750
@@ -37,7 +37,7 @@
 
 [CRYSTAL_BUTTON]
 	#Enable crystal button
-	enableCrystalButton = true
+	enableCrystalButton = false
 	#X position of crystal button
 	# Default: 0
 	# Range: -750 ~ 750

@@ -242,7 +242,7 @@
 					id: "52A63AC4878BCC3C"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -302,7 +302,7 @@
 					id: "20ABE4561BCA64A2"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -361,7 +361,7 @@
 					id: "3C8877CCEFCB74B1"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -457,7 +457,7 @@
 				id: "41C7F6529EFCE9BA"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -491,7 +491,7 @@
 				id: "663FE402809302F9"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -525,7 +525,7 @@
 				id: "4AFDE5918E5E22BE"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -554,14 +554,26 @@
 				id: "bosses_of_mass_destruction:void_lily"
 			}
 			id: "6BAC0A0F663D5B1F"
-			rewards: [{
-				id: "23D72ACC2FFA326C"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					count: 3
+					id: "23D72ACC2FFA326C"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "7DC26A4F64A070A2"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -587,14 +599,26 @@
 				id: "bosses_of_mass_destruction:obsidian_heart"
 			}
 			id: "5FCFD038804EFBF7"
-			rewards: [{
-				id: "0EA4F19B9144D443"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					count: 3
+					id: "0EA4F19B9144D443"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "34E1DC58D7F772D8"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -625,7 +649,7 @@
 				id: "3C9F06A55AAEB846"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -659,7 +683,7 @@
 				id: "711C445C2058808A"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -688,15 +712,34 @@
 				id: "cataclysm:remnant_skull"
 			}
 			id: "5037AA2541E439E5"
-			rewards: [{
-				count: 2
-				id: "6368B542C2F4F540"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "6368B542C2F4F540"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "4252CA3D799A7551"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4D601040CB1C2759"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -722,15 +765,34 @@
 				id: "cataclysm:abyssal_sacrifice"
 			}
 			id: "00D7A88C4C686C02"
-			rewards: [{
-				count: 2
-				id: "620D1330009829B9"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "620D1330009829B9"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "4705611B360DCE3F"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2968ADFBD5B8CE1D"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -756,15 +818,25 @@
 				id: "cataclysm:cursium_helmet"
 			}
 			id: "543052F17CF1380B"
-			rewards: [{
-				count: 4
-				id: "210DA283D8224762"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					count: 3
+					id: "210DA283D8224762"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2F2CF789F6167E59"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -790,15 +862,25 @@
 				id: "cataclysm:altar_of_fire"
 			}
 			id: "066B217CF45625F9"
-			rewards: [{
-				count: 4
-				id: "5BC42C309A3336F4"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					count: 3
+					id: "5BC42C309A3336F4"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "67E4267544BCCCB0"
+					item: {
+						count: 1
+						id: "numismatics:bevel"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -999,14 +1081,26 @@
 				id: "irons_spellbooks:decrepit_scythe"
 			}
 			id: "583EBA8354586BFD"
-			rewards: [{
-				id: "17944688342AFEFD"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					count: 3
+					id: "17944688342AFEFD"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "27E98F4B0E0A2B28"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			tasks: [
 				{
@@ -1038,7 +1132,7 @@
 					id: "41591834221A4DC1"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -1106,7 +1200,7 @@
 				id: "4EDD5D4B5E203ECF"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -1140,7 +1234,7 @@
 				id: "4422748A51F55532"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -1211,11 +1305,28 @@
 					xp_levels: 10
 				}
 				{
-					count: 2
 					id: "37B9EDD25098DDE5"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1ACDD38F4B0F34CB"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22419B33F545CE81"
+					item: {
+						count: 1
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -1324,7 +1435,7 @@
 					id: "44EA99BDE4A6C0C3"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -1408,11 +1519,29 @@
 					type: "item"
 				}
 				{
-					count: 10
+					count: 7
 					id: "0A2426D47236AF45"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4089A92885D38306"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4B5B33AA9EB812EF"
+					item: {
+						count: 1
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -1469,7 +1598,7 @@
 					id: "08C814605C789C34"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -1492,7 +1621,7 @@
 				id: "6CEA4F80E9492B8F"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -1512,7 +1641,7 @@
 				id: "681078A5EEB88763"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -1789,7 +1918,7 @@
 				id: "7EDDDB66661A5036"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -1815,10 +1944,29 @@
 					type: "item"
 				}
 				{
+					count: 4
 					id: "12148C52416C1639"
 					item: {
 						count: 1
-						id: "magic_coins:crystal_coin"
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 7
+					id: "2C94AF8BEFB7B7EA"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7195769577DCD072"
+					item: {
+						count: 1
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}

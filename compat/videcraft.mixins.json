@@ -8,6 +8,9 @@
     "SoulElytraBoostPayloadMixin",
     "DeeperDarkerPluginMixin"
   ],
+  "client": [
+    "StockMarketScreensMixin"
+  ],
   "injectors": {
     "defaultRequire": 0
   }

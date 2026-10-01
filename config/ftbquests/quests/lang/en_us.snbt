@@ -6,6 +6,7 @@
 	chapter.19BE083ACF488E0F.title: "&6Iron's Spells 'n Spellbooks&r"
 	chapter.1B9B51E90A5A29A0.title: "&aMolten Vents and Renewables&r"
 	chapter.2385B4F2FA029016.title: "&6Alshanex's Familiars&r"
+	chapter.23AD52E289B45EDD.title: "&6Shop"
 	chapter.2A786FFD5532B025.title: "&aTeleporters"
 	chapter.2CF7FF0BE3628E3D.title: "&eAlshanex's Familiars&r"
 	chapter.464FB437D5DF7824.title: "&eArtifacts"
@@ -16,17 +17,24 @@
 	chapter.58D00C1309225860.title: "&aGarnished"
 	chapter.5A695917A1E23476.title: "&dGolem Overhaul"
 	chapter.5F7AAB8DEFA61465.title: "&aNew Age"
+	chapter.60C8F8FA50B85D09.title: "&6Boss Tokens"
+	chapter.64AD0702234394C4.title: "&fOperator Tokens"
 	chapter.66515D165B519FE2.title: "&eGame Discs"
 	chapter.699146B31CBD0538.title: "&aEnchantment Industry&r"
+	chapter.6A42B8E58410FAA3.title: "&eEngineer Tokens"
 	chapter.6EF23835B92B89EC.title: "&ePlushies"
 	chapter.734C4C2CDBC52F6C.title: "&bSophisticated Storage"
 	chapter.784A6CC38A657526.title: "&eSimply Swords"
+	chapter.39FC36E43C5EA14E.title: "&7Apprentice Tokens"
+	chapter.5C97DFEFA9F51966.title: "&bStructure Maps"
 	chapter_group.10BAE746B6F04D66.title: "Magic"
 	chapter_group.3808ABBD2D934E7D.title: "Collectibles"
 	chapter_group.58944126F4575319.title: "Others"
+	chapter_group.5A4B5A1603A445F4.title: "&a&lMarket"
 	chapter_group.61769445B9D5700E.title: "Dimensions"
 	chapter_group.781F17A4DC3D0E66.title: "Create"
 	file.0000000000000001.title: "&e&lVideCraft: &a&lCreate"
+	quest.004DC3A6D46E7570.title: "Black Eye Cracked Fragment"
 	quest.0051AD1BF14F9EC9.quest_subtitle: "&6+10% Summon Damage"
 	quest.008BB9099EFA03A0.quest_desc: [
 		"You've made it this far but &cone final challenge&r stands between you and complete mastery of &ethe End. &r"
@@ -62,6 +70,7 @@
 	quest.01219DEB95032DC7.title: "&dShadow-Walker Outfit"
 	quest.016C498DFB704536.quest_subtitle: "Allows you to trade with villagers for much cheaper"
 	quest.0206507E91CB74CB.quest_subtitle: "Use in Smithing Table to remove &6Imbuement or Upgrades"
+	quest.021E98C034E858A1.title: "Scroll: Greater Heal (lvl 1)"
 	quest.026469F32F5639EB.quest_desc: [
 		"Step into the pixelated past with the &eGameDiscs Mod&r, a retro gaming console you can &bbuy from market&r and use inside Minecraft! Power up, pick a game, and relive the classics right from your inventory. "
 		""
@@ -132,6 +141,7 @@
 	]
 	quest.02E09ED80689775A.quest_subtitle: "Step by step 101 - Kelp can be found on the ocean"
 	quest.02E09ED80689775A.title: "&l&aHow to make a kelp farm&r&r"
+	quest.03013BEF28BF0711.title: "Corrupted Eye Shard"
 	quest.03880BADF1C08707.quest_desc: [
 		"&6&lNote:&r&r &oTo charge this Gadget you must use a Tesla Coil and have eletricity. &r"
 		""
@@ -150,6 +160,7 @@
 		"&3Checkerboard&r: Otherwise known as the Torch mode, this mode will build in a checkered pattern allowing you to place in the pattern of &2[]&r-&2[]&r-&2[]&r-&2[]&r []: being blocks and -: being air."
 	]
 	quest.03880BADF1C08707.quest_subtitle: "The Building Gadget allows you to build structures using a set of different Building Modes."
+	quest.03982B39E28F2901.title: "Chomp'olotl"
 	quest.03A09B606040AD2E.quest_subtitle: "Rare random drop from Blazes."
 	quest.0420DAF362EE2B37.quest_desc: [
 		"The &6&lLinear Chassis&r&r is a core block used to build Contraptions."
@@ -237,6 +248,7 @@
 	]
 	quest.0560F717010F1833.quest_subtitle: "Dropped from Mooshrooms."
 	quest.0562F21AA82B2961.quest_subtitle: "Craft any Diamond Chest type."
+	quest.057F88D8F6D56A68.title: "Map: Затонувший город"
 	quest.05A39ED901BC6569.quest_subtitle: "Reduces the time of debuffs"
 	quest.05B32DE12868C6DE.quest_desc: [
 		"With your &ewooden pickaxe&r in hand, breaking stone is no longer a problem."
@@ -323,7 +335,9 @@
 		"When assembled, the Train can be named in the Station's interface."
 	]
 	quest.07297B0121A2DCF0.title: "All Aboard!"
+	quest.07475D2DB9A8E12B.title: "Soulstealer"
 	quest.07655CF543C452F8.quest_subtitle: "Collect Dragon's Breath in a Glass Bottle."
+	quest.078E5A2B4117D5BC.title: "Gem Case"
 	quest.07AC6598017865A8.quest_desc: [
 		"Can be written on to create interesting pattern in black and white."
 		""
@@ -380,6 +394,7 @@
 		""
 		"To explore all available upgrades, use JEI and type `&d@sophisticatedstorage upgrade&r`."
 	]
+	quest.088479F62DB3CE3E.title: "Waxweaver"
 	quest.08AA3590E20B7629.quest_desc: ["The &l&6Gearshift&r&r reverses the direction of rotational force output when it receives a Redstone signal."]
 	quest.08B2F767BB0AB1AA.quest_subtitle: "Tusk can be dropped by Hoglins when using the Ravaging enchantment on a hatchet. Additionally, it can be dropped by Pigs when using the Salvaging enchantment on a hatchet."
 	quest.090F9541580A5130.quest_desc: [
@@ -415,6 +430,7 @@
 	quest.09A1D7358EAB6139.quest_subtitle: "Can be used to store familiars and let wander freely"
 	quest.09A89AA4D2362D88.quest_desc: ["Acts the same as a &6Blaze Burner&r but uses &c&lHeat&r&r instead of &2Fuel&r."]
 	quest.09AB2906A59DF966.quest_subtitle: "Can be obtained in the Origin Island. It's used like a Staff"
+	quest.0A5EC6361BCD537C.title: "Sigil of Socketing"
 	quest.0A69851F5CC1A1F0.quest_subtitle: "Better Elytra!"
 	quest.0A6B65C5893B9BD4.quest_desc: [
 		"&6Train Controls&r are required to build a Train. &dRight-Click&r a &6Train Controller&r to control the Train. "
@@ -445,6 +461,7 @@
 		""
 		"&6Chain Conveyors&r will automatically sort packages by their Address, directing them to &bFrogports&r with matching destinations."
 	]
+	quest.0AAA390ECC2AD7E8.title: "Book: Mending"
 	quest.0AB78F7C8EC68C08.quest_subtitle: "Not repeatable"
 	quest.0AB9F56A501FEFED.quest_desc: [
 		"Photographs are printed using the &6Lightroom&r block from developed film, which requires a &elight source to function.&r"
@@ -455,6 +472,7 @@
 		""
 		"-> &nColor prints&r need Cyan, Magenta, and Yellow Dyes in addition to Paper."
 	]
+	quest.0AC53759AA340D77.title: "Lesser Spell Slot Improvement"
 	quest.0ADF7E30D7F5B61E.quest_desc: [
 		"&cThe electricity system in this mod is exclusively for its own components and cannot be used with other mods.&r"
 		""
@@ -468,6 +486,7 @@
 		""
 		"So power up your &6workbench&r and start crafting the amazing furniture to decorate your house!"
 	]
+	quest.0AF6FCC0142FC906.title: "The Watcher"
 	quest.0B0043E696D0EE22.quest_desc: [
 		"&aThe Smithing Table is used to insert gems into your tools&r but only if the tool has an open gem &bsocket&r. "
 		""
@@ -477,12 +496,14 @@
 		""
 		"To add a new socket, use a &9Sigil of Socketing.&r"
 	]
+	quest.0BA1B51A98EF9F0C.title: "Scroll: Lightning Bolt (lvl 1)"
 	quest.0BD070E54EF86FDA.quest_desc: [
 		"You can display items outside of chests to better organize your storage. For example, a food chest can display a carrot to indicate its contents."
 		""
 		"To do this, go to the settings of the chest and navigate to the Item Display Settings. Left-click on an item inside the chest to display it. The selected item will be marked with a border square. To remove the display, right-click on the square."
 	]
 	quest.0BD070E54EF86FDA.title: "Display labels"
+	quest.0BF1B50A9561E3C2.title: "Library of Alexandria"
 	quest.0C28D365031DFBB9.quest_desc: ["The &6diamond backpack&r is the upgrade of the &egold backpack&r. It has 108 storage slots and can hold 5 upgrades"]
 	quest.0C28D365031DFBB9.quest_subtitle: "Massive storage on the go"
 	quest.0C3833270EE30C3B.quest_desc: [
@@ -536,6 +557,7 @@
 		"&d@refurbished&r"
 	]
 	quest.0CAD67E9B2DC3B59.title: "&6MrCrayfish's Refurbished"
+	quest.0CC3B9764136AAF2.title: "Scroll: Evasion (lvl 1)"
 	quest.0D02CCFCDC80B85B.quest_desc: [
 		"The &l&6Mechanical Saw&r&r uses rotational power to chop wood blocks directly in front of it."
 		""
@@ -674,6 +696,7 @@
 	quest.1278600075A14600.title: "&2Find a Ribbit village"
 	quest.12BDFF66B6AFC436.quest_subtitle: "Can be found in overworld"
 	quest.13449219998C54E1.quest_subtitle: "Causes the wearer's attacks to set the target on fire"
+	quest.134AED26E05FF71A.title: "Map: Проклятая пирамида"
 	quest.135A70D16AC6511D.quest_desc: [
 		"Used to awaken the &cEcho of Tyros, First Flamebearer&r in the &6Citadel Arena&6, located in the Nether."
 		""
@@ -683,6 +706,7 @@
 	]
 	quest.135A70D16AC6511D.quest_subtitle: "Bought from market"
 	quest.136F140D9A3ED036.quest_subtitle: "Increases knockback from attacks"
+	quest.137B99049FF1749E.title: "Map: Цитадель"
 	quest.140ABE41794E9C33.quest_desc: [
 		"The &6Photo Album&r can hold up to 16 pages, each featuring a photograph and a short caption beneath it. "
 		"&a"
@@ -700,6 +724,7 @@
 	]
 	quest.1456C26C92A56C10.quest_subtitle: "Change direction with W, S, A and D"
 	quest.1456C26C92A56C10.title: "&2Slime"
+	quest.149003BBEFAA8501.title: "Budding Amethyst"
 	quest.14CB47511F2D0E01.quest_subtitle: "Allows you to drink items faster"
 	quest.14CC69CF9016CD4F.quest_desc: ["You can set it to speak a message or show it in chat."]
 	quest.14E9C287665C6AD4.quest_subtitle: "When used for Upgrade: &6+5% Blood Spell Power"
@@ -911,6 +936,8 @@
 		"&d@chipped&r"
 	]
 	quest.1CA36734A9127D0C.title: "&6Chipped&r"
+	quest.1D18F4A46A4EE1BA.title: "Eye of Monstrous"
+	quest.1D45786319AB7CFC.title: "Book: Life-Mending"
 	quest.1DB59AA0F0D77623.quest_subtitle: "Not repeatable"
 	quest.1DDD74A012CDE699.quest_desc: ["The &6iron backpack&r is the upgrade of the basic &ebackpack&r. It has 54 slots and can hold 2 upgrades"]
 	quest.1DDD74A012CDE699.quest_subtitle: "Bigger storage on the go"
@@ -1031,6 +1058,7 @@
 	quest.2109EF6D9005AD03.quest_subtitle: "&6+15% Summon Damage"
 	quest.2136A142781BBE2B.quest_subtitle: "Not repeatable"
 	quest.216E2ED7D793F72A.quest_subtitle: "Rare random drop from Evokers or Archevokers."
+	quest.217BF8A1C85B64DE.title: "Dormant Relic"
 	quest.2192D2F22A2C17FD.quest_desc: [
 		"An &eEmpty Spool&r can be crafted into four different wire types using their respective materials:"
 		""
@@ -1062,6 +1090,7 @@
 	]
 	quest.22415034137B2D62.title: "&6Supplementaries&r"
 	quest.2241F84F6AAD5933.quest_subtitle: "Teleport amulet gives you evasion after you teleport if your Ender spell power is high enough"
+	quest.2267500AD45C37BA.title: "Bok Choy ×6"
 	quest.227E5C94A66B214D.quest_desc: ["You can buy it from market."]
 	quest.227E5C94A66B214D.quest_subtitle: "Removes durability consumption, allowing infinite block placement."
 	quest.229C5328751C93F5.quest_desc: [
@@ -1129,6 +1158,7 @@
 	quest.23D7FCA6FD1D3EA5.quest_subtitle: "Move with A and D, rotate with W, move down with S, hard drop with SPACE, and hold with ENTER"
 	quest.23D7FCA6FD1D3EA5.title: "&9Blocktris"
 	quest.2401A3C6E360DD00.title: "Did you lost it?"
+	quest.245FDA4EB7783593.title: "Nature's Compass"
 	quest.2475C6740BBD5273.quest_desc: [
 		"To enter the &bStarlight Dimension&r, find Portal Ruins in the Overworld, guarded by the &cGatekeeper&r. "
 		""
@@ -1151,6 +1181,7 @@
 		""
 		"&6The Blaze Forger can strip enchantments from equipment, books and Enchanting templates into an Empty Enchanting Template. &r"
 	]
+	quest.24C6719623C41558.title: "Thunderbrand"
 	quest.24F854A847AE7722.quest_desc: [
 		"Allows you to store enchantments to be later transferred into an item."
 		""
@@ -1195,6 +1226,7 @@
 	quest.2651428AF7D72328.quest_subtitle: "Tame one Lightning Mage Familiar"
 	quest.2651428AF7D72328.title: "Lightning Mage Familiar"
 	quest.266448538B44953C.quest_subtitle: "Not repeatable"
+	quest.2667F4C0CB0FF612.title: "Netherite Scrap"
 	quest.266CCE96A4F2977B.quest_subtitle: "Place blocks behind the ones you're facing or in mid-air."
 	quest.268C2A63C8ADA1CD.quest_desc: [
 		"&aSome spells are exclusive to the market and &r&ccannot be crafted or found in the world&r &aby any means. These are only obtainable by purchasing them in market:&r"
@@ -1292,7 +1324,9 @@
 		"Additionally, right-clicking a &aSoul Star&r releases it like an Ender Pearl, pointing toward the nearest &cLich Tower&r, helping you locate one easily."
 	]
 	quest.2965B8DD03DA1142.quest_subtitle: "&b☠ Tier 4"
+	quest.29ECBF3707160A0B.title: "Scroll: Recall (lvl 1)"
 	quest.2A30FB7263BB3ECB.title: "&4Hemomancer Outfit"
+	quest.2A6ED46A7622043D.title: "Eye of Void"
 	quest.2A844214CE94E140.quest_desc: [
 		"{image:kubejs:textures/familiars/bard.png width:100 height:130 align:center}"
 		"&l&6Battle:&r&r specialized in sound magic, attacking his enemies with powerful melodies, but also supporting his friends with supporting melodies."
@@ -1335,6 +1369,7 @@
 		""
 		"It can store higher-level &aenchanted books&r and hold significantly more &benchantment points.&r"
 	]
+	quest.2BE03C50ACFED972.title: "Scroll Sheath"
 	quest.2C0A86D7F9D1A0D8.quest_desc: [
 		"Don’t confuse &bstripped logs&r with &dstripped wood&r—they are two different things. "
 		""
@@ -1357,6 +1392,8 @@
 		"The Grapplin Wisk requires Fuel to function."
 	]
 	quest.2C9E13E2196DC6D7.quest_subtitle: "x2"
+	quest.2CCE1F70BB9FC548.title: "Map: Алхимический торговый путь"
+	quest.2CFE560C7C054C78.title: "Scroll: Heartstop (lvl 5)"
 	quest.2D412FE8D78F46FE.quest_desc: ["The &6&lShaft&r&r is fundamental to transmit rotation between connected machines. It also serves as the exclusive base for placing Mechanical Belts."]
 	quest.2D430D14A2F6C60A.quest_subtitle: "Not repeatable"
 	quest.2D69922251E3D2CB.quest_subtitle: "&6Allows visible creatures to be seen"
@@ -1383,6 +1420,7 @@
 		"&d@moped&r"
 	]
 	quest.2DE531FF769A86D5.quest_subtitle: " vroom!  vroom!  vroom!"
+	quest.2DFFF16FEE392164.title: "Scroll: Oakskin (lvl 1)"
 	quest.2E2229C382536D91.quest_desc: [
 		"Glass not fitting your Create aesthetic build? This mod fixes your problem. It adds multiple create style glass, such as andesite glass, copper glass and much more, to better fit your build aesthetically."
 		""
@@ -1433,6 +1471,7 @@
 		""
 		"It’s the best way to understand the mechanics, weapon types, and upgrade systems Simply Swords has to offer."
 	]
+	quest.2F317826658E2D68.title: "Mjolnir"
 	quest.2F622A7B13D36360.quest_subtitle: "Not repeatable"
 	quest.2F6A074C1F506CC3.quest_desc: [
 		"Backtank must be filled with Air Pressure to function."
@@ -1453,6 +1492,7 @@
 	]
 	quest.2F8EAC597AB7E760.quest_subtitle: "Increases the wearer's swim speed"
 	quest.2F957F552CB5A245.quest_subtitle: "x16"
+	quest.30105EADEE95D8CE.title: "Gaming Console"
 	quest.30378E9E82826E3A.quest_subtitle: "Need more mana? This is needed for that upgrade."
 	quest.3052F9967211F448.quest_desc: [
 		"The &5Ender Dragon&r is a big flying boss found when you enter &5The End&r."
@@ -1591,6 +1631,7 @@
 	]
 	quest.33628061006314AB.quest_desc: ["The &6upgrade base&r is the main thing needed for each upgrade that you can use within the mod, it is used to craft every single upgrade"]
 	quest.33628061006314AB.quest_subtitle: "Getting the most out of your backpack"
+	quest.336DB4060CEA9FCD.title: "Longsword of the Plague"
 	quest.33E9A4967BA70F29.quest_desc: [
 		"&6The custom portal &rcan teleport mobs and players across dimensions or to any block."
 		""
@@ -1605,6 +1646,7 @@
 	quest.34174F45D62D0D6E.quest_subtitle: "Craft any Iron Chest type."
 	quest.346B878CEC91C31E.quest_subtitle: "A new school of &asound"
 	quest.346B878CEC91C31E.title: "&a&lSchool of Sound"
+	quest.346C26E8563FE854.title: "Shattered"
 	quest.3481C6DF7EF96590.quest_subtitle: "Not repeatable"
 	quest.3488B3847D0D01DC.quest_subtitle: "Craft any Netherite Chest type."
 	quest.34AB7EB1F6BF5457.quest_desc: ["Move your paddle, and don't let the ball get past you&f&9"]
@@ -1844,6 +1886,8 @@
 		"Each time you apply embroidery, some of the thread is consumed. Once the spool runs out, it can’t be used until refilled. Luckily, you can easily craft a damaged spool with fresh thread to top it up again."
 	]
 	quest.391E94F1938AC865.quest_subtitle: "&6+15% Spell Resistance"
+	quest.392C4437F3544306.title: "Emberblade"
+	quest.395CFC1C6FD0C43A.title: "Infernal Eye Cracked Fragment"
 	quest.396DA8B3E8A23C6D.quest_subtitle: "Upgrades a Iron tier to gold tier."
 	quest.3980DD49B40511C6.quest_desc: [
 		"The &6&lconnector&r&r can pull &belectricity&r from a block generating &belectricity&r or storing it (for example, &dCarbon Brushes&r) when it’s set to &ePull Mode&r. It then sends that &belectricity&r through a wire to another Connector, which can power a machine."
@@ -1858,6 +1902,7 @@
 		""
 		"Using it on a bed will swap its contents with whats already on the bed."
 	]
+	quest.39F8E26B54F33A60.title: "Star's Edge"
 	quest.3A00CAE9E315BFE7.quest_subtitle: "Not repeatable"
 	quest.3A227C6AE5CB2F32.quest_desc: [
 		"&l&aCreate: Design 'n' Decor&r&r expands on the base decorations of Create. It adds variants of existing blocks, including several new crushing wheels, containers, and extra decorative blocks we felt fit naturally with the Create aesthetic!"
@@ -1896,6 +1941,7 @@
 	quest.3CA4542BF17DB864.quest_subtitle: "Enflamed Mandible can be dropped by Blazes when using the Ravaging enchantment on a hatchet."
 	quest.3CBDB45D65737212.quest_subtitle: "Found by stepping on Infested Sculk"
 	quest.3CE1281049B4B14B.quest_subtitle: "x16"
+	quest.3CE9340537DDFC67.title: "Brimstone Claymore"
 	quest.3D0F9F9B2B945E7A.quest_subtitle: "Harness the power of &bfrost&r. Increased &bfrost spell power&r or &barmor&r."
 	quest.3D0F9F9B2B945E7A.title: "&b&lSchool of Ice"
 	quest.3D1AC201E82A3A87.quest_desc: [
@@ -1917,6 +1963,7 @@
 	]
 	quest.3D8B2D9B4488D1C4.quest_subtitle: "A Pain to Make..."
 	quest.3D93780758BA7194.quest_desc: ["Perhaps you can&b put these back together&r, or maybe make&o &6something else&r with it."]
+	quest.3DAF6C2945104118.title: "Ruptured"
 	quest.3DD814B346F1B543.quest_desc: [
 		"{image:kubejs:textures/familiars/cleric.png width:96 height:100 align:center}"
 		"&l&6Battle:&r&r specialized in holy magic, his main role is supporting but he can also cast powerful holy spells to purify enemies."
@@ -1959,6 +2006,7 @@
 		""
 		"If a Chest is added to the contraption, the caught fish will be deposited directly into it."
 	]
+	quest.3EBEC3D81561F490.title: "Molten Edge"
 	quest.3F0D2D8C1CFD1F2A.quest_subtitle: "Applies an infinite invisibility I, making you less noticeable to mobs"
 	quest.3F565733F3E8BEBD.quest_subtitle: "x4"
 	quest.3F7E6AE9B71BCE7E.quest_subtitle: "x8"
@@ -2048,6 +2096,7 @@
 		""
 		"The Brass Tunnel supports splitting, sorting, and combining item streams on belts. Each Brass Tunnel can also have input or output portals on any of its four sides, allowing for flexible and complex routing configurations."
 	]
+	quest.40F79B74E5F06D3A.title: "Spy Eye Cracked Fragment"
 	quest.41329FF8F96017A9.quest_desc: [
 		"The &eBasic Tier Upgrade&r is the entry-level upgrade for&6 Sophisticated Storage&r. "
 		""
@@ -2114,6 +2163,7 @@
 		""
 		"This allows it to receive item requests, create packages with a set address, and include specific items in specified amounts."
 	]
+	quest.44255D27D5868AF9.title: "Map: Катакомбы"
 	quest.44937B2D2EB38094.quest_desc: [
 		"After defeating the Warden, you can now craft the &aWarden Helmet&r by combining a Netherite Helmet with &2Reinforced Echo Shards&r in the Smithing Table."
 		""
@@ -2131,6 +2181,7 @@
 		"&3Checkerboard&r - this mode will build in a checkered pattern allowing you to place in the pattern of &2[]&r-&2[]&r-&2[]&r-&2[]&r []: being blocks and -: being air."
 	]
 	quest.4552515C89DFAA7B.quest_subtitle: "The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."
+	quest.4553843ED79675EC.title: "&6Full Unbreakable Centurion Set"
 	quest.45A294917808368D.quest_subtitle: "Replaces blocks from your offhand instead."
 	quest.45B67F9419927086.quest_desc: ["Used along with a Funnel to insert fuel into the Nuclear Reactor."]
 	quest.45BE2DE3977F53E9.quest_subtitle: "You can repeat as many times you want!"
@@ -2151,7 +2202,7 @@
 		"A sheared lotus flower will not grow anymore and won't drop any &bbleachdew!&r"
 	]
 	quest.4626F4A23540DD3E.title: "Bleachdew and Lotus Flower"
-	quest.465B9A805BA57898.quest_subtitle: "Obtained from market with magic coins"
+	quest.465B9A805BA57898.quest_subtitle: "Obtained from market with coins"
 	quest.46BFA878FE03C07E.quest_subtitle: "Craft any Iron Limited Barrel I type."
 	quest.474856183F5F8BE8.quest_desc: ["Rotates blocks and mobs standing on it"]
 	quest.478DE12D3EF8C22A.quest_desc: [
@@ -2237,6 +2288,7 @@
 	quest.48FBEA846EE420D7.title: "&l&a Andesite"
 	quest.490B9CE61B5F7D4A.title: "&6Collect all the Game Discs"
 	quest.4980B1E559CB90C6.quest_subtitle: "Upgrades a Diamond tier to netherite tier."
+	quest.49B06CF0B1017252.title: "Map: Заражённые руины"
 	quest.4A1D33BF381320FD.quest_subtitle: "Affinity Rings are randomly generated as loot, and will boost the level of a select spell by one. This effect can stack. Spell can be set in the Arcane Anvil using a scroll."
 	quest.4A23A110747B9775.quest_subtitle: "Not repeatable"
 	quest.4A4514326874FFB4.quest_desc: ["Captures small mobs like chickens"]
@@ -2340,6 +2392,7 @@
 		"&d@arts&r"
 	]
 	quest.4BD8863C09D3C30F.title: "&6Arts and Crafts"
+	quest.4C13E6874238C361.title: "Scroll: Angel Wings (lvl 1)"
 	quest.4C185EEB22774B36.quest_desc: [
 		"The &6&lDepot&r&r is used to hold items sationarily. Items can be right-clicked onto or inserted into a Depot. When placed on a Depot, a Mechanical Press will interact with the items just as it would on a Mechanical Belt. Items can also be bulk blasted on a Depot."
 		""
@@ -2377,9 +2430,11 @@
 		"Great for pairing with &6Stack Upgrades&r, &6Void Upgrades&r, and going strip mining!"
 	]
 	quest.4CED308848726E28.quest_subtitle: "Make the Backpack do the work"
-	quest.4D221F2C2507A130.quest_subtitle: "Obtained from market with magic coins"
+	quest.4D221F2C2507A130.quest_subtitle: "Obtained from market with coins"
 	quest.4D308AD544372410.quest_subtitle: "When used for Upgrade: &6+5% Lightning Spell Power"
 	quest.4D38017F83D30E13.quest_subtitle: "Damages attackers similar to the Thorns enchantment"
+	quest.4D4EAD64A3AC1CF9.title: "Oblivion Eye Cracked Fragment"
+	quest.4D7DE30E1C4F7FCA.title: "Infernal Eye Shard"
 	quest.4D82E252D1E6B5B6.quest_subtitle: "Not repeatable"
 	quest.4DA92919147B3E18.quest_desc: [
 		"The &a&lBlaze Enchanter&r&r functions like an Enchanting Table. To activate you need to pump liquid experience into the Blaze Enchanter."
@@ -2437,6 +2492,7 @@
 		""
 		"Click to identify which power you have rolled."
 	]
+	quest.4E72848400BCBE8E.title: "Sword on a Stick"
 	quest.4E86A025FBE306CE.quest_desc: [
 		"The &6Redstone Requester&r is used to request &bCardboard Packages from connected Packagers.&r"
 		""
@@ -2485,6 +2541,7 @@
 		"Photographs can be stacked by right-clicking a Photograph or Stacked Photographs with another Photograph."
 	]
 	quest.4F734FC470276106.quest_subtitle: "Applies a temporary haste effect after eating food"
+	quest.4FCE6E8AECC8823E.title: "Scroll: Guardian Angel (lvl 1)"
 	quest.4FDAFBD64AA710A1.quest_subtitle: "Increases experience dropped by mobs"
 	quest.4FE2B38F21E965E8.quest_subtitle: "x3"
 	quest.4FF456152213D0AF.title: "&dVoidwalker Outfit"
@@ -2502,6 +2559,7 @@
 	quest.5037AA2541E439E5.quest_subtitle: "&3☠ Tier 6"
 	quest.50A74C04350493E0.quest_subtitle: "&6+15% Cooldown Reduction"
 	quest.50E7A4D14F2C485A.quest_subtitle: "Not repeatable"
+	quest.5135A01BFD39E193.title: "&6Lucky Pouch"
 	quest.513AB7EE426B5AD1.quest_desc: [
 		"The &n&eRolling Mill&r&r uses rotational force to roll metals into &eRods&r and &eWires.&r"
 		""
@@ -2531,6 +2589,7 @@
 	quest.51E18D8B67394EC2.quest_desc: ["Hold the relic in your hand and step on a &6Sculk Sensor.&r"]
 	quest.51E19ACD3F0994BE.quest_desc: ["&3Rich Farmland&r is immune to trampling and automatically bone-meals anything planted on it when hydrated, effectively doubling growing speed! It even works with Saplings!"]
 	quest.51ECBE8030E9D801.quest_subtitle: "Craft any Diamond Limited Barrel I type."
+	quest.51EE6EA97C1220A7.title: "Lich Eye Cracked Fragment"
 	quest.52092833009BDC49.quest_subtitle: "Craft any Diamond Barrel type."
 	quest.523A0A0240B9DE66.quest_desc: [
 		"Many blocks have Filter Slots. Use the Filters to sort multiple items. "
@@ -2688,28 +2747,31 @@
 		"&6Magnifying Glass:&r Use this to view the key of the Unique Card."
 	]
 	quest.5534C553D15CD96B.quest_desc: ["The &6Item Drain&r has the ability to extract liquid from a container and temporarily store it until it is piped out into another container."]
+	quest.55876AAAC408D8A7.title: "Spy Eye Core"
 	quest.5590204A473913AC.quest_subtitle: "Automatically smelts mined ores"
 	quest.561A753B404A8C0A.quest_desc: ["Use powder snow"]
 	quest.561A753B404A8C0A.quest_subtitle: "Not repeatable"
+	quest.563E1C0D106659B9.title: "Scroll: Fortify (lvl 1)"
 	quest.56487ACFC2360FE0.title: "&6Paladin Outfit"
 	quest.564BA670DCB12592.quest_subtitle: "right click into a tamed familiar to boost his spell power permanently"
 	quest.564BA670DCB12592.title: "Spell power"
 	quest.567ED608748850A8.quest_desc: [
-		"&aMagic Coins&r are an essential part of the pack. They can only be found in loot chests while exploring."
+		"&aCoins&r are the pack currency from Create: Numismatics. You get them from quests, find them in loot chests and earn them by trading with other players."
 		""
-		"There are three types of coins:"
+		"Coin values:"
 		""
-		"&7Silver Coin&r = 1"
+		"&7Spur&r = 1"
+		"&7Bevel&r = 8 spurs"
+		"&7Sprocket&r = 16 spurs"
+		"&6Cog&r = 64 spurs"
+		"&6Crown&r = 8 cogs"
+		"&eSun&r = 8 crowns"
 		""
-		"&6Gold Coin&r = 50"
+		"Coins can be exchanged in a crafting table, e.g. 8 spurs ⇄ 1 bevel. You can also keep them in your account using a &6Bank Terminal&r."
 		""
-		"&bCrystal Coin&r = 2500"
+		"&7Old Magic Coins and wallet balances were converted automatically: 1 silver = 1 spur, gold = 50 spurs, crystal = 2500 spurs.&r"
 		""
-		"If you have a coin in your inventory, you can right-click it to store it in your wallet. "
-		""
-		"Once stored, you’ll see three new buttons in your inventory UI that let you extract coins back to your inventory."
-		""
-		"&eCoins are used in the Market to buy exclusive items, so spend wisely—your supply is limited!&r"
+		"&eCoins are spent in the Market on exclusive items, so spend wisely!&r"
 	]
 	quest.567ED608748850A8.quest_subtitle: "$$$$$$$$"
 	quest.567ED608748850A8.title: "&6Mastering Currency"
@@ -2722,6 +2784,8 @@
 		""
 		"By right-clicking the &dController&r with the &bTool&r and then the Link, you seamlessly connect separate storage units into one cohesive network."
 	]
+	quest.57ECC1139F393CF3.title: "Book: Chainsaw"
+	quest.58043E872C1CA7AF.title: "&cFull Arbitrium Set"
 	quest.583EBA8354586BFD.quest_desc: [
 		"The &cEcho of Tyros, First Flamebearer&r, can be found in the &eCitadel&r in the Nether."
 		""
@@ -2741,6 +2805,7 @@
 		""
 		"Additionally, Encased Chain Drives can be connected to Adjustable Chain Gearshifts, which allow the speed of rotation to be controlled via redstone power."
 	]
+	quest.58DA7D7DB985AD78.title: "Arcanethyst"
 	quest.58EE67ECB33D6AE9.quest_desc: [
 		"{image:kubejs:textures/familiars/plague_doctor.png width:100 height:94 align:center}"
 		"&l&6Battle:&r&r specialized in poison magic, poisoning enemies to make them suffer a slow death."
@@ -2798,6 +2863,7 @@
 	quest.5A2F0B2712D9C667.quest_subtitle: "Applies fortune to mined blocks"
 	quest.5A52E77204B42646.quest_desc: ["The &6gold backpack&r is the upgrade of the &eiron backpack&r. It has 81 storage slots and can hold 3 upgrades"]
 	quest.5A52E77204B42646.quest_subtitle: "Even bigger storage on the go"
+	quest.5A6A6DD75844727F.title: "Enigma"
 	quest.5AA39CCAEED433CA.quest_desc: [
 		"{image:kubejs:textures/familiars/hunter.png width:100 height:127 align:center}"
 		"&l&6Battle:&r&r specialized in attacking enemies with arrows, combined with swift moves."
@@ -2838,6 +2904,7 @@
 	]
 	quest.5B7298316481A1CF.quest_subtitle: "Forge the Eyes. Face the End"
 	quest.5B7298316481A1CF.title: "&l&aYour Road to the End Starts Here&r"
+	quest.5B7C15EACA8A2F9E.title: "Spy Eye Shard"
 	quest.5BAE6CD47D4ABF2D.quest_desc: [
 		"Transform your Minecraft world with elegant and stylish decor. From modern furniture to classic pieces, add a touch of sophistication to your builds"
 		""
@@ -2885,6 +2952,7 @@
 	quest.5D396BE9BA075E66.quest_subtitle: "Craftable"
 	quest.5D6FDF6682B47167.quest_subtitle: "Dimmed Scale can be dropped by Endermen, Endermites, and the Ender Dragon when using the Ravaging enchantment on a hatchet."
 	quest.5D94118C96E07BAA.title: "&2Venomous Outfit"
+	quest.5DB55994D403461D.title: "Block Picker"
 	quest.5E0BD4E4E6C9E146.quest_subtitle: "Allows the player to stand on lava while sneaking. Grants protection against hot floors."
 	quest.5E0CC434DF548813.quest_desc: [
 		"To craf the &l&bBlock of Super Experience&r&r, you first have to craft the &l&aBlock of Experience&r&r, then you place it on the overworld, place a &l&6Lightning Rod&r&r on top of the &l&aBlock of Experience&r&r and wait for a &l&eLightning Strike&r&r. "
@@ -2921,6 +2989,7 @@
 	quest.5EC30214D9EE2A0C.quest_subtitle: "Harness the power of &2nature&r. Increased &2nature spell power&r or &2armor&r."
 	quest.5EC30214D9EE2A0C.title: "&2&lSchool of Nature"
 	quest.5EE5A4AA72E10A32.quest_subtitle: "Raw Polar Bear Meat can be dropped by Polar Bears when using the Ravaging enchantment on a hatchet."
+	quest.5EEA01154EA0C9E9.title: "Shadowsting"
 	quest.5F65870D9A816C6E.quest_desc: [
 		"You have been chosen as a &dNovice Engineer&r, beginning your journey toward mastery of Create. "
 		""
@@ -2987,6 +3056,7 @@
 	quest.607047A3D380D423.quest_subtitle: "Shrinks the wearer to half their size."
 	quest.6073AB1A816E845F.quest_subtitle: "Harness the power of &cfire&r. Increased &cfire spell power&r or &carmor&r."
 	quest.6073AB1A816E845F.title: "&c&lSchool of Fire"
+	quest.609491CDCA8C4DE9.title: "Twisted Blade"
 	quest.60B9F9AD8F49371D.quest_subtitle: "Grants temporary fire resistance when touching lava/fire"
 	quest.610E616AA011A7A9.quest_desc: ["A bundle lets you carry different items together, up to one stack total, in a single inventory slot."]
 	quest.6144BAFB1269A066.quest_desc: [
@@ -3018,6 +3088,7 @@
 		"To Fill your Jetpacks with Water or Lava first place your Jetpack on your Off-Hand (shield icon) then select a bucket with Water/Lava and press Q to drop the bucket, it will fill the Jetpack in your off-hand. &aIdeally you'll want to use the Fueling Tank and the Filling Tank.&r"
 	]
 	quest.61666195C2F437BA.title: "&6Jetpacks"
+	quest.617847B220353698.title: "Caelestis"
 	quest.618CDE98123F2697.quest_desc: [
 		"&6Package Frogports&r are used to transfer Cardboard Packages to and from &eChain Conveyors.&r"
 		""
@@ -3036,6 +3107,9 @@
 		"These collected addresses can then be used to auto-complete address fields in other UIs."
 	]
 	quest.619A108A6BC00D4F.quest_subtitle: " Bought from the market using boss tokens"
+	quest.619DE6A9E2FEECF0.title: "Scroll: Haste (lvl 1)"
+	quest.61DB382A9D702770.title: "Prismatic Cobweb"
+	quest.62160EBC8A337152.title: "Emberlash"
 	quest.624E99A4E08167EA.quest_desc: ["Hold the relic in your hand and get hit by the &6Warden's Sonic Boom.&r"]
 	quest.6275FB1DFD4AE02A.quest_subtitle: "Obtained from market with engineer tokens"
 	quest.627A25524F94FB34.quest_desc: [
@@ -3126,20 +3200,30 @@
 		""
 		"Carry too many in your inventory and you get &4slowed down.&r"
 	]
+	quest.649A54FCBCAB5CBB.title: "Map: Планы штурма форта заклинателей"
 	quest.64B6D3C0ACA9473F.quest_desc: [
 		"&6The Gem Cutting Table&r lets you increase the rarity of your gems by combining two of the same type."
 		""
 		"Check JEI for the available recipes and start upgrading your gems!"
 	]
 	quest.64DF63794FBD1F2C.quest_desc: [
-		"&l&aThe Market &r&ris a central part of this pack. It allows you to access a shop filled with exclusive items that can’t be crafted or found anywhere else. These special items can only be purchased using Magic Coins, Boss Tokens, or Seal Tokens so make sure to hold onto them!"
+		"&l&aThe Market&r is a quest section on the left side of the book. It sells exclusive items that cannot be crafted or found anywhere else."
 		""
-		"You can filter using the tabs on the left of Market."
+		"Every purchase is a repeatable quest: carry the required &6coins&r or &etokens&r, submit them in the task and claim the reward."
 		""
-		"&aSkipping the Market means missing out on essential progression items, so don’t overlook it!&r"
+		"&7• Shop and Structure Maps — for coins"
+		"&7• Apprentice, Operator and Engineer tokens — from the Order of Engineers"
+		"&7• Boss tokens — for defeating bosses"
+		""
+		"To trade with other players use the &6Vendor&r from Create: Numismatics, and the &6Market Terminal&r shows every shop on the server with prices and their history."
+		""
+		"&aIgnoring the Market means missing important progression items, so don't skip it!&r"
 	]
 	quest.64DF63794FBD1F2C.title: "&6The Market – A Must Have!"
+	quest.6547C15BF766B0A4.title: "&8Full Iron Plate Set"
 	quest.65663D9E051280F2.quest_subtitle: "Increases the speed of ridden mounts"
+	quest.65B71C999390F72B.title: "Brimstone Nectar"
+	quest.65D6D1A6BA5BFB2B.title: "Slumbering Lichblade"
 	quest.660C3D5CB407247F.quest_desc: [
 		"&l&cCheck your controls!&r&r"
 		"Some features may not work because a key is unbound or conflicts with another one. If something doesn't respond, open the controls settings."
@@ -3213,6 +3297,7 @@
 	]
 	quest.6613D41573B7F0B9.quest_subtitle: "Welcome to a healthier and heartier adventure!"
 	quest.6613D41573B7F0B9.title: " &l&cThe True Path to More Hearts"
+	quest.6633F0BDBAE0103F.title: "Sigil of Rebirth"
 	quest.6659EBA759E55BD5.quest_desc: [
 		"When the &6Eating Upgrade&r is in your backpack, it will automatically feed you when you start to get hungry!"
 		""
@@ -3242,6 +3327,7 @@
 	]
 	quest.66EA4FE46D64E00B.quest_subtitle: "Not repeatable"
 	quest.671D0A62B7171DBB.quest_subtitle: "&6Long Casts become uninterruptible"
+	quest.674744E4BA3F0EBC.title: "Scroll: Abyssal Shroud (lvl 2)"
 	quest.6767C398AD003D14.quest_subtitle: "Not repeatable"
 	quest.67E92583977D7775.quest_subtitle: "Can also be found in market "
 	quest.67FA8896AD563A77.quest_desc: [
@@ -3264,6 +3350,8 @@
 		"&d@createdeco"
 	]
 	quest.683D0537EB605FB7.title: "Create Deco"
+	quest.687F6603974D65E6.title: "Scroll: Summon Ender Chest (lvl 1)"
+	quest.68BC57F62CBAF080.title: "Book: Infinity"
 	quest.692451647E98D133.quest_subtitle: "Not repeatable"
 	quest.692D79D601534A2E.quest_desc: [
 		"{image:kubejs:textures/familiars/summoner.png width:100 height:105 align:center}"
@@ -3398,6 +3486,7 @@
 		"Andesite Casing and Brass Casing can be applied to any segment of a Belt for aesthetic purposes."
 	]
 	quest.6C90039BB1651603.quest_subtitle: "When used for Upgrade: &6+5% Holy Spell Power"
+	quest.6D0CCB65988BBF7F.title: "Soulrender"
 	quest.6D40B0012EBC27AA.quest_desc: [
 		"&6The Interplanar Projector&r is a special filter for the Camera that lets you&d project custom images onto film using either a local file or a URL.&r"
 		""
@@ -3502,6 +3591,7 @@
 	]
 	quest.6E8031A380EB37C8.quest_subtitle: "Inscribing spells"
 	quest.6E98473128936047.quest_subtitle: "Lets you move freely in water. You’ll sink and can take fall damage."
+	quest.6EAE506B3A6A5D06.title: "Unbreakable Template"
 	quest.6FA4D1AA25A3064E.quest_desc: [
 		"The &aPumpjack&r extracts &6Crude Oil&r from the chunk it is built in."
 		""
@@ -3587,6 +3677,7 @@
 		""
 		"&aProcessed plants can be extracted manually by Right-clicking or automatically using a Funnel.&r"
 	]
+	quest.71B9A3AE3547676E.title: "Thorn Chakram"
 	quest.71C1DFB2CA66E736.quest_desc: [
 		"Used in assembling a &bNuclear Reactor&r."
 		""
@@ -3686,6 +3777,7 @@
 		""
 		"It also features a &aFilter Slot&r, used to handle experience fluids from other mods. Simply place the bucket in the filter to make the hatch recognize and interact with that fluid like standard experience."
 	]
+	quest.7331CA3A13C5FED1.title: "Enchantment Library"
 	quest.7362AE3D474FF6E1.quest_subtitle: "Drastically increases the wearer's sprint speed and allows for auto-step"
 	quest.7363495F41F0AE8E.quest_desc: [
 		"&cThe Netherite Monstrosity&r is a powerful golem found in the &eSoul Blacksmith&r, deep within the &aNether."
@@ -3820,6 +3912,7 @@
 	quest.761D029F52BA267B.quest_subtitle: "x2"
 	quest.76391D7DFB304BC7.quest_subtitle: "right click into a tamed familiar to boost his spell resistence permanently"
 	quest.76391D7DFB304BC7.title: "Spell resistance"
+	quest.7674990F6238A529.title: "Hiveheart"
 	quest.76D595EF8B7A90E1.title: "&aAdvanced Archevoker Outfit"
 	quest.773C584834762704.quest_desc: [
 		"Give your train some extra detail with 36 new decorative and utility blocks. Make your trains more stylish and take them to the next level."
@@ -3863,6 +3956,7 @@
 		""
 		"Feeling like a breeder? Feed two adult Sniffers some Torchflowers to start a new generation."
 	]
+	quest.784A4F792B687B18.title: "Map: Кузница душ"
 	quest.785CEB5E417A45EF.quest_desc: [
 		"The &6Steam Whistle&r is a musical block that is activated by Redstone Signal or when attached on a Train."
 		""
@@ -3897,6 +3991,7 @@
 		"You can also place blocks from your offhand instead of the one you're looking at."
 	]
 	quest.78F35B052FE44F4A.title: "&l&aBuilder’s wands&r&r"
+	quest.790ECDF7093E2D25.title: "Book: Crescendo of Bolts"
 	quest.7936CCA5490F1C60.quest_desc: [
 		"&6Train tracks&r are a new type of rails designed specifically for Trains."
 		""
@@ -3921,6 +4016,7 @@
 	]
 	quest.797410E5DF1F96E5.quest_subtitle: "Not repeatable"
 	quest.79D7109441F5540F.quest_subtitle: "x32"
+	quest.7A1F8BC82703E2E0.title: "Scroll: Charge (lvl 1)"
 	quest.7A36AA33AB12EE37.quest_subtitle: "Craft any Iron Limited Barrel I type."
 	quest.7A516A80B0491E03.quest_subtitle: "x4"
 	quest.7A8D89E446B6FBE8.quest_desc: [
@@ -3930,7 +4026,9 @@
 		""
 		"By right-clicking the &dController&r with the &bTool&r and then the Link, you seamlessly connect separate storage units into one cohesive network."
 	]
+	quest.7A98165D850AFAD5.title: "Amethyst Rapier"
 	quest.7AC7072BAD19700C.quest_subtitle: "Obtained from market with apprentice tokens"
+	quest.7AE4712A9D027C9A.title: "Book: Endless Quiver"
 	quest.7B09AFE245BA7808.quest_desc: [
 		""
 		"{image:kubejs:textures/familiars/archmage.png width:100 height:51 align:center}"
@@ -4176,6 +4274,79 @@
 		"Pump &6Crude Oil&r in and the column splits it into &eDiesel&r and &eGasoline&r. A superheated burner works faster."
 	]
 	quest.17389D5192FF6D41.title: "&6⚗ Oil Refining – Distillation"
+	quest.3D125D2C4F08B200.title: "Hither-Thither Wand"
+	quest.1E962A9DA77A079A.title: "Corrupted Eye Cracked Fragment"
+	quest.7EF3C7C09D4E7BFE.title: "&6Full Unbreakable Holy Set"
+	quest.64D93171B16EFE24.title: "Book: Silk Touch"
+	quest.286FB9E164D6130C.title: "Eye of Mech"
+	quest.6E712F08C7A91228.title: "Abstract"
+	quest.43ECAA3C35E4CD67.title: "&7Full Unbreakable Dō-maru Set"
+	quest.31641A3A5982D13B.title: "Book: Berserker's Fury"
+	quest.3EA519B84DDCEA8F.title: "Frostfall"
+	quest.5345D4F94D48931C.title: "Corrupted Eye Core"
+	quest.40427E7576F4C8AD.title: "&6Full Unbreakable Anubis Set"
+	quest.3FBD5E66F45BD7AF.title: "Ribboncleaver"
+	quest.530AF1B3675EC197.title: "Map: Арена Обсидилита"
+	quest.60F0358B0215F5AE.title: "Bamboo Hat"
+	quest.2A7D9F44CC91AC85.title: "Cryptic Eye Cracked Fragment"
+	quest.7398AD3CABF91089.title: "Whisperwind"
+	quest.6E32DB98B74C471A.title: "Map: Акрополь"
+	quest.21F6EDB9F6AEBCC7.title: "Hearthflame"
+	quest.54988EE6AD8D787B.title: "Map: Особняк"
+	quest.3E1BA6B1B57B94D2.title: "Scroll: Counterspell (lvl 1)"
+	quest.16D004D82ED6FC6E.title: "Seashelf of Aquatic Filtration"
+	quest.64593467DB978921.title: "Scroll: Cleanse (lvl 1)"
+	quest.7C011D586E95C32C.title: "Scroll: Summon Swords (lvl 1)"
+	quest.47DB6CD22664DFCE.title: "Scroll: Blight (lvl 1)"
+	quest.75CBF861C4D18B1C.title: "Soul Pyre"
+	quest.5DB1E3490F3748B5.title: "Bramblethorn"
+	quest.3822B2953367139E.title: "&aFull Unbreakable Quetzalcoatl Set"
+	quest.4A238ADB48D0F26F.title: "Sniffer Egg"
+	quest.4E2EC47632073465.title: "Icewhisper"
+	quest.7652BACCACDDCAA5.title: "Book: Knowledge of the Ages"
+	quest.4E5B262CF29F90B1.title: "Scroll: Echoing Strikes (lvl 1)"
+	quest.54C89BB286FE9B00.title: "Wickpiercer"
+	quest.76E6EB3337AA658A.title: "Flamewind"
+	quest.7519DF19698AEED9.title: "Galvanized Sheath"
+	quest.28E76D1272CA7297.title: "Mechanical Brass Extruder"
+	quest.38B9B9896DEC6462.title: "Map: Пылающая арена"
+	quest.717B579F97F0859F.title: "Stormbringer"
+	quest.776FC08EAFDE49FC.title: "Obsidian Claymore"
+	quest.3AC83C9A1A6BFCAD.title: "Watching Warglaive"
+	quest.63030B3389A41FF9.title: "Scroll: Blessing of Life (lvl 1)"
+	quest.5CA98B0F80AF80C5.title: "Map: Разрушенная цитадель"
+	quest.2B6AB39AF0DB1D7D.title: "Chorus Fruit"
+	quest.3D18846666C3292C.title: "Map: Подводная крепость"
+	quest.42C44460C8568427.title: "Map: Древний город"
+	quest.430675C08CAD6BB7.title: "Scroll: Pocket Dimension (lvl 1)"
+	quest.16E21CDD355A2EE1.title: "Oblivion Eye Shard"
+	quest.3AA7DA7167F06320.title: "Warp Stone"
+	quest.5CB2A4F7CAD7A1FB.title: "Diamond"
+	quest.5ECB7AD2801706B6.title: "Tempest"
+	quest.3C0E5803A5ECE3D9.title: "Book: Miner's Fervor"
+	quest.7A54546C78159F94.title: "Scroll: Heal (lvl 1)"
+	quest.182A7A69E779823F.title: "Map: Древняя фабрика"
+	quest.2B22627705F371A8.title: "Map: Цветок пустоты"
+	quest.46AB59CA993AEE7F.title: "Soulkeeper"
+	quest.7B6735F4F15EFDD4.title: "Black Eye Shard"
+	quest.7E9E02C066388A07.title: "Book: True Unbreakable"
+	quest.2BCA67C64B4AEF96.title: "Mechanical Extruder"
+	quest.1A57990AFFAA4772.title: "Cat Burger"
+	quest.6695AC942A4C67F7.title: "Cinderous Soulcaller"
+	quest.7D9CDD37BAE8E8A8.title: "Eye of Desert"
+	quest.331294538821D522.title: "Scroll: Healing Circle (lvl 1)"
+	quest.7B16AF51CB641A20.title: "Sigil of Withdrawal"
+	quest.101A0B04C21D5AF6.title: "Book: Growth Serum"
+	quest.7B85FF4A500C74A3.title: "Storm's Edge"
+	quest.7B6B008E1CE76788.title: "Map: Арена Перчатки"
+	quest.5F617053415CF579.title: "Eye of Storm"
+	quest.5AE14AB74B3B3884.title: "Livyatan"
+	quest.18049E5938E0F5A1.title: "Black Eye Core"
+	quest.52BCA51C0DEFFAA7.title: "Sigil of Enhancement"
+	quest.6E09B9C42310C530.title: "Wraithfang"
+	quest.4B80FC6FFBB37481.title: "Map: Ледяная тюрьма"
+	quest.62A079782CDF628C.title: "Oblivion Eye Core"
+	quest.4F6F8D305742601D.title: "Infernal Eye Core"
 	task.0A88BBBA01BD37FD.title: "Click to Acknowledge"
 	task.0C99D5061E9A9F59.title: "Cosmetic mods"
 	task.184D02801FC28C38.title: "&6I'm so excited to play the pack"

@@ -94,11 +94,28 @@
 			id: "6C71E2ABAA99C005"
 			rewards: [
 				{
-					count: 2
 					id: "69F59BB29506372C"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3A93CF476842B294"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1276D5D53A110D0E"
+					item: {
+						count: 1
+						id: "numismatics:spur"
 					}
 					type: "item"
 				}
@@ -127,7 +144,7 @@
 				id: "04BB2F83BB561D9B"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -147,7 +164,7 @@
 				id: "00BBB7389EBA47A9"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -170,7 +187,7 @@
 				id: "0AD285D8B1CB6FCF"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -190,7 +207,7 @@
 				id: "257764A7B3CED081"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -210,7 +227,7 @@
 				id: "49D412167C45B1B5"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -230,7 +247,7 @@
 				id: "1B0ACC22A2C43222"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -250,7 +267,7 @@
 				id: "066950DF3174DBCC"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -270,7 +287,7 @@
 				id: "6F62BD45078E4324"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -290,7 +307,7 @@
 				id: "07DB6D20731A03F6"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -310,7 +327,7 @@
 				id: "2E81C1D9D9671A10"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -330,7 +347,7 @@
 				id: "1DC9E5307DDCEB3B"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -350,7 +367,7 @@
 				id: "1F3806EA8F1EF374"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -370,7 +387,7 @@
 				id: "23E1EB4562692195"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -390,7 +407,7 @@
 				id: "338A39E13A092FFB"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -410,7 +427,7 @@
 				id: "0F57E1DD2CD8A73B"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -430,7 +447,7 @@
 				id: "70826B8E72618615"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -450,7 +467,7 @@
 				id: "482306A4DD1CDDBB"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -470,7 +487,7 @@
 				id: "05665F3DB0C49B1E"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -490,7 +507,7 @@
 				id: "674172A5E03DACF9"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -510,7 +527,7 @@
 				id: "0F1E57C677C4D50C"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -530,7 +547,7 @@
 				id: "228741A8DF033DD1"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -550,7 +567,7 @@
 				id: "187E4BD230D9E29A"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -573,7 +590,7 @@
 				id: "0C79876596FABF36"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -596,7 +613,7 @@
 				id: "3FF4D9D09DFE932F"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -616,7 +633,7 @@
 				id: "1C9DD8DCA6D5C154"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -636,7 +653,7 @@
 				id: "666105227FB2D7D7"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -656,7 +673,7 @@
 				id: "70FC96B936F19255"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -676,7 +693,7 @@
 				id: "470291E2DA9113D3"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -696,7 +713,7 @@
 				id: "0614F9689C5513A5"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -716,7 +733,7 @@
 				id: "28925475209ABB64"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -736,7 +753,7 @@
 				id: "16945746B64F250F"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -756,7 +773,7 @@
 				id: "7767D4245DDA57AE"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -776,7 +793,7 @@
 				id: "0EEA211147DC8F72"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -796,7 +813,7 @@
 				id: "7DB2FE5127D452C6"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -816,7 +833,7 @@
 				id: "0D176CE05BFA3545"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -839,7 +856,7 @@
 				id: "556CB3E10F189EA6"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -862,7 +879,7 @@
 				id: "538A799777D90DB6"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -885,7 +902,7 @@
 				id: "5C28A2CEC6B4EBD3"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -908,7 +925,7 @@
 				id: "314DC13176E6B472"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -928,7 +945,7 @@
 				id: "2E7253E3C62B9CC7"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -949,7 +966,7 @@
 				id: "654BEC371DB0E910"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -970,7 +987,7 @@
 				id: "1D6F04CEB534240B"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -991,7 +1008,7 @@
 				id: "22EB175B3F3DC491"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -1011,7 +1028,7 @@
 				id: "2FB56A4E513309D5"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -1031,7 +1048,7 @@
 				id: "150BF6585445125C"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -1051,7 +1068,7 @@
 				id: "64CBC6F16F3412C8"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -1071,7 +1088,7 @@
 				id: "3E6D6BF639FFB663"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -1091,7 +1108,7 @@
 				id: "51AB6FB06DEADB14"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]

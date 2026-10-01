@@ -12,7 +12,6 @@ ServerEvents.tags('block', event => {
         '#waystones:waystones',
         '#waystones:sharestones',
         '#lootr:containers',
-        'farmingforblockheads:market',
     ]);
 
     const vents= [

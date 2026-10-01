@@ -1,9 +1,0 @@
-{
-    "enabled": true,
-    "payment": {
-        "ingredient": {
-            "item": "magic_coins:gold_coin"
-        },
-        "count": 4
-    }
-}

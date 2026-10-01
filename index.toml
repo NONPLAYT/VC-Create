@@ -158,7 +158,7 @@ hash = "04504b1ad646560f964575fd507c693c71f790e065657578ed90b7a6dc30e772"
 
 [[files]]
 file = "config/armoroftheages.json"
-hash = "c33f9a253d5fa49d663702de27ee75c3c513cf13457357c37507b99fc8b54ae5"
+hash = "fdea3712a66ce98cd8b9a0c9d5c8020df433611f50101736eadbc0afc8c33065"
 
 [[files]]
 file = "config/armorstatues-client.toml"
@@ -346,7 +346,7 @@ hash = "d0d46d14ad1317e3c4a113818f01fa8f8cf40546a882c649992d1a8f43583d7a"
 
 [[files]]
 file = "config/cataclysm-common.toml"
-hash = "5cb1153111f869513302b0e6efcf1210a07b2276f9e2d9f52a85d4ef231d7cf0"
+hash = "9d90de05aed21ef5541fcf62fcd266b6ff569f002f9c8e81ca2055043d5baf78"
 
 [[files]]
 file = "config/catburger-client.toml"
@@ -414,7 +414,7 @@ hash = "f6df47d3f1002fde8d9e59c8068acbc39e976b3392e8fd528dc9b38b2856c5a0"
 
 [[files]]
 file = "config/configurableextramobdrops/mobdropconfig.txt"
-hash = "390e4e505b8265a6560186b18337ea3225d0d53e07cabab62a955677daa6d533"
+hash = "1d415f1450babc8501b8e50b758a5c6ff63d845122fbcf9551cfd2817b5f1625"
 
 [[files]]
 file = "config/connectivity.json"
@@ -709,10 +709,6 @@ file = "config/farmersdelight-common.toml"
 hash = "54663bc8a96e5db077e33312aba1b5a16c462f080e3b8c6fefabd4f586df9090"
 
 [[files]]
-file = "config/farmingforblockheads-common.toml"
-hash = "be4487f6974a166acf4a5c1150b1e095bb6e6c5bdeb466bac97a94e035c4cf91"
-
-[[files]]
 file = "config/fastbench.cfg"
 hash = "b9f2753df740086016ae47d0f9b69521b1233546fd564bf2797ed93fd5c60efb"
 
@@ -754,39 +750,39 @@ hash = "6359364663ea3c418cacb79500bb529d4988ce1089d6e73ed5b2eef526f2e6d1"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "2423aa221e2292bdbfc5a1f6161d43a32b60aab108f656bd6f2b31af28ed8e75"
+hash = "ce226166e801201d4e9704ff3eb347f34f8d6d1be2fe7eb1d0ae3e6a4ab16d68"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventure_progression.snbt"
-hash = "c64717bf6c65d0a9e07b7049094bbfe5085e17e95f00ff46fe7c6edbb95057f5"
+hash = "8fcd960b44ebe29aeed9c0e3d24503ed3d7092183c0e6f0afd699fc007826f6e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/alshanexs_familiars.snbt"
-hash = "67851899d0641a216b793e6a0a1a082439560199f8e280feadd4716c8c52d369"
+hash = "d446c28d1403a65a1a60db461ab4944ab4d73a7b7c896c4653ddbd9190a48ddc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/artifacts.snbt"
-hash = "0e1fbc64059e1de5bbd5ca6d856cff9d4833efdc31cd03cecc2bcde5ef714931"
+hash = "44e91f6d6d5934d59fa12a67828ad9407f7d74927902b999fa140f986c6377be"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/basics.snbt"
-hash = "38b12f8db728e13ce11173554d1e98b7860451fd4b3732b607ac52fb7c261e5b"
+hash = "d7cacc93bb47071d2f10fc2ab3d446ffce7342d77671caf4662bc8b6975c3055"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_basic.snbt"
-hash = "d23f3907677d1a2ad1758d5b71097ce5185599efdf82db8e5ed94767ea41210b"
+hash = "06f530d6e1253fe3eeefd7b70685afbce8390256ea19a0eb7aa7617a948a6823"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/deeper_and_darker.snbt"
-hash = "4a57b9c6a0278016387b6e23d3de50be21fec9fb4702ff4cd5407f8c80a020b4"
+hash = "4ac132c71d6c681b5ec54feac07222016ab496949cbc4203b791ff6cb95ce55e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ealshanexs_familiarsr.snbt"
-hash = "482b0e2b671c66bb8d38dfaa691b546698d02ace66e11f84100c38d2910d1751"
+hash = "fec241325e3b7cec3c0c613f53050e5622a546497104ae5ba63ebce45e76ae7b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electricity.snbt"
-hash = "371c16cad324d748a6747471725e03c4ae430c09cbff31e35a92b8c4fe611ed2"
+hash = "8c399d205010c2ec408021cb0f32435925b084a92555579d7844ce3edaa642ad"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/enchanting.snbt"
@@ -798,11 +794,11 @@ hash = "20da5aee3a06776a0dddd56d856ff48600f71abe82a71e1345adee6e21c964bb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/game_discs.snbt"
-hash = "81849795fb1f39d71cdda2a401c53c1c19f1d569a0dbdd33fe6f1c93be3599c0"
+hash = "8944f8924349c2154e238c7fb120d68a8ced03b22b5b4185cbd686b095ab140b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/garnish.snbt"
-hash = "22bb4f9611ad5e93d0a157aa2b58cac6ed85bbba6ee7976143210df4db11d2be"
+hash = "ab100d8032c2b03fbd736a52827ac2cbaac7842abfc8155fec8cb0a12c5370b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/golem_ouverg.snbt"
@@ -810,15 +806,39 @@ hash = "7a2e0ed1c4bd8a1f3311018fdc4db210a53b376bca137d6d4f13b45f8f9401b6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/haze_n_stuff.snbt"
-hash = "8a4a8fb44d244be674d3d3ce0e74a4a4d6e13b78bc24f3a55e6d5d1db9954d60"
+hash = "54c9c201c7db60380bc565b2627603806ded0fa6199088e77e2d2071eb259c2d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/irons_spells_n_spellbooks.snbt"
-hash = "1f326e0b16de96469fcc11a0da4cdd315897679dddb743286a7c0c56c09bbf4a"
+hash = "fec3743ab333ef329d909092ef844afe715ae451bbcc35a11bb4502e8086e129"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/market_apprentice.snbt"
+hash = "2d8f8dda7e30c4ee4b8381438124913b0e75c62557e987ac1e55850321ccb4d4"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/market_boss.snbt"
+hash = "e587ede0170ada93f4dc5b9094386db0764ca7caba59ba56e33ed510625e8062"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/market_engineer.snbt"
+hash = "f620e744d9bb0ed38fcc095474edad6967f14efde1da8ce34ca54847582e93bb"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/market_maps.snbt"
+hash = "7fb46884f6a52a311fc3f9bf0d026bf6188d8a503a2f8cfd3a5d38d25452f323"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/market_operator.snbt"
+hash = "750e6ea8ab07f5f56e3c3bc6ad0f706460ea5d2dcad95e4854faa3cfb8a1c187"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/market_shop.snbt"
+hash = "6bc79276a4af59d81ee6b77c754756d0eea55e092102ccd96792bc4443dbe49e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/new_age.snbt"
-hash = "6cf40d7c8c91ae946539c4e4ac411ae53d117b68d982cc2c4d354940f666148e"
+hash = "48e60c32119a28c5be187bb2611ff8776785ee43c95cfafb92966f85b3062fb4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/order_of_engineers.snbt"
@@ -826,19 +846,19 @@ hash = "b1abd4701c9ee6b7f36c648304c195c7577d3020690067ac7be5f443e4eccb7a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/plushies.snbt"
-hash = "fefa2713f1ee4ac1f2f66da5ab13202dbbc1dc9e3b756730278a038496f6d7f6"
+hash = "e7ee9c03274d146d0ad7f734dede4d077f2734d8b14c5ebe8f431e0adbfbd6b8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/simply_swords.snbt"
-hash = "82f4a3672f05897a52881bc1ea7ec659305dfb6026fbc6e3eda727229ea6ee35"
+hash = "8968b8e5cf6df6953ad56e3103e618f6581d448342f1ec88edd1263caf70ad70"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage_solutions.snbt"
-hash = "e74258d25b3d75daa547d4ef1b71828780e4448ee65e790b7fc890dc8089920d"
+hash = "4a978ec2a7a2da4d30552da7ec1d1cd1d77c1d3643e2e5384ae3bacf794cf8de"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/teleporters.snbt"
-hash = "37fd0c8a5ddc4a410918e0133f61c6fd2e501ee0815bae9db05acb2126158359"
+hash = "3220a41223aa359f0cc444c03681eacd315a84b3e580454bd955b337f283c660"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vents.snbt"
@@ -850,11 +870,11 @@ hash = "f8d313a88d08eec15f8c8588dd6ea9f7a1a1e78f8083530d66b1ad3dd3819dc8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "cc91899af32a27502aeb761809e25cad2caf6889cc9ec8e028856f126dbfca04"
+hash = "42711e2e3e06ecb758e3bb02374de9efea2c439db3cb4d445a7b9906c16a77cf"
 
 [[files]]
 file = "config/ftbquests/quests/lang/ru_ru.snbt"
-hash = "d453fee4bf31c3179a1497cd266762de97372ce6df303eee08b87e1b3131ec5a"
+hash = "60846fcf326884c6facbe6fc33437cc1eb295e44d738f83e6bd95b26be122ca1"
 
 [[files]]
 file = "config/ftbteams-server.snbt"
@@ -1586,7 +1606,7 @@ hash = "ef6fd07389f54ce39cc82d2b02b54162b7edf4c31fb09d9167e8007ee4ea6d42"
 
 [[files]]
 file = "config/magic_coins-client.toml"
-hash = "27cec8722baeaf4a5c83be282a2dc09246ce36668619eed32fe3e05fef9d1ca3"
+hash = "9e82a7f15d3fd8d74953cef4ad915607133d07675f907610fe261cc954f34f8b"
 
 [[files]]
 file = "config/magic_coins-server.toml"
@@ -1830,7 +1850,7 @@ hash = "5d0ec057fa0352301a314bc19b0dfc31e10e43034dd301233ab903d139ba65b1"
 
 [[files]]
 file = "config/repurposed_structures-neoforge/modded_loot.toml"
-hash = "7108d5e1936fc5e528bd3eff3b7f2176ad1180e41dfeafb6a17da0954d09d8a4"
+hash = "c9374cfce046828d74451213b002feb4ca5c4b306e866f1302e6d986b0e768e6"
 
 [[files]]
 file = "config/ribbits-options.json"
@@ -1870,7 +1890,7 @@ hash = "638b02fb58f2a76cc7f281fd8e40129ff47f758ee9bc3e735b2fcfade03e204a"
 
 [[files]]
 file = "config/sg_economy-client.toml"
-hash = "ae90d458f79360cafd81c76003f04bca48c506c69ec2781ee94772f8b69f97f0"
+hash = "632793b85cb0d73fa02affe5cf6e80e076e9f61c1a4370f0d2a69874385ba8b2"
 
 [[files]]
 file = "config/sg_economy-server.toml"
@@ -2190,7 +2210,7 @@ hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "cf5d39b36d5ccee3143027ca58f8d9e78f801797d50ae5465ebb6d9a65a08e6e"
+hash = "8786654f153bcea10f38418b56290268acb7faa86a0e31a772b2f93225cb6a4e"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/ru_ru.json"
@@ -2774,7 +2794,7 @@ hash = "15819f9ec7a0bf3942d68235eb67e657ed759634ebbeb5fb84f26d58f8390790"
 
 [[files]]
 file = "kubejs/client_scripts/main.js"
-hash = "72620561761b011495fb5b2a2e9287e941d4f259436fe2e4bd9c535504b6f9b2"
+hash = "67f1311f5023190ae5338a2809f058e1b8c5feb910308e1f2416904f202b1acc"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -6949,6 +6969,10 @@ file = "kubejs/data/nova_structures/worldgen/template_pool/vanilla_structure_rem
 hash = "3600eaa5edaf7eadd3e3162928289f5ac6521cd7bc8e7e22255c2de78ec44ca2"
 
 [[files]]
+file = "kubejs/data/repurposed_structures/loot_table/chests/ancient_cities/ocean.json"
+hash = "b368703acbb0050f20b37e3265ad20ac7dc3740835f72730e2b389486e481fcc"
+
+[[files]]
 file = "kubejs/data/treasurebags/loot_table/bags/anubis_set.json"
 hash = "0289bfe731291501cc7edbccb895dca76b5c524c9bff84502a70134caaa8494d"
 
@@ -7241,704 +7265,8 @@ file = "kubejs/data/treasurebags/treasurebags_types/test.json"
 hash = "22b1fca1ba516497ed871be847778793c59d9d02104a2b7f564fba6d1ac2cc39"
 
 [[files]]
-file = "kubejs/data/videcraft/market_categories/boss_tokens.json"
-hash = "76083b17b8858a9c82ec776891676fd8846797ffb1a2e8b4c55a332dfea5aa9a"
-
-[[files]]
-file = "kubejs/data/videcraft/market_categories/contract_advanced.json"
-hash = "35c1a71c49ea99a8ca9f41197887ae170a18c870739144b1773d16ab21e6afcc"
-
-[[files]]
-file = "kubejs/data/videcraft/market_categories/contract_basic.json"
-hash = "ecb941f232ef7f2228f270d9fc1dfa83a51096ccc2474e3389d8d20a21194dcd"
-
-[[files]]
-file = "kubejs/data/videcraft/market_categories/contract_medium.json"
-hash = "e40e5d7f19b74daaa40128194f7e62e9b9b39554ee6018f968ebebde54bc0aaa"
-
-[[files]]
-file = "kubejs/data/videcraft/market_categories/magic_coins.json"
-hash = "bae3922c990be85d848904c64adf635565a7904d2893df095c902c4154899074"
-
-[[files]]
-file = "kubejs/data/videcraft/market_categories/maps.json"
-hash = "bea3afc2f61d4884befe1275cd89772e68b78b5567148d1f9e1d6dddd1eeccef"
-
-[[files]]
-file = "kubejs/data/videcraft/market_presets/advanced.json"
-hash = "fe62c7274027ef670d4f0b9c9b33b524f49384191b11380205fe479e0d06f60e"
-
-[[files]]
-file = "kubejs/data/videcraft/market_presets/basic.json"
-hash = "30591475b51b58ebe9937d59af101d4db5cf0a34869b35dbba08527579c3c529"
-
-[[files]]
-file = "kubejs/data/videcraft/market_presets/boss_tokens.json"
-hash = "4d02bb5822ed76a1a98affe144f88db03a9d23bed49db7aa3d0820f87b54ce50"
-
-[[files]]
-file = "kubejs/data/videcraft/market_presets/coins.json"
-hash = "86a264e9251021b2e5f2dd02c6f80e9f275d23c988c79ce77ff80d9fabf95596"
-
-[[files]]
-file = "kubejs/data/videcraft/market_presets/enchanted_books.json"
-hash = "9eb8ef421fa3ccf51edbe4f14d7a84eba3e3bf9c7fc069288da6796a2ccfdcf3"
-
-[[files]]
-file = "kubejs/data/videcraft/market_presets/maps.json"
-hash = "86a264e9251021b2e5f2dd02c6f80e9f275d23c988c79ce77ff80d9fabf95596"
-
-[[files]]
-file = "kubejs/data/videcraft/market_presets/medium.json"
-hash = "869032333da907914243385a25d3d53dbac2c9c03b07fd6b5faf8370a3071dd6"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/cryptic_eye_fragment_cracked.json"
-hash = "486161a22b834cf4ed73a09545b2d565f330f3a69fb6d6d47204c5e402f69dc6"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/holy_set.json"
-hash = "97190290b68f1be430ac073cece6a1655315cd23f843048b011f15c364f9383b"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/lich_eye_fragment_cracked.json"
-hash = "f8c726450f4b31befa45e8090051d7dd690d5cb1964e8c840621921ee2812133"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_arcanethyst.json"
-hash = "da1d3d5bf19ce1ade6333764c3fe657e4bd371a10fc263092f0b9fb022f1002e"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_bramblethorn.json"
-hash = "6e467c8cc23aa0b7de317d222f4a91faf5a6ec4ce3d2ab7065c703f3d299e9fd"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_brimstone_claymore.json"
-hash = "49bdb833c8ff9880e057a659d16eb2fe0b9f273e3443ad67c9de653cf847580c"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_caelestis.json"
-hash = "94c239d5ee8e28a66a5d1c9f63a684419a6ca73ee7e844e66c46191d4659d0b6"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_chompolotl.json"
-hash = "566958c944c36e4d57ccd4f3c8b6a3d1af6581b49c4cc4c1efdab19fc17f436b"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_dormant_relic.json"
-hash = "33e29bc2856bdb0e84773ef571e0cc771a2354767228d468f45cc276e2412728"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_emberblade.json"
-hash = "65f2c08087ef21403050c84c2707ac44ac3bb982105771a0c403d4df47cec239"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_emberlash.json"
-hash = "ad48a190a451eba4375e4d26fd91761d2511e96d0a8de0bb175fc64f4583b0b4"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_enigma.json"
-hash = "ebc7d353a44ff28d0cbbb2533152830e3f99f35060fd0a5db9af19f2fbd936cd"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_flamewind.json"
-hash = "ac7b3fc90ffbcdf49dc040596c0fba1bd4c45ff6b2c9810397ddf0fb882303e7"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_frostfall.json"
-hash = "f0552f2fcfb94ff2cbf88b8784550cef2beee1a4e9fc9827cfcf14cb8e6b7ff7"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_hearthflame.json"
-hash = "3c7ca84376d54793588d6f8f51501f3efb0d97b0fd48ef11d73ea3a18878174c"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_hiveheart.json"
-hash = "be8600a162cbe68d86309810e8335905cee06f66119471e0e57bc1fb92cabfae"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_icewhisper.json"
-hash = "7ca3bed228a3c5a373065d5618407620c4b74cbb26e6abd4425d1acea421262d"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_livyatan.json"
-hash = "dcf43ec09ef4317fa87cd336edb20a9d38fd0aef400a7fc2bd62f653ee22e508"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_mjolnir.json"
-hash = "8a974a02b9d760d94c8d2f134701f82c99a4494bb3b08c9f5c518ac29d18846b"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_molten_edge.json"
-hash = "621a9c75a07f3be5b03ea7c325a30497c7c05d68d0bdd5699d7866179a7e8c3c"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_ribboncleaver.json"
-hash = "df6b0712f108c609f0919221d527e8b6d52e559391fddfc175e66ef7f2fbac39"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_shadowsting.json"
-hash = "0747225f394efacc2144f6d1f4f0a9e2120d9d28719b7fb32c9357214133cb33"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_slumbering_lichblade.json"
-hash = "178552d6e2d2302debc2c852bdd2babbc509836aefc583cecc6f4dfad9e7e564"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_soulkeeper.json"
-hash = "9b4f24a5379247666e3d0427ceb5d64706532200cfcb14369d1e1acd6378cf5c"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_soulpyre.json"
-hash = "823510e74a3c579a314438f20d8f93e0320155001712ebaecfac34c7318e141d"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_soulrender.json"
-hash = "704b34406148cd6f1900cd69ade0b33ed06119cd584681a45c739a7e8e4ab235"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_soulstealer.json"
-hash = "2a19130ab46d4f9bf1d20db0eb0fd9c5de013d7e53b953e3fb1b1cd0b0ff2922"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_stars_edge.json"
-hash = "a8575e44b0532e5cd1dbfc9b0228d63fd837e056caa8a65abe02c113a89d1631"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_stormbringer.json"
-hash = "5388e93894cfc88c329c9f9b5461f7cba05d485b25273e5c18517348e68da94c"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_storms_edge.json"
-hash = "2c66110fc0dfe13ad508b159b68c8473c984bf6a8779060755b3e7ba50155253"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_sword_on_a_stick.json"
-hash = "4cec94bfe3be901e92e704ae5656faa3356c0a257fe2e1758bc3bce9c0bdd195"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_tempest.json"
-hash = "cc8f52b41fcbd6597395ea26d548badbfdf1abad220a2c1acae7a7027a3c31a0"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_thunderbrand.json"
-hash = "d87081d608f2e052aa70f320accbe857d5da6fb543773d4e9c89886fb8e9bdb8"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_toxic_longsword.json"
-hash = "e7ebad1acf19e7d0b9054f06edfb202f617ea79fcf5369967dad3121c7674a14"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_twisted_blade.json"
-hash = "c7019cd541ec261a1949aed822103f8733f7e362e73a3f6baf3846aab45fff73"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_watcher_claymore.json"
-hash = "89104b8bdd98663b0cf84291e3a03adf9fce4f3e0fbc2bb39d1777bfb1418ed0"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_watching_warglaive.json"
-hash = "15e30fcfebe4aa1906edad5954e5b5e0e682e6918136dfe3143d1a9f3794e991"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_waxweaver.json"
-hash = "466f361146035ad5ec3444a816aec2ce92df8d01e2afd2723fc84cecfde5a3e5"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_whisperwind.json"
-hash = "62d13a8030e5d8870b657f66377d61cfde475e6b5783a2fc96ac0d9c20650d4f"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_wickpiercer.json"
-hash = "fe91bfa92b52d2f55d7d556431bb3a456732a3322422f14d17b9f94408d3ed9e"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/boss_tokens/w_wraithfang.json"
-hash = "c9ad182c204e0b4eed35b0fc890a5fb698972e1c10e41466923c982906724e9b"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/ame_rapier.json"
-hash = "71168ac2a66a7b1136011fbb5a6e9f9fafe39214e306ed4d912d64b0a45c101a"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/arbitrium_set.json"
-hash = "12eb527513c3fc4b20ac5437a741987896873f2a95c50ab15d10c413fdff1843"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/block_picker.json"
-hash = "253196e11af6edcf6187a9c15c3c086c777c56380ca49b91028ee97ffa71b237"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/book_berserker.json"
-hash = "5c014587e9c801ced5c105d1bb975829ac57abf89953eeaa89d2225781fe12d5"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/book_endquiver.json"
-hash = "b28414909e7221c9175324411e209d0818aa93215d52cab2c9996dfb1c48b7f2"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/chakram.json"
-hash = "8612e7d505d27c107edbe94d34c09510e1345f9fef160ec95e6044d405cf29b9"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/claymore.json"
-hash = "7bcbb8eba173d5648e9a2cdc972530cdc6a16d5a595c6299e7740eb82b3335fc"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/desert_eye.json"
-hash = "35073dd59ae2e18846c26ea43658d125b76c910eb476f63d1d0020db76dc4bee"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/ender_library.json"
-hash = "eaf6821b13e757e59977546a672e497ad95e8671493d008c744b7b68daf7cad2"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/galvanized_sheath.json"
-hash = "7ca1c7e2e9a926ff31458a0a92cacccbf05a1494ebca4ad7b448637d3f972073"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/magic_abys_shroud.json"
-hash = "69325bbc96bb2010208934cbf70486223ee616bc40431c1c5ae0229de2c5747e"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/magic_echostrikes.json"
-hash = "6b89461ab5ac4b34ec4772f55b614a03731cebdf59798b9c7b42d30482d56960"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/magic_evasion.json"
-hash = "e6084c5ba33ef7496c3b1a1278183378fe88c18daab9ea707716293734b625dc"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/magic_heartstop.json"
-hash = "2a222325e723769c390830efadfdaae3eac83a7d85874365f36531276265642b"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/magic_pocket_dimension.json"
-hash = "6dcec2e5d2aa28ef8892657c965b107b624cd9a43b4a2eb55d41dddc39b71cd4"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/magic_summon_chest.json"
-hash = "6b8e0815f0d9d16b9e76e38bc06e6a4e982a460fb3417926ea589363b9a7ecdb"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/magic_summon_swords.json"
-hash = "0589cda67808ca39f9227bd28b967aa17a34dea7e9a1b36f4e96445dd7254953"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/netherite.json"
-hash = "b872d16869da29bac27cc6641098edda9df42105f1676c2ac6b2ee5547827204"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/oblivion_eye_core.json"
-hash = "8039d9e90b85267bef799435f64f00d94468723c5d24c8358256d5028c2f9041"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/oblivion_eye_cracked.json"
-hash = "c435e361738b75b201374ae8f4453b0a5f6cafb1e155383ddf99bc1de6d17b32"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/oblivion_eye_shard.json"
-hash = "a1e6f3e001e5a218dd13f2f46a52f68a05e13cee4dbaac414fedb6d798656aeb"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/quetzalcoatl_set.json"
-hash = "48fc1e04e3bea98b1270ada2254ea8963957911e79be9a36d811ec4a33b54c48"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/scroll_sheath.json"
-hash = "25877559832f5c3c049a0b8f5543588dca64070865134078e3f63bef97b1ee7a"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/spy_eye_core.json"
-hash = "c2968f8e9284ae9a3f20924dcf0ec0f7d7b057f941bb532eaaffbaad7f0970ef"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/spy_eye_cracked.json"
-hash = "760438832f7ba553d0f998c3f81a268414428e5813a6ac07b07e05e5a91bf832"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/spy_eye_shard.json"
-hash = "fa08597bf82fb0f3b43482b70caa09877008732f3a3ab5d561d79cb18b907dc4"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/storm_eye.json"
-hash = "0682414c818d6f691f30e79470a5f2016601e6f4c1ed748fc5ce5cc7d59c4fc7"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_advanced/void_eye.json"
-hash = "37b383838c032a62f3941613ace79ac1c49e76676762ade7b35d52000c3ba74e"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/aquatic_shelf.json"
-hash = "503e80de0d63cbc088bfd2b5686e737bd034709990cf140e142c99ff7809a699"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/bamboo_hat.json"
-hash = "0aa5d568d82439214798b1687ed1778d441940af481fdd3e5e4b4a4be8ec3b51"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/basic_extruder.json"
-hash = "7d4023108ce19abafd4ceb11bc12dabd9ce36e9f98cc5f0a1ffdb8fdf9cf90b8"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/bok_choy.json"
-hash = "e39dbcb85cd85fb1327de442390a52016a8bdf8d371ffa05ade72640a1db403c"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/book_grow.json"
-hash = "4f1a0e8021504b0e3bfbaeaada787f78b96e5de4648f96e9c83af56e377b9336"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/book_mending.json"
-hash = "9e791ab4aa8b90d97cd299a4271c6799ae9c143e52e868dc6c4c87593020db6d"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/coweb.json"
-hash = "f378e71ae0b835fa92a8550b38a0f25c35c619f8671368e63a931dbccd08b2af"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/domaru_set.json"
-hash = "3e1864ed62da964d709069123b43ad54242ee086261e19769ebd4725e354ab8c"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/eggs.json"
-hash = "7ce47b0f6f898a9673ed7ff6bbe7b10c19af4f7f963ac405040db8e681d85d5f"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/feeding.json"
-hash = "04023b98f052c8b9b631dfca46b07a05f3b6824ccbde687d30d8e7294b738aab"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/green_fertilizer.json"
-hash = "e0f0c0337b9616e4d278a3a29dc78c76d403a9e874aa4753b2a96c17c2828e0b"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/infernal_eye_core.json"
-hash = "2b2c2294703ad532b819c4ce81008c680afa0e4a4792aa7ec330b0aa6c9c0e87"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/infernal_eye_cracked.json"
-hash = "29037971972a301ee40b4a544ba965488e0224c187ad4ffea4909ac98b331ce3"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/infernal_eye_shard.json"
-hash = "ad5fc04fb07025d4d62e88daee184a41417b47431f79021e922d62b19cb25ffd"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/magic_blessing_of_life.json"
-hash = "42de5302f79ff25306aacea6ac1050caa62bbf2d0224aa4ecb48409814220a26"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/magic_cleanse.json"
-hash = "cf9ad206a379624f7511a5ebc5c119f4686de2e682646706baf6f59e10cb3172"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/magic_fortify.json"
-hash = "1efac2c1b8a0eab487b2018019d9e07b3af316a5c5873cea7bacc67a48659b71"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/magic_heal.json"
-hash = "007e86b82beb45e1260e0d1758d2e4cc23cf1b17f7c84f53572272d9bd9ae296"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/magic_healing_circle.json"
-hash = "46ab76c17b6415ea777fae648a8f9b856c376dd6c9133da9c7c0c70746bccd46"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/magic_lightbolt.json"
-hash = "b831a5fd89b0fbb5373dcc1e7547f1e21c522769db950684e563433836b0adba"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/monstrous_eye.json"
-hash = "4705ed21f1b9d1c67de32bc7118f11921cbccfe81f9a1fe9a67c8469419d46db"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/red_fertilizer.json"
-hash = "b8bd61f0899d53095605430081c62f0bd55c75210091c402ac4e75ab525dd97b"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/slot_improvement_irons.json"
-hash = "ab903aa7e786851c18573f8fbe93fff5bca79b9592bb645a3c97a8de9b8cf75c"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/sniffer_egg.json"
-hash = "75becda128cdeb96f1b447ff75c86bc3ac88ad5e7e0724cdef0752b396c85cff"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_basic/yellow_fertilizer.json"
-hash = "6711942cdb0ad238319a3026da89304ee28ad91111acd37cc8cba1b8dfbec093"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/abstract.json"
-hash = "5a390d97505b254c5ebe9459add55225fba475d4b4ee01b96cee24267a2c877c"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/advanced_extruder.json"
-hash = "5cb2958e844437c759e8fc9c78740c564a5662e68df02af6395f7f2bd39dc068"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/black_eye_core.json"
-hash = "0895ef19fbe2bfaa6674ff93b215233175cb024d2084368c4e1453b0ca8f1e05"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/black_eye_cracked.json"
-hash = "68f45567ed069a8671f7315ee5ca361513fef7fa542327c63fd5349a78c04d50"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/black_eye_shard.json"
-hash = "b3fbae7d22d7e78c2d5d14e566ef9735361db79de59c53c2337b6fcdcaadc3fb"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/book_chainsaw.json"
-hash = "de0289e06a16d13517a60b3abf45bab3a97479e29efb5aee3cb69ff10cc5ce2f"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/book_infi.json"
-hash = "7316ccc43a53fa92eb38bc39d92813c9a83c285a6d616b2cc286b24242b14fb5"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/book_minefevor.json"
-hash = "c5c2823e302b30cbb30aef7a55a493a49b99d2122a138fff56973d1d8c1b11aa"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/book_silktouch.json"
-hash = "52395e650bc75ce697a4facae58f3c44be27b6138dbefbaaff25f67fb777a179"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/budding_ameth.json"
-hash = "8b4525270e4b639c07ffe6855d3e8867c7615e3293c840500d3cd80ac4a60527"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/cat_burger.json"
-hash = "606ac3f13bdf0224f1ea74c380fe7409f14b17421155cc4c5f394398f741383e"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/centurion_set.json"
-hash = "cfa0ce13e524b54e5615d1d1614fbfec8ede4cb2cfb1c0e52dad3c01cda82486"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/chorus_fruit.json"
-hash = "2d8cde607fd732aedab33163a6d6a6013712cf93bd0e133ee58057b8ece74a4d"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/corrupted_eye_core.json"
-hash = "5712adadf8e591c4df4fece1e678d5ae64e28e735b529ca398867a85b001a968"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/corrupted_eye_cracked.json"
-hash = "37db29264792d01127a95e5f8d84b52f6d8f7cdeb0f93a2b374e0e151d9800af"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/corrupted_eye_shard.json"
-hash = "a08069e91aa4c6aea3f5f747381da959b0a15ff0c97a34777842b8843b04a6e9"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/diamond.json"
-hash = "ee81b890a5ef54f992e06bd78dd9026b3150bc5557371613e645bda23b94ca18"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/gem_case.json"
-hash = "9b41692ec04e9d24e907724291e7e6eb7542a3e6c9e31f21b399e0795b7694e1"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/hither_thither_wand.json"
-hash = "3d77541941ff54bea08cef71cf24e823cf6fdc3436f25a7fd627c763bf35b3f2"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/library.json"
-hash = "77c122179dd06840a4152b97efd1d6c2fdf8efd3ac768731a2ad27005edd9236"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/life_crystal.json"
-hash = "8c3142ba00c8dac25f9ac9c1a65b35df4b8018ce3ffc13d40478442ad1565b47"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/magic_angel_wing.json"
-hash = "9865795d62b9a080a9a5ff3bb7a55fb9f61e8f5bacd9a37b0cf1b566d15e05f3"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/magic_blight.json"
-hash = "e3576c26edde5e755a322dba5b02bae4c6b7f406a3afe9fa5fde13c0f65138c9"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/magic_charge.json"
-hash = "adecb7844cbae71425c22fbdd804e9770d74f675f1d6374603076e7e6157f9d5"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/magic_countermagic.json"
-hash = "48da27fbb76bcbe285693809ebbd9e6eba58692c944b7e51899b3a64087d991a"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/magic_guardianagel.json"
-hash = "247eb932f9b664e1a3666a8a139cc93623f2249fc2ae033c12d724a771f927ec"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/magic_haste.json"
-hash = "0cd7720de648d7f93bc5ac93c7ba3606357a9f167c4669f908a738e6b0e020ae"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/magic_maxheal.json"
-hash = "8d5d6cd378e9aa6b2683c0021645d9e953068a056d420303d593b57b239164b6"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/magic_oaskin.json"
-hash = "a80343c8a3113a70e32f71e59401825c0df520395d40b66b978ebd42dda7bbd8"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/magic_recall.json"
-hash = "e99e3c70f2ab47f6f994a6c0b4bd151f93f1f47ca3b86fc8f08bc7cadafa764d"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/mech_eye.json"
-hash = "ae5630b447661e0cb1b6f9d69188a3f11b664f0ba963f20de895845d7e0d2ee2"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/nature_compass.json"
-hash = "8cfbaefabd71c0072ea3377cbdfcb9989bc11bea13c432ff2d8c51fee35dcb45"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/ruptured_mana.json"
-hash = "d9899a558c1abadf9515d6d900cdc2f7a69668a338c5e902a298d09dd85c3d6d"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/contract_medium/unbreak_template.json"
-hash = "7acba5efc8afedf9f9b4d527e226cabe5fde29570d7319253d599977afc97e9c"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/magic_coins/anubis_set.json"
-hash = "2c713841a7fc1e971f31a5ebb65766dd873aa86822a86885003ec77236bb23a6"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/magic_coins/book_ages.json"
-hash = "ea0b3c989487d75c62834c8ad02235c27569dc9f85a4ad7b15fbdb9c2146e297"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/magic_coins/book_crescendo.json"
-hash = "516858be52e156004ec6d60fa3e74ad5db7b9d9abc16c1fe3f474431ee031e79"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/magic_coins/book_lifemeanding.json"
-hash = "ec14e699e36d135073748122b83e256cff0ecb7e23aee12910d756dfe8104630"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/magic_coins/book_unbreakable.json"
-hash = "fd3a37242f83f1f2c003924fe3a6cf6fa5cfdaada8d2f7cf4930e6b77a85c107"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/magic_coins/boss_reset.json"
-hash = "18fa3e9bb1f1a1284297654743d7f1c38bda7359f89870bed23503a9415c78c7"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/magic_coins/console.json"
-hash = "86362c34be51b9dabbe998f30ebc9a360edec8113a185359baf5810f874090ea"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/magic_coins/ender_library.json"
-hash = "2c27166ba112d76cb044a950339aea68aab0f00827e17781c01da00eb62a1356"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/magic_coins/iron_set.json"
-hash = "999f383bc16bd8af955e0ba13de2fe400941389445527ff6d5280c29aabe89a0"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/magic_coins/rng_bag.json"
-hash = "01e8ba8430d2fd2c69d474d1b859d2ec647ac6dc8a33c129bae9fa567849c60f"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/magic_coins/sigil_of_enhancement.json"
-hash = "9102cec74b79e7d4559e6d2198d297d81a0f94e149cd82c035475c679549541b"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/magic_coins/sigil_of_rebirth.json"
-hash = "a68760a1255c7e2926825ca00664269236bd4bff86fc2065fece7aea15977025"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/magic_coins/sigil_of_socketing.json"
-hash = "785d9a00d02b4d083af63c7ecdd87c1b2de436f3b058e003c3a199a509bc2680"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/magic_coins/sigil_of_withdrawal.json"
-hash = "b8cb60b8036ea0e24c4f680f42fd32cc91df094c63d596a1c60ebeca1c939570"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/magic_coins/soulcaller.json"
-hash = "c7022ba0ac9d34471fffd4e8120fd2dd52db7af10c28e3842309a1d3495800d2"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/acropolis.json"
-hash = "da9dc818cfce69b95b9e4ae02a134c01369b02db4bec8500b58c2975bf69177c"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/ancient_city.json"
-hash = "9af2dc0d9d3de77a6014015f6339c1334ea268d0079015366e57738c0e859f16"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/ancient_factory.json"
-hash = "d656688164272b71d03b616ca4534128a8f0e022bbe8acffce28e074a0abf812"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/burning_arena.json"
-hash = "8490a3cb750da797d8651f2646aca735c0436e98aad4a93d0a5b2ee29eaf8a7b"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/citadel.json"
-hash = "7c044c01a8a68e459d8050ad061a698c3af76a5aec76a9101682eb5145aca464"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/cursed_pyramid.json"
-hash = "b2f6fd371136c0fc881bef0650e29d3284e722c1ac5de8c22ac03848781c9ba1"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/evoker_fort_attack_plans.json"
-hash = "d24f603093403dc6c2a1cb117b207afc3eabaf54d9b7c18b84099536fd732e95"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/frosted_prison.json"
-hash = "0eff9ffa6b0f5f46708815745064105c4269e8ee4306dd63c0210ca47c030572"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/gauntlet_arena.json"
-hash = "d53a6edf57e4704fb5f1c38b6317e1c5cba2af7f2eadfada2d5ec8c5f39fcba0"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/infested_ruins.json"
-hash = "4468f87bdaee0ceb475046245a3f7e14564fe81a1edad8f6deeb17397f318659"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/mangrove_hut.json"
-hash = "12d873431ceb42b0512df07ff3787fd5a0d0ca73f17fd92f09dbf6030070ca08"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/mansion.json"
-hash = "02a8e5caf059e34f045986e2a307b3d489826a22c5c7b01fe94ec28b339caab4"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/monument.json"
-hash = "d4102bd92be8063a8ea5f8023b7d56eb6a25307fa9d25bcf6fddfe6014192302"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/obsidilith_arena.json"
-hash = "b090e939875449bc288bfe40256e0e7ca36c9545cd503d7cdc66d044e43e8056"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/ruined_citadel.json"
-hash = "06af2f60143af225a3582156a546513228d75af41236f9bc4065314d3eb9410d"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/soul_black_smith.json"
-hash = "77cdbbbb66becadc01b3ea0738b6ff4e786fb22873b959ed532c395a298a7d17"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/sunken_city.json"
-hash = "d8dab74f238ede72a9c7a1d7e82186d5f2f8d219c5a04c678cb570ec5ec80b76"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/the_cataboms.json"
-hash = "62d06c9564257a4425e5baf3fa6f1a630636c7fd87fd2696c098a3678deddc64"
-
-[[files]]
-file = "kubejs/data/videcraft/recipe/market/maps/void_blossom.json"
-hash = "9de203bb8b9538b8732fe3c5ac9b5548015b671d15e5090db661aa1828b4c219"
+file = "kubejs/server_scripts/coins.js"
+hash = "e20e32fe847c2514d9e05bc4c166a540e96e722d06779e0c9f4f05bfb8ac86ab"
 
 [[files]]
 file = "kubejs/server_scripts/create_recipes_kubej.js"
@@ -7954,7 +7282,7 @@ hash = "03f81ae59a430d0230ebe06c84c224be83c206541682fd81f724efaf0aefa49b"
 
 [[files]]
 file = "kubejs/server_scripts/loot.js"
-hash = "dc28df34daa9d048c45a73eb91942dbaf617ff9f6f54ac59e7ff0b09ad642592"
+hash = "2744ffc6a63fb45a16a4dd2725698911d382e8d25c3e279df1cd137daa4b12df"
 
 [[files]]
 file = "kubejs/server_scripts/main.js"
@@ -7962,7 +7290,7 @@ hash = "d0d581b000c968eaa5252e600dfefc0b12e11ec3671b874747d6ad99528c7ec9"
 
 [[files]]
 file = "kubejs/server_scripts/remove.js"
-hash = "506481c2f44418438b3b5781348cb62b1ec982a9afe3b492881d703b9c088ab1"
+hash = "9c40c178278cd5ba782c80c284ba379866a67e691677cd0aca7730d624b9c7ee"
 
 [[files]]
 file = "kubejs/server_scripts/rightclicks.js"
@@ -7974,11 +7302,11 @@ hash = "06b2d34506dcc59939a281a33f47ed92a13660ecbe2a4bfad53fee5934eca930"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
-hash = "3b248aec4dd8e24054000bcf0e83b8467928959dc07784470d6ea39b41a3c2e8"
+hash = "3cfed65840206864cf293d8a0b38e49725b9157ed1443f56e720f280d9090dce"
 
 [[files]]
 file = "kubejs/startup_scripts/constants.js"
-hash = "1862ed5f239a0fcaa4b8d11e82231677c1b24bc47cb387f05db390b8a01758ac"
+hash = "87d34be4851179f962b2ca7a7d7e5f627baf73eda69a626afcaf2a0c05e91883"
 
 [[files]]
 file = "kubejs/startup_scripts/fluids.js"
@@ -7990,7 +7318,7 @@ hash = "e4b3a869c171e7d7b55da6fc4240fe2d0baa67d8628a765192887a27c98dfe67"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
-hash = "33e6a07d8b2ac347501376ec21ce53fde8e864a9e3cda51b9100b059b9c113c4"
+hash = "b1fff704f4cc8e68e0ecbaf78b5f733713a13f44235b502689de62ae46f4fe96"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
@@ -8527,6 +7855,11 @@ hash = "79d7cf09cdc88b8e64cb684be60efe938193ee13d8a64fc31e3ad1ae622bf4af"
 metafile = true
 
 [[files]]
+file = "mods/create-stock-market.pw.toml"
+hash = "3fbe8f34b2dee44337c7916b7a5d2e40ccf76b2d69767d84e639fd23421866d4"
+metafile = true
+
+[[files]]
 file = "mods/create-stuff-additions.pw.toml"
 hash = "0ec6556e7e1c8d7b5ee522656adcd51ff59629e589409128241794f7d677c422"
 metafile = true
@@ -8699,11 +8032,6 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "efc2c4fe9e2cc169aff61a6b7a41ea9bc7a22a90aadf0776b22de647ddf3cef6"
-metafile = true
-
-[[files]]
-file = "mods/farming-for-blockheads.pw.toml"
-hash = "72297d1790d36f6d871a28c66670fa127ea8760b6b030e70bb8b9e34ba1dbe0c"
 metafile = true
 
 [[files]]
@@ -9177,6 +8505,11 @@ hash = "c183fb8843a6c04da0417e5d51c62b2def40b994f0e9f1176243877b104d88a8"
 metafile = true
 
 [[files]]
+file = "mods/numismatics.pw.toml"
+hash = "f0a5a2604c8d733222a25e9c19dcf443d853864ed76a388b26982be97fdea71f"
+metafile = true
+
+[[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
 hash = "e52ed662249cff6b007ff195d331e0589fe18351dbb0f522fd9eb1f52eb22ee8"
 metafile = true
@@ -9577,8 +8910,8 @@ hash = "b94b15835f39bab4b72e35f5fbaa61b43c1727eebaf96ae31667bdb5e64ae58b"
 metafile = true
 
 [[files]]
-file = "mods/videcraft-1.1.0.jar"
-hash = "911726e0fd9a0ab25b31db67fecc75057a4ce9f09ece68bc4914ee82adb27075"
+file = "mods/videcraft-1.2.0.jar"
+hash = "91af91ad7b0ea6d709758c25f311c0285aa2981b0ee22f36bda17ae9eff22753"
 
 [[files]]
 file = "mods/villager-names.pw.toml"
@@ -9701,7 +9034,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/ru-translation.zip"
-hash = "57601735116b1185ad7f0eb6caed47cb4e223f7ba8aa2f455c33e2b1633f6cda"
+hash = "0390d192ddb04849567d543ec32e58036d475acc81ae6dc45aa684b85ee841f5"
 
 [[files]]
 file = "resourcepacks/slightly-improved-font.pw.toml"

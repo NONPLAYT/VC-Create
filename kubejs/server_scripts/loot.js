@@ -13,6 +13,16 @@ LootJS.modifiers((event) => {
   .addLoot(LootEntry.of(`simplyswords:watcher_claymore`).setCount(1).randomChance(0.2))
   .addLoot(LootEntry.of(`kubejs:boss_token`).setCount(1).randomChance(1.0));
 
+  // Unique Simply Swords come from bosses and boss tokens only, not from random chests
+  event
+    .addTableModifier(/^(?!bosses_of_mass_destruction:chests\/gauntlet$).*chests.*/)
+    .removeLoot('#simplyswords:lootable_uniques');
+
+  // The ocean ancient city is far easier to find than the Warden's city, keep its rarest loot out
+  event
+    .addTableModifier(/repurposed_structures:chests\/ancient_cities\/ocean.*/)
+    .removeLoot('irons_spellbooks:rotten_spell_book');
+
   // Add Create Stuff to villages
   event
     .addTableModifier(/(revampedvillages:.*)/)
@@ -25,17 +35,17 @@ LootJS.modifiers((event) => {
   // Easy
   event
     .addTableModifier(/(minecraft:chests.*|revampedvillages:.*|mvs:.*)/)
-    .addLoot(LootEntry.of("magic_coins:silver_coin").setCount([1, 2]).randomChance(0.25));
+    .addLoot(LootEntry.of("numismatics:spur").setCount([1, 2]).randomChance(0.25));
 
   // Medium
   event
   .addTableModifier(/(minecraft:chests\/(bastion|shipwreck).*|irons_spellbooks:chests.*|eternal_starlight:chests.*|mns:.*|formationsnether:.*|repurposed_structures:chests\/.*|adventuredungeons:chests\/.*)/)
-  .addLoot(LootEntry.of("magic_coins:silver_coin").setCount([2, 4]).randomChance(0.40));
+  .addLoot(LootEntry.of("numismatics:spur").setCount([2, 4]).randomChance(0.40));
 
   // Hard
   event
     .addTableModifier(/(minecraft:chests\/(end_city|ancient_city|stronghold).*|betterfortresses:chests.*|dungeons_arise:chests\/.*)/)
-    .addLoot(LootEntry.of("magic_coins:silver_coin").setCount([3, 7]).randomChance(0.60));
+    .addLoot(LootEntry.of("numismatics:spur").setCount([3, 7]).randomChance(0.60));
 
 
   const trialChamberTables = [
@@ -49,7 +59,7 @@ LootJS.modifiers((event) => {
   for (const table of trialChamberTables) {
     event
       .addTableModifier(table)
-      .addLoot(LootEntry.of("magic_coins:silver_coin").setCount([1, 5]).randomChance(0.15));
+      .addLoot(LootEntry.of("numismatics:spur").setCount([1, 5]).randomChance(0.15));
   }
 
   const ironsAdvanced = [
@@ -67,6 +77,6 @@ LootJS.modifiers((event) => {
   for (const table of ironsAdvanced) {
     event
       .addTableModifier(table)
-      .addLoot(LootEntry.of("magic_coins:silver_coin").setCount([2, 7]).randomChance(0.40));
+      .addLoot(LootEntry.of("numismatics:spur").setCount([2, 7]).randomChance(0.40));
   }
 });

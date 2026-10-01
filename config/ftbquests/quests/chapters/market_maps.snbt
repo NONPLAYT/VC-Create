@@ -1,0 +1,1154 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "market_maps"
+	group: "5A4B5A1603A445F4"
+	icon: {
+		id: "irons_spellbooks:furled_map_ancient"
+	}
+	id: "5C97DFEFA9F51966"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "irons_spellbooks:mangrove_hut"
+						descriptionOverride: {
+							translate: "Алхимический торговый путь"
+						}
+						dimension: "minecraft:overworld"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[Iron's Spellbooks — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Алхимический торговый путь\"}]"
+				}
+			}
+			id: "2CCE1F70BB9FC548"
+			rewards: [
+				{
+					id: "01AA1B253A62ED5B"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "irons_spellbooks:mangrove_hut"
+								descriptionOverride: {
+									translate: "Алхимический торговый путь"
+								}
+								dimension: "minecraft:overworld"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[Iron's Spellbooks — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Алхимический торговый путь\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 20L
+					id: "1E322CCC8FE1752E"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "irons_spellbooks:evoker_fort"
+						descriptionOverride: {
+							translate: "Планы штурма форта заклинателей"
+						}
+						dimension: "minecraft:overworld"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[Iron's Spellbooks — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Планы штурма форта заклинателей\"}]"
+				}
+			}
+			id: "649A54FCBCAB5CBB"
+			rewards: [
+				{
+					id: "432835E4F0549262"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "irons_spellbooks:evoker_fort"
+								descriptionOverride: {
+									translate: "Планы штурма форта заклинателей"
+								}
+								dimension: "minecraft:overworld"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[Iron's Spellbooks — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Планы штурма форта заклинателей\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 25L
+					id: "325C9F0A98C6CF42"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "minecraft:mansion"
+						descriptionOverride: {
+							translate: "Особняк"
+						}
+						dimension: "minecraft:overworld"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[Minecraft — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Особняк\"}]"
+				}
+			}
+			id: "54988EE6AD8D787B"
+			rewards: [
+				{
+					id: "6CE75F1927D7C4BB"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "minecraft:mansion"
+								descriptionOverride: {
+									translate: "Особняк"
+								}
+								dimension: "minecraft:overworld"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[Minecraft — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Особняк\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 33L
+					id: "22673604CECF8806"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "irons_spellbooks:ice_spider_den"
+						descriptionOverride: {
+							translate: "Заражённые руины"
+						}
+						dimension: "minecraft:overworld"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[Iron's Spellbooks — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Заражённые руины\"}]"
+				}
+			}
+			id: "49B06CF0B1017252"
+			rewards: [
+				{
+					id: "5E89149508B3FE4C"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "irons_spellbooks:ice_spider_den"
+								descriptionOverride: {
+									translate: "Заражённые руины"
+								}
+								dimension: "minecraft:overworld"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[Iron's Spellbooks — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Заражённые руины\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 42L
+					id: "22E5D756DA122E38"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "minecraft:ancient_city"
+						descriptionOverride: {
+							translate: "Древний город"
+						}
+						dimension: "minecraft:overworld"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[Minecraft — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Древний город\"}]"
+				}
+			}
+			id: "42C44460C8568427"
+			rewards: [
+				{
+					id: "3B0C962097087301"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "minecraft:ancient_city"
+								descriptionOverride: {
+									translate: "Древний город"
+								}
+								dimension: "minecraft:overworld"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[Minecraft — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Древний город\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "324DEC0A0C406257"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "bosses_of_mass_destruction:gauntlet_arena"
+						descriptionOverride: {
+							translate: "Арена Перчатки"
+						}
+						dimension: "minecraft:the_nether"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[Bosses of Mass Destruction — Незер]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Арена Перчатки\"}]"
+				}
+			}
+			id: "7B6B008E1CE76788"
+			rewards: [
+				{
+					id: "2F37014B7FBDE9E7"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "bosses_of_mass_destruction:gauntlet_arena"
+								descriptionOverride: {
+									translate: "Арена Перчатки"
+								}
+								dimension: "minecraft:the_nether"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[Bosses of Mass Destruction — Незер]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Арена Перчатки\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "0B2F6572479B9257"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "minecraft:monument"
+						descriptionOverride: {
+							translate: "Подводная крепость"
+						}
+						dimension: "minecraft:overworld"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[Minecraft — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Подводная крепость\"}]"
+				}
+			}
+			id: "3D18846666C3292C"
+			rewards: [
+				{
+					id: "3460FB096FC48E75"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "minecraft:monument"
+								descriptionOverride: {
+									translate: "Подводная крепость"
+								}
+								dimension: "minecraft:overworld"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[Minecraft — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Подводная крепость\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "4AAC268E44F74100"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "cataclysm:soul_black_smith"
+						descriptionOverride: {
+							translate: "Кузница душ"
+						}
+						dimension: "minecraft:the_nether"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[L_Ender Cataclysm — Незер]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Кузница душ\"}]"
+				}
+			}
+			id: "784A4F792B687B18"
+			rewards: [
+				{
+					id: "0CDD5B4DDF3A98B0"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "cataclysm:soul_black_smith"
+								descriptionOverride: {
+									translate: "Кузница душ"
+								}
+								dimension: "minecraft:the_nether"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[L_Ender Cataclysm — Незер]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Кузница душ\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "7735E13559120FB1"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "irons_spellbooks:catacombs"
+						descriptionOverride: {
+							translate: "Катакомбы"
+						}
+						dimension: "minecraft:overworld"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[Iron's Spellbooks — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Катакомбы\"}]"
+				}
+			}
+			id: "44255D27D5868AF9"
+			rewards: [
+				{
+					id: "1A20E6D071F24CF7"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "irons_spellbooks:catacombs"
+								descriptionOverride: {
+									translate: "Катакомбы"
+								}
+								dimension: "minecraft:overworld"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[Iron's Spellbooks — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Катакомбы\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "2546436D99115E0A"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "cataclysm:ancient_factory"
+						descriptionOverride: {
+							translate: "Древняя фабрика"
+						}
+						dimension: "minecraft:overworld"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[L_Ender Cataclysm — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Древняя фабрика\"}]"
+				}
+			}
+			id: "182A7A69E779823F"
+			rewards: [
+				{
+					id: "13736630E0739A07"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "cataclysm:ancient_factory"
+								descriptionOverride: {
+									translate: "Древняя фабрика"
+								}
+								dimension: "minecraft:overworld"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[L_Ender Cataclysm — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Древняя фабрика\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "249CF606D2350D87"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "cataclysm:ruined_citadel"
+						descriptionOverride: {
+							translate: "Разрушенная цитадель"
+						}
+						dimension: "minecraft:the_end"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[L_Ender Cataclysm — Энд]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Разрушенная цитадель\"}]"
+				}
+			}
+			id: "5CA98B0F80AF80C5"
+			rewards: [
+				{
+					id: "643C16567880FF3F"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "cataclysm:ruined_citadel"
+								descriptionOverride: {
+									translate: "Разрушенная цитадель"
+								}
+								dimension: "minecraft:the_end"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[L_Ender Cataclysm — Энд]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Разрушенная цитадель\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					id: "46A5C05C428F5334"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map_ancient"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "irons_spellbooks:citadel"
+						descriptionOverride: {
+							translate: "Цитадель"
+						}
+						dimension: "minecraft:the_nether"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[Iron's Spellbooks — Незер]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Цитадель\"}]"
+				}
+			}
+			id: "137B99049FF1749E"
+			rewards: [
+				{
+					id: "3B2E056023F48ABE"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map_ancient"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "irons_spellbooks:citadel"
+								descriptionOverride: {
+									translate: "Цитадель"
+								}
+								dimension: "minecraft:the_nether"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[Iron's Spellbooks — Незер]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Цитадель\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 9L
+					id: "58D6DA9FE6512001"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "bosses_of_mass_destruction:obsidilith_arena"
+						descriptionOverride: {
+							translate: "Арена Обсидилита"
+						}
+						dimension: "eternal_starlight:starlight"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[Bosses of Mass Destruction — Вечный звёздный свет]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Арена Обсидилита\"}]"
+				}
+			}
+			id: "530AF1B3675EC197"
+			rewards: [
+				{
+					id: "3B512D77B3585CAB"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "bosses_of_mass_destruction:obsidilith_arena"
+								descriptionOverride: {
+									translate: "Арена Обсидилита"
+								}
+								dimension: "eternal_starlight:starlight"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[Bosses of Mass Destruction — Вечный звёздный свет]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Арена Обсидилита\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 9L
+					id: "72A78C93656EAC8A"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "bosses_of_mass_destruction:void_blossom"
+						descriptionOverride: {
+							translate: "Цветок пустоты"
+						}
+						dimension: "minecraft:overworld"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[Bosses of Mass Destruction — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Цветок пустоты\"}]"
+				}
+			}
+			id: "2B22627705F371A8"
+			rewards: [
+				{
+					id: "7AD3537897CA8678"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "bosses_of_mass_destruction:void_blossom"
+								descriptionOverride: {
+									translate: "Цветок пустоты"
+								}
+								dimension: "minecraft:overworld"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[Bosses of Mass Destruction — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Цветок пустоты\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 9L
+					id: "66D051E7290F6CBD"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "cataclysm:acropolis"
+						descriptionOverride: {
+							translate: "Акрополь"
+						}
+						dimension: "minecraft:overworld"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[L_Ender Cataclysm — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Акрополь\"}]"
+				}
+			}
+			id: "6E32DB98B74C471A"
+			rewards: [
+				{
+					id: "47B243AF1EB964EA"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "cataclysm:acropolis"
+								descriptionOverride: {
+									translate: "Акрополь"
+								}
+								dimension: "minecraft:overworld"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[L_Ender Cataclysm — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Акрополь\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "532B425ED40939EA"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "cataclysm:cursed_pyramid"
+						descriptionOverride: {
+							translate: "Проклятая пирамида"
+						}
+						dimension: "minecraft:overworld"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[L_Ender Cataclysm — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Проклятая пирамида\"}]"
+				}
+			}
+			id: "134AED26E05FF71A"
+			rewards: [
+				{
+					id: "5067F94A038DF8A9"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "cataclysm:cursed_pyramid"
+								descriptionOverride: {
+									translate: "Проклятая пирамида"
+								}
+								dimension: "minecraft:overworld"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[L_Ender Cataclysm — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Проклятая пирамида\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "38C52C582137A514"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "cataclysm:sunken_city"
+						descriptionOverride: {
+							translate: "Затонувший город"
+						}
+						dimension: "minecraft:overworld"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[L_Ender Cataclysm — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Затонувший город\"}]"
+				}
+			}
+			id: "057F88D8F6D56A68"
+			rewards: [
+				{
+					id: "69A2D6955EAE4F66"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "cataclysm:sunken_city"
+								descriptionOverride: {
+									translate: "Затонувший город"
+								}
+								dimension: "minecraft:overworld"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[L_Ender Cataclysm — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Затонувший город\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "71214C1A19E06A53"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "cataclysm:burning_arena"
+						descriptionOverride: {
+							translate: "Пылающая арена"
+						}
+						dimension: "minecraft:the_nether"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[L_Ender Cataclysm — Незер]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Пылающая арена\"}]"
+				}
+			}
+			id: "38B9B9896DEC6462"
+			rewards: [
+				{
+					id: "15AD23D3C55D31C4"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "cataclysm:burning_arena"
+								descriptionOverride: {
+									translate: "Пылающая арена"
+								}
+								dimension: "minecraft:the_nether"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[L_Ender Cataclysm — Незер]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Пылающая арена\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "0B0C09C3F74A9A90"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:furled_map"
+				components: {
+					"irons_spellbooks:furled_map_data": {
+						destination: "cataclysm:frosted_prison"
+						descriptionOverride: {
+							translate: "Ледяная тюрьма"
+						}
+						dimension: "minecraft:overworld"
+					}
+					"minecraft:lore": [
+						"{\"text\":\"[L_Ender Cataclysm — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+					]
+					"minecraft:custom_name": "[{\"text\": \"Карта: Ледяная тюрьма\"}]"
+				}
+			}
+			id: "4B80FC6FFBB37481"
+			rewards: [
+				{
+					id: "2E8E867840AED5BE"
+					item: {
+						count: 1
+						id: "irons_spellbooks:furled_map"
+						components: {
+							"irons_spellbooks:furled_map_data": {
+								destination: "cataclysm:frosted_prison"
+								descriptionOverride: {
+									translate: "Ледяная тюрьма"
+								}
+								dimension: "minecraft:overworld"
+							}
+							"minecraft:lore": [
+								"{\"text\":\"[L_Ender Cataclysm — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}"
+							]
+							"minecraft:custom_name": "[{\"text\": \"Карта: Ледяная тюрьма\"}]"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "349FDC7C831E8694"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+	]
+}

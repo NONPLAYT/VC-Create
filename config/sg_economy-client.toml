@@ -9,4 +9,4 @@
 	# Range: > -2147483648
 	yDisplayCurrency = 0
 	#Whether to display the coin amount in the inventory screen
-	activeDisplayCurrency = true
+	activeDisplayCurrency = false

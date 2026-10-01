@@ -1,0 +1,600 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "market_shop"
+	group: "5A4B5A1603A445F4"
+	icon: {
+		id: "numismatics:cog"
+	}
+	id: "23AD52E289B45EDD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "apotheosis:sigil_of_rebirth"
+			}
+			id: "6633F0BDBAE0103F"
+			rewards: [
+				{
+					id: "4DAFFE0A5D5B22E8"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_rebirth"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "328FF2EB7080F31D"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "apotheosis:sigil_of_enhancement"
+			}
+			id: "52BCA51C0DEFFAA7"
+			rewards: [
+				{
+					id: "491ED7D1B222F7CE"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_enhancement"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "3241B947681A0820"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "apotheosis:sigil_of_socketing"
+			}
+			id: "0A5EC6361BCD537C"
+			rewards: [
+				{
+					id: "7E7747AF97C2D143"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_socketing"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 20L
+					id: "4D010C91469DB4A0"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "apotheosis:sigil_of_withdrawal"
+			}
+			id: "7B16AF51CB641A20"
+			rewards: [
+				{
+					id: "289F955F405839CF"
+					item: {
+						count: 1
+						id: "apotheosis:sigil_of_withdrawal"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 40L
+					id: "3697B1D746EC727D"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "gamediscs:gaming_console"
+			}
+			id: "30105EADEE95D8CE"
+			rewards: [
+				{
+					id: "43081B513D3A20F4"
+					item: {
+						count: 1
+						id: "gamediscs:gaming_console"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 42L
+					id: "6CAB48F4C98E45D7"
+					item: {
+						count: 1
+						id: "numismatics:spur"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "bosses_of_mass_destruction:brimstone_nectar"
+			}
+			id: "65B71C999390F72B"
+			rewards: [
+				{
+					id: "443775B4CC3D2B6C"
+					item: {
+						count: 1
+						id: "bosses_of_mass_destruction:brimstone_nectar"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 9L
+					id: "5016F19DFBACD47D"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "waystones:warp_stone"
+			}
+			id: "3AA7DA7167F06320"
+			rewards: [
+				{
+					id: "3F6DB4186A8AB0E7"
+					item: {
+						count: 1
+						id: "waystones:warp_stone"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 9L
+					id: "54EF6872413460B5"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:cinderous_soulcaller"
+			}
+			id: "6695AC942A4C67F7"
+			rewards: [
+				{
+					id: "6E3440EEC5338508"
+					item: {
+						count: 1
+						id: "irons_spellbooks:cinderous_soulcaller"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 9L
+					id: "2EDF9A4C97696894"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "minecraft:enchanted_book"
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"apothic_enchanting:life_mending": 1
+						}
+					}
+				}
+			}
+			id: "1D45786319AB7CFC"
+			rewards: [
+				{
+					id: "07C1C148AE2EAA26"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"apothic_enchanting:life_mending": 1
+								}
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "0C92744BF0AFC85D"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "treasurebags:treasure_bag"
+				components: {
+					"treasurebags:bag_type": "treasurebags:iron_set"
+				}
+			}
+			id: "6547C15BF766B0A4"
+			rewards: [
+				{
+					id: "738B9A93A67593C2"
+					item: {
+						count: 1
+						id: "treasurebags:treasure_bag"
+						components: {
+							"treasurebags:bag_type": "treasurebags:iron_set"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "0435A74589998F38"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "minecraft:enchanted_book"
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"apothic_enchanting:crescendo_of_bolts": 1
+						}
+					}
+				}
+			}
+			id: "790ECDF7093E2D25"
+			rewards: [
+				{
+					id: "33019AF43BBBCB3C"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"apothic_enchanting:crescendo_of_bolts": 1
+								}
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 19L
+					id: "7A645571D8539270"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "minecraft:enchanted_book"
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"apothic_enchanting:knowledge_of_the_ages": 1
+						}
+					}
+				}
+			}
+			id: "7652BACCACDDCAA5"
+			rewards: [
+				{
+					id: "1D2176A87F294412"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"apothic_enchanting:knowledge_of_the_ages": 1
+								}
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 22L
+					id: "47D9D161747985FF"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "minecraft:enchanted_book"
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"mastery3:unbreakable": 1
+						}
+					}
+					"minecraft:custom_name": "{\"text\":\"Настоящая нерушимость! (Предмет не чинит)\"}"
+				}
+			}
+			id: "7E9E02C066388A07"
+			rewards: [
+				{
+					id: "117E8986BE02C1B9"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"mastery3:unbreakable": 1
+								}
+							}
+							"minecraft:custom_name": "{\"text\":\"Настоящая нерушимость! (Предмет не чинит)\"}"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 31L
+					id: "1F105A00555C8476"
+					item: {
+						count: 1
+						id: "numismatics:sprocket"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "treasurebags:treasure_bag"
+				components: {
+					"treasurebags:bag_type": "treasurebags:rng_bag"
+				}
+			}
+			id: "5135A01BFD39E193"
+			rewards: [
+				{
+					id: "1671594AC50532C3"
+					item: {
+						count: 1
+						id: "treasurebags:treasure_bag"
+						components: {
+							"treasurebags:bag_type": "treasurebags:rng_bag"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "6C2CF34187CAAB1D"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "treasurebags:treasure_bag"
+				components: {
+					"treasurebags:bag_type": "treasurebags:anubis_set"
+				}
+			}
+			id: "40427E7576F4C8AD"
+			rewards: [
+				{
+					id: "553B2044EB39250D"
+					item: {
+						count: 1
+						id: "treasurebags:treasure_bag"
+						components: {
+							"treasurebags:bag_type": "treasurebags:anubis_set"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 39L
+					id: "705D465C841BCF23"
+					item: {
+						count: 1
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+	]
+}

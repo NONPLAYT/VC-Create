@@ -45,7 +45,7 @@
 				id: "3CB068ADC933D9C3"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -80,7 +80,7 @@
 				id: "3DD72C67F23C51A0"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -182,7 +182,7 @@
 				id: "6A7F1211A37390C8"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]

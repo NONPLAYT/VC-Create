@@ -13,7 +13,7 @@
     let
       inherit (nixpkgs) lib;
       pack = lib.importTOML ./pack.toml;
-      packHash = "sha256-u3zQ1T/WirJkVUd4nF+t0HmgnSbCFEGmOxcJI6fBVDk=";
+      packHash = "sha256-LqIZ9OmCNURHCSdntqk23kPIDBkovD7sVs17T+r00TQ=";
       escape = lib.replaceStrings [ "." ] [ "_" ];
       neoforgeAttr = "neoforge-${escape pack.versions.minecraft}-${escape pack.versions.neoforge}";
 
@@ -29,7 +29,7 @@
         inherit pkgs;
         neoforge = pkgs.neoforgeServers.${neoforgeAttr};
         modpack = modpackFor pkgs;
-        version = "1.1.0";
+        version = "1.2.0";
       };
 
       neoforgeFor = pkgs:

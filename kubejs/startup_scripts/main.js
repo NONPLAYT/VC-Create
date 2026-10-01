@@ -18,12 +18,33 @@ ItemEvents.modification(event => {
 })
 
 
+const ArmorItem = Java.loadClass('net.minecraft.world.item.ArmorItem')
+const BuiltInRegistries = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries')
+
+// The item's own modifier for an attribute, so an entry without id replaces the base value
+function baseModifier(itemId, attribute) {
+  const name = attribute.includes(':') ? attribute : `minecraft:${attribute}`
+  let modifier = null
+  Item.of(itemId).attributeModifiers.modifiers().forEach(entry => {
+    if (modifier == null && entry.attribute().unwrapKey().get().location().toString() == name) {
+      modifier = entry.modifier()
+    }
+  })
+  return modifier
+}
+
+function baseModifierId(itemId, attribute) {
+  const modifier = baseModifier(itemId, attribute)
+  if (modifier == null) throw new Error(`${itemId} has no ${attribute} modifier to replace`)
+  return modifier.id().toString()
+}
+
 function applyModifiers(event, itemId, slot, attributes) {
   const modifiers = attributes.reduce((mod, attr) => {
     return mod.withModifierAdded(attr.attribute, {
       amount: attr.amount,
-      id: attr.id,
-      operation: attr.operation,
+      id: attr.id || baseModifierId(itemId, attr.attribute),
+      operation: attr.operation || 'add_value',
     }, slot);
   }, Item.of(itemId).attributeModifiers);
 
@@ -65,14 +86,19 @@ ItemEvents.modification(event => {
     { attribute: 'combat_roll:recharge', amount: 0.3, id: 'end:bamboo_hat2', operation: 'add_multiplied_base' },
   ]);
   applyModifiers(event, 'cataclysm:bone_reptile_helmet', 'head', [
+    { attribute: 'generic.armor', amount: 6 },
     { attribute: 'generic.attack_damage', amount: 2, id: 'end:bone_head_attack', operation: 'add_value' },
+    { attribute: 'irons_spellbooks:max_mana', amount: 50, id: 'end:bone_head_mana', operation: 'add_value' },
   ]);
   applyModifiers(event, 'cataclysm:ignitium_helmet', 'head', [
+    { attribute: 'generic.armor', amount: 7 },
     { attribute: 'irons_spellbooks:spell_power', amount: 0.1, id: 'end:ignis_head_sp', operation: 'add_multiplied_base' },
-    { attribute: 'irons_spellbooks:max_mana', amount: 150, id: 'end:ignis_head_manap', operation: 'add_value' },
+    { attribute: 'irons_spellbooks:max_mana', amount: 100, id: 'end:ignis_head_manap', operation: 'add_value' },
   ]);
   applyModifiers(event, 'cataclysm:cursium_helmet', 'head', [
+    { attribute: 'generic.armor', amount: 6 },
     { attribute: 'apothic_attributes:ghost_health', amount: 2, id: 'end:cursium_head_overh', operation: 'add_value' },
+    { attribute: 'irons_spellbooks:max_mana', amount: 50, id: 'end:cursium_head_mana', operation: 'add_value' },
   ]);
   applyModifiers(event, 'armoroftheages:raijin_armor_head', 'head', [
     { attribute: 'combat_roll:count', amount: 1, id: 'end:raijin_armor_head1', operation: 'add_value' },
@@ -118,17 +144,23 @@ ItemEvents.modification(event => {
   applyModifiers(event, 'cataclysm:bone_reptile_chestplate', 'chest', [
     { attribute: 'apothic_attributes:crit_chance', amount: 0.15, id: 'end:cen_chest_crit', operation: 'add_value' },
     { attribute: 'apothic_attributes:crit_damage', amount: 0.50, id: 'end:cen_chest_critdamage', operation: 'add_value' },
+    { attribute: 'generic.armor', amount: 11 },
+    { attribute: 'irons_spellbooks:max_mana', amount: 50, id: 'end:bone_chest_mana', operation: 'add_value' },
   ]);    
   applyModifiers(event, 'cataclysm:ignitium_chestplate', 'chest', [
+    { attribute: 'generic.armor', amount: 13 },
     { attribute: 'irons_spellbooks:spell_power', amount: 0.1, id: 'end:ignis_chest_sp', operation: 'add_multiplied_base' },
-    { attribute: 'irons_spellbooks:max_mana', amount: 150, id: 'end:ignis_chest_manap', operation: 'add_value' },
+    { attribute: 'irons_spellbooks:max_mana', amount: 100, id: 'end:ignis_chest_manap', operation: 'add_value' },
   ]);  
   applyModifiers(event, 'cataclysm:ignitium_elytra_chestplate', 'chest', [
+    { attribute: 'generic.armor', amount: 13 },
     { attribute: 'irons_spellbooks:spell_power', amount: 0.1, id: 'xend:ignis_chest_sp', operation: 'add_multiplied_base' },
-    { attribute: 'irons_spellbooks:max_mana', amount: 150, id: 'xend:ignis_chest_manap', operation: 'add_value' },
+    { attribute: 'irons_spellbooks:max_mana', amount: 100, id: 'xend:ignis_chest_manap', operation: 'add_value' },
   ]);  
   applyModifiers(event, 'cataclysm:cursium_chestplate', 'chest', [
+    { attribute: 'generic.armor', amount: 11 },
     { attribute: 'generic.max_health', amount: 0.1, id: 'end:cursium_chestplate_maxh', operation: 'add_multiplied_base' },
+    { attribute: 'irons_spellbooks:max_mana', amount: 50, id: 'end:cursium_chest_mana', operation: 'add_value' },
   ]);
   applyModifiers(event, 'armoroftheages:raijin_armor_chest', 'chest', [
     { attribute: 'combat_roll:count', amount: 1, id: 'end:raijin_armor_chest1', operation: 'add_value' },
@@ -170,11 +202,14 @@ ItemEvents.modification(event => {
     { attribute: 'generic.attack_damage', amount: 2, id: 'end:anubis_legs_attack', operation: 'add_value' },
   ]);  
   applyModifiers(event, 'cataclysm:ignitium_leggings', 'legs', [
+    { attribute: 'generic.armor', amount: 10 },
     { attribute: 'irons_spellbooks:spell_power', amount: 0.1, id: 'end:ignis_legst_sp', operation: 'add_multiplied_base' },
-    { attribute: 'irons_spellbooks:max_mana', amount: 150, id: 'end:ignis_legst_manap', operation: 'add_value' },
+    { attribute: 'irons_spellbooks:max_mana', amount: 100, id: 'end:ignis_legst_manap', operation: 'add_value' },
   ]);   
   applyModifiers(event, 'cataclysm:cursium_leggings', 'legs', [
+    { attribute: 'generic.armor', amount: 8 },
     { attribute: 'generic.attack_speed', amount: 0.1, id: 'end:cursium_legs_atksped', operation: 'add_multiplied_base' },
+    { attribute: 'irons_spellbooks:max_mana', amount: 50, id: 'end:cursium_legs_mana', operation: 'add_value' },
   ]);
   applyModifiers(event, 'armoroftheages:raijin_armor_legs', 'legs', [
     { attribute: 'combat_roll:count', amount: 1, id: 'end:raijin_armor_legs1', operation: 'add_value' },
@@ -216,11 +251,14 @@ ItemEvents.modification(event => {
     { attribute: 'generic.attack_damage', amount: 2, id: 'end:anubis_feet_attack', operation: 'add_value' },
   ]);  
   applyModifiers(event, 'cataclysm:ignitium_boots', 'feet', [
+    { attribute: 'generic.armor', amount: 6 },
     { attribute: 'irons_spellbooks:spell_power', amount: 0.1, id: 'end:ignis_feet_sp', operation: 'add_multiplied_base' },
-    { attribute: 'irons_spellbooks:max_mana', amount: 150, id: 'end:ignis_feet_manap', operation: 'add_value' },
+    { attribute: 'irons_spellbooks:max_mana', amount: 100, id: 'end:ignis_feet_manap', operation: 'add_value' },
   ]);  
-  applyModifiers(event, 'cataclysm:cursium_boots', 'legs', [
+  applyModifiers(event, 'cataclysm:cursium_boots', 'feet', [
+    { attribute: 'generic.armor', amount: 5 },
     { attribute: 'generic.movement_speed', amount: 0.15, id: 'end:cursium_feetsped', operation: 'add_multiplied_base' },
+    { attribute: 'irons_spellbooks:max_mana', amount: 50, id: 'end:cursium_feet_mana', operation: 'add_value' },
   ]);
   applyModifiers(event, 'armoroftheages:raijin_armor_feet', 'feet', [
     { attribute: 'combat_roll:count', amount: 1, id: 'end:raijin_armor_feet1', operation: 'add_value' },
@@ -238,6 +276,66 @@ ItemEvents.modification(event => {
     { attribute: 'apothic_attributes:arrow_damage', amount: 0.15, id: 'end:arrow_damage_armor_feet_exp', operation: 'add_multiplied_base' },
     { attribute: 'apothic_attributes:arrow_velocity', amount: 0.20, id: 'end:arrow_velocity_armor_feet_exp', operation: 'add_multiplied_base' },
     { attribute: 'generic.movement_speed', amount: 0.05, id: 'end:speed_damage_armor_feet_exp', operation: 'add_multiplied_base' },
+  ]);
+
+  // Gear from other dimensions should be worth the trip
+  const slots = { helmet: 'head', chestplate: 'chest', leggings: 'legs', boots: 'feet' }
+
+  // Crystal Chronicles sets (rituals on the Isle of Origin): Ignitium-level armor, more mana than Ignitium
+  const crystalSets = ['paladin', 'tank', 'rogue', 'mage', 'pyromancer', 'toxic', 'electromancer', 'evoker']
+  Object.entries({ helmet: 7, chestplate: 13, leggings: 10, boots: 6 }).forEach(([piece, armor]) => {
+    crystalSets.forEach(set => {
+      applyModifiers(event, `crystal_chronicles:${set}_${piece}`, slots[piece], [
+        { attribute: 'generic.armor', amount: armor },
+      ]);
+    });
+  });
+
+  // Warden armor (Deeper and Darker)
+  Object.entries({ helmet: 5, chestplate: 10, leggings: 8, boots: 5 }).forEach(([piece, armor]) => {
+    applyModifiers(event, `deeperdarker:warden_${piece}`, slots[piece], [
+      { attribute: 'generic.armor', amount: armor },
+    ]);
+  });
+
+  // Ender Dragon armor (Hazen n Stuff, End): the best set in the pack
+  Object.entries({ helmet: 8, chestplate: 14, leggings: 12, boots: 8 }).forEach(([piece, armor]) => {
+    ['', 'geckolib_'].forEach(prefix => {
+      applyModifiers(event, `hazennstuff:${prefix}ender_dragon_${piece}`, slots[piece], [
+        { attribute: 'generic.armor', amount: armor },
+        { attribute: 'generic.armor_toughness', amount: 6 },
+        { attribute: 'irons_spellbooks:max_mana', amount: 200 },
+      ]);
+    });
+  });
+
+  // Rest of Hazen n Stuff armor: their crafts span several dimensions.
+  // Pure tier and above get +3 armor per piece, everything else +2
+  const hazenTopMaterials = [
+    'blazeborne', 'creaking', 'seraph', 'scourge', 'soul_flame', 'alchemist_supreme', 'cryogenic_ruler',
+    'flesh_mass', 'eldritch', 'pure_armor_tier', 'infestation', 'tyros', 'paragon',
+  ]
+  BuiltInRegistries.ITEM.keySet().forEach(key => {
+    const id = key.toString()
+    const item = BuiltInRegistries.ITEM.get(key)
+    if (key.getNamespace() != 'hazennstuff' || id.includes('ender_dragon_') || !(item instanceof ArmorItem)) return
+    const armor = baseModifier(id, 'generic.armor')
+    if (armor == null) return
+    const material = item.getMaterial().unwrapKey().get().location().getPath()
+    const bonus = hazenTopMaterials.includes(material) ? 3 : 2
+    applyModifiers(event, id, item.getType().getSlot().getName(), [
+      { attribute: 'generic.armor', amount: armor.amount() + bonus },
+    ]);
+  });
+
+  // Unrealium (Eternal Starlight)
+  Object.entries({ helmet: 5, chestplate: 9.5, leggings: 8, boots: 5 }).forEach(([piece, armor]) => {
+    applyModifiers(event, `eternal_starlight:unrealium_${piece}`, slots[piece], [
+      { attribute: 'generic.armor', amount: armor },
+    ]);
+  });
+  applyModifiers(event, 'eternal_starlight:unrealium_sword', 'mainhand', [
+    { attribute: 'generic.attack_damage', amount: 8.5 },
   ]);
 });
 

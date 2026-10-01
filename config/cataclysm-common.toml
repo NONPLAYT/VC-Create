@@ -58,13 +58,13 @@
 		#Incinerator Cooldown
 		# Default: 400
 		# Range: 0 ~ 1000
-		incinerator_cooldown = 400
+		incinerator_cooldown = 600
 
 		[tools_and_abilities.incinerator.tool_config]
 			#Tool attack damage
 			# Default: 14.0
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 14.0
+			attack_damage = 12.0
 			#Tool attack speed
 			# Default: 1.4
 			# Range: 0.0 ~ 1000000.0
@@ -128,7 +128,7 @@
 			#Tool attack damage
 			# Default: 13.0
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 13.0
+			attack_damage = 11.5
 			#Tool attack speed
 			# Default: 1.0
 			# Range: 0.0 ~ 1000000.0
@@ -208,7 +208,7 @@
 			#Tool attack damage
 			# Default: 15.0
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 15.0
+			attack_damage = 12.5
 			#Tool attack speed
 			# Default: 1.05
 			# Range: 0.0 ~ 1000000.0
@@ -224,7 +224,7 @@
 			#Tool attack damage
 			# Default: 8.5
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 8.5
+			attack_damage = 7.0
 			#Tool attack speed
 			# Default: 1.6
 			# Range: 0.0 ~ 1000000.0
@@ -298,7 +298,7 @@
 			#Tool attack damage
 			# Default: 8.5
 			# Range: 0.0 ~ 1000000.0
-			attack_damage = 8.5
+			attack_damage = 7.0
 			#Tool attack speed
 			# Default: 1.6
 			# Range: 0.0 ~ 1000000.0

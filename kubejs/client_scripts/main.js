@@ -194,16 +194,16 @@ ItemEvents.modifyTooltips(event => {
 
   event.modify('kubejs:token_basic', tooltip => {
     tooltip.insert(1, Text.of('§7Ты сделал первые шаги, инженер.'))
-    tooltip.insert(2, Text.of('§eПринимается в контрактах §lкатегории 1§r§e.'))
+    tooltip.insert(2, Text.of('§eОбменивается на Рынке: §lЖетоны ученика§r§e.'))
   })
 
   event.modify('kubejs:token_medium', tooltip => {
     tooltip.insert(1, Text.of('§7Точность — твой язык.'))
-    tooltip.insert(2, Text.of('§eПринимается в контрактах §lкатегории 2§r§e.'))
+    tooltip.insert(2, Text.of('§eОбменивается на Рынке: §lЖетоны оператора§r§e.'))
   })
 
   event.modify('kubejs:token_advanced', tooltip => {
     tooltip.insert(1, Text.of('§7Машины подчиняются тебе как никому другому.'))
-    tooltip.insert(2, Text.of('§eПринимается в контрактах §lкатегории 3§r§e.'))
+    tooltip.insert(2, Text.of('§eОбменивается на Рынке: §lЖетоны инженера§r§e.'))
   })
 });

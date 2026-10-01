@@ -1,0 +1,1502 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "market_operator"
+	group: "5A4B5A1603A445F4"
+	icon: {
+		id: "kubejs:token_medium"
+	}
+	id: "64AD0702234394C4"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "create_mechanical_extruder:mechanical_brass_extruder"
+			}
+			id: "28E76D1272CA7297"
+			rewards: [
+				{
+					id: "7C17DAF12D32BDBC"
+					item: {
+						count: 1
+						id: "create_mechanical_extruder:mechanical_brass_extruder"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "7A08C30E7601298B"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "kubejs:black_eye_fragment_cracked"
+			}
+			id: "004DC3A6D46E7570"
+			rewards: [
+				{
+					id: "644927EA7337428E"
+					item: {
+						count: 1
+						id: "kubejs:black_eye_fragment_cracked"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "7BCD7B00736BE61F"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "kubejs:black_eye_fragment_shard"
+			}
+			id: "7B6735F4F15EFDD4"
+			rewards: [
+				{
+					id: "35438FAA5E36161E"
+					item: {
+						count: 1
+						id: "kubejs:black_eye_fragment_shard"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "5B8D5330147367FF"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "minecraft:chorus_fruit"
+			}
+			id: "2B6AB39AF0DB1D7D"
+			rewards: [
+				{
+					id: "6F234A151B6D37D5"
+					item: {
+						count: 1
+						id: "minecraft:chorus_fruit"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "50E8ABCC374C04F4"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:hither_thither_wand"
+			}
+			id: "3D125D2C4F08B200"
+			rewards: [
+				{
+					id: "317BCE41B7176B9E"
+					item: {
+						count: 1
+						id: "irons_spellbooks:hither_thither_wand"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "1030D6C89D49100A"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:scroll"
+				components: {
+					"irons_spellbooks:spell_container": {
+						maxSpells: 1
+						mustEquip: 0b
+						data: [
+							{
+								index: 0
+								id: "irons_spellbooks:angel_wing"
+								locked: 1b
+								level: 1
+							}
+						]
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "4C13E6874238C361"
+			rewards: [
+				{
+					id: "32132FB2EFB00DF3"
+					item: {
+						count: 1
+						id: "irons_spellbooks:scroll"
+						components: {
+							"irons_spellbooks:spell_container": {
+								maxSpells: 1
+								mustEquip: 0b
+								data: [
+									{
+										index: 0
+										id: "irons_spellbooks:angel_wing"
+										locked: 1b
+										level: 1
+									}
+								]
+								spellWheel: 0b
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "570EB39AD7E57992"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:scroll"
+				components: {
+					"irons_spellbooks:spell_container": {
+						maxSpells: 1
+						mustEquip: 0b
+						data: [
+							{
+								index: 0
+								id: "irons_spellbooks:blight"
+								locked: 1b
+								level: 1
+							}
+						]
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "47DB6CD22664DFCE"
+			rewards: [
+				{
+					id: "1A60AA49DC21AC10"
+					item: {
+						count: 1
+						id: "irons_spellbooks:scroll"
+						components: {
+							"irons_spellbooks:spell_container": {
+								maxSpells: 1
+								mustEquip: 0b
+								data: [
+									{
+										index: 0
+										id: "irons_spellbooks:blight"
+										locked: 1b
+										level: 1
+									}
+								]
+								spellWheel: 0b
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "3D254B082519C83A"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:scroll"
+				components: {
+					"irons_spellbooks:spell_container": {
+						maxSpells: 1
+						mustEquip: 0b
+						data: [
+							{
+								index: 0
+								id: "irons_spellbooks:charge"
+								locked: 1b
+								level: 1
+							}
+						]
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "7A1F8BC82703E2E0"
+			rewards: [
+				{
+					id: "5BE4DA0869903212"
+					item: {
+						count: 1
+						id: "irons_spellbooks:scroll"
+						components: {
+							"irons_spellbooks:spell_container": {
+								maxSpells: 1
+								mustEquip: 0b
+								data: [
+									{
+										index: 0
+										id: "irons_spellbooks:charge"
+										locked: 1b
+										level: 1
+									}
+								]
+								spellWheel: 0b
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "6C78D9826E4541AE"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:scroll"
+				components: {
+					"irons_spellbooks:spell_container": {
+						maxSpells: 1
+						mustEquip: 0b
+						data: [
+							{
+								index: 0
+								id: "irons_spellbooks:counterspell"
+								locked: 1b
+								level: 1
+							}
+						]
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "3E1BA6B1B57B94D2"
+			rewards: [
+				{
+					id: "03178BEDD5EBFE4A"
+					item: {
+						count: 1
+						id: "irons_spellbooks:scroll"
+						components: {
+							"irons_spellbooks:spell_container": {
+								maxSpells: 1
+								mustEquip: 0b
+								data: [
+									{
+										index: 0
+										id: "irons_spellbooks:counterspell"
+										locked: 1b
+										level: 1
+									}
+								]
+								spellWheel: 0b
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "1DB089C36991B6E3"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:scroll"
+				components: {
+					"irons_spellbooks:spell_container": {
+						maxSpells: 1
+						mustEquip: 0b
+						data: [
+							{
+								index: 0
+								id: "alshanex_familiars:guardian_angel"
+								locked: 1b
+								level: 1
+							}
+						]
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "4FCE6E8AECC8823E"
+			rewards: [
+				{
+					id: "6F04F0EAC8ED735E"
+					item: {
+						count: 1
+						id: "irons_spellbooks:scroll"
+						components: {
+							"irons_spellbooks:spell_container": {
+								maxSpells: 1
+								mustEquip: 0b
+								data: [
+									{
+										index: 0
+										id: "alshanex_familiars:guardian_angel"
+										locked: 1b
+										level: 1
+									}
+								]
+								spellWheel: 0b
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "14859974F2097465"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:scroll"
+				components: {
+					"irons_spellbooks:spell_container": {
+						maxSpells: 1
+						mustEquip: 0b
+						data: [
+							{
+								index: 0
+								id: "irons_spellbooks:haste"
+								locked: 1b
+								level: 1
+							}
+						]
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "619DE6A9E2FEECF0"
+			rewards: [
+				{
+					id: "7799D30CECCD8287"
+					item: {
+						count: 1
+						id: "irons_spellbooks:scroll"
+						components: {
+							"irons_spellbooks:spell_container": {
+								maxSpells: 1
+								mustEquip: 0b
+								data: [
+									{
+										index: 0
+										id: "irons_spellbooks:haste"
+										locked: 1b
+										level: 1
+									}
+								]
+								spellWheel: 0b
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "25F228E4050E5A02"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:scroll"
+				components: {
+					"irons_spellbooks:spell_container": {
+						maxSpells: 1
+						mustEquip: 0b
+						data: [
+							{
+								index: 0
+								id: "irons_spellbooks:oakskin"
+								locked: 1b
+								level: 1
+							}
+						]
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "2DFFF16FEE392164"
+			rewards: [
+				{
+					id: "7FB1098D58963BD6"
+					item: {
+						count: 1
+						id: "irons_spellbooks:scroll"
+						components: {
+							"irons_spellbooks:spell_container": {
+								maxSpells: 1
+								mustEquip: 0b
+								data: [
+									{
+										index: 0
+										id: "irons_spellbooks:oakskin"
+										locked: 1b
+										level: 1
+									}
+								]
+								spellWheel: 0b
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "6A2A91BA97DAADB9"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:scroll"
+				components: {
+					"irons_spellbooks:spell_container": {
+						maxSpells: 1
+						mustEquip: 0b
+						data: [
+							{
+								index: 0
+								id: "irons_spellbooks:recall"
+								locked: 1b
+								level: 1
+							}
+						]
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "29ECBF3707160A0B"
+			rewards: [
+				{
+					id: "209226C1374621D5"
+					item: {
+						count: 1
+						id: "irons_spellbooks:scroll"
+						components: {
+							"irons_spellbooks:spell_container": {
+								maxSpells: 1
+								mustEquip: 0b
+								data: [
+									{
+										index: 0
+										id: "irons_spellbooks:recall"
+										locked: 1b
+										level: 1
+									}
+								]
+								spellWheel: 0b
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "3F09B1296DB818C8"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "cataclysm:mech_eye"
+			}
+			id: "286FB9E164D6130C"
+			rewards: [
+				{
+					id: "173192F1C33B52B6"
+					item: {
+						count: 1
+						id: "cataclysm:mech_eye"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "43E18E42E5BE8BC0"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "hazennstuff:abstract"
+			}
+			id: "6E712F08C7A91228"
+			rewards: [
+				{
+					id: "257837BD5A49F958"
+					item: {
+						count: 1
+						id: "hazennstuff:abstract"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "7A3368315255BC0E"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "kubejs:black_eye_fragment_core"
+			}
+			id: "18049E5938E0F5A1"
+			rewards: [
+				{
+					id: "6E0C6B6B7C44D53E"
+					item: {
+						count: 1
+						id: "kubejs:black_eye_fragment_core"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "59BB66B12672F5C4"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "minecraft:enchanted_book"
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"apothic_enchanting:chainsaw": 1
+						}
+					}
+				}
+			}
+			id: "57ECC1139F393CF3"
+			rewards: [
+				{
+					id: "5AD03340EE42FB65"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"apothic_enchanting:chainsaw": 1
+								}
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "686CA5683E68E8A7"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "minecraft:enchanted_book"
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"apothic_enchanting:miners_fervor": 1
+						}
+					}
+				}
+			}
+			id: "3C0E5803A5ECE3D9"
+			rewards: [
+				{
+					id: "2F562CD6C10F705F"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"apothic_enchanting:miners_fervor": 1
+								}
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "571B79E3A7E6D352"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "minecraft:enchanted_book"
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:silk_touch": 1
+						}
+					}
+				}
+			}
+			id: "64D93171B16EFE24"
+			rewards: [
+				{
+					id: "1B11D4992B710A07"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:silk_touch": 1
+								}
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "73BD32405C5E07C3"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "kubejs:corrupted_eye_fragment_cracked"
+			}
+			id: "1E962A9DA77A079A"
+			rewards: [
+				{
+					id: "59E31EF5DC4EF9BF"
+					item: {
+						count: 1
+						id: "kubejs:corrupted_eye_fragment_cracked"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "49892ED326E50CCD"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "kubejs:corrupted_eye_fragment_shard"
+			}
+			id: "03013BEF28BF0711"
+			rewards: [
+				{
+					id: "25FA8FE7D25D97FB"
+					item: {
+						count: 1
+						id: "kubejs:corrupted_eye_fragment_shard"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "2729AFE8C2304E6C"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "apotheosis:gem_case"
+			}
+			id: "078E5A2B4117D5BC"
+			rewards: [
+				{
+					id: "77A29D11EECA4A71"
+					item: {
+						count: 1
+						id: "apotheosis:gem_case"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "1A14205BB2441007"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "hazennstuff:shattered"
+			}
+			id: "346C26E8563FE854"
+			rewards: [
+				{
+					id: "6A182F0CDC723A2F"
+					item: {
+						count: 1
+						id: "hazennstuff:shattered"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "0AC073EA58A9493A"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "naturescompass:naturescompass"
+			}
+			id: "245FDA4EB7783593"
+			rewards: [
+				{
+					id: "19344798F10779AE"
+					item: {
+						count: 1
+						id: "naturescompass:naturescompass"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "2C9E75500B03EF57"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "hazennstuff:ruptured"
+			}
+			id: "3DAF6C2945104118"
+			rewards: [
+				{
+					id: "7C701899340BB2DD"
+					item: {
+						count: 1
+						id: "hazennstuff:ruptured"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "5160567CF3FBEED6"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "minecraft:enchanted_book"
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:infinity": 1
+						}
+					}
+				}
+			}
+			id: "68BC57F62CBAF080"
+			rewards: [
+				{
+					id: "510707E7E12CD235"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_book"
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:infinity": 1
+								}
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "253974E1B5D85F04"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "kubejs:corrupted_eye_fragment_core"
+			}
+			id: "5345D4F94D48931C"
+			rewards: [
+				{
+					id: "4F6B24B1BEFE0C34"
+					item: {
+						count: 1
+						id: "kubejs:corrupted_eye_fragment_core"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "414FB0AED17918D3"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "irons_spellbooks:scroll"
+				components: {
+					"irons_spellbooks:spell_container": {
+						maxSpells: 1
+						mustEquip: 0b
+						data: [
+							{
+								index: 0
+								id: "irons_spellbooks:greater_heal"
+								locked: 1b
+								level: 1
+							}
+						]
+						spellWheel: 0b
+					}
+				}
+			}
+			id: "021E98C034E858A1"
+			rewards: [
+				{
+					id: "3BA1CDD6262C1004"
+					item: {
+						count: 1
+						id: "irons_spellbooks:scroll"
+						components: {
+							"irons_spellbooks:spell_container": {
+								maxSpells: 1
+								mustEquip: 0b
+								data: [
+									{
+										index: 0
+										id: "irons_spellbooks:greater_heal"
+										locked: 1b
+										level: 1
+									}
+								]
+								spellWheel: 0b
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "47681C213B66E191"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "constructionstick:template_unbreakable"
+			}
+			id: "6EAE506B3A6A5D06"
+			rewards: [
+				{
+					id: "1B38D52B42E6FF66"
+					item: {
+						count: 1
+						id: "constructionstick:template_unbreakable"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "6205C63204EE9D11"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "treasurebags:treasure_bag"
+				components: {
+					"treasurebags:bag_type": "treasurebags:centurion_set"
+				}
+			}
+			id: "4553843ED79675EC"
+			rewards: [
+				{
+					id: "2780A9FD32CFA87C"
+					item: {
+						count: 1
+						id: "treasurebags:treasure_bag"
+						components: {
+							"treasurebags:bag_type": "treasurebags:centurion_set"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "6430D30EEA972303"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "apothic_enchanting:library"
+			}
+			id: "7331CA3A13C5FED1"
+			rewards: [
+				{
+					id: "36C00C5F976095CF"
+					item: {
+						count: 1
+						id: "apothic_enchanting:library"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "52413563B77408E5"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "minecraft:budding_amethyst"
+			}
+			id: "149003BBEFAA8501"
+			rewards: [
+				{
+					id: "2721A3F578AF47C2"
+					item: {
+						count: 1
+						id: "minecraft:budding_amethyst"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "6B2CED7AA41B3A30"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "catburger:cat_burger"
+			}
+			id: "1A57990AFFAA4772"
+			rewards: [
+				{
+					id: "1945E25E76200E77"
+					item: {
+						count: 1
+						id: "catburger:cat_burger"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "4DD5439A689B0A6B"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				count: 1
+				id: "minecraft:diamond"
+			}
+			id: "5CB2A4F7CAD7A1FB"
+			rewards: [
+				{
+					id: "374ABBF6F396C92B"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					consume_items: true
+					count: 20L
+					id: "5357E2E97C366BC0"
+					item: {
+						count: 1
+						id: "kubejs:token_medium"
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.0d
+		}
+	]
+}

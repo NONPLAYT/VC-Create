@@ -39,7 +39,7 @@
 				id: "00B4743791E44779"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -112,7 +112,7 @@
 				id: "4F6915E8CC7787F6"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -150,7 +150,7 @@
 				id: "1AFFE88386D5BCAE"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -161,7 +161,7 @@
 				item: { count: 1, id: "createaddition:rolling_mill" }
 				type: "item"
 			}]
-			x: -3.9000000000000004d
+			x: -3.249FFBD1515076C8d
 			y: -1.5d
 		}
 		{
@@ -171,7 +171,7 @@
 				id: "7689082AAA65C8E3"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -182,7 +182,7 @@
 				item: { count: 1, id: "createdieselgenerators:oil_scanner" }
 				type: "item"
 			}]
-			x: -3.9000000000000004d
+			x: -3.249FFBD1515076C8d
 			y: 1.5d
 		}
 		{
@@ -230,7 +230,7 @@
 				id: "71FEDE5A759C9875"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
@@ -270,7 +270,7 @@
 				id: "47FB235B17EB4D75"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "numismatics:spur"
 				}
 				type: "item"
 			}]
