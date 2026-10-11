@@ -1,11 +1,11 @@
 name = "VideCraft: Create"
-version = "1.6.0"
+version = "1.7.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "59b1a39f4caebc36a27e69b7eaa774d1c83f7763c8ce58716a27d324af426c86"
+hash = "e7fc472ea1ca5f9d39dca76bbba73754f0f942e4cbcc4ae93c748c67e465297e"
 
 [versions]
 minecraft = "1.21.1"

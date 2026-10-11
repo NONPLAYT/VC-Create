@@ -13,7 +13,7 @@
     let
       inherit (nixpkgs) lib;
       pack = lib.importTOML ./pack.toml;
-      packHash = "sha256-LqIZ9OmCNURHCSdntqk23kPIDBkovD7sVs17T+r00TQ=";
+      packHash = "sha256-Z+Vm2fWvk+UKgnii5mtuzSUtBEac7JrWCDDibeh6/Cc=";
       escape = lib.replaceStrings [ "." ] [ "_" ];
       neoforgeAttr = "neoforge-${escape pack.versions.minecraft}-${escape pack.versions.neoforge}";
 
@@ -223,7 +223,7 @@
                 WorkingDirectory = "/var/lib/${name}";
                 ExecStart = "${jdk}/bin/java -Xms${heap} -Xmx${heap} ${jvmFlags} ${userHome name} @${launchArgs} nogui";
                 ExecStop = "${stopScript name} $MAINPID";
-                Restart = "on-failure";
+                Restart = "always";
                 RestartSec = "10s";
                 TimeoutStartSec = 600;
                 TimeoutStopSec = 180;

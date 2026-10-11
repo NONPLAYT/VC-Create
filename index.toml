@@ -738,7 +738,7 @@ hash = "0370dbff7077b2315c8a97e76d74d0b006350cc712565543da7498eab3a85d4f"
 
 [[files]]
 file = "config/ftbchunks-world.snbt"
-hash = "52bda5f452745c771ea2ccd94016675170c0a393e7a9ab557568793299ebd11d"
+hash = "46c5d06fe08044ff6e23b143998b3f19b40ac4ce0093ba5ceda51965d0f34f09"
 
 [[files]]
 file = "config/ftblibrary-client.snbt"
@@ -4729,6 +4729,10 @@ file = "kubejs/data/eternal_starlight/eternal_starlight/gatekeeper_names/gatekee
 hash = "f4429db7444419308e304cb5b71ba810b0c5323e24a61f6364b3f07d746312e6"
 
 [[files]]
+file = "kubejs/data/ftbchunks/tags/entity_type/entity_mob_griefing_blacklist.json"
+hash = "3f2be38151dcf97bc02c0ba841af36932acdf0e9f3b75fc7baff91c2b0c203a6"
+
+[[files]]
 file = "kubejs/data/garnished/recipe/filling/wyvern_stone/base.json"
 hash = "8a95b7e35d6c58181808482b8b22fe6e5e5dfc7d4b028f1dc584e06ee9106df5"
 
@@ -7481,7 +7485,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "a0f52f47c27d6ccdbee89735e459ff955ba09cdf499ef42bc901f8426be75253"
+hash = "0f6b24d697903dc261c881c4a736ec57c57ed5384f23d77ca9f6cec1e954d559"
 metafile = true
 
 [[files]]
@@ -8825,6 +8829,11 @@ hash = "1cb91c12251e2767478ee6e2c5484a10e601a670adbd88c79d66adeb4d920be9"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+hash = "593fa7b30ab016aa45be07bd6bef3a9f160ed0f24689850d60bf84995d69b843"
+metafile = true
+
+[[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "e520ad446364dff7dd50896108a96140f3f5598b72003dade5b17308fa9ef2a9"
 metafile = true
@@ -8934,8 +8943,13 @@ hash = "2e596a25058669e279b5657d2aa09704c4afb4b4360f4aac4d4f5e35cc3734f2"
 metafile = true
 
 [[files]]
+file = "mods/waystones-sable.pw.toml"
+hash = "c452c85bb210ec721793610924e61bd11d7c67b46815ac49106fd851dc1e877c"
+metafile = true
+
+[[files]]
 file = "mods/waystones.pw.toml"
-hash = "4b78f845d8eb6f5b47d4cd9ad534dc5e1a11e45fafbcd4106b25479bd2e080b1"
+hash = "cfc3d0abc9c387a708d246bef5f90481cd62adee3b6ed7e0932042de2bdbcc3e"
 metafile = true
 
 [[files]]
