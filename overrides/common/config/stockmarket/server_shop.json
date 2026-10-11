@@ -1,0 +1,1040 @@
+{
+  "_comment": "Server shop of the Market Terminal. price = spurs from the bank account, cost = items taken from the inventory. Items are SNBT like /give. Reload with /stockmarket reload.",
+  "enabled": true,
+  "require_terminal": true,
+  "categories": [
+    {
+      "title": "Магазин",
+      "icon": "numismatics:cog",
+      "entries": [
+        {
+          "price": 5,
+          "item": "{count:1,id:'apotheosis:sigil_of_rebirth'}"
+        },
+        {
+          "price": 8,
+          "item": "{count:1,id:'apotheosis:sigil_of_enhancement'}"
+        },
+        {
+          "price": 20,
+          "item": "{count:1,id:'apotheosis:sigil_of_socketing'}"
+        },
+        {
+          "price": 40,
+          "item": "{count:1,id:'apotheosis:sigil_of_withdrawal'}"
+        },
+        {
+          "price": 42,
+          "item": "{count:1,id:'gamediscs:gaming_console'}"
+        },
+        {
+          "price": 144,
+          "item": "{count:1,id:'bosses_of_mass_destruction:brimstone_nectar'}"
+        },
+        {
+          "price": 144,
+          "item": "{count:1,id:'waystones:warp_stone'}"
+        },
+        {
+          "price": 144,
+          "item": "{count:1,id:'irons_spellbooks:cinderous_soulcaller'}"
+        },
+        {
+          "price": 256,
+          "item": "{count:1,id:'minecraft:enchanted_book',components:{'minecraft:stored_enchantments':{levels:{'apothic_enchanting:life_mending':1}}}}"
+        },
+        {
+          "price": 256,
+          "item": "{count:1,id:'treasurebags:treasure_bag',components:{'treasurebags:bag_type':'treasurebags:iron_set'}}"
+        },
+        {
+          "price": 304,
+          "item": "{count:1,id:'minecraft:enchanted_book',components:{'minecraft:stored_enchantments':{levels:{'apothic_enchanting:crescendo_of_bolts':1}}}}"
+        },
+        {
+          "price": 352,
+          "item": "{count:1,id:'minecraft:enchanted_book',components:{'minecraft:stored_enchantments':{levels:{'apothic_enchanting:knowledge_of_the_ages':1}}}}"
+        },
+        {
+          "price": 496,
+          "item": "{count:1,id:'minecraft:enchanted_book',components:{'minecraft:stored_enchantments':{levels:{'mastery3:unbreakable':1}},'minecraft:custom_name':'{\"text\":\"Настоящая нерушимость! (Предмет не чинит)\"}'}}"
+        },
+        {
+          "price": 768,
+          "item": "{count:1,id:'treasurebags:treasure_bag',components:{'treasurebags:bag_type':'treasurebags:rng_bag'}}"
+        },
+        {
+          "price": 2496,
+          "item": "{count:1,id:'treasurebags:treasure_bag',components:{'treasurebags:bag_type':'treasurebags:anubis_set'}}"
+        }
+      ]
+    },
+    {
+      "title": "Карты структур",
+      "icon": "irons_spellbooks:furled_map_ancient",
+      "entries": [
+        {
+          "price": 20,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'irons_spellbooks:mangrove_hut',descriptionOverride:{translate:'Алхимический торговый путь'},dimension:'minecraft:overworld'},'minecraft:lore':['{\"text\":\"[Iron\\'s Spellbooks — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Алхимический торговый путь\"}]'}}"
+        },
+        {
+          "price": 25,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'irons_spellbooks:evoker_fort',descriptionOverride:{translate:'Планы штурма форта заклинателей'},dimension:'minecraft:overworld'},'minecraft:lore':['{\"text\":\"[Iron\\'s Spellbooks — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Планы штурма форта заклинателей\"}]'}}"
+        },
+        {
+          "price": 33,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'minecraft:mansion',descriptionOverride:{translate:'Особняк'},dimension:'minecraft:overworld'},'minecraft:lore':['{\"text\":\"[Minecraft — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Особняк\"}]'}}"
+        },
+        {
+          "price": 42,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'irons_spellbooks:ice_spider_den',descriptionOverride:{translate:'Заражённые руины'},dimension:'minecraft:overworld'},'minecraft:lore':['{\"text\":\"[Iron\\'s Spellbooks — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Заражённые руины\"}]'}}"
+        },
+        {
+          "price": 48,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'minecraft:ancient_city',descriptionOverride:{translate:'Древний город'},dimension:'minecraft:overworld'},'minecraft:lore':['{\"text\":\"[Minecraft — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Древний город\"}]'}}"
+        },
+        {
+          "price": 48,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'bosses_of_mass_destruction:gauntlet_arena',descriptionOverride:{translate:'Арена Перчатки'},dimension:'minecraft:the_nether'},'minecraft:lore':['{\"text\":\"[Bosses of Mass Destruction — Незер]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Арена Перчатки\"}]'}}"
+        },
+        {
+          "price": 48,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'minecraft:monument',descriptionOverride:{translate:'Подводная крепость'},dimension:'minecraft:overworld'},'minecraft:lore':['{\"text\":\"[Minecraft — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Подводная крепость\"}]'}}"
+        },
+        {
+          "price": 48,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'cataclysm:soul_black_smith',descriptionOverride:{translate:'Кузница душ'},dimension:'minecraft:the_nether'},'minecraft:lore':['{\"text\":\"[L_Ender Cataclysm — Незер]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Кузница душ\"}]'}}"
+        },
+        {
+          "price": 48,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'irons_spellbooks:catacombs',descriptionOverride:{translate:'Катакомбы'},dimension:'minecraft:overworld'},'minecraft:lore':['{\"text\":\"[Iron\\'s Spellbooks — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Катакомбы\"}]'}}"
+        },
+        {
+          "price": 96,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'cataclysm:ancient_factory',descriptionOverride:{translate:'Древняя фабрика'},dimension:'minecraft:overworld'},'minecraft:lore':['{\"text\":\"[L_Ender Cataclysm — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Древняя фабрика\"}]'}}"
+        },
+        {
+          "price": 96,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'cataclysm:ruined_citadel',descriptionOverride:{translate:'Разрушенная цитадель'},dimension:'minecraft:the_end'},'minecraft:lore':['{\"text\":\"[L_Ender Cataclysm — Энд]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Разрушенная цитадель\"}]'}}"
+        },
+        {
+          "price": 144,
+          "item": "{count:1,id:'irons_spellbooks:furled_map_ancient',components:{'irons_spellbooks:furled_map_data':{destination:'irons_spellbooks:citadel',descriptionOverride:{translate:'Цитадель'},dimension:'minecraft:the_nether'},'minecraft:lore':['{\"text\":\"[Iron\\'s Spellbooks — Незер]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Цитадель\"}]'}}"
+        },
+        {
+          "price": 144,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'bosses_of_mass_destruction:obsidilith_arena',descriptionOverride:{translate:'Арена Обсидилита'},dimension:'eternal_starlight:starlight'},'minecraft:lore':['{\"text\":\"[Bosses of Mass Destruction — Вечный звёздный свет]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Арена Обсидилита\"}]'}}"
+        },
+        {
+          "price": 144,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'bosses_of_mass_destruction:void_blossom',descriptionOverride:{translate:'Цветок пустоты'},dimension:'minecraft:overworld'},'minecraft:lore':['{\"text\":\"[Bosses of Mass Destruction — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Цветок пустоты\"}]'}}"
+        },
+        {
+          "price": 192,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'cataclysm:acropolis',descriptionOverride:{translate:'Акрополь'},dimension:'minecraft:overworld'},'minecraft:lore':['{\"text\":\"[L_Ender Cataclysm — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Акрополь\"}]'}}"
+        },
+        {
+          "price": 192,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'cataclysm:cursed_pyramid',descriptionOverride:{translate:'Проклятая пирамида'},dimension:'minecraft:overworld'},'minecraft:lore':['{\"text\":\"[L_Ender Cataclysm — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Проклятая пирамида\"}]'}}"
+        },
+        {
+          "price": 192,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'cataclysm:sunken_city',descriptionOverride:{translate:'Затонувший город'},dimension:'minecraft:overworld'},'minecraft:lore':['{\"text\":\"[L_Ender Cataclysm — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Затонувший город\"}]'}}"
+        },
+        {
+          "price": 256,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'cataclysm:burning_arena',descriptionOverride:{translate:'Пылающая арена'},dimension:'minecraft:the_nether'},'minecraft:lore':['{\"text\":\"[L_Ender Cataclysm — Незер]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Пылающая арена\"}]'}}"
+        },
+        {
+          "price": 256,
+          "item": "{count:1,id:'irons_spellbooks:furled_map',components:{'irons_spellbooks:furled_map_data':{destination:'cataclysm:frosted_prison',descriptionOverride:{translate:'Ледяная тюрьма'},dimension:'minecraft:overworld'},'minecraft:lore':['{\"text\":\"[L_Ender Cataclysm — Верхний мир]\",\"italic\":false,\"color\":\"gray\"}'],'minecraft:custom_name':'[{\"text\": \"Карта: Ледяная тюрьма\"}]'}}"
+        }
+      ]
+    },
+    {
+      "title": "Жетоны ученика",
+      "icon": "kubejs:token_basic",
+      "entries": [
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 1
+          },
+          "item": "{count:1,id:'armoroftheages:bamboo_hat'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 1
+          },
+          "item": "{count:1,id:'create_mechanical_extruder:mechanical_extruder'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 1
+          },
+          "item": "{count:1,id:'garnished:bok_choy'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 1
+          },
+          "item": "{count:1,id:'kubejs:infernal_eye_fragment_cracked'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 1
+          },
+          "item": "{count:1,id:'kubejs:infernal_eye_fragment_shard'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:blessing_of_life',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:fortify',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:heal',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:healing_circle',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:lightning_bolt',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 1
+          },
+          "item": "{count:1,id:'cataclysm:monstrous_eye'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:lesser_spell_slot_upgrade'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 2
+          },
+          "item": "{count:1,id:'minecraft:enchanted_book',components:{'minecraft:stored_enchantments':{levels:{'minecraft:mending':1}}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 2
+          },
+          "item": "{count:1,id:'kubejs:infernal_eye_fragment_core'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 3
+          },
+          "item": "{count:1,id:'apothic_enchanting:filtering_shelf'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 3
+          },
+          "item": "{count:1,id:'minecraft:enchanted_book',components:{'minecraft:stored_enchantments':{levels:{'apothic_enchanting:growth_serum':1}}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 3
+          },
+          "item": "{count:1,id:'apothic_enchanting:prismatic_web'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 4
+          },
+          "item": "{count:1,id:'treasurebags:treasure_bag',components:{'treasurebags:bag_type':'treasurebags:domaru_set'}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 4
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:cleanse',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_basic",
+            "count": 10
+          },
+          "item": "{count:1,id:'minecraft:sniffer_egg'}"
+        }
+      ]
+    },
+    {
+      "title": "Жетоны оператора",
+      "icon": "kubejs:token_medium",
+      "entries": [
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 1
+          },
+          "item": "{count:1,id:'create_mechanical_extruder:mechanical_brass_extruder'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 1
+          },
+          "item": "{count:1,id:'kubejs:black_eye_fragment_cracked'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 1
+          },
+          "item": "{count:1,id:'kubejs:black_eye_fragment_shard'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 1
+          },
+          "item": "{count:1,id:'minecraft:chorus_fruit'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:hither_thither_wand'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:angel_wing',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:blight',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:charge',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:counterspell',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'alshanex_familiars:guardian_angel',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:haste',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:oakskin',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:recall',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 1
+          },
+          "item": "{count:1,id:'cataclysm:mech_eye'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 2
+          },
+          "item": "{count:1,id:'hazennstuff:abstract'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 2
+          },
+          "item": "{count:1,id:'kubejs:black_eye_fragment_core'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 2
+          },
+          "item": "{count:1,id:'minecraft:enchanted_book',components:{'minecraft:stored_enchantments':{levels:{'apothic_enchanting:chainsaw':1}}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 2
+          },
+          "item": "{count:1,id:'minecraft:enchanted_book',components:{'minecraft:stored_enchantments':{levels:{'apothic_enchanting:miners_fervor':1}}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 2
+          },
+          "item": "{count:1,id:'minecraft:enchanted_book',components:{'minecraft:stored_enchantments':{levels:{'minecraft:silk_touch':1}}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 2
+          },
+          "item": "{count:1,id:'kubejs:corrupted_eye_fragment_cracked'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 2
+          },
+          "item": "{count:1,id:'kubejs:corrupted_eye_fragment_shard'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 2
+          },
+          "item": "{count:1,id:'apotheosis:gem_case'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 2
+          },
+          "item": "{count:1,id:'hazennstuff:shattered'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 2
+          },
+          "item": "{count:1,id:'naturescompass:naturescompass'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 2
+          },
+          "item": "{count:1,id:'hazennstuff:ruptured'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 3
+          },
+          "item": "{count:1,id:'minecraft:enchanted_book',components:{'minecraft:stored_enchantments':{levels:{'minecraft:infinity':1}}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 3
+          },
+          "item": "{count:1,id:'kubejs:corrupted_eye_fragment_core'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 3
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:greater_heal',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 3
+          },
+          "item": "{count:1,id:'constructionstick:template_unbreakable'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 4
+          },
+          "item": "{count:1,id:'treasurebags:treasure_bag',components:{'treasurebags:bag_type':'treasurebags:centurion_set'}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 4
+          },
+          "item": "{count:1,id:'apothic_enchanting:library'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 5
+          },
+          "item": "{count:1,id:'minecraft:budding_amethyst'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 8
+          },
+          "item": "{count:1,id:'catburger:cat_burger'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_medium",
+            "count": 20
+          },
+          "item": "{count:1,id:'minecraft:diamond'}"
+        }
+      ]
+    },
+    {
+      "title": "Жетоны инженера",
+      "icon": "kubejs:token_advanced",
+      "entries": [
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 1
+          },
+          "item": "{count:1,id:'hazennstuff:thorn_chakram'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 1
+          },
+          "item": "{count:1,id:'hazennstuff:obsidian_claymore'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 1
+          },
+          "item": "{count:1,id:'cataclysm:desert_eye'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 1
+          },
+          "item": "{count:1,id:'hazennstuff:galvanized_sheath'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:evasion',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:pocket_dimension',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:summon_ender_chest',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 1
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:summon_swords',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 1
+          },
+          "item": "{count:1,id:'hazennstuff:scroll_sheath'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 1
+          },
+          "item": "{count:1,id:'cataclysm:storm_eye'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 1
+          },
+          "item": "{count:1,id:'cataclysm:void_eye'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 2
+          },
+          "item": "{count:1,id:'minecraft:enchanted_book',components:{'minecraft:stored_enchantments':{levels:{'apothic_enchanting:berserkers_fury':1}}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 2
+          },
+          "item": "{count:1,id:'minecraft:enchanted_book',components:{'minecraft:stored_enchantments':{levels:{'apothic_enchanting:endless_quiver':1}}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 2
+          },
+          "item": "{count:1,id:'kubejs:oblivion_eye_fragment_cracked'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 2
+          },
+          "item": "{count:1,id:'kubejs:oblivion_eye_fragment_shard'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 2
+          },
+          "item": "{count:1,id:'kubejs:spy_eye_fragment_cracked'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 2
+          },
+          "item": "{count:1,id:'kubejs:spy_eye_fragment_shard'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 3
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:echoing_strikes',locked:1b,level:1}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 3
+          },
+          "item": "{count:1,id:'kubejs:oblivion_eye_fragment_core'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 3
+          },
+          "item": "{count:1,id:'kubejs:spy_eye_fragment_core'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 4
+          },
+          "item": "{count:1,id:'apothic_enchanting:ender_library'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 6
+          },
+          "item": "{count:1,id:'irons_spellbooks:amethyst_rapier'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 6
+          },
+          "item": "{count:1,id:'treasurebags:treasure_bag',components:{'treasurebags:bag_type':'treasurebags:quetzalcoatl_set'}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 16
+          },
+          "item": "{count:1,id:'minecraft:netherite_scrap'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 17
+          },
+          "item": "{count:1,id:'treasurebags:treasure_bag',components:{'treasurebags:bag_type':'treasurebags:arbitrium_set'}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 20
+          },
+          "item": "{count:1,id:'create_sa:block_picker'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 20
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:abyssal_shroud',locked:1b,level:2}],spellWheel:0b}}}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:token_advanced",
+            "count": 20
+          },
+          "item": "{count:1,id:'irons_spellbooks:scroll',components:{'irons_spellbooks:spell_container':{maxSpells:1,mustEquip:0b,data:[{index:0,id:'irons_spellbooks:heartstop',locked:1b,level:5}],spellWheel:0b}}}"
+        }
+      ]
+    },
+    {
+      "title": "Жетоны босса",
+      "icon": "kubejs:boss_token",
+      "entries": [
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 1
+          },
+          "item": "{count:1,id:'kubejs:lich_eye_fragment_cracked'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 1
+          },
+          "item": "{count:1,id:'simplyswords:sword_on_a_stick'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 3
+          },
+          "item": "{count:1,id:'kubejs:cryptic_eye_fragment_cracked'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 3
+          },
+          "item": "{count:1,id:'simplyswords:brimstone_claymore'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 3
+          },
+          "item": "{count:1,id:'simplyswords:chompolotl'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 3
+          },
+          "item": "{count:1,id:'simplyswords:frostfall'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 3
+          },
+          "item": "{count:1,id:'simplyswords:molten_edge'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 3
+          },
+          "item": "{count:1,id:'simplyswords:soulstealer'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 3
+          },
+          "item": "{count:1,id:'simplyswords:watcher_claymore'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 3
+          },
+          "item": "{count:1,id:'simplyswords:wraithfang'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 4
+          },
+          "item": "{count:1,id:'simplyswords:emberlash'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 4
+          },
+          "item": "{count:1,id:'simplyswords:mjolnir'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 4
+          },
+          "item": "{count:1,id:'simplyswords:shadowsting'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 4
+          },
+          "item": "{count:1,id:'simplyswords:stormbringer'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 4
+          },
+          "item": "{count:1,id:'simplyswords:toxic_longsword'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 5
+          },
+          "item": "{count:1,id:'simplyswords:emberblade'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 5
+          },
+          "item": "{count:1,id:'simplyswords:ribboncleaver'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 5
+          },
+          "item": "{count:1,id:'simplyswords:slumbering_lichblade'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 5
+          },
+          "item": "{count:1,id:'simplyswords:soulrender'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:arcanethyst'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:bramblethorn'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:caelestis'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:enigma'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:flamewind'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:hearthflame'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:hiveheart'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:icewhisper'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:livyatan'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:soulkeeper'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:soulpyre'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:storms_edge'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:thunderbrand'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:twisted_blade'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:watching_warglaive'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:waxweaver'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 6
+          },
+          "item": "{count:1,id:'simplyswords:whisperwind'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 7
+          },
+          "item": "{count:1,id:'simplyswords:dormant_relic'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 7
+          },
+          "item": "{count:1,id:'simplyswords:stars_edge'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 7
+          },
+          "item": "{count:1,id:'simplyswords:tempest'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 7
+          },
+          "item": "{count:1,id:'simplyswords:wickpiercer'}"
+        },
+        {
+          "cost": {
+            "item": "kubejs:boss_token",
+            "count": 10
+          },
+          "item": "{count:1,id:'treasurebags:treasure_bag',components:{'treasurebags:bag_type':'treasurebags:holy_set'}}"
+        }
+      ]
+    }
+  ]
+}

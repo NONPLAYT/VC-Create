@@ -7,29 +7,31 @@
       url = "github:Infinidoge/nix-minecraft";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    riven = {
+      url = "github:BX-Team/Riven";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
-  outputs = { self, nixpkgs, nix-minecraft }:
+  outputs = { self, nixpkgs, nix-minecraft, riven }:
     let
       inherit (nixpkgs) lib;
-      pack = lib.importTOML ./pack.toml;
-      packHash = "sha256-Z+Vm2fWvk+UKgnii5mtuzSUtBEac7JrWCDDibeh6/Cc=";
+      pack = riven.lib.readPack ./.;
       escape = lib.replaceStrings [ "." ] [ "_" ];
-      neoforgeAttr = "neoforge-${escape pack.versions.minecraft}-${escape pack.versions.neoforge}";
+      neoforgeAttr = "neoforge-${escape pack.minecraft}-${escape pack.loader.version}";
 
-      modpackFor = pkgs: pkgs.fetchPackwizModpack {
-        pname = "vc-create";
-        version = pack.version;
-        src = self;
-        inherit packHash;
+      modpackFor = pkgs: riven.lib.mkModpack {
+        inherit pkgs;
+        src = ./.;
         side = "server";
+        exclude = [ "easylogin" ];
       };
 
       compatFor = pkgs: import ./compat {
         inherit pkgs;
         neoforge = pkgs.neoforgeServers.${neoforgeAttr};
         modpack = modpackFor pkgs;
-        version = "1.2.0";
+        version = "1.3.0";
       };
 
       neoforgeFor = pkgs:
@@ -42,7 +44,7 @@
           chmod u+w "$loader"
           cp ${./server/log4j2.xml} log4j2.xml
           zip -q "$loader" log4j2.xml
-          args=$out/libraries/net/neoforged/neoforge/${pack.versions.neoforge}/unix_args.txt
+          args=$out/libraries/net/neoforged/neoforge/${pack.loader.version}/unix_args.txt
           sed "s|${upstream}|$out|g" "$(readlink "$args")" > args.txt
           cp --remove-destination args.txt "$args"
         '';
@@ -68,7 +70,7 @@
           cfg = config.services.videcraft;
           modpack = modpackFor pkgs;
           neoforge = neoforgeFor pkgs;
-          launchArgs = "${neoforge}/libraries/net/neoforged/neoforge/${pack.versions.neoforge}/unix_args.txt";
+          launchArgs = "${neoforge}/libraries/net/neoforged/neoforge/${pack.loader.version}/unix_args.txt";
           jdk = pkgs.jdk21_headless;
 
           jvmFlags = lib.concatStringsSep " " [
@@ -94,11 +96,6 @@
           ];
 
           userHome = name: "-Duser.home=/var/lib/${name}";
-
-          proxyCompatibleForge = pkgs.fetchurl {
-            url = "https://cdn.modrinth.com/data/vDyrHl8l/versions/qiZ49HIW/proxy-compatible-forge-1.3.1.jar";
-            hash = "sha256-6lQa/2J2lw2YUGllyOcb1K1zKUUvYxsvResI7epCUnE=";
-          };
 
           proxyForwarding = pkgs.writeText "proxy-compatible-forge.toml" ''
             [general]
@@ -179,12 +176,8 @@
             rm -rf mods config kubejs defaultconfigs
             install -d -m 750 mods
             for jar in ${modpack}/mods/*.jar; do
-              case "$(basename "$jar")" in
-                easylogin-*) ;;
-                *) ln -s "$jar" mods/ ;;
-              esac
+              ln -s "$jar" mods/
             done
-            ln -s ${proxyCompatibleForge} mods/proxy-compatible-forge.jar
             for dir in config kubejs defaultconfigs; do
               [ -e ${modpack}/$dir ] && cp -r --no-preserve=all ${modpack}/$dir $dir
             done

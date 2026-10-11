@@ -3,10 +3,7 @@ package org.videcraft;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.tree.ClassNode;
-import org.objectweb.asm.tree.LdcInsnNode;
-import org.objectweb.asm.tree.MethodInsnNode;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;
 import org.spongepowered.asm.mixin.extensibility.IMixinInfo;
 
@@ -53,20 +50,5 @@ public final class VideCraftPlugin implements IMixinConfigPlugin {
 
     @Override
     public void postApply(String targetClassName, ClassNode targetClass, String mixinClassName, IMixinInfo mixinInfo) {
-        if (targetClassName.startsWith("by.deokma.stockmarket.neoforge.client.")) {
-            translateLiterals(targetClass);
-        }
-    }
-
-    // Every string literal goes through StockMarketText.tr, which only swaps the ones the resource pack translates
-    private static void translateLiterals(ClassNode targetClass) {
-        for (var method : targetClass.methods) {
-            for (var insn : method.instructions.toArray()) {
-                if (insn instanceof LdcInsnNode ldc && ldc.cst instanceof String) {
-                    method.instructions.insert(ldc, new MethodInsnNode(Opcodes.INVOKESTATIC,
-                        "org/videcraft/StockMarketText", "tr", "(Ljava/lang/String;)Ljava/lang/String;", false));
-                }
-            }
-        }
     }
 }

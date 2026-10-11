@@ -1,0 +1,88 @@
+name: Release files
+
+on:
+  page_build:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Pack version to attach (default: the stable channel on gh-pages)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-files
+  cancel-in-progress: false
+
+jobs:
+  files:
+    name: Attach .riven and .mrpack
+    if: github.event_name == 'workflow_dispatch' || github.event.build.status == 'built'
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Read the deployed version
+        id: version
+        env:
+          REQUESTED: ${{ inputs.version }}
+        run: |
+          version="$REQUESTED"
+          if [ -z "$version" ]; then
+            git init -q pages
+            git -C pages fetch -q --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}" gh-pages
+            version="$(git -C pages show FETCH_HEAD:channels/stable.json | jq -r .version)"
+          fi
+          if ! printf '%s' "$version" | grep -Eq '^[0-9A-Za-z.+-]+$'; then
+            echo "::error::cannot read the version from channels/stable.json: '$version'"
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "tag=v$version" >> "$GITHUB_OUTPUT"
+
+      - name: Check out the tagged pack
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ steps.version.outputs.tag }}
+
+      - name: Install riven-cli
+        run: |
+          mkdir -p "$RUNNER_TEMP/riven"
+          curl -fsSL https://github.com/BX-Team/Riven/releases/latest/download/riven-cli-x86_64-linux.tar.gz \
+            | tar -xz -C "$RUNNER_TEMP/riven"
+          echo "$RUNNER_TEMP/riven" >> "$GITHUB_PATH"
+
+      - name: Load the signing key
+        env:
+          RIVEN_SIGNING_KEY: ${{ secrets.RIVEN_SIGNING_KEY }}
+        run: |
+          if [ -z "$RIVEN_SIGNING_KEY" ]; then
+            echo "::warning::RIVEN_SIGNING_KEY is not set; the .riven archive will be unsigned"
+            exit 0
+          fi
+          id="$(jq -r .id riven.json)"
+          mkdir -p ~/.config/riven/keys
+          printf '%s\n' "$RIVEN_SIGNING_KEY" > ~/.config/riven/keys/"$id".ed25519
+          chmod 600 ~/.config/riven/keys/"$id".ed25519
+
+      - name: Export the pack
+        id: export
+        run: |
+          id="$(jq -r .id riven.json)"
+          name="$(jq -r .name riven.json)"
+          riven export riven --out "out/$id.riven"
+          riven export mrpack --out "out/$id.mrpack"
+          echo "id=$id" >> "$GITHUB_OUTPUT"
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+
+      - name: Attach the files to the release
+        env:
+          TAG: ${{ steps.version.outputs.tag }}
+          TITLE: ${{ steps.export.outputs.name }} ${{ steps.version.outputs.version }}
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" out/* --clobber
+          else
+            gh release create "$TAG" out/* --verify-tag --title "$TITLE" --generate-notes
+          fi

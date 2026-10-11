@@ -9,7 +9,10 @@
     "DeeperDarkerPluginMixin"
   ],
   "client": [
-    "StockMarketScreensMixin"
+    "SophisticatedSlotNbtMixin",
+    "PunchyArmArmorMixin",
+    "PoseStackDepthAccessor",
+    "EntityPoseGuardMixin"
   ],
   "injectors": {
     "defaultRequire": 0

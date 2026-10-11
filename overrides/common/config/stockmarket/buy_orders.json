@@ -1,0 +1,8 @@
+{
+  "_comment": "Player buy orders on the Market Terminal. The buyer pays the full price into escrow when placing an order; sellers are paid from it as they deliver. fee_percent is charged on top and never refunded.",
+  "enabled": true,
+  "require_terminal": true,
+  "max_orders_per_player": 10,
+  "max_amount": 6912,
+  "fee_percent": 2
+}

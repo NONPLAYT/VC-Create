@@ -6,7 +6,7 @@ license = "MIT"
 modId = "videcraft"
 version = "1.1.0"
 displayName = "VideCraft Compat"
-description = "Restores the Mojang API hosts that offline launchers replace so signed skins render, lets Elytra Slot read the Deeper and Darker 1.4 soul elytra cooldown and translates the Create: Stock Market screens"
+description = "Restores the Mojang API hosts that offline launchers replace so signed skins render, lets Elytra Slot read the Deeper and Darker 1.4 soul elytra cooldown, stops Sophisticated Backpacks crashing on enchanted items after a server switch, hides the black Punchy sleeves of GeckoLib armor and repairs entity renderers that over-pop the pose stack"
 
 [[mixins]]
 config = "videcraft.mixins.json"

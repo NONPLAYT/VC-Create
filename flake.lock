@@ -54,10 +54,54 @@
         "type": "github"
       }
     },
+    "riven": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "rust-overlay": "rust-overlay",
+        "systems": "systems_2"
+      },
+      "locked": {
+        "lastModified": 1791731001,
+        "narHash": "sha256-p+OE93yc72+z9Frmd0EiN1yOEh22NdiJNnRZksZX74k=",
+        "owner": "BX-Team",
+        "repo": "Riven",
+        "rev": "c87fead484c263432aa6ae0505cb48bc53ec1391",
+        "type": "github"
+      },
+      "original": {
+        "owner": "BX-Team",
+        "repo": "Riven",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "nix-minecraft": "nix-minecraft",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "riven": "riven"
+      }
+    },
+    "rust-overlay": {
+      "inputs": {
+        "nixpkgs": [
+          "riven",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1791189933,
+        "narHash": "sha256-Y8eN7ki0Urx4Ojf4w1xSpWg8uk/3lJqK+E0Oth77rH0=",
+        "owner": "oxalica",
+        "repo": "rust-overlay",
+        "rev": "e60029353d0c48d216bc4b065168ccd4079c166f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "oxalica",
+        "repo": "rust-overlay",
+        "type": "github"
       }
     },
     "systems": {
@@ -72,6 +116,21 @@
       "original": {
         "owner": "nix-systems",
         "repo": "default",
+        "type": "github"
+      }
+    },
+    "systems_2": {
+      "locked": {
+        "lastModified": 1689347949,
+        "narHash": "sha256-12tWmuL2zgBgZkdoB6qXZsgJEH9LR3oUgpaQq2RbI80=",
+        "owner": "nix-systems",
+        "repo": "default-linux",
+        "rev": "31732fcf5e8fea42e59c2488ad31a0e651500f68",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default-linux",
         "type": "github"
       }
     }
