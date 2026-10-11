@@ -1,0 +1,39 @@
+{
+    "type": "apotheosis:attribute",
+    "attribute": "minecraft:generic.movement_speed",
+    "categories": [
+        "apotheosis:bow",
+        "apotheosis:trident"
+    ],
+    "definition": {
+        "affix_type": "stat",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "operation": "add_multiplied_total",
+    "values": {
+        "apotheosis:common": {
+            "min": 0.01,
+            "max": 0.02
+        },
+        "apotheosis:uncommon": {
+            "min": 0.02,
+            "max": 0.03
+        },
+        "apotheosis:rare": {
+            "min": 0.03,
+            "max": 0.05
+        },
+        "apotheosis:epic": {
+            "min": 0.04,
+            "max": 0.07
+        },
+        "apotheosis:mythic": {
+            "min": 0.05,
+            "max": 0.1
+        }
+    }
+}

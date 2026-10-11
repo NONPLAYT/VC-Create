@@ -1,0 +1,27 @@
+{
+    "type": "placebo:basic_trade",
+    "input_1": {
+        "count": 64,
+        "id": "minecraft:diamond"
+    },
+    "input_2": {
+        "count": 32,
+        "id": "minecraft:phantom_membrane"
+    },
+    "output": {
+        "components": {
+            "minecraft:custom_name": "{\"color\":\"#1ABBE0\",\"italic\":false,\"translate\":\"name.apotheosis.eternal_vigilance\"}",
+            "minecraft:enchantments": {
+                "levels": {
+                    "minecraft:looting": 4,
+                    "minecraft:sharpness": 6,
+                    "minecraft:unbreaking": 4
+                }
+            }
+        },
+        "count": 1,
+        "id": "minecraft:diamond_sword"
+    },
+    "rare": true,
+    "xp": 1000
+}

@@ -1,0 +1,154 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "armoroftheages:holy_armor_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {},
+                "minecraft:custom_name": "{\"text\":\"Helm of Radiance\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                "minecraft:lore": [
+                  "{\"text\":\"Forged by the ancients.\",\"color\":\"yellow\",\"italic\":true}"
+                ],
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "generic.armor_toughness",
+                    "id": "1747073991237",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "head"
+                  },
+                  {
+                    "type": "generic.armor",
+                    "id": "1747080702140",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "head"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "armoroftheages:holy_armor_chest",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"Chestplate of Light\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                "minecraft:lore": [
+                  "{\"text\":\"Forged by the ancients.\",\"color\":\"yellow\",\"italic\":true}"
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "generic.armor",
+                    "id": "1747081636017",
+                    "amount": 10,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  },
+                  {
+                    "type": "generic.armor_toughness",
+                    "id": "1747081636018",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "chest"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "armoroftheages:holy_armor_legs",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"Legguards of Grace\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                "minecraft:lore": [
+                  "{\"text\":\"Forged by the ancients.\",\"color\":\"yellow\",\"italic\":true}"
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "generic.armor",
+                    "id": "1747082024215",
+                    "amount": 8,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "type": "generic.armor_toughness",
+                    "id": "1747082024216",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "rolls": 1,
+      "entries": [
+         {
+          "type": "minecraft:item",
+          "name": "armoroftheages:holy_armor_feet",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"Boots of the Heavens\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                "minecraft:lore": [
+                  "{\"text\":\"Forged by the ancients.\",\"color\":\"yellow\",\"italic\":true}"
+                ],
+                "minecraft:unbreakable": {},
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "generic.armor",
+                    "id": "1747082364699",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  },
+                  {
+                    "type": "generic.armor_toughness",
+                    "id": "1747082364700",
+                    "amount": 4,
+                    "operation": "add_value",
+                    "slot": "feet"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "treasurebags:bags/holy_set"
+}

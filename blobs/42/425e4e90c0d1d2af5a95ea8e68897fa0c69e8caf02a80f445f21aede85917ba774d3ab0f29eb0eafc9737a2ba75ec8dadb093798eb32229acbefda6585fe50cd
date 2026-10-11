@@ -1,0 +1,22 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "advanced": true,
+  "blockIngredients": {
+    "first": {
+      "blocks": "minecraft:water"
+    },
+    "second": {
+      "blocks": "minecraft:lava"
+    }
+  },
+  "catalyst": {
+    "blocks": "minecraft:obsidian"
+  },
+  "consumeBlocks": {
+    "first": false,
+    "second": true
+  },
+  "result": {
+    "id": "minecraft:obsidian"
+  }
+}

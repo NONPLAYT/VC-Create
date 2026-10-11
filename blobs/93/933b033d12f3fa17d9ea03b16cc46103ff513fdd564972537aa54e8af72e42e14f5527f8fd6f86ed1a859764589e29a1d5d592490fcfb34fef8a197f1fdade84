@@ -1,0 +1,468 @@
+{
+  "_comment": "State orders of the Market Terminal: the server buys these items for spurs paid into the bank account. Each day offers_per_day orders are drawn from the pool, one group after another. Optional per-entry weight makes an order come up more often. Reload with /stockmarket reload.",
+  "enabled": true,
+  "require_terminal": true,
+  "timezone": "Europe/Moscow",
+  "reset_time": "00:00",
+  "offers_per_day": 8,
+  "daily_limit": 192,
+  "offer_limit": 48,
+  "pool": [
+    {
+      "item": "minecraft:wheat",
+      "per": 64,
+      "price": 2,
+      "group": "farm"
+    },
+    {
+      "item": "minecraft:carrot",
+      "per": 64,
+      "price": 2,
+      "group": "farm"
+    },
+    {
+      "item": "minecraft:potato",
+      "per": 64,
+      "price": 2,
+      "group": "farm"
+    },
+    {
+      "item": "minecraft:beetroot",
+      "per": 64,
+      "price": 2,
+      "group": "farm"
+    },
+    {
+      "item": "minecraft:sugar_cane",
+      "per": 64,
+      "price": 2,
+      "group": "farm"
+    },
+    {
+      "item": "minecraft:pumpkin",
+      "per": 32,
+      "price": 2,
+      "group": "farm"
+    },
+    {
+      "item": "minecraft:melon_slice",
+      "per": 64,
+      "price": 2,
+      "group": "farm"
+    },
+    {
+      "item": "minecraft:cocoa_beans",
+      "per": 32,
+      "price": 2,
+      "group": "farm"
+    },
+    {
+      "item": "minecraft:sweet_berries",
+      "per": 64,
+      "price": 2,
+      "group": "farm"
+    },
+    {
+      "item": "farmersdelight:tomato",
+      "per": 32,
+      "price": 2,
+      "group": "farm"
+    },
+    {
+      "item": "farmersdelight:cabbage",
+      "per": 32,
+      "price": 2,
+      "group": "farm"
+    },
+    {
+      "item": "farmersdelight:onion",
+      "per": 32,
+      "price": 2,
+      "group": "farm"
+    },
+    {
+      "item": "farmersdelight:rice",
+      "per": 32,
+      "price": 2,
+      "group": "farm"
+    },
+    {
+      "item": "minecraft:egg",
+      "per": 16,
+      "price": 1,
+      "group": "farm"
+    },
+    {
+      "item": "minecraft:honeycomb",
+      "per": 16,
+      "price": 3,
+      "group": "farm"
+    },
+    {
+      "item": "minecraft:leather",
+      "per": 16,
+      "price": 3,
+      "group": "farm"
+    },
+    {
+      "item": "minecraft:white_wool",
+      "per": 32,
+      "price": 2,
+      "group": "farm"
+    },
+    {
+      "item": "minecraft:oak_log",
+      "per": 64,
+      "price": 2,
+      "group": "wood"
+    },
+    {
+      "item": "minecraft:spruce_log",
+      "per": 64,
+      "price": 2,
+      "group": "wood"
+    },
+    {
+      "item": "minecraft:birch_log",
+      "per": 64,
+      "price": 2,
+      "group": "wood"
+    },
+    {
+      "item": "minecraft:dark_oak_log",
+      "per": 64,
+      "price": 2,
+      "group": "wood"
+    },
+    {
+      "item": "minecraft:clay_ball",
+      "per": 64,
+      "price": 2,
+      "group": "wood"
+    },
+    {
+      "item": "minecraft:glass",
+      "per": 64,
+      "price": 2,
+      "group": "wood"
+    },
+    {
+      "item": "farmersdelight:canvas",
+      "per": 16,
+      "price": 3,
+      "group": "wood"
+    },
+    {
+      "item": "farmersdelight:rope",
+      "per": 32,
+      "price": 2,
+      "group": "wood"
+    },
+    {
+      "item": "minecraft:string",
+      "per": 32,
+      "price": 2,
+      "group": "mobs"
+    },
+    {
+      "item": "minecraft:bone",
+      "per": 32,
+      "price": 2,
+      "group": "mobs"
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "per": 16,
+      "price": 3,
+      "group": "mobs"
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "per": 64,
+      "price": 1,
+      "group": "mobs"
+    },
+    {
+      "item": "minecraft:spider_eye",
+      "per": 16,
+      "price": 2,
+      "group": "mobs"
+    },
+    {
+      "item": "minecraft:slime_ball",
+      "per": 16,
+      "price": 3,
+      "group": "mobs"
+    },
+    {
+      "item": "minecraft:ender_pearl",
+      "per": 8,
+      "price": 4,
+      "group": "mobs"
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "per": 8,
+      "price": 4,
+      "group": "mobs"
+    },
+    {
+      "item": "minecraft:ghast_tear",
+      "per": 2,
+      "price": 4,
+      "group": "mobs"
+    },
+    {
+      "item": "minecraft:phantom_membrane",
+      "per": 4,
+      "price": 3,
+      "group": "mobs"
+    },
+    {
+      "item": "minecraft:magma_cream",
+      "per": 8,
+      "price": 3,
+      "group": "mobs"
+    },
+    {
+      "item": "minecraft:ink_sac",
+      "per": 16,
+      "price": 2,
+      "group": "mobs"
+    },
+    {
+      "item": "minecraft:prismarine_shard",
+      "per": 32,
+      "price": 3,
+      "group": "mobs"
+    },
+    {
+      "item": "minecraft:coal",
+      "per": 64,
+      "price": 2,
+      "group": "mining"
+    },
+    {
+      "item": "minecraft:redstone",
+      "per": 64,
+      "price": 2,
+      "group": "mining"
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "per": 32,
+      "price": 2,
+      "group": "mining"
+    },
+    {
+      "item": "minecraft:quartz",
+      "per": 32,
+      "price": 2,
+      "group": "mining"
+    },
+    {
+      "item": "minecraft:amethyst_shard",
+      "per": 16,
+      "price": 2,
+      "group": "mining"
+    },
+    {
+      "item": "minecraft:diamond",
+      "per": 1,
+      "price": 3,
+      "group": "mining"
+    },
+    {
+      "item": "minecraft:emerald",
+      "per": 4,
+      "price": 3,
+      "group": "mining"
+    },
+    {
+      "item": "minecraft:obsidian",
+      "per": 16,
+      "price": 3,
+      "group": "mining"
+    },
+    {
+      "item": "minecraft:netherite_scrap",
+      "per": 1,
+      "price": 12,
+      "group": "mining"
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "per": 32,
+      "price": 2,
+      "group": "mining"
+    },
+    {
+      "item": "create:andesite_alloy",
+      "per": 32,
+      "price": 3,
+      "group": "create"
+    },
+    {
+      "item": "create:brass_ingot",
+      "per": 8,
+      "price": 3,
+      "group": "create"
+    },
+    {
+      "item": "create:zinc_ingot",
+      "per": 16,
+      "price": 2,
+      "group": "create"
+    },
+    {
+      "item": "create:iron_sheet",
+      "per": 16,
+      "price": 2,
+      "group": "create"
+    },
+    {
+      "item": "create:copper_sheet",
+      "per": 16,
+      "price": 2,
+      "group": "create"
+    },
+    {
+      "item": "create:precision_mechanism",
+      "per": 1,
+      "price": 3,
+      "group": "create"
+    },
+    {
+      "item": "create:electron_tube",
+      "per": 4,
+      "price": 3,
+      "group": "create"
+    },
+    {
+      "item": "create:polished_rose_quartz",
+      "per": 8,
+      "price": 3,
+      "group": "create"
+    },
+    {
+      "item": "create:sturdy_sheet",
+      "per": 4,
+      "price": 4,
+      "group": "create"
+    },
+    {
+      "item": "create:cogwheel",
+      "per": 32,
+      "price": 3,
+      "group": "create"
+    },
+    {
+      "item": "create:large_cogwheel",
+      "per": 16,
+      "price": 3,
+      "group": "create"
+    },
+    {
+      "item": "create:shaft",
+      "per": 64,
+      "price": 2,
+      "group": "create"
+    },
+    {
+      "item": "create:belt_connector",
+      "per": 8,
+      "price": 3,
+      "group": "create"
+    },
+    {
+      "item": "minecraft:bread",
+      "per": 32,
+      "price": 2,
+      "group": "food"
+    },
+    {
+      "item": "minecraft:cooked_beef",
+      "per": 32,
+      "price": 3,
+      "group": "food"
+    },
+    {
+      "item": "minecraft:baked_potato",
+      "per": 64,
+      "price": 2,
+      "group": "food"
+    },
+    {
+      "item": "minecraft:pumpkin_pie",
+      "per": 16,
+      "price": 3,
+      "group": "food"
+    },
+    {
+      "item": "minecraft:cake",
+      "per": 2,
+      "price": 3,
+      "group": "food"
+    },
+    {
+      "item": "farmersdelight:beef_stew",
+      "per": 4,
+      "price": 3,
+      "group": "food"
+    },
+    {
+      "item": "farmersdelight:vegetable_soup",
+      "per": 4,
+      "price": 3,
+      "group": "food"
+    },
+    {
+      "item": "farmersdelight:fish_stew",
+      "per": 4,
+      "price": 3,
+      "group": "food"
+    },
+    {
+      "item": "farmersdelight:pasta_with_meatballs",
+      "per": 4,
+      "price": 4,
+      "group": "food"
+    },
+    {
+      "item": "farmersdelight:chicken_soup",
+      "per": 4,
+      "price": 3,
+      "group": "food"
+    },
+    {
+      "item": "farmersdelight:apple_pie",
+      "per": 2,
+      "price": 3,
+      "group": "food"
+    },
+    {
+      "item": "create:bar_of_chocolate",
+      "per": 16,
+      "price": 3,
+      "group": "food"
+    },
+    {
+      "item": "create:sweet_roll",
+      "per": 16,
+      "price": 3,
+      "group": "food"
+    },
+    {
+      "item": "create:honeyed_apple",
+      "per": 16,
+      "price": 3,
+      "group": "food"
+    },
+    {
+      "item": "create:builders_tea",
+      "per": 4,
+      "price": 3,
+      "group": "food"
+    }
+  ]
+}

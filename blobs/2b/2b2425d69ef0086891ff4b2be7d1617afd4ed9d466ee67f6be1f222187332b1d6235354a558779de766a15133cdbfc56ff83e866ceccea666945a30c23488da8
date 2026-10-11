@@ -1,0 +1,5 @@
+##[general]
+
+B:show_gamemode_info = 'true';
+F:button_border_thickness = '2.0';
+S:button_border_hex_color = '#d1eaa1';

@@ -1,0 +1,10 @@
+{
+    "type": "apotheosis:affix_loot_entry",
+    "stack": {
+        "count": 1,
+        "id": "minecraft:turtle_helmet"
+    },
+    "weights": {
+        "weight": 2
+    }
+}

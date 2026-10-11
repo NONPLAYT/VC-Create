@@ -1,0 +1,11 @@
+{
+  "bag_color": "#7ca9df",
+  "bag_overlay_color": "#8d5c68",
+  "bag_string_color": "#b91c5b",
+  "display_name": "§cFull Arbitrium Set",
+  "drops_from_groups": [],
+  "group": "default",
+  "loot_table": "treasurebags:bags/arbitrium_set",
+  "rarity": "common",
+  "visible": true
+}

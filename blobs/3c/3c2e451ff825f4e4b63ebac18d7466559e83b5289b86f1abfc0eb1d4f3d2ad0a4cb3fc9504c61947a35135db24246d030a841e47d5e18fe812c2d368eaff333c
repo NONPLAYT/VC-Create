@@ -1,0 +1,20 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "blockIngredients": {
+    "first": {
+      "blocks": "minecraft:blue_ice"
+    },
+    "second": {
+      "blocks": "minecraft:lava"
+    }
+  },
+  "requirements": [
+    {
+      "type": "mechanicals:biome_tag",
+      "value": "minecraft:is_end"
+    }
+  ],
+  "result": {
+    "id": "minecraft:end_stone"
+  }
+}

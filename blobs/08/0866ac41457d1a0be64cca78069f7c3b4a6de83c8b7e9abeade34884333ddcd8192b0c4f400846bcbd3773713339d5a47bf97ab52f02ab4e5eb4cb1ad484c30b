@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "bag_type": "treasurebags:spawn",
+              "function": "treasurebags:set_bag_type"
+            }
+          ],
+          "name": "treasurebags:treasure_bag"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "treasurebags:starting_inventory"
+}

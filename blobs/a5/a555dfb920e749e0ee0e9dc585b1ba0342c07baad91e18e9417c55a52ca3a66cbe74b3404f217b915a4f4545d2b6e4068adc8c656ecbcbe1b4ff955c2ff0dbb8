@@ -1,0 +1,11 @@
+{
+  "bag_color": "#e5982d",
+  "bag_overlay_color": "#482120",
+  "bag_string_color": "#e5982d",
+  "display_name": "§6Full Unbreakable Centurion Set",
+  "drops_from_groups": [],
+  "group": "default",
+  "loot_table": "treasurebags:bags/centurion_set",
+  "rarity": "common",
+  "visible": true
+}

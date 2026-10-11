@@ -1,0 +1,24 @@
+{
+    "type": "apotheosis:purity_upgrade",
+    "left": [
+        {
+            "count": 3,
+            "item": "apotheosis:gem_dust"
+        }
+    ],
+    "purity": "chipped",
+    "right": [
+        {
+            "count": 9,
+            "item": "apotheosis:common_material"
+        },
+        {
+            "count": 3,
+            "item": "apotheosis:uncommon_material"
+        },
+        {
+            "count": 1,
+            "item": "apotheosis:rare_material"
+        }
+    ]
+}

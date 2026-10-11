@@ -1,0 +1,61 @@
+[general]
+	help_link = "https://github.com/NONPLAYT/VC-Create/issues"
+	formulation_type = "GITHUB"
+	upload_to = "mclo.gs"
+	show_on_fml_error_screen = true
+	kill_old_app = true
+	default_lang = "ru_ru"
+	priority_lang_for_overrides = "NONE"
+	generate_localization_overrides_folder_with_readme = false
+	enable_privacy_policy_acceptance = true
+	enable_mclogs_anti_ip_like_version_censorer = true
+	generate_own_launcher_log = true
+
+[text]
+	support_name = "GitHub сборки"
+	modpack_name = "VideCraft: Create"
+
+[generated_message]
+	prefix = ""
+	logs_separator = "\n"
+	generated_msg_lang = "ru_ru"
+	piracy_notification = false
+	intel_corrupted_notification = true
+	put_problematic_frame_to_message = true
+	put_analysis_result_to_message = true
+	color_message = false
+	ansi_block_pattern = "$PREFIX$$HEADER$\n```\n$CONTENT$\n```"
+	text_under_crashed = "\n* **Лаунчер:**\n* **Раньше работало или это первый запуск?**\n* **Что делал в момент краша?**"
+	warning_after_upload_all_button_press = ""
+
+[modpack_modlist]
+	enabled = false
+
+[too_many_changes_warning]
+	count = -1
+
+[analysis]
+	enabled = true
+	first_show_delay = 0
+
+[analysis_tools]
+	enabled = true
+
+[piracy]
+	enabled = false
+
+[greeting]
+	shown_greeting = true
+
+[scripts]
+	enabled = true
+	ide_enabled = false
+	generate_scripts_folder_with_example = false
+
+[gui_customisation]
+	theme_file_name = "FlatLightLaf"
+	show_dont_send_screenshot_of_gui_notice = false
+	screenshot_of_gui_notice_animated_border = false
+	upload_all_button_foreground_color = "default"
+	request_help_button_foreground_color = "default"
+	modpack_logo_path = ""

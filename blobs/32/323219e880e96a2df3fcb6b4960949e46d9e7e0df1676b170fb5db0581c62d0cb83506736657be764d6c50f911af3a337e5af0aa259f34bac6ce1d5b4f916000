@@ -1,0 +1,8 @@
+var mods = ModListUtils.getCurrentModListMappedToModId();
+
+var m_optifine = mods.get("optifine");
+if (m_optifine != null) {
+    var warn = Startup.addCrashWarning("В сборку вручную добавлен мод <strong>OptiFine</strong>. Он здесь не нужен и ломает игру — для оптимизации уже стоит <strong>Sodium</strong>.");
+    warn.withModActions(m_optifine);
+    Startup.markForCrash();
+}

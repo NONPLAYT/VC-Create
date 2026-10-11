@@ -1,0 +1,62 @@
+{
+    "type": "apotheosis:mob_effect",
+    "definition": {
+        "affix_type": "basic_effect",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "mob_effect": "minecraft:speed",
+    "target": "break_self",
+    "types": [
+        "apotheosis:breaker"
+    ],
+    "values": {
+        "apotheosis:uncommon": {
+            "duration": {
+                "min": 60.0,
+                "max": 140.0,
+                "step": 20.0
+            },
+            "amplifier": 0.0,
+            "cooldown": 1200
+        },
+        "apotheosis:rare": {
+            "duration": {
+                "min": 100.0,
+                "max": 180.0,
+                "step": 20.0
+            },
+            "amplifier": 0.0,
+            "cooldown": 1200
+        },
+        "apotheosis:epic": {
+            "duration": {
+                "min": 140.0,
+                "max": 240.0,
+                "step": 20.0
+            },
+            "amplifier": {
+                "min": 0.0,
+                "max": 1.0,
+                "step": 0.25
+            },
+            "cooldown": 1200
+        },
+        "apotheosis:mythic": {
+            "duration": {
+                "min": 240.0,
+                "max": 300.0,
+                "step": 20.0
+            },
+            "amplifier": {
+                "min": 0.0,
+                "max": 1.0,
+                "step": 0.25
+            },
+            "cooldown": 1200
+        }
+    }
+}

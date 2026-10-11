@@ -1,0 +1,11 @@
+{
+  "bag_color": "#a000ff",
+  "bag_overlay_color": "#d0972f",
+  "bag_string_color": "#f3ec0c",
+  "display_name": "§6Lucky Pouch",
+  "drops_from_groups": [],
+  "group": "default",
+  "loot_table": "treasurebags:bags/rng_bag",
+  "rarity": "epic",
+  "visible": true
+}

@@ -1,0 +1,11 @@
+{
+  "bag_color": "#237436",
+  "bag_overlay_color": "#693636",
+  "bag_string_color": "#d7cb35",
+  "display_name": "§aFull Unbreakable Quetzalcoatl Set",
+  "drops_from_groups": [],
+  "group": "default",
+  "loot_table": "treasurebags:bags/quetzalcoatl_set",
+  "rarity": "common",
+  "visible": true
+}

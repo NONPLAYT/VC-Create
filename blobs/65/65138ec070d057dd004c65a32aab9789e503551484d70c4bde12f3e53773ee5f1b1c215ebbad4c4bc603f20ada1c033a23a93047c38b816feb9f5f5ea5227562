@@ -1,0 +1,40 @@
+{
+  "type": "alshanex_familiars:ritual_recipe",
+  "central_item": {
+    "item": "hazennstuff:ruptured"
+  },
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "irons_spellbooks:arcane_ingot"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "irons_spellbooks:mithril_scrap"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "irons_spellbooks:mana_upgrade_orb"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "irons_spellbooks:legendary_ink"
+      },
+      "count": 1,
+      "consume": true
+    }
+  ],
+  "result": {
+    "id": "hazennstuff:refined"
+  },
+  "particle_type": "minecraft:crit"
+}

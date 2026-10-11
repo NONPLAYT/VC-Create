@@ -1,0 +1,20 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "blockIngredients": {
+    "first": {
+      "blocks": "minecraft:water"
+    },
+    "second": {
+      "blocks": "minecraft:lava"
+    }
+  },
+  "requirements": [
+    {
+      "type": "mechanicals:max_speed",
+      "value": 4.0
+    }
+  ],
+  "result": {
+    "id": "minecraft:obsidian"
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "type": "apotheosis:purity_upgrade",
+    "left": [
+        {
+            "count": 1,
+            "item": "apotheosis:gem_dust"
+        }
+    ],
+    "purity": "cracked",
+    "right": [
+        {
+            "count": 3,
+            "item": "apotheosis:common_material"
+        },
+        {
+            "count": 1,
+            "item": "apotheosis:uncommon_material"
+        }
+    ]
+}

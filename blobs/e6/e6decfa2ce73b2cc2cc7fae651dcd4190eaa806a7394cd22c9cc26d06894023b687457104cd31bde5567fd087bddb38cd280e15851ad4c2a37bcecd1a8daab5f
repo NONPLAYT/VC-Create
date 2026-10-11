@@ -1,0 +1,38 @@
+{
+    "type": "apotheosis:damage_reduction",
+    "categories": [
+        "apotheosis:chestplate",
+        "apotheosis:leggings"
+    ],
+    "damage_type": "explosion",
+    "definition": {
+        "affix_type": "basic_effect",
+        "exclusive_set": [],
+        "weights": {
+            "quality": 0.1,
+            "weight": 25
+        }
+    },
+    "values": {
+        "apotheosis:common": {
+            "min": 0.01,
+            "max": 0.03
+        },
+        "apotheosis:uncommon": {
+            "min": 0.03,
+            "max": 0.05
+        },
+        "apotheosis:rare": {
+            "min": 0.03,
+            "max": 0.07
+        },
+        "apotheosis:epic": {
+            "min": 0.05,
+            "max": 0.10
+        },
+        "apotheosis:mythic": {
+            "min": 0.10,
+            "max": 0.15
+        }
+    }
+}

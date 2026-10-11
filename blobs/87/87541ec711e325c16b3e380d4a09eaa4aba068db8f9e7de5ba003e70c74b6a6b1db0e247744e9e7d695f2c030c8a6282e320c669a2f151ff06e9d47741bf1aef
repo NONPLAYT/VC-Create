@@ -1,0 +1,11 @@
+{
+  "bag_color": "#ed7d14",
+  "bag_overlay_color": "#ffca61",
+  "bag_string_color": "#ed7d14",
+  "display_name": "§6Flawless Core Gem Pouch",
+  "drops_from_groups": [],
+  "group": "default",
+  "loot_table": "treasurebags:bags/flawless_core_gem",
+  "rarity": "common",
+  "visible": true
+}

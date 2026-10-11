@@ -1,0 +1,32 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:wither",
+    "minecraft:ender_dragon",
+    "minecraft:ravager",
+    "minecraft:ghast",
+    "minecraft:blaze",
+    "minecraft:silverfish",
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:drowned",
+    "minecraft:zombie_villager",
+    { "id": "cataclysm:ender_golem", "required": false },
+    { "id": "cataclysm:ender_guardian", "required": false },
+    { "id": "cataclysm:netherite_monstrosity", "required": false },
+    { "id": "cataclysm:ignis", "required": false },
+    { "id": "cataclysm:the_harbinger", "required": false },
+    { "id": "cataclysm:the_leviathan", "required": false },
+    { "id": "cataclysm:coralssus", "required": false },
+    { "id": "cataclysm:ancient_remnant", "required": false },
+    { "id": "cataclysm:kobolediator", "required": false },
+    { "id": "cataclysm:maledictus", "required": false },
+    { "id": "cataclysm:clawdian", "required": false },
+    { "id": "cataclysm:scylla", "required": false },
+    { "id": "cataclysm:laser_beam", "required": false },
+    { "id": "cataclysm:death_laser_beam", "required": false },
+    { "id": "cataclysm:abyss_blast", "required": false },
+    { "id": "cataclysm:portal_abyss_blast", "required": false },
+    { "id": "cataclysm:dimensional_rift", "required": false }
+  ]
+}

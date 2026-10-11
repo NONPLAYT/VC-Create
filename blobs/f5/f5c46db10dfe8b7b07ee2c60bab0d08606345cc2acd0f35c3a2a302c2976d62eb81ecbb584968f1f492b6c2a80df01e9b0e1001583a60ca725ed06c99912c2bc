@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "garnished:unstable_stone_wall"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "create_dragons_plus:dragon_breath"
+    }
+  ],
+  "results": [
+    {
+      "id": "garnished:dragon_stone_wall"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "garnished:ender_egg_shell"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "garnished:champion_omelette"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "garnished:incomplete_champion_omelette"
+        }
+      ],
+      "results": [
+        {
+          "id": "garnished:incomplete_champion_omelette"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "garnished:incomplete_champion_omelette"
+        },
+        {
+          "item": "garnished:crushed_ender_pearl"
+        }
+      ],
+      "results": [
+        {
+          "id": "garnished:incomplete_champion_omelette"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "garnished:incomplete_champion_omelette"
+        },
+        {
+          "item": "garnished:dimmed_scale"
+        }
+      ],
+      "results": [
+        {
+          "id": "garnished:incomplete_champion_omelette"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "garnished:incomplete_champion_omelette"
+        },
+        {
+          "item": "garnished:pansophical_petal"
+        }
+      ],
+      "results": [
+        {
+          "id": "garnished:incomplete_champion_omelette"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "garnished:incomplete_champion_omelette"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 250,
+          "fluid": "create_dragons_plus:dragon_breath"
+        }
+      ],
+      "results": [
+        {
+          "id": "garnished:incomplete_champion_omelette"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "garnished:incomplete_champion_omelette"
+  }
+}

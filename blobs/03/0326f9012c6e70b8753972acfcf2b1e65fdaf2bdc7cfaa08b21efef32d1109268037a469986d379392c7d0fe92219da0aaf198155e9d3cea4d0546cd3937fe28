@@ -1,0 +1,10 @@
+	[item.treasurebag]
+		#If true, treasure bags will always spawn items on top of the player.
+		#Otherwise this only happens if the player's inventory is full
+		#Useful for bag-type items; Dank Storage, SGems Gem Bag, backpacks
+		alwaysSpawnItems = false
+		#Disables all treasure bags in these groups. The built-in bags are in the "default" and "example" groups
+		disabledGroups = ["example", "another_example"]
+		#Mobs will drop treasure bags when killed by a player, assuming all bag groups are not disabled in "disabledGroups" and the loot tables have not been modified.
+		#This is a quick disable option; to customize drops, see the loot tables in "data/treasurebags/loot_table/entity_group/"
+		mobsDropBagsWhenKilled = true

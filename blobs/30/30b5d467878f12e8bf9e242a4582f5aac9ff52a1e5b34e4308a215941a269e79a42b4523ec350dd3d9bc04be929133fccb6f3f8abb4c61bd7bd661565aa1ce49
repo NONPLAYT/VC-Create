@@ -1,0 +1,11 @@
+{
+  "bag_color": "#c81800",
+  "bag_overlay_color": "#ffca61",
+  "bag_string_color": "#c81800",
+  "display_name": "§4Perfect Core Gem Pouch",
+  "drops_from_groups": [],
+  "group": "default",
+  "loot_table": "treasurebags:bags/perfect_core_gem",
+  "rarity": "common",
+  "visible": true
+}

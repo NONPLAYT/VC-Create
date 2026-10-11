@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [],
+  "remove": [
+    "apothic_enchanting:boon_of_the_earth",
+    "apothic_enchanting:scavenger",
+    "apothic_spawners:capturing"
+  ]
+}

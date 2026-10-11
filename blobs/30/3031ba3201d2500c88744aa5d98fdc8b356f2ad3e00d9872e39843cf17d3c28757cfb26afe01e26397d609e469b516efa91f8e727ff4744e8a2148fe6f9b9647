@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "apotheosis",
+    "key": {
+        "D": {
+            "item": "minecraft:deepslate"
+        },
+        "G": {
+            "item": "apotheosis:gem_dust"
+        }
+    },
+    "pattern": [
+        "DDD",
+        "DGD",
+        "DDD"
+    ],
+    "result": {
+        "count": 8,
+        "id": "apotheosis:gem_fused_slate"
+    }
+}

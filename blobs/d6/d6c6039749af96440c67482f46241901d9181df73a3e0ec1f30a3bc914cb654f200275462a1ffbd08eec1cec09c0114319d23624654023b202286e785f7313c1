@@ -1,0 +1,52 @@
+{
+    "type": "apotheosis:gem",
+    "unique": true,
+    "weights": {
+        "quality": 0.1,
+        "weight": 100
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "apothic_attributes:draw_speed",
+            "gem_class": "apotheosis:bow",
+            "operation": "add_multiplied_base",
+            "values": {
+                "cracked": 0.01,
+                "chipped": 0.02,
+                "flawed": 0.03,
+                "normal": 0.05,
+                "flawless": 0.07,
+                "perfect": 0.1
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "apothic_attributes:mining_speed",
+            "gem_class": "apotheosis:breaker",
+            "operation": "add_multiplied_base",
+            "values": {
+                "cracked": 0.01,
+                "chipped": 0.02,
+                "flawed": 0.03,
+                "normal": 0.04,
+                "flawless": 0.05,
+                "perfect": 0.06
+            }
+        },
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "apothic_attributes:dodge_chance",
+            "gem_class": "apotheosis:boots",
+            "operation": "add_value",
+            "values": {
+                "cracked": 0.005,
+                "chipped": 0.01,
+                "flawed": 0.015,
+                "normal": 0.02,
+                "flawless": 0.025,
+                "perfect": 0.03
+            }
+        }
+    ]
+}

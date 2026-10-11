@@ -1,0 +1,11 @@
+{
+  "bag_color": "#41ff33",
+  "bag_overlay_color": "#95e2da",
+  "bag_string_color": "#41ff33",
+  "display_name": "§aChipped Arcane Gem Pouch",
+  "drops_from_groups": [],
+  "group": "default",
+  "loot_table": "treasurebags:bags/chipped_arcane_gem",
+  "rarity": "common",
+  "visible": true
+}

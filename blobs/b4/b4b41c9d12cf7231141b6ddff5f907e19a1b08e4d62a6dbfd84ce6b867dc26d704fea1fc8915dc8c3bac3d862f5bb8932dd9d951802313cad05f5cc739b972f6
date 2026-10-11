@@ -1,0 +1,107 @@
+#.
+#Control certain properties of blocks to your liking (mostly)
+[block]
+
+	#.
+	#.
+	#
+	[block."Voltaic Sea Grass"]
+		#.
+		#Controls whether or not voltaic sea grass deals damage to non-player entities.
+		voltaicSeaGrassDoesDamageToNonPlayerEntities = true
+		#.
+		#Controls whether or not voltaic sea grass deals damage to players.
+		voltaicSeaGrassDoesDamageToPlayers = true
+		#.
+		#The amount of damage dealt to non-player entities when within voltaic sea grass.
+		# Default: 2.0
+		# Range: 1.0 ~ 3.4028234663852886E38
+		nonPlayerDamage = 2.0
+		#.
+		#The amount of damage dealt to players when within voltaic sea grass.
+		# Default: 2.0
+		# Range: 1.0 ~ 3.4028234663852886E38
+		playerDamage = 2.0
+
+	#.
+	#
+	[block."Mastic Blocks"]
+		#.
+		#Controls whether or not blocks of mastic resin have friction.
+		hasFriction = true
+		#.
+		#Controls the friction value utilised when determining how blocks of mastic resin interact with entities atop of them.
+		# Default: 0.800000011920929
+		# Range: 0.10000000149011612 ~ 1.0
+		friction = 0.800000011920929
+
+	#.
+	#
+	[block."Abyssal Stone"]
+		#.
+		#Controls whether or not abyssal stone provides the blindness effect when standing atop of it.
+		providesBlindness = true
+		#.
+		#Controls the duration of blindness inflicted if standing on top of abyssal stone.
+		# Default: 15
+		# Range: > 1
+		blindnessDurationSeconds = 15
+
+	#.
+	#
+	[block."Unstable Stone"]
+		#.
+		#Controls whether or not abyssal stone provides the blindness effect when standing atop of it.
+		providesSpeed = true
+		#.
+		#Controls the duration of blindness inflicted if standing on top of abyssal stone.
+		# Default: 15
+		# Range: > 1
+		speedDurationSeconds = 15
+		#.
+		#Controls the duration of blindness inflicted if standing on top of abyssal stone.
+		# Default: 1
+		# Range: 0 ~ 255
+		speedAmplifier = 1
+
+	#.
+	#
+	[block."Wyvern Stone"]
+		#.
+		#Controls whether or not unstable stone provides random effects when standing atop of it.
+		providesRandomEffects = true
+		#.
+		#Controls the duration of the random effect inflicted if standing on top of unstable stone.
+		# Default: 15
+		# Range: > 1
+		effectsDurationSeconds = 15
+		#.
+		#Controls the amplifier of the random effect inflicted if standing on top of unstable stone.
+		# Default: 0
+		# Range: 0 ~ 255
+		effectsAmplifier = 0
+
+	#.
+	#
+	[block."Numbing Parchment Blocks"]
+		#.
+		#Controls whether or not numbing parchment blocks provides slowness when standing atop of it.
+		providesSlowness = true
+		#.
+		#Controls the duration of slowness while standing atop numbing parchment blocks.
+		# Default: 15
+		# Range: > 1
+		slownessDurationSeconds = 15
+		#.
+		#Controls the amplifier of slowness while standing atop numbing parchment blocks.
+		# Default: 1
+		# Range: 0 ~ 255
+		slownessAmplifier = 1
+
+#.
+#Control certain properties of items to your liking (mostly)
+[item]
+	#.
+	#.
+	#Controls whether or not special status effects are provided upon consuming certain foods.
+	conditionalEffectsUponConsumption = true

@@ -1,0 +1,116 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "golem_ouverg"
+	group: "58944126F4575319"
+	icon: {
+		id: "golemoverhaul:clay_golem_statue"
+	}
+	id: "5A695917A1E23476"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7E7B5A9C3AE9FBF8"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1DB700D90CFA4496"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E7B5A9C3AE9FBF8"]
+			id: "362C70E45443B57C"
+			tasks: [{
+				id: "63C8DB8912B60ECE"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E7B5A9C3AE9FBF8"]
+			id: "6A7C0604FA1E82BB"
+			tasks: [{
+				id: "3692DF3EC8E203AD"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E7B5A9C3AE9FBF8"]
+			id: "70FA406AD3A8A7A9"
+			tasks: [{
+				id: "43CC78FA7EBA916E"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E7B5A9C3AE9FBF8"]
+			id: "6C1085B9052E3A52"
+			tasks: [{
+				id: "2D78481C60112C5C"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E7B5A9C3AE9FBF8"]
+			id: "3DEAE2A5E71AEF5A"
+			tasks: [{
+				id: "6AE3768651E8D3BA"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7E7B5A9C3AE9FBF8"]
+			id: "52C5644D8C7CB5CC"
+			tasks: [{
+				id: "17FF11701DB4A819"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E7B5A9C3AE9FBF8"]
+			id: "28101F299D039864"
+			tasks: [{
+				id: "386FCBD5CE5DABFA"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E7B5A9C3AE9FBF8"]
+			id: "372B31F3D301684A"
+			tasks: [{
+				id: "47BB00EE1F8FCE05"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E7B5A9C3AE9FBF8"]
+			id: "4CC9D588886E2778"
+			tasks: [{
+				id: "4408616222264F00"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+	]
+}

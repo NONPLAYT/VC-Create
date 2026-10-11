@@ -1,0 +1,60 @@
+{
+    "values": {
+        "minecraft:overworld": {
+            "spawn_chances": {
+                "haven": 0.0,
+                "frontier": 0.0,
+                "ascent": 0.0,
+                "summit": 0.0,
+                "pinnacle": 0.0
+            },
+            "surface_type": "needs_sky_or_same_vertical_slice"
+        },
+        "minecraft:the_end": {
+            "spawn_chances": {
+                "haven": 0.0,
+                "frontier": 0.0,
+                "ascent": 0.0,
+                "summit": 0.0,
+                "pinnacle": 0.0
+            },
+            "surface_type": "surface_outer_end"
+        },
+        "minecraft:the_nether": {
+            "spawn_chances": {
+                "haven": 0.0,
+                "frontier": 0.0,
+                "ascent": 0.0,
+                "summit": 0.0,
+                "pinnacle": 0.0
+            },
+            "surface_type": "any"
+        },
+        "deeperdarker:otherside": {
+            "spawn_chances": {
+                "haven": 0.0,
+                "frontier": 0.0,
+                "ascent": 0.0,
+                "summit": 0.0,
+                "pinnacle": 1
+            },
+            "surface_type": "any"
+        },
+        "twilightforest:twilight_forest_type": {
+            "neoforge:conditions": [
+                {
+                    "type": "neoforge:mod_loaded",
+                    "modid": "twilightforest"
+                }
+            ],
+            "spawn_chances": {
+                "haven": 0.0,
+                "frontier": 0.0,
+                "ascent": 0.0,
+                "summit": 0.0,
+                "pinnacle": 0.0
+            },
+            "surface_type": "needs_surface"
+        }
+    }
+}

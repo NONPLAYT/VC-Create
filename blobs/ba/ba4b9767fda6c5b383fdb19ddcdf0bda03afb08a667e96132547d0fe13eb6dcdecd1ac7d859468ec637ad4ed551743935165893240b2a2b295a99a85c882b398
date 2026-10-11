@@ -1,0 +1,61 @@
+{
+    "type": "apotheosis:gem",
+    "unique": true,
+    "weights": {
+        "quality": 0.1,
+        "weight": 100
+    },
+    "bonuses": [
+        {
+            "type": "apotheosis:attribute",
+            "attribute": "apothic_attributes:arrow_damage",
+            "gem_class": {
+                "key": "ranged_weapon",
+                "types": [
+                    "apotheosis:bow",
+                    "apotheosis:trident"
+                ]
+            },
+            "operation": "add_multiplied_base",
+            "values": {
+                "cracked": 0.01,
+                "chipped": 0.03,
+                "flawed": 0.04,
+                "normal": 0.05,
+                "flawless": 0.07,
+                "perfect": 0.10
+            }
+        },
+        {
+            "type": "apotheosis:damage_reduction",
+            "damage_type": "physical",
+            "gem_class": {
+                "key": "core_armor",
+                "types": [
+                    "apotheosis:chestplate",
+                    "apotheosis:leggings"
+                ]
+            },
+            "values": {
+                "cracked": 0.01,
+                "chipped": 0.015,
+                "flawed": 0.025,
+                "normal": 0.035,
+                "flawless": 0.045,
+                "perfect": 0.055
+            }
+        },
+        {
+            "type": "apotheosis:durability",
+            "gem_class": "apotheosis:melee_weapon",
+            "values": {
+                "cracked": 0.01,
+                "chipped": 0.02,
+                "flawed": 0.03,
+                "normal": 0.045,
+                "flawless": 0.06,
+                "perfect": 0.08
+            }
+        }
+    ]
+}

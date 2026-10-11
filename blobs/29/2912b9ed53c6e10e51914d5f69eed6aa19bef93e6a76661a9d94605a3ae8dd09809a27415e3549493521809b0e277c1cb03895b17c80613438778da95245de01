@@ -1,0 +1,40 @@
+{
+  "type": "alshanex_familiars:ritual_recipe",
+  "central_item": {
+    "item": "hazennstuff:sacred"
+  },
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "hazennstuff:health_upgrade_orb"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "hazennstuff:zenalite_ingot"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "hazennstuff:hallowed_ingot"
+      },
+      "count": 1,
+      "consume": true
+    },
+    {
+      "ingredient": {
+        "item": "hazennstuff:pyrium_nugget"
+      },
+      "count": 1,
+      "consume": true
+    }
+  ],
+  "result": {
+    "id": "hazennstuff:strengthened"
+  },
+  "particle_type": "minecraft:crit"
+}

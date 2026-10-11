@@ -1,0 +1,16 @@
+{
+  "type": "garnished:freezing",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "results": [
+    {
+      "item": {
+        "id": "minecraft:breeze_rod"
+      },
+      "count": 1
+    }
+  ]
+}

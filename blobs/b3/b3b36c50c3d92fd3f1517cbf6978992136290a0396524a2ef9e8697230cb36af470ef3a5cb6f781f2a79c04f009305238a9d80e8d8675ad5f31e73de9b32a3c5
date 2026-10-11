@@ -1,0 +1,18 @@
+{
+    "type": "apotheosis:affix_loot_entry",
+    "stack": {
+        "count": 1,
+        "id": "minecraft:golden_sword"
+    },
+    "weights": {
+        "haven": {
+            "weight": 5
+        },
+        "frontier": {
+            "weight": 10
+        },
+        "ascent": {
+            "weight": 5
+        }
+    }
+}

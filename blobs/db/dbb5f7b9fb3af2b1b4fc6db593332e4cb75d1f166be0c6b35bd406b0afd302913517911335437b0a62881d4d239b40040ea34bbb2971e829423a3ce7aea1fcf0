@@ -1,0 +1,11 @@
+{
+  "bag_color": "#663f35",
+  "bag_overlay_color": "#aa9986",
+  "bag_string_color": "#663f35",
+  "display_name": "§7Full Unbreakable Dō-maru Set",
+  "drops_from_groups": [],
+  "group": "default",
+  "loot_table": "treasurebags:bags/domaru_set",
+  "rarity": "common",
+  "visible": true
+}

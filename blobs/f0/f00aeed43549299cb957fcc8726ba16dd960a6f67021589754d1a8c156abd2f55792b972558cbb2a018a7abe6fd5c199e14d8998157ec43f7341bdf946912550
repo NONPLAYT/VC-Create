@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hazennstuff:arbitrium_robes_helmet"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hazennstuff:arbitrium_robes_chestplate"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hazennstuff:arbitrium_robes_leggings"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "hazennstuff:arbitrium_robes_boots"
+        }
+      ]
+    }
+
+  ],
+  "random_sequence": "treasurebags:bags/arbitrium_set"
+}

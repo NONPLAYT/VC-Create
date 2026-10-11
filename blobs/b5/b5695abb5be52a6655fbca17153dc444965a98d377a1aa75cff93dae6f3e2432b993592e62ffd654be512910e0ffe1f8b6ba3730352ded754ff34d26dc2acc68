@@ -1,0 +1,22 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "advanced": true,
+  "blockIngredients": {
+    "first": {
+      "blocks": "minecraft:blue_ice"
+    },
+    "second": {
+      "blocks": "minecraft:lava"
+    }
+  },
+  "catalyst": {
+    "blocks": "minecraft:end_stone"
+  },
+  "consumeBlocks": {
+    "first": false,
+    "second": true
+  },
+  "result": {
+    "id": "minecraft:end_stone"
+  }
+}

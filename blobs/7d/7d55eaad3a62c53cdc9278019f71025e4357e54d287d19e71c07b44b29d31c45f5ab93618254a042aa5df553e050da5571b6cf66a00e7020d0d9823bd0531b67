@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "group": "apotheosis",
+    "key": {
+        "E": {
+            "item": "apotheosis:epic_material"
+        },
+        "I": {
+            "tag": "c:ingots/netherite"
+        },
+        "N": {
+            "item": "minecraft:nether_bricks"
+        },
+        "S": {
+            "item": "apotheosis:simple_reforging_table"
+        }
+    },
+    "pattern": [
+        " I ",
+        "ESE",
+        "NNN"
+    ],
+    "result": {
+        "count": 1,
+        "id": "apotheosis:reforging_table"
+    }
+}
